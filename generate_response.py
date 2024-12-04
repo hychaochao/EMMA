@@ -14,7 +14,6 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset_name', type=str, default='mm-reasoning/EMMA')
     parser.add_argument('--subject', nargs='+', type=str, required=True)
-    # parser.add_argument('--subject', type=str, default='Chemistry')
     parser.add_argument('--split', type=str, default='test')
     parser.add_argument('--strategy', type=str, default='CoT', choices=['CoT', 'Directly'])
     parser.add_argument('--config_path', type=str, default="configs/gpt.yaml")
@@ -39,8 +38,6 @@ def main():
         sub_dataset_list.append(sub_dataset)
     dataset = concatenate_datasets(sub_dataset_list)
 
-    # dataset = load_dataset(args.dataset_name, args.subject, split=args.split)
-
     # Load Config
     logging.info(f"Loading config")
     config = load_yaml(args.config_path)
@@ -50,6 +47,10 @@ def main():
     if args.model_path:
         logging.info(f"Loading local model {args.model_path}")
         # TODO: Add qwen, intern-vl, llava
+
+        if 'qwen' in args.model_path.lower():
+            from models import qwen
+            model = qwen.Qwen_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
     else:
         logging.info(f"Loading {args.model}")
 

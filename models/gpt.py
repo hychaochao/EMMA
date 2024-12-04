@@ -19,9 +19,10 @@ def create_message(sample):
     matches = re.findall(r"<(image_\d+)>", query)
     split_text = re.split(r"<image_\d+>", query)
     for i, fragment in enumerate(split_text):
-        all_contents.extend([
-            {"type": "text", "text": fragment}
-        ])
+        if fragment.strip():
+            all_contents.extend([
+                {"type": "text", "text": fragment}
+            ])
         if i < len(matches):
             if sample[matches[i]]:
                 img_base64 = encode_image_to_base64(sample[matches[i]])
@@ -38,10 +39,6 @@ def create_message(sample):
                     f"The image token {matches[i]} is in the query, but there is no corresponding image provided by the data")
 
     messages = [
-        {
-            "role": "system",
-            "content": f"You are a {sample['subject']} expert."
-        },
         {
             "role": "user",
             "content": all_contents
