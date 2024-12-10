@@ -5,19 +5,19 @@ import logging
 from tqdm import tqdm
 
 from datasets import load_dataset, concatenate_datasets
-from openai import OpenAI
-from anthropic import Anthropic
 
 from data_utils import load_yaml, verify_response, build_query
+
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset_name', type=str, default='mm-reasoning/EMMA')
     parser.add_argument('--subject', nargs='+', type=str, required=True)
+    # parser.add_argument('--subject', type=str, default='Chemistry')
     parser.add_argument('--split', type=str, default='test')
     parser.add_argument('--strategy', type=str, default='CoT', choices=['CoT', 'Directly'])
     parser.add_argument('--config_path', type=str, default="configs/gpt.yaml")
-    parser.add_argument('--output_path', type=str, default='results/test-claude.json')
+    parser.add_argument('--output_path', type=str, default='results/test-internvl.json')
     parser.add_argument('--save_every', type=int, default=5, help='save every n problems')
     # Remote model
     parser.add_argument('--model', type=str, default="claude-3-5-sonnet-latest", help='llm engine',
@@ -38,6 +38,8 @@ def main():
         sub_dataset_list.append(sub_dataset)
     dataset = concatenate_datasets(sub_dataset_list)
 
+    # dataset = load_dataset(args.dataset_name, args.subject, split=args.split)
+
     # Load Config
     logging.info(f"Loading config")
     config = load_yaml(args.config_path)
@@ -47,19 +49,31 @@ def main():
     if args.model_path:
         logging.info(f"Loading local model {args.model_path}")
         # TODO: Add qwen, intern-vl, llava
+        if 'llava' in args.model_path.lower():
+            from models import llava
+            model = llava.Llava_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
 
-        if 'qwen' in args.model_path.lower():
+        if 'qwen2-vl' in args.model_path.lower():
             from models import qwen
             model = qwen.Qwen_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
+
+        if 'internvl' in args.model_path.lower():
+            from models import internvl
+            model = internvl.Internvl_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
+
+
+
     else:
         logging.info(f"Loading {args.model}")
 
         if 'gpt' in args.model.lower():
+            from openai import OpenAI
             from models import gpt
             client = OpenAI(api_key=args.api_key)
             model = gpt.GPT_Model(client, args.model, temperature=args.temperature, max_tokens=args.max_tokens)
 
         elif 'claude' in args.model.lower():
+            from anthropic import Anthropic
             from models import claude
             client = Anthropic(api_key=args.api_key)
             model = claude.Claude_Model(client, args.model, temperature=args.temperature, max_tokens=args.max_tokens)
@@ -114,7 +128,6 @@ def main():
                 logging.info(e)
 
     logging.info("End Generation......")
-
 
 
 if __name__ == "__main__":

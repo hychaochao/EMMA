@@ -28,7 +28,7 @@ def build_query(sample, config, strategy):
     question = sample['question']
     example = ""
     res_dict = {}
-    if sample['type'] == 'Multiple choice':
+    if sample['type'] == 'Multiple Choice':
         options = sample['options']
         start_chr = 'A'
         for option in options:

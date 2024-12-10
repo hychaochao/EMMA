@@ -3,7 +3,7 @@ import logging
 import base64
 from io import BytesIO
 
-from transformers import Qwen2VLForConditionalGeneration, AutoProcessor
+from transformers import Qwen2VLForConditionalGeneration, AutoTokenizer, AutoProcessor
 from qwen_vl_utils import process_vision_info
 
 import torch
@@ -20,9 +20,10 @@ def create_message(sample):
     matches = re.findall(r"<(image_\d+)>", query)
     split_text = re.split(r"<image_\d+>", query)
     for i, fragment in enumerate(split_text):
-        all_contents.extend([
-            {"type": "text", "text": fragment}
-        ])
+        if fragment.strip():
+            all_contents.extend([
+                {"type": "text", "text": fragment}
+            ])
         if i < len(matches):
             if sample[matches[i]]:
                 img_base64 = encode_image_to_base64(sample[matches[i]])
