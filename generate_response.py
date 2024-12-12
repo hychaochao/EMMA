@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+os.environ['CUDA_VISIBLE_DEVICES'] = "0,1,2,3"
 import logging
 from tqdm import tqdm
 
@@ -17,8 +18,8 @@ def main():
     parser.add_argument('--split', type=str, default='test')
     parser.add_argument('--strategy', type=str, default='CoT', choices=['CoT', 'Directly'])
     parser.add_argument('--config_path', type=str, default="configs/gpt.yaml")
-    parser.add_argument('--output_path', type=str, default='results/test-internvl.json')
-    parser.add_argument('--save_every', type=int, default=5, help='save every n problems')
+    parser.add_argument('--output_path', type=str, default='results/test.json')
+    parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
     # Remote model
     parser.add_argument('--model', type=str, default="claude-3-5-sonnet-latest", help='llm engine',
                         choices=['chatgpt-4o-latest', 'claude-3-5-sonnet-latest'])
@@ -126,6 +127,10 @@ def main():
             except Exception as e:
                 logging.info(f"Error in saving {args.output_path}")
                 logging.info(e)
+    
+    with open(args.output_path, 'w') as f:
+        f.write(json.dumps(results, indent=2))
+    logging.info(f"Save results to {args.output_path}")
 
     logging.info("End Generation......")
 
