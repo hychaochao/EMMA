@@ -1,0 +1,82 @@
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Chemistry']
+[root] Loading config
+[root] Loading chatgpt-4o-latest
+[root] Model loaded!
+[root] Results already exists.
+[root] Reading results/chatgpt-4o-latest_Chemistry_CoT.json
+[root] Found existing results file with 53 problems with valid responses. Skipping these problems...
+[root] Starting to generate.....
+  0%|          | 0/1176 [00:00<?, ?it/s]  1%|▏         | 15/1176 [00:00<00:07, 146.58it/s][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  5%|▍         | 54/1176 [00:06<02:37,  7.12it/s] [root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  5%|▍         | 54/1176 [00:17<02:37,  7.12it/s][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  5%|▍         | 56/1176 [00:22<10:16,  1.82it/s][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  5%|▍         | 57/1176 [00:27<13:25,  1.39it/s]  5%|▍         | 57/1176 [00:37<13:25,  1.39it/s][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  5%|▍         | 58/1176 [00:38<23:12,  1.25s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  5%|▌         | 59/1176 [00:49<35:03,  1.88s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  5%|▌         | 60/1176 [00:59<48:46,  2.62s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  5%|▌         | 61/1176 [01:08<1:03:01,  3.39s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  5%|▌         | 61/1176 [01:20<1:03:01,  3.39s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  5%|▌         | 63/1176 [01:23<1:20:31,  4.34s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  5%|▌         | 64/1176 [01:31<1:30:26,  4.88s/it]  5%|▌         | 64/1176 [01:47<1:30:26,  4.88s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▌         | 65/1176 [02:00<2:47:28,  9.04s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▌         | 66/1176 [02:11<2:55:31,  9.49s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▌         | 67/1176 [02:21<2:55:58,  9.52s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▌         | 68/1176 [02:26<2:37:02,  8.50s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▌         | 69/1176 [02:36<2:45:54,  8.99s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▌         | 70/1176 [02:46<2:47:54,  9.11s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▌         | 71/1176 [02:53<2:39:03,  8.64s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▌         | 72/1176 [02:59<2:26:24,  7.96s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▌         | 73/1176 [03:08<2:27:27,  8.02s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▋         | 74/1176 [03:14<2:16:18,  7.42s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▋         | 75/1176 [03:20<2:11:27,  7.16s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  6%|▋         | 76/1176 [03:30<2:28:34,  8.10s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 77/1176 [03:40<2:35:38,  8.50s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 78/1176 [03:48<2:35:06,  8.48s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 79/1176 [04:00<2:52:36,  9.44s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 80/1176 [04:09<2:51:30,  9.39s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 81/1176 [04:20<2:59:27,  9.83s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 82/1176 [04:27<2:40:50,  8.82s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 83/1176 [04:43<3:24:12, 11.21s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 84/1176 [04:53<3:14:33, 10.69s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 85/1176 [05:01<3:01:59, 10.01s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 86/1176 [05:07<2:40:55,  8.86s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 87/1176 [05:14<2:26:18,  8.06s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  7%|▋         | 88/1176 [05:26<2:51:20,  9.45s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  8%|▊         | 89/1176 [05:33<2:36:14,  8.62s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  8%|▊         | 90/1176 [05:40<2:24:43,  8.00s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  8%|▊         | 91/1176 [05:46<2:18:20,  7.65s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  8%|▊         | 92/1176 [05:55<2:24:06,  7.98s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  8%|▊         | 93/1176 [06:01<2:12:48,  7.36s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  8%|▊         | 94/1176 [06:07<2:06:04,  6.99s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  8%|▊         | 95/1176 [06:14<2:04:51,  6.93s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  8%|▊         | 96/1176 [06:23<2:15:08,  7.51s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  8%|▊         | 97/1176 [06:33<2:27:26,  8.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  8%|▊         | 98/1176 [06:42<2:34:41,  8.61s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  8%|▊         | 99/1176 [06:53<2:44:44,  9.18s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▊         | 100/1176 [07:09<3:24:29, 11.40s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▊         | 101/1176 [07:16<2:56:44,  9.87s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▊         | 102/1176 [07:23<2:42:54,  9.10s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▉         | 103/1176 [07:32<2:43:10,  9.12s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▉         | 104/1176 [07:40<2:35:01,  8.68s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▉         | 105/1176 [07:52<2:53:50,  9.74s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▉         | 106/1176 [08:00<2:45:04,  9.26s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▉         | 107/1176 [08:15<3:14:05, 10.89s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▉         | 108/1176 [08:26<3:13:06, 10.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▉         | 109/1176 [08:33<2:53:57,  9.78s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▉         | 110/1176 [08:46<3:09:43, 10.68s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+  9%|▉         | 111/1176 [08:52<2:45:13,  9.31s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|▉         | 112/1176 [09:02<2:52:03,  9.70s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|▉         | 113/1176 [09:11<2:44:13,  9.27s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|▉         | 114/1176 [09:19<2:41:25,  9.12s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|▉         | 115/1176 [09:32<3:02:23, 10.31s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|▉         | 116/1176 [09:44<3:09:27, 10.72s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|▉         | 117/1176 [09:52<2:51:30,  9.72s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|█         | 118/1176 [09:59<2:38:34,  8.99s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|█         | 119/1176 [10:13<3:04:15, 10.46s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|█         | 120/1176 [10:24<3:08:29, 10.71s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|█         | 121/1176 [10:33<3:01:30, 10.32s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|█         | 122/1176 [10:42<2:54:49,  9.95s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 10%|█         | 123/1176 [10:59<3:29:45, 11.95s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 11%|█         | 124/1176 [11:05<2:59:44, 10.25s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 11%|█         | 125/1176 [11:14<2:52:31,  9.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_CoT.json
+ 11%|█         | 126/1176 [11:29<3:15:21, 11.16s/it]

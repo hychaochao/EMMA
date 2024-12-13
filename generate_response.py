@@ -123,6 +123,12 @@ def main():
             response = model.get_response(sample)
             results[pid] = problem
             results[pid]['response'] = response
+            if idx < 3:  # test the first 3 samples
+                print("\n--- Sample Generation Debug ---")
+                print(f"PID: {pid}")
+                print(f"Problem: {json.dumps(problem, indent=2)}")
+                print(f"Generated Response: {response}")
+                print("------ End  ------\n")
         except Exception as e:
             logging.error(f"Error in generating answer for {pid}")
             logging.error(e)
