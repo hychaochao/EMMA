@@ -16,7 +16,7 @@ def main():
     parser.add_argument('--subject', nargs='+', type=str, required=True)
     # parser.add_argument('--subject', type=str, default='Chemistry')
     parser.add_argument('--split', type=str, default='test')
-    parser.add_argument('--strategy', type=str, default='CoT', choices=['CoT', 'Directly'])
+    parser.add_argument('--strategy', type=str, default='CoT', choices=['CoT', 'Direct'])
     parser.add_argument('--config_path', type=str, default="configs/gpt.yaml")
     parser.add_argument('--output_path', type=str, default='results/test.json')
     parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
