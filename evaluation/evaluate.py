@@ -42,8 +42,8 @@ def fast_extract_answer(response) :
     for flag in ['final answer is', 'correct answer is', 'answer should be', 'answer is']:
         if flag in response.lower():
             try:
-                model_answer = response.split(flag)[-1].strip()
-                return model_answer.split('\n')[0].split('. ')[0]
+                model_answer = response.lower().split(flag)[-1].strip()
+                return model_answer.split('\n')[0].split('.')[0]
             except Exception:
                 pass
 
@@ -102,6 +102,10 @@ def gen_true_false(answer_file, args):
     for i, pid in enumerate(tqdm(test_pids)):
         problem = results[pid]
         flag = False
+        if not problem['response']:
+            results[pid]['true_false'] = flag
+            continue
+
         if args.gpt_eval:
             user_prompt = create_test_prompt(score_demo_prompt, problem)
             flag_cache = call_gpt(client, args.model, user_prompt)
@@ -127,7 +131,7 @@ def gen_true_false(answer_file, args):
 def main():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/Math_gpt_eval_v2')
+    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/closed_source')
     parser.add_argument('--response_label', type=str, default='response', help='response label for the input file')
     parser.add_argument('--rerun', action='store_true', help='rerun the answer extraction')
     parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
