@@ -1,0 +1,601 @@
+phoenix-srun: job 3868524 queued and waiting for resources
+phoenix-srun: job 3868524 has been allocated resources
+phoenix-srun: Job 3868524 scheduled successfully!
+Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
+Current PHX_PRIORITY is normal
+
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Coding']
+[root] Loading config
+[root] Loading local model /mnt/petrelfs/share_data/quxiaoye/models/llava-onevision-qwen2-72b-ov-hf
+The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
+Loading checkpoint shards:   0%|          | 0/31 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/31 [00:05<02:46,  5.55s/it]Loading checkpoint shards:   6%|▋         | 2/31 [00:11<02:45,  5.71s/it]Loading checkpoint shards:  10%|▉         | 3/31 [00:17<02:43,  5.85s/it]Loading checkpoint shards:  13%|█▎        | 4/31 [00:22<02:34,  5.74s/it]Loading checkpoint shards:  16%|█▌        | 5/31 [00:28<02:27,  5.69s/it]Loading checkpoint shards:  19%|█▉        | 6/31 [00:33<02:19,  5.58s/it]Loading checkpoint shards:  23%|██▎       | 7/31 [00:39<02:12,  5.52s/it]Loading checkpoint shards:  26%|██▌       | 8/31 [00:44<02:07,  5.55s/it]Loading checkpoint shards:  29%|██▉       | 9/31 [00:50<01:59,  5.41s/it]Loading checkpoint shards:  32%|███▏      | 10/31 [00:55<01:51,  5.32s/it]Loading checkpoint shards:  35%|███▌      | 11/31 [01:00<01:47,  5.37s/it]Loading checkpoint shards:  39%|███▊      | 12/31 [01:06<01:42,  5.38s/it]Loading checkpoint shards:  42%|████▏     | 13/31 [01:12<01:41,  5.62s/it]Loading checkpoint shards:  45%|████▌     | 14/31 [01:17<01:35,  5.62s/it]Loading checkpoint shards:  48%|████▊     | 15/31 [01:23<01:31,  5.74s/it]Loading checkpoint shards:  52%|█████▏    | 16/31 [01:29<01:24,  5.63s/it]Loading checkpoint shards:  55%|█████▍    | 17/31 [01:34<01:17,  5.54s/it]Loading checkpoint shards:  58%|█████▊    | 18/31 [01:39<01:10,  5.46s/it]Loading checkpoint shards:  61%|██████▏   | 19/31 [01:45<01:05,  5.49s/it]Loading checkpoint shards:  65%|██████▍   | 20/31 [01:51<01:01,  5.62s/it]Loading checkpoint shards:  68%|██████▊   | 21/31 [01:56<00:55,  5.52s/it]Loading checkpoint shards:  71%|███████   | 22/31 [02:01<00:48,  5.41s/it]Loading checkpoint shards:  74%|███████▍  | 23/31 [02:06<00:42,  5.33s/it]Loading checkpoint shards:  77%|███████▋  | 24/31 [02:12<00:38,  5.51s/it]Loading checkpoint shards:  81%|████████  | 25/31 [02:18<00:32,  5.46s/it]Loading checkpoint shards:  84%|████████▍ | 26/31 [02:23<00:27,  5.47s/it]Loading checkpoint shards:  87%|████████▋ | 27/31 [02:28<00:21,  5.43s/it]Loading checkpoint shards:  90%|█████████ | 28/31 [02:34<00:16,  5.48s/it]Loading checkpoint shards:  94%|█████████▎| 29/31 [02:40<00:10,  5.46s/it]Loading checkpoint shards:  97%|█████████▋| 30/31 [02:44<00:05,  5.11s/it]Loading checkpoint shards: 100%|██████████| 31/31 [02:47<00:00,  4.40s/it]Loading checkpoint shards: 100%|██████████| 31/31 [02:47<00:00,  5.39s/it]
+[root] Model loaded!
+[root] Results already exists.
+[root] Reading results/Llava_CoT.json
+[root] Found existing results file with 2076 problems with valid responses. Skipping these problems...
+[root] Starting to generate.....
+  0%|          | 0/564 [00:00<?, ?it/s]  0%|          | 1/564 [00:00<01:30,  6.24it/s]  0%|          | 2/564 [00:00<01:25,  6.59it/s]  1%|          | 3/564 [00:00<01:23,  6.72it/s]  1%|          | 4/564 [00:00<01:20,  6.94it/s]  1%|          | 5/564 [00:00<01:44,  5.34it/s]  1%|          | 6/564 [00:01<01:57,  4.74it/s]  1%|          | 7/564 [00:01<02:08,  4.34it/s]  1%|▏         | 8/564 [00:01<02:12,  4.21it/s]  2%|▏         | 9/564 [00:01<01:54,  4.86it/s]  2%|▏         | 10/564 [00:01<01:39,  5.54it/s]  2%|▏         | 11/564 [00:02<01:30,  6.09it/s]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  2%|▏         | 12/564 [00:36<1:36:20, 10.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  2%|▏         | 13/564 [01:01<2:18:00, 15.03s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  2%|▏         | 14/564 [01:27<2:47:04, 18.23s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  3%|▎         | 15/564 [01:52<3:06:56, 20.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  3%|▎         | 16/564 [02:18<3:20:49, 21.99s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  3%|▎         | 17/564 [02:46<3:38:09, 23.93s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  3%|▎         | 18/564 [03:15<3:50:38, 25.34s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  3%|▎         | 19/564 [03:43<3:57:39, 26.16s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  4%|▎         | 20/564 [04:11<4:02:36, 26.76s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+  4%|▎         | 21/564 [04:38<4:01:35, 26.70s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  4%|▍         | 22/564 [05:04<4:00:41, 26.65s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  4%|▍         | 23/564 [05:31<3:59:46, 26.59s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  4%|▍         | 24/564 [05:57<3:59:07, 26.57s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  4%|▍         | 25/564 [06:24<3:59:03, 26.61s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  5%|▍         | 26/564 [06:51<3:59:00, 26.66s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  5%|▍         | 27/564 [07:17<3:58:51, 26.69s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  5%|▍         | 28/564 [07:44<3:58:34, 26.71s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  5%|▌         | 29/564 [08:11<3:58:55, 26.79s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  5%|▌         | 30/564 [08:38<3:59:00, 26.86s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  5%|▌         | 31/564 [09:05<3:58:57, 26.90s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  6%|▌         | 32/564 [09:32<3:58:51, 26.94s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  6%|▌         | 33/564 [10:00<3:59:20, 27.04s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  6%|▌         | 34/564 [10:27<3:59:57, 27.16s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  6%|▌         | 35/564 [10:54<3:59:35, 27.18s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  6%|▋         | 36/564 [11:22<3:59:51, 27.26s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  7%|▋         | 37/564 [11:42<3:40:48, 25.14s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  7%|▋         | 38/564 [12:02<3:27:25, 23.66s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  7%|▋         | 39/564 [12:22<3:18:09, 22.65s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  7%|▋         | 40/564 [12:42<3:11:21, 21.91s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+  7%|▋         | 41/564 [13:08<3:21:24, 23.11s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  7%|▋         | 42/564 [13:34<3:28:07, 23.92s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  8%|▊         | 43/564 [14:00<3:32:31, 24.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  8%|▊         | 44/564 [14:26<3:35:28, 24.86s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  8%|▊         | 45/564 [14:53<3:41:19, 25.59s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  8%|▊         | 46/564 [15:20<3:45:24, 26.11s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  8%|▊         | 47/564 [15:48<3:49:13, 26.60s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  9%|▊         | 48/564 [16:15<3:50:45, 26.83s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  9%|▊         | 49/564 [16:43<3:52:23, 27.08s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  9%|▉         | 50/564 [17:11<3:53:26, 27.25s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  9%|▉         | 51/564 [17:38<3:53:48, 27.35s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  9%|▉         | 52/564 [18:06<3:53:49, 27.40s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+  9%|▉         | 53/564 [18:37<4:02:12, 28.44s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 10%|▉         | 54/564 [19:07<4:07:34, 29.13s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 10%|▉         | 55/564 [19:38<4:10:10, 29.49s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 10%|▉         | 56/564 [20:08<4:12:00, 29.76s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 10%|█         | 57/564 [20:35<4:02:50, 28.74s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 10%|█         | 58/564 [21:01<3:56:29, 28.04s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 10%|█         | 59/564 [21:27<3:51:54, 27.55s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 11%|█         | 60/564 [21:54<3:48:37, 27.22s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 11%|█         | 61/564 [22:21<3:48:07, 27.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 11%|█         | 62/564 [22:49<3:48:24, 27.30s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 11%|█         | 63/564 [23:16<3:47:42, 27.27s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 11%|█▏        | 64/564 [23:43<3:47:14, 27.27s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 12%|█▏        | 65/564 [24:10<3:46:19, 27.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 12%|█▏        | 66/564 [24:37<3:45:42, 27.19s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 12%|█▏        | 67/564 [25:04<3:45:00, 27.16s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 12%|█▏        | 68/564 [25:31<3:44:20, 27.14s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 12%|█▏        | 69/564 [25:51<3:25:50, 24.95s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 12%|█▏        | 70/564 [26:11<3:12:46, 23.41s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 13%|█▎        | 71/564 [26:31<3:03:35, 22.34s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 13%|█▎        | 72/564 [26:51<2:57:01, 21.59s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 13%|█▎        | 73/564 [27:18<3:09:24, 23.15s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 13%|█▎        | 74/564 [27:44<3:17:56, 24.24s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 13%|█▎        | 75/564 [28:11<3:23:41, 24.99s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 13%|█▎        | 76/564 [28:38<3:27:34, 25.52s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 14%|█▎        | 77/564 [29:05<3:30:08, 25.89s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 14%|█▍        | 78/564 [29:31<3:31:46, 26.15s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 14%|█▍        | 79/564 [29:58<3:32:43, 26.32s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 14%|█▍        | 80/564 [30:25<3:33:16, 26.44s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 14%|█▍        | 81/564 [30:51<3:32:46, 26.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 15%|█▍        | 82/564 [31:18<3:32:14, 26.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 15%|█▍        | 83/564 [31:44<3:31:41, 26.41s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 15%|█▍        | 84/564 [32:10<3:31:07, 26.39s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 15%|█▌        | 85/564 [32:31<3:16:59, 24.68s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 15%|█▌        | 86/564 [32:52<3:07:14, 23.50s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 15%|█▌        | 87/564 [33:13<3:00:24, 22.69s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 16%|█▌        | 88/564 [33:33<2:55:31, 22.13s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 16%|█▌        | 89/564 [34:00<3:05:50, 23.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 16%|█▌        | 90/564 [34:27<3:12:57, 24.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 16%|█▌        | 91/564 [34:53<3:17:54, 25.10s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 16%|█▋        | 92/564 [35:20<3:21:02, 25.56s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 16%|█▋        | 93/564 [35:45<3:19:46, 25.45s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 17%|█▋        | 94/564 [36:10<3:18:42, 25.37s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 17%|█▋        | 95/564 [36:35<3:17:33, 25.27s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 17%|█▋        | 96/564 [37:00<3:16:41, 25.22s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 17%|█▋        | 97/564 [37:33<3:33:29, 27.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 17%|█▋        | 98/564 [38:06<3:44:57, 28.96s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 18%|█▊        | 99/564 [38:38<3:52:49, 30.04s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 18%|█▊        | 100/564 [39:11<3:58:10, 30.80s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 18%|█▊        | 101/564 [39:37<3:47:43, 29.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 18%|█▊        | 102/564 [40:04<3:40:15, 28.61s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 18%|█▊        | 103/564 [40:30<3:34:54, 27.97s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 18%|█▊        | 104/564 [40:57<3:31:12, 27.55s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 19%|█▊        | 105/564 [41:17<3:14:33, 25.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 19%|█▉        | 106/564 [41:38<3:02:46, 23.94s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 19%|█▉        | 107/564 [41:58<2:54:23, 22.90s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 19%|█▉        | 108/564 [42:19<2:48:46, 22.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 19%|█▉        | 109/564 [42:45<2:57:46, 23.44s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 20%|█▉        | 110/564 [43:11<3:03:56, 24.31s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 20%|█▉        | 111/564 [43:38<3:08:29, 24.97s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 20%|█▉        | 112/564 [44:04<3:11:22, 25.40s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 20%|██        | 113/564 [44:22<2:54:32, 23.22s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 20%|██        | 114/564 [44:40<2:42:28, 21.66s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 20%|██        | 115/564 [44:58<2:33:43, 20.54s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 21%|██        | 116/564 [45:16<2:27:47, 19.79s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 21%|██        | 117/564 [45:43<2:42:06, 21.76s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 21%|██        | 118/564 [46:09<2:51:10, 23.03s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 21%|██        | 119/564 [46:35<2:58:07, 24.02s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 21%|██▏       | 120/564 [47:02<3:03:23, 24.78s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 21%|██▏       | 121/564 [47:28<3:06:50, 25.31s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 22%|██▏       | 122/564 [47:55<3:09:25, 25.71s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 22%|██▏       | 123/564 [48:21<3:10:46, 25.95s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 22%|██▏       | 124/564 [48:48<3:11:54, 26.17s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 22%|██▏       | 125/564 [49:14<3:11:05, 26.12s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 22%|██▏       | 126/564 [49:40<3:10:47, 26.14s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 23%|██▎       | 127/564 [50:06<3:10:04, 26.10s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 23%|██▎       | 128/564 [50:32<3:09:51, 26.13s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 23%|██▎       | 129/564 [50:58<3:08:05, 25.94s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 23%|██▎       | 130/564 [51:23<3:06:42, 25.81s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 23%|██▎       | 131/564 [51:49<3:05:32, 25.71s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 23%|██▎       | 132/564 [52:14<3:04:44, 25.66s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 24%|██▎       | 133/564 [52:41<3:07:00, 26.03s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 24%|██▍       | 134/564 [53:08<3:07:27, 26.16s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 24%|██▍       | 135/564 [53:35<3:08:15, 26.33s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 24%|██▍       | 136/564 [54:01<3:08:36, 26.44s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 24%|██▍       | 137/564 [54:28<3:08:36, 26.50s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 24%|██▍       | 138/564 [54:54<3:07:38, 26.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 25%|██▍       | 139/564 [55:21<3:07:35, 26.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 25%|██▍       | 140/564 [55:47<3:06:49, 26.44s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 25%|██▌       | 141/564 [56:14<3:06:40, 26.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 25%|██▌       | 142/564 [56:40<3:06:25, 26.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 25%|██▌       | 143/564 [57:07<3:06:10, 26.53s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 26%|██▌       | 144/564 [57:33<3:05:22, 26.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 26%|██▌       | 145/564 [58:00<3:04:36, 26.44s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 26%|██▌       | 146/564 [58:26<3:03:48, 26.39s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 26%|██▌       | 147/564 [58:52<3:03:37, 26.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 26%|██▌       | 148/564 [59:19<3:02:57, 26.39s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 26%|██▋       | 149/564 [59:38<2:48:32, 24.37s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 27%|██▋       | 150/564 [59:58<2:38:39, 22.99s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 27%|██▋       | 151/564 [1:00:18<2:31:36, 22.02s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 27%|██▋       | 152/564 [1:00:38<2:26:53, 21.39s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 27%|██▋       | 153/564 [1:01:02<2:31:44, 22.15s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 27%|██▋       | 154/564 [1:01:25<2:34:46, 22.65s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 27%|██▋       | 155/564 [1:01:49<2:36:49, 23.01s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 28%|██▊       | 156/564 [1:02:13<2:38:07, 23.25s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 28%|██▊       | 157/564 [1:02:41<2:46:45, 24.58s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 28%|██▊       | 158/564 [1:03:09<2:52:50, 25.54s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 28%|██▊       | 159/564 [1:03:36<2:56:34, 26.16s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 28%|██▊       | 160/564 [1:04:04<2:59:05, 26.60s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 29%|██▊       | 161/564 [1:04:31<3:00:27, 26.87s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 29%|██▊       | 162/564 [1:04:59<3:01:25, 27.08s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 29%|██▉       | 163/564 [1:05:26<3:01:15, 27.12s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 29%|██▉       | 164/564 [1:05:53<3:01:19, 27.20s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 29%|██▉       | 165/564 [1:06:15<2:49:14, 25.45s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 29%|██▉       | 166/564 [1:06:36<2:40:38, 24.22s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 30%|██▉       | 167/564 [1:06:57<2:34:16, 23.32s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 30%|██▉       | 168/564 [1:07:19<2:29:54, 22.71s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 30%|██▉       | 169/564 [1:07:45<2:37:30, 23.93s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 30%|███       | 170/564 [1:08:12<2:42:42, 24.78s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 30%|███       | 171/564 [1:08:39<2:46:05, 25.36s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 30%|███       | 172/564 [1:09:06<2:48:19, 25.76s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 31%|███       | 173/564 [1:09:31<2:48:01, 25.78s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 31%|███       | 174/564 [1:09:57<2:47:37, 25.79s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 31%|███       | 175/564 [1:10:23<2:47:36, 25.85s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 31%|███       | 176/564 [1:10:49<2:47:12, 25.86s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 31%|███▏      | 177/564 [1:11:16<2:48:25, 26.11s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 32%|███▏      | 178/564 [1:11:42<2:48:57, 26.26s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 32%|███▏      | 179/564 [1:12:09<2:49:17, 26.38s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 32%|███▏      | 180/564 [1:12:36<2:49:27, 26.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 32%|███▏      | 181/564 [1:13:02<2:48:56, 26.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 32%|███▏      | 182/564 [1:13:29<2:48:23, 26.45s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 32%|███▏      | 183/564 [1:13:55<2:47:50, 26.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 33%|███▎      | 184/564 [1:14:22<2:47:22, 26.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 33%|███▎      | 185/564 [1:14:48<2:47:36, 26.53s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 33%|███▎      | 186/564 [1:15:15<2:47:33, 26.60s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 33%|███▎      | 187/564 [1:15:42<2:47:11, 26.61s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 33%|███▎      | 188/564 [1:16:08<2:46:55, 26.64s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 34%|███▎      | 189/564 [1:16:16<2:10:02, 20.81s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 34%|███▎      | 190/564 [1:16:23<1:44:15, 16.73s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 34%|███▍      | 191/564 [1:16:30<1:26:07, 13.85s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 34%|███▍      | 192/564 [1:16:37<1:13:29, 11.85s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 34%|███▍      | 193/564 [1:16:44<1:04:25, 10.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 34%|███▍      | 194/564 [1:16:51<58:00,  9.41s/it]  Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 35%|███▍      | 195/564 [1:16:58<53:29,  8.70s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 35%|███▍      | 196/564 [1:17:05<50:19,  8.20s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 35%|███▍      | 197/564 [1:17:12<48:08,  7.87s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 35%|███▌      | 198/564 [1:17:20<46:36,  7.64s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 35%|███▌      | 199/564 [1:17:27<45:28,  7.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 35%|███▌      | 200/564 [1:17:34<44:37,  7.36s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 36%|███▌      | 201/564 [1:17:40<42:06,  6.96s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 36%|███▌      | 202/564 [1:17:46<40:14,  6.67s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 36%|███▌      | 203/564 [1:17:52<38:57,  6.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 36%|███▌      | 204/564 [1:17:58<38:00,  6.33s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 36%|███▋      | 205/564 [1:18:05<38:58,  6.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 37%|███▋      | 206/564 [1:18:12<39:39,  6.65s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 37%|███▋      | 207/564 [1:18:19<40:00,  6.72s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 37%|███▋      | 208/564 [1:18:25<40:06,  6.76s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 37%|███▋      | 209/564 [1:18:33<41:05,  6.94s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 37%|███▋      | 210/564 [1:18:40<41:41,  7.07s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 37%|███▋      | 211/564 [1:18:47<42:06,  7.16s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 38%|███▊      | 212/564 [1:18:55<42:19,  7.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 38%|███▊      | 213/564 [1:19:02<42:59,  7.35s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 38%|███▊      | 214/564 [1:19:10<43:25,  7.44s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 38%|███▊      | 215/564 [1:19:18<43:40,  7.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 38%|███▊      | 216/564 [1:19:25<43:47,  7.55s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 38%|███▊      | 217/564 [1:19:33<43:11,  7.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 39%|███▊      | 218/564 [1:19:40<42:42,  7.41s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 39%|███▉      | 219/564 [1:19:47<42:21,  7.37s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 39%|███▉      | 220/564 [1:19:55<42:03,  7.34s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 39%|███▉      | 221/564 [1:20:02<42:12,  7.38s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 39%|███▉      | 222/564 [1:20:10<42:18,  7.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 40%|███▉      | 223/564 [1:20:17<42:34,  7.49s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 40%|███▉      | 224/564 [1:20:25<42:35,  7.52s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 40%|███▉      | 225/564 [1:20:30<38:30,  6.82s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 40%|████      | 226/564 [1:20:35<36:03,  6.40s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 40%|████      | 227/564 [1:20:40<33:34,  5.98s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 40%|████      | 228/564 [1:20:45<31:57,  5.71s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 41%|████      | 229/564 [1:20:52<33:22,  5.98s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 41%|████      | 230/564 [1:20:59<34:21,  6.17s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 41%|████      | 231/564 [1:21:05<35:00,  6.31s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 41%|████      | 232/564 [1:21:12<35:26,  6.40s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 41%|████▏     | 233/564 [1:21:19<36:13,  6.57s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 41%|████▏     | 234/564 [1:21:26<36:44,  6.68s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 42%|████▏     | 235/564 [1:21:33<37:21,  6.81s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 42%|████▏     | 236/564 [1:21:40<37:45,  6.91s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 42%|████▏     | 237/564 [1:21:48<39:25,  7.23s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 42%|████▏     | 238/564 [1:21:56<40:34,  7.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 42%|████▏     | 239/564 [1:22:04<41:19,  7.63s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 43%|████▎     | 240/564 [1:22:12<41:28,  7.68s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 43%|████▎     | 241/564 [1:22:20<41:23,  7.69s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 43%|████▎     | 242/564 [1:22:27<41:12,  7.68s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 43%|████▎     | 243/564 [1:22:35<41:02,  7.67s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 43%|████▎     | 244/564 [1:22:43<40:52,  7.66s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 43%|████▎     | 245/564 [1:22:49<38:13,  7.19s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 44%|████▎     | 246/564 [1:22:55<36:21,  6.86s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 44%|████▍     | 247/564 [1:23:01<35:05,  6.64s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 44%|████▍     | 248/564 [1:23:07<34:07,  6.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 44%|████▍     | 249/564 [1:23:16<37:17,  7.10s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 44%|████▍     | 250/564 [1:23:24<39:29,  7.55s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 45%|████▍     | 251/564 [1:23:33<40:56,  7.85s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 45%|████▍     | 252/564 [1:23:41<41:58,  8.07s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 45%|████▍     | 253/564 [1:23:49<41:47,  8.06s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 45%|████▌     | 254/564 [1:23:57<41:38,  8.06s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 45%|████▌     | 255/564 [1:24:05<41:27,  8.05s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 45%|████▌     | 256/564 [1:24:13<41:18,  8.05s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 46%|████▌     | 257/564 [1:24:19<37:23,  7.31s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 46%|████▌     | 258/564 [1:24:25<34:37,  6.79s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 46%|████▌     | 259/564 [1:24:30<32:39,  6.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 46%|████▌     | 260/564 [1:24:36<31:15,  6.17s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 46%|████▋     | 261/564 [1:24:42<32:04,  6.35s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 46%|████▋     | 262/564 [1:24:49<32:35,  6.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 47%|████▋     | 263/564 [1:24:56<32:55,  6.56s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 47%|████▋     | 264/564 [1:25:03<33:06,  6.62s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 47%|████▋     | 265/564 [1:25:09<32:58,  6.62s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 47%|████▋     | 266/564 [1:25:16<32:47,  6.60s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 47%|████▋     | 267/564 [1:25:23<32:40,  6.60s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 48%|████▊     | 268/564 [1:25:29<32:32,  6.60s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 48%|████▊     | 269/564 [1:25:36<32:05,  6.53s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 48%|████▊     | 270/564 [1:25:42<31:45,  6.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 48%|████▊     | 271/564 [1:25:48<31:27,  6.44s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 48%|████▊     | 272/564 [1:25:55<31:14,  6.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 48%|████▊     | 273/564 [1:26:00<29:57,  6.18s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 49%|████▊     | 274/564 [1:26:06<28:47,  5.96s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 49%|████▉     | 275/564 [1:26:11<27:57,  5.80s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 49%|████▉     | 276/564 [1:26:17<27:35,  5.75s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 49%|████▉     | 277/564 [1:26:23<28:50,  6.03s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 49%|████▉     | 278/564 [1:26:30<29:38,  6.22s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 49%|████▉     | 279/564 [1:26:37<30:23,  6.40s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 50%|████▉     | 280/564 [1:26:44<30:41,  6.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 50%|████▉     | 281/564 [1:26:50<30:41,  6.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 50%|█████     | 282/564 [1:26:57<30:33,  6.50s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 50%|█████     | 283/564 [1:27:03<30:45,  6.57s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 50%|█████     | 284/564 [1:27:10<30:49,  6.60s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 51%|█████     | 285/564 [1:27:18<32:26,  6.98s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 51%|█████     | 286/564 [1:27:26<33:31,  7.24s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 51%|█████     | 287/564 [1:27:34<34:15,  7.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 51%|█████     | 288/564 [1:27:41<34:41,  7.54s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 51%|█████     | 289/564 [1:27:48<33:46,  7.37s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 51%|█████▏    | 290/564 [1:27:55<33:08,  7.26s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 52%|█████▏    | 291/564 [1:28:02<32:39,  7.18s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 52%|█████▏    | 292/564 [1:28:09<32:14,  7.11s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 52%|█████▏    | 293/564 [1:28:15<30:07,  6.67s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 52%|█████▏    | 294/564 [1:28:21<28:38,  6.36s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 52%|█████▏    | 295/564 [1:28:26<27:34,  6.15s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 52%|█████▏    | 296/564 [1:28:32<26:47,  6.00s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 53%|█████▎    | 297/564 [1:28:38<27:13,  6.12s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 53%|█████▎    | 298/564 [1:28:45<27:29,  6.20s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 53%|█████▎    | 299/564 [1:28:51<27:35,  6.25s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 53%|█████▎    | 300/564 [1:28:57<27:40,  6.29s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 53%|█████▎    | 301/564 [1:29:03<26:01,  5.94s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 54%|█████▎    | 302/564 [1:29:08<25:26,  5.83s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 54%|█████▎    | 303/564 [1:29:12<22:36,  5.20s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 54%|█████▍    | 304/564 [1:29:17<22:24,  5.17s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 54%|█████▍    | 305/564 [1:29:24<24:35,  5.70s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 54%|█████▍    | 306/564 [1:29:31<26:02,  6.05s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 54%|█████▍    | 307/564 [1:29:38<27:35,  6.44s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 55%|█████▍    | 308/564 [1:29:45<28:25,  6.66s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 55%|█████▍    | 309/564 [1:29:52<28:41,  6.75s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 55%|█████▍    | 310/564 [1:29:59<28:50,  6.81s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 55%|█████▌    | 311/564 [1:30:06<28:53,  6.85s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 55%|█████▌    | 312/564 [1:30:13<28:53,  6.88s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 55%|█████▌    | 313/564 [1:30:21<29:32,  7.06s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 56%|█████▌    | 314/564 [1:30:28<29:56,  7.19s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 56%|█████▌    | 315/564 [1:30:36<30:10,  7.27s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 56%|█████▌    | 316/564 [1:30:43<30:18,  7.33s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 56%|█████▌    | 317/564 [1:30:51<30:25,  7.39s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 56%|█████▋    | 318/564 [1:30:58<30:26,  7.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 57%|█████▋    | 319/564 [1:31:06<30:24,  7.45s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 57%|█████▋    | 320/564 [1:31:13<30:21,  7.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 57%|█████▋    | 321/564 [1:31:19<29:00,  7.16s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 57%|█████▋    | 322/564 [1:31:26<27:54,  6.92s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 57%|█████▋    | 323/564 [1:31:32<27:13,  6.78s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 57%|█████▋    | 324/564 [1:31:39<26:34,  6.65s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 58%|█████▊    | 325/564 [1:31:45<26:13,  6.58s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 58%|█████▊    | 326/564 [1:31:52<25:56,  6.54s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 58%|█████▊    | 327/564 [1:31:58<25:43,  6.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 58%|█████▊    | 328/564 [1:32:04<25:32,  6.49s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 58%|█████▊    | 329/564 [1:32:12<26:52,  6.86s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 59%|█████▊    | 330/564 [1:32:20<27:45,  7.12s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 59%|█████▊    | 331/564 [1:32:28<28:18,  7.29s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 59%|█████▉    | 332/564 [1:32:35<28:54,  7.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 59%|█████▉    | 333/564 [1:32:42<28:09,  7.31s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 59%|█████▉    | 334/564 [1:32:49<27:34,  7.19s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 59%|█████▉    | 335/564 [1:32:56<26:50,  7.03s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 60%|█████▉    | 336/564 [1:33:03<26:34,  6.99s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 60%|█████▉    | 337/564 [1:33:08<24:16,  6.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 60%|█████▉    | 338/564 [1:33:13<22:40,  6.02s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 60%|██████    | 339/564 [1:33:18<21:30,  5.74s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 60%|██████    | 340/564 [1:33:23<20:39,  5.53s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 60%|██████    | 341/564 [1:33:30<21:51,  5.88s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 61%|██████    | 342/564 [1:33:36<21:35,  5.84s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 61%|██████    | 343/564 [1:33:41<21:25,  5.82s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 61%|██████    | 344/564 [1:34:02<37:19, 10.18s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 61%|██████    | 345/564 [1:34:10<35:02,  9.60s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 61%|██████▏   | 346/564 [1:34:18<33:27,  9.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 62%|██████▏   | 347/564 [1:34:27<32:25,  8.97s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 62%|██████▏   | 348/564 [1:34:35<31:31,  8.76s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 62%|██████▏   | 349/564 [1:34:43<30:47,  8.59s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 62%|██████▏   | 350/564 [1:34:51<30:14,  8.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 62%|██████▏   | 351/564 [1:35:00<29:56,  8.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 62%|██████▏   | 352/564 [1:35:08<29:56,  8.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 63%|██████▎   | 353/564 [1:35:16<28:43,  8.17s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 63%|██████▎   | 354/564 [1:35:22<26:08,  7.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 63%|██████▎   | 355/564 [1:35:28<24:36,  7.07s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 63%|██████▎   | 356/564 [1:35:32<21:56,  6.33s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 63%|██████▎   | 357/564 [1:35:40<23:10,  6.72s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 63%|██████▎   | 358/564 [1:35:48<24:00,  6.99s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 64%|██████▎   | 359/564 [1:35:55<24:33,  7.19s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 64%|██████▍   | 360/564 [1:36:03<24:53,  7.32s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 64%|██████▍   | 361/564 [1:36:09<23:52,  7.06s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 64%|██████▍   | 362/564 [1:36:16<23:05,  6.86s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 64%|██████▍   | 363/564 [1:36:22<22:38,  6.76s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 65%|██████▍   | 364/564 [1:36:29<22:09,  6.65s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 65%|██████▍   | 365/564 [1:36:35<21:50,  6.58s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 65%|██████▍   | 366/564 [1:36:41<21:28,  6.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 65%|██████▌   | 367/564 [1:36:48<21:18,  6.49s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 65%|██████▌   | 368/564 [1:36:54<21:09,  6.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 65%|██████▌   | 369/564 [1:37:00<20:47,  6.40s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 66%|██████▌   | 370/564 [1:37:07<20:31,  6.35s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 66%|██████▌   | 371/564 [1:37:13<20:18,  6.31s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 66%|██████▌   | 372/564 [1:37:19<20:07,  6.29s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 66%|██████▌   | 373/564 [1:37:26<20:09,  6.33s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 66%|██████▋   | 374/564 [1:37:32<20:07,  6.36s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 66%|██████▋   | 375/564 [1:37:38<20:01,  6.36s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 67%|██████▋   | 376/564 [1:37:45<19:58,  6.37s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 67%|██████▋   | 377/564 [1:37:52<20:48,  6.68s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 67%|██████▋   | 378/564 [1:37:59<21:14,  6.85s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 67%|██████▋   | 379/564 [1:38:07<21:24,  6.94s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 67%|██████▋   | 380/564 [1:38:14<21:24,  6.98s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 68%|██████▊   | 381/564 [1:38:20<20:57,  6.87s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 68%|██████▊   | 382/564 [1:38:27<20:36,  6.79s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 68%|██████▊   | 383/564 [1:38:33<19:47,  6.56s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 68%|██████▊   | 384/564 [1:38:39<19:17,  6.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 68%|██████▊   | 385/564 [1:38:46<19:19,  6.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 68%|██████▊   | 386/564 [1:38:52<19:21,  6.53s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 69%|██████▊   | 387/564 [1:38:59<19:06,  6.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 69%|██████▉   | 388/564 [1:39:05<18:51,  6.43s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 69%|██████▉   | 389/564 [1:39:12<19:13,  6.59s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 69%|██████▉   | 390/564 [1:39:19<19:31,  6.73s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 69%|██████▉   | 391/564 [1:39:26<19:54,  6.91s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 70%|██████▉   | 392/564 [1:39:33<20:06,  7.02s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 70%|██████▉   | 393/564 [1:39:41<20:37,  7.24s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 70%|██████▉   | 394/564 [1:39:49<20:38,  7.28s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 70%|███████   | 395/564 [1:39:53<18:28,  6.56s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 70%|███████   | 396/564 [1:39:59<17:11,  6.14s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 70%|███████   | 397/564 [1:40:05<17:08,  6.16s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 71%|███████   | 398/564 [1:40:11<17:05,  6.18s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 71%|███████   | 399/564 [1:40:18<17:23,  6.32s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 71%|███████   | 400/564 [1:40:24<17:21,  6.35s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 71%|███████   | 401/564 [1:40:33<19:08,  7.05s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 71%|███████▏  | 402/564 [1:40:41<19:55,  7.38s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 71%|███████▏  | 403/564 [1:40:48<19:52,  7.41s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 72%|███████▏  | 404/564 [1:40:56<19:44,  7.40s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 72%|███████▏  | 405/564 [1:41:02<18:28,  6.97s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 72%|███████▏  | 406/564 [1:41:08<17:32,  6.66s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 72%|███████▏  | 407/564 [1:41:16<18:39,  7.13s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 72%|███████▏  | 408/564 [1:41:24<19:31,  7.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 73%|███████▎  | 409/564 [1:41:31<18:34,  7.19s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 73%|███████▎  | 410/564 [1:41:37<17:55,  6.98s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 73%|███████▎  | 411/564 [1:41:43<16:28,  6.46s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 73%|███████▎  | 412/564 [1:41:48<15:15,  6.02s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 73%|███████▎  | 413/564 [1:41:54<15:14,  6.05s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 73%|███████▎  | 414/564 [1:42:00<15:17,  6.12s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 74%|███████▎  | 415/564 [1:42:06<15:24,  6.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 74%|███████▍  | 416/564 [1:42:13<15:31,  6.29s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 74%|███████▍  | 417/564 [1:42:19<15:09,  6.19s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 74%|███████▍  | 418/564 [1:42:25<14:53,  6.12s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 74%|███████▍  | 419/564 [1:42:30<14:17,  5.91s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 74%|███████▍  | 420/564 [1:42:36<13:58,  5.82s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 75%|███████▍  | 421/564 [1:42:42<14:17,  6.00s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 75%|███████▍  | 422/564 [1:42:49<14:29,  6.12s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 75%|███████▌  | 423/564 [1:42:55<14:26,  6.15s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 75%|███████▌  | 424/564 [1:43:01<14:31,  6.22s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 75%|███████▌  | 425/564 [1:43:09<15:11,  6.56s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 76%|███████▌  | 426/564 [1:43:16<15:42,  6.83s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 76%|███████▌  | 427/564 [1:43:23<15:24,  6.75s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 76%|███████▌  | 428/564 [1:43:29<14:58,  6.61s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 76%|███████▌  | 429/564 [1:43:35<14:12,  6.32s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 76%|███████▌  | 430/564 [1:43:40<13:52,  6.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 76%|███████▋  | 431/564 [1:43:47<13:45,  6.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 77%|███████▋  | 432/564 [1:43:53<13:42,  6.23s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 77%|███████▋  | 433/564 [1:43:58<12:47,  5.86s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 77%|███████▋  | 434/564 [1:44:03<12:14,  5.65s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 77%|███████▋  | 435/564 [1:44:10<13:08,  6.11s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 77%|███████▋  | 436/564 [1:44:18<13:56,  6.54s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 77%|███████▋  | 437/564 [1:44:24<13:40,  6.46s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 78%|███████▊  | 438/564 [1:44:30<13:28,  6.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 78%|███████▊  | 439/564 [1:44:38<14:18,  6.87s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 78%|███████▊  | 440/564 [1:44:46<14:52,  7.20s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 78%|███████▊  | 441/564 [1:44:53<14:21,  7.01s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 78%|███████▊  | 442/564 [1:45:00<14:11,  6.98s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 79%|███████▊  | 443/564 [1:45:06<13:42,  6.80s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 79%|███████▊  | 444/564 [1:45:12<13:14,  6.62s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 79%|███████▉  | 445/564 [1:45:19<12:58,  6.54s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 79%|███████▉  | 446/564 [1:45:25<12:45,  6.48s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 79%|███████▉  | 447/564 [1:45:33<13:25,  6.88s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 79%|███████▉  | 448/564 [1:45:41<13:58,  7.23s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 80%|███████▉  | 449/564 [1:45:47<13:22,  6.98s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 80%|███████▉  | 450/564 [1:45:55<13:24,  7.06s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 80%|███████▉  | 451/564 [1:46:00<12:11,  6.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 80%|████████  | 452/564 [1:46:05<11:14,  6.02s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 80%|████████  | 453/564 [1:46:12<11:39,  6.30s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 80%|████████  | 454/564 [1:46:19<11:55,  6.50s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 81%|████████  | 455/564 [1:46:27<13:06,  7.22s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 81%|████████  | 456/564 [1:46:36<13:57,  7.76s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 81%|████████  | 457/564 [1:46:45<14:24,  8.08s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 81%|████████  | 458/564 [1:46:54<14:38,  8.29s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 81%|████████▏ | 459/564 [1:46:59<12:44,  7.28s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 82%|████████▏ | 460/564 [1:47:07<12:45,  7.36s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 82%|████████▏ | 461/564 [1:47:14<12:48,  7.46s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 82%|████████▏ | 462/564 [1:47:22<12:50,  7.55s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 82%|████████▏ | 463/564 [1:47:29<12:11,  7.24s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 82%|████████▏ | 464/564 [1:47:35<11:44,  7.05s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 82%|████████▏ | 465/564 [1:47:41<11:16,  6.84s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 83%|████████▎ | 466/564 [1:47:48<10:55,  6.69s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 83%|████████▎ | 467/564 [1:47:54<10:29,  6.49s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 83%|████████▎ | 468/564 [1:48:00<10:09,  6.35s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 83%|████████▎ | 469/564 [1:48:06<09:51,  6.22s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 83%|████████▎ | 470/564 [1:48:33<19:27, 12.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 84%|████████▎ | 471/564 [1:48:46<19:51, 12.81s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 84%|████████▎ | 472/564 [1:49:00<20:00, 13.05s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 84%|████████▍ | 473/564 [1:49:14<20:06, 13.26s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 84%|████████▍ | 474/564 [1:49:27<20:06, 13.40s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 84%|████████▍ | 475/564 [1:49:40<19:39, 13.26s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 84%|████████▍ | 476/564 [1:49:53<19:17, 13.15s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 85%|████████▍ | 477/564 [1:50:05<18:35, 12.82s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 85%|████████▍ | 478/564 [1:50:17<18:03, 12.59s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 85%|████████▍ | 479/564 [1:50:31<18:05, 12.77s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 85%|████████▌ | 480/564 [1:50:44<18:04, 12.91s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 85%|████████▌ | 481/564 [1:50:57<17:47, 12.86s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 85%|████████▌ | 482/564 [1:51:09<17:27, 12.77s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 86%|████████▌ | 483/564 [1:51:22<17:25, 12.91s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 86%|████████▌ | 484/564 [1:51:36<17:24, 13.05s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 86%|████████▌ | 485/564 [1:51:49<17:26, 13.24s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 86%|████████▌ | 486/564 [1:52:03<17:22, 13.37s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 86%|████████▋ | 487/564 [1:52:17<17:30, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 87%|████████▋ | 488/564 [1:52:31<17:21, 13.71s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 87%|████████▋ | 489/564 [1:52:41<15:34, 12.46s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 87%|████████▋ | 490/564 [1:52:51<14:21, 11.64s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 87%|████████▋ | 491/564 [1:53:03<14:23, 11.83s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 87%|████████▋ | 492/564 [1:53:15<14:21, 11.97s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 87%|████████▋ | 493/564 [1:53:28<14:31, 12.27s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 88%|████████▊ | 494/564 [1:53:41<14:27, 12.39s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 88%|████████▊ | 495/564 [1:53:56<15:10, 13.20s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 88%|████████▊ | 496/564 [1:54:11<15:29, 13.67s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 88%|████████▊ | 497/564 [1:54:25<15:35, 13.97s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 88%|████████▊ | 498/564 [1:54:40<15:31, 14.12s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 88%|████████▊ | 499/564 [1:54:52<14:38, 13.52s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 89%|████████▊ | 500/564 [1:55:04<13:56, 13.07s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 89%|████████▉ | 501/564 [1:55:19<14:13, 13.55s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 89%|████████▉ | 502/564 [1:55:33<14:24, 13.95s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 89%|████████▉ | 503/564 [1:55:46<13:49, 13.60s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 89%|████████▉ | 504/564 [1:55:59<13:22, 13.38s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 90%|████████▉ | 505/564 [1:56:09<12:08, 12.34s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 90%|████████▉ | 506/564 [1:56:19<11:08, 11.53s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 90%|████████▉ | 507/564 [1:56:31<11:12, 11.80s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 90%|█████████ | 508/564 [1:56:44<11:11, 12.00s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 90%|█████████ | 509/564 [1:56:56<11:08, 12.16s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 90%|█████████ | 510/564 [1:57:09<11:07, 12.36s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 91%|█████████ | 511/564 [1:57:21<10:50, 12.27s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 91%|█████████ | 512/564 [1:57:33<10:35, 12.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 91%|█████████ | 513/564 [1:57:43<09:53, 11.63s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 91%|█████████ | 514/564 [1:57:54<09:25, 11.31s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 91%|█████████▏| 515/564 [1:58:06<09:33, 11.70s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 91%|█████████▏| 516/564 [1:58:19<09:35, 11.98s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 92%|█████████▏| 517/564 [1:58:31<09:25, 12.04s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 92%|█████████▏| 518/564 [1:58:44<09:24, 12.27s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 92%|█████████▏| 519/564 [1:58:59<09:47, 13.05s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 92%|█████████▏| 520/564 [1:59:14<10:00, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 92%|█████████▏| 521/564 [1:59:27<09:36, 13.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 93%|█████████▎| 522/564 [1:59:39<09:12, 13.15s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 93%|█████████▎| 523/564 [1:59:50<08:26, 12.36s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 93%|█████████▎| 524/564 [2:00:01<07:57, 11.93s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 93%|█████████▎| 525/564 [2:00:13<07:51, 12.10s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 93%|█████████▎| 526/564 [2:00:26<07:45, 12.24s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 93%|█████████▎| 527/564 [2:00:36<07:08, 11.58s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 94%|█████████▎| 528/564 [2:00:46<06:35, 10.99s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 94%|█████████▍| 529/564 [2:00:59<06:53, 11.80s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 94%|█████████▍| 530/564 [2:01:13<07:03, 12.44s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 94%|█████████▍| 531/564 [2:01:26<06:50, 12.45s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 94%|█████████▍| 532/564 [2:01:38<06:39, 12.49s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 95%|█████████▍| 533/564 [2:01:52<06:42, 12.99s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 95%|█████████▍| 534/564 [2:02:07<06:40, 13.36s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 95%|█████████▍| 535/564 [2:02:19<06:19, 13.10s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 95%|█████████▌| 536/564 [2:02:32<06:07, 13.11s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 95%|█████████▌| 537/564 [2:02:45<05:49, 12.95s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 95%|█████████▌| 538/564 [2:02:57<05:33, 12.82s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 96%|█████████▌| 539/564 [2:03:10<05:19, 12.77s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 96%|█████████▌| 540/564 [2:03:23<05:05, 12.74s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 96%|█████████▌| 541/564 [2:03:37<05:02, 13.17s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 96%|█████████▌| 542/564 [2:03:51<04:57, 13.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 96%|█████████▋| 543/564 [2:04:04<04:36, 13.17s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 96%|█████████▋| 544/564 [2:04:17<04:24, 13.23s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 97%|█████████▋| 545/564 [2:04:27<03:51, 12.18s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 97%|█████████▋| 546/564 [2:04:36<03:25, 11.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 97%|█████████▋| 547/564 [2:04:48<03:17, 11.63s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 97%|█████████▋| 548/564 [2:05:01<03:08, 11.78s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 97%|█████████▋| 549/564 [2:05:16<03:13, 12.90s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 98%|█████████▊| 550/564 [2:05:32<03:13, 13.82s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 98%|█████████▊| 551/564 [2:05:48<03:07, 14.41s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 98%|█████████▊| 552/564 [2:06:03<02:57, 14.80s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 98%|█████████▊| 553/564 [2:06:13<02:25, 13.27s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 98%|█████████▊| 554/564 [2:06:24<02:04, 12.49s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 98%|█████████▊| 555/564 [2:06:38<01:56, 12.97s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 99%|█████████▊| 556/564 [2:06:52<01:46, 13.33s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 99%|█████████▉| 557/564 [2:07:05<01:31, 13.10s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 99%|█████████▉| 558/564 [2:07:18<01:18, 13.03s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 99%|█████████▉| 559/564 [2:07:30<01:04, 12.92s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+ 99%|█████████▉| 560/564 [2:07:43<00:51, 12.86s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+ 99%|█████████▉| 561/564 [2:07:55<00:38, 12.67s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+100%|█████████▉| 562/564 [2:08:07<00:25, 12.53s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+100%|█████████▉| 563/564 [2:08:20<00:12, 12.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
+[root] Save results to results/Llava_CoT.json
+100%|██████████| 564/564 [2:08:55<00:00, 19.26s/it]100%|██████████| 564/564 [2:08:55<00:00, 13.72s/it]
+[root] Save results to results/Llava_CoT.json
+[root] End Generation......

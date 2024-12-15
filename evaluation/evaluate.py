@@ -6,6 +6,7 @@ from tqdm import tqdm
 from utils import *
 import re
 
+
 def fast_extract_answer(response) :
     response = response.strip()
     # Direct Strategy Multi-Choice
@@ -49,6 +50,28 @@ def fast_extract_answer(response) :
     return response
 
 
+def create_test_prompt(score_prompt, problem):
+    score_prompt = score_prompt.strip()
+    response = problem['response']
+    answer = problem['answer']
+    full_prompt = f'{score_prompt}\n' + f'Response: {response}\n' + f'Answer: {answer}\n' + 'Correct_or_not:'
+    return full_prompt
+
+
+def call_gpt(client, model, user_prompt):
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "user", "content": user_prompt}
+            ]
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"Error during GPT call: {e}")
+        return None
+
+
 def gen_true_false(answer_file, args):
     logging.info(f"Reading {answer_file}.....")
     label = args.response_label
@@ -61,8 +84,8 @@ def gen_true_false(answer_file, args):
 
     skip_pids = []
     for pid, problem in results.items():
-        extraction = problem.get('extraction')
-        if extraction is not None and verify_extraction(extraction):
+        flag = problem.get('true_false')
+        if flag is not None:
             skip_pids.append(problem['pid'])
 
     if args.rerun:
@@ -80,7 +103,13 @@ def gen_true_false(answer_file, args):
         problem = results[pid]
         flag = False
         if args.gpt_eval:
-            flag = True
+            user_prompt = create_test_prompt(score_demo_prompt, problem)
+            flag_cache = call_gpt(client, args.model, user_prompt)
+            results[pid]['gpt_eval'] = flag_cache
+            if flag_cache.lower() == 'correct':
+                flag = True
+            else:
+                flag = False
         else:
             model_answer = fast_extract_answer(problem[label])
             results[pid]['extraction'] = model_answer
@@ -98,10 +127,10 @@ def gen_true_false(answer_file, args):
 def main():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/Math')
+    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/Math_gpt_eval_v2')
     parser.add_argument('--response_label', type=str, default='response', help='response label for the input file')
     parser.add_argument('--rerun', action='store_true', help='rerun the answer extraction')
-    parser.add_argument('--save_every', type=int, default=10, help='save every n problems')
+    parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
 
     parser.add_argument('--gpt_eval', action='store_true', help='use gpt to evaluate')
     parser.add_argument('--api_key', type=str, default="")
