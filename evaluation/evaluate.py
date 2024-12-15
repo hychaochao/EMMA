@@ -6,6 +6,7 @@ from tqdm import tqdm
 from utils import *
 import re
 
+
 def fast_extract_answer(response) :
     response = response.strip()
     # Direct Strategy Multi-Choice
@@ -49,6 +50,28 @@ def fast_extract_answer(response) :
     return response
 
 
+def create_test_prompt(score_prompt, problem):
+    score_prompt = score_prompt.strip()
+    response = problem['response']
+    answer = problem['answer']
+    full_prompt = f'{score_prompt}\n' + f'Response: {response}\n' + f'Answer: {answer}\n' + 'Correct_or_not:'
+    return full_prompt
+
+
+def call_gpt(client, model, user_prompt):
+    try:
+        response = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "user", "content": user_prompt}
+            ]
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"Error during GPT call: {e}")
+        return None
+
+
 def gen_true_false(answer_file, args):
     logging.info(f"Reading {answer_file}.....")
     label = args.response_label
@@ -80,7 +103,12 @@ def gen_true_false(answer_file, args):
         problem = results[pid]
         flag = False
         if args.gpt_eval:
-            flag = True
+            user_prompt = create_test_prompt(score_demo_prompt, problem)
+            flag_cache = call_gpt(client, args.model, user_prompt)
+            if flag_cache.lower() == 'correct':
+                flag = True
+            else:
+                flag = False
         else:
             model_answer = fast_extract_answer(problem[label])
             results[pid]['extraction'] = model_answer
