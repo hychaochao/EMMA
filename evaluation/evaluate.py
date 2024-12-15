@@ -104,7 +104,7 @@ def main():
     parser.add_argument('--save_every', type=int, default=10, help='save every n problems')
 
     parser.add_argument('--gpt_eval', action='store_true', help='use gpt to evaluate')
-    parser.add_argument('--api_key', type=str, default="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")
+    parser.add_argument('--api_key', type=str, default="")
     parser.add_argument('--model', type=str, default="chatgpt-4o-latest")
 
     args = parser.parse_args()
