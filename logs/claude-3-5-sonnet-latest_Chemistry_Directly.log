@@ -1,0 +1,1265 @@
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Chemistry']
+[root] Loading config
+[root] Loading claude-3-5-sonnet-latest
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/1176 [00:00<?, ?it/s]  0%|          | 1/1176 [00:02<52:34,  2.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  0%|          | 2/1176 [00:04<42:06,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  0%|          | 3/1176 [00:06<41:13,  2.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  0%|          | 4/1176 [00:07<36:16,  1.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  0%|          | 5/1176 [00:09<33:52,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|          | 6/1176 [00:11<33:10,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|          | 7/1176 [00:12<30:22,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|          | 8/1176 [00:13<30:11,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|          | 9/1176 [00:15<31:59,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|          | 10/1176 [00:17<30:17,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|          | 11/1176 [00:18<29:48,  1.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|          | 12/1176 [00:20<30:55,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|          | 13/1176 [00:21<30:06,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|          | 14/1176 [00:23<31:40,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|▏         | 15/1176 [00:25<34:34,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|▏         | 16/1176 [00:28<39:14,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  1%|▏         | 17/1176 [00:30<40:19,  2.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 18/1176 [00:32<37:14,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 19/1176 [00:34<38:36,  2.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 20/1176 [00:35<35:54,  1.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 21/1176 [00:37<35:37,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 22/1176 [00:39<34:33,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 23/1176 [00:41<37:28,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 24/1176 [00:43<37:06,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 25/1176 [00:45<34:58,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 26/1176 [00:46<32:26,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 27/1176 [00:48<33:37,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 28/1176 [00:50<33:10,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  2%|▏         | 29/1176 [00:51<31:34,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 30/1176 [00:53<34:38,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 31/1176 [00:55<31:52,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 32/1176 [00:57<33:12,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 33/1176 [00:59<35:08,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 34/1176 [01:01<39:05,  2.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 35/1176 [01:03<36:47,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 36/1176 [01:05<36:02,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 37/1176 [01:07<37:22,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 38/1176 [01:08<35:54,  1.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 39/1176 [01:10<33:52,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 40/1176 [01:11<31:44,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  3%|▎         | 41/1176 [01:13<33:53,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  4%|▎         | 42/1176 [01:15<32:50,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  4%|▎         | 43/1176 [01:17<31:06,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  4%|▎         | 44/1176 [01:18<31:37,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  4%|▍         | 45/1176 [01:20<31:22,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  4%|▍         | 46/1176 [01:22<33:27,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  4%|▍         | 47/1176 [01:25<40:21,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  4%|▍         | 48/1176 [01:26<36:47,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  4%|▍         | 49/1176 [01:29<38:12,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  4%|▍         | 50/1176 [01:30<36:11,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  4%|▍         | 51/1176 [01:32<34:29,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  4%|▍         | 52/1176 [01:33<32:00,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▍         | 53/1176 [01:35<31:58,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▍         | 54/1176 [01:37<30:54,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▍         | 55/1176 [01:38<29:57,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▍         | 56/1176 [01:40<31:35,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▍         | 57/1176 [01:42<32:00,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▍         | 58/1176 [01:43<31:33,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▌         | 59/1176 [01:45<31:21,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▌         | 60/1176 [01:47<29:48,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▌         | 61/1176 [01:48<29:43,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▌         | 62/1176 [01:49<28:29,  1.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▌         | 63/1176 [01:51<29:41,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  5%|▌         | 64/1176 [01:53<31:11,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▌         | 65/1176 [01:54<29:16,  1.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▌         | 66/1176 [01:56<30:19,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▌         | 67/1176 [01:58<29:32,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▌         | 68/1176 [02:00<32:25,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▌         | 69/1176 [02:01<30:40,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▌         | 70/1176 [02:03<29:30,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▌         | 71/1176 [02:04<29:18,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▌         | 72/1176 [02:06<31:04,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▌         | 73/1176 [02:08<32:28,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▋         | 74/1176 [02:10<33:13,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▋         | 75/1176 [02:12<31:57,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  6%|▋         | 76/1176 [02:13<30:55,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 77/1176 [02:15<30:57,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 78/1176 [02:17<30:31,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 79/1176 [02:19<32:30,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 80/1176 [02:20<32:33,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 81/1176 [02:22<29:56,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 82/1176 [02:23<29:52,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 83/1176 [02:26<33:01,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 84/1176 [02:27<30:23,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 85/1176 [02:28<29:04,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 86/1176 [02:30<29:44,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 87/1176 [02:32<31:31,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  7%|▋         | 88/1176 [02:34<31:11,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  8%|▊         | 89/1176 [02:35<29:29,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  8%|▊         | 90/1176 [02:37<28:28,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  8%|▊         | 91/1176 [02:38<29:19,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  8%|▊         | 92/1176 [02:40<30:31,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  8%|▊         | 93/1176 [02:42<31:17,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  8%|▊         | 94/1176 [02:44<32:07,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  8%|▊         | 95/1176 [02:45<30:04,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  8%|▊         | 96/1176 [02:47<29:22,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  8%|▊         | 97/1176 [02:48<28:56,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  8%|▊         | 98/1176 [02:50<28:43,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  8%|▊         | 99/1176 [02:52<28:51,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▊         | 100/1176 [02:54<32:08,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▊         | 101/1176 [02:56<32:45,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▊         | 102/1176 [02:57<30:43,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▉         | 103/1176 [02:59<30:33,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▉         | 104/1176 [03:01<31:00,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▉         | 105/1176 [03:02<30:57,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▉         | 106/1176 [03:07<45:37,  2.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▉         | 107/1176 [03:14<1:08:43,  3.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▉         | 108/1176 [03:19<1:14:53,  4.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▉         | 109/1176 [03:23<1:12:57,  4.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▉         | 110/1176 [03:30<1:29:56,  5.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+  9%|▉         | 111/1176 [03:32<1:12:18,  4.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|▉         | 112/1176 [03:37<1:17:25,  4.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|▉         | 113/1176 [03:39<1:06:13,  3.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|▉         | 114/1176 [03:43<1:06:19,  3.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|▉         | 115/1176 [03:49<1:18:39,  4.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|▉         | 116/1176 [03:52<1:13:45,  4.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|▉         | 117/1176 [03:54<1:00:13,  3.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|█         | 118/1176 [03:56<53:17,  3.02s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|█         | 119/1176 [04:01<1:03:14,  3.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|█         | 120/1176 [04:03<55:28,  3.15s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|█         | 121/1176 [04:06<53:29,  3.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|█         | 122/1176 [04:10<58:28,  3.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 10%|█         | 123/1176 [04:13<58:23,  3.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█         | 124/1176 [04:15<50:44,  2.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█         | 125/1176 [04:19<55:01,  3.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█         | 126/1176 [04:22<55:57,  3.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█         | 127/1176 [04:26<57:41,  3.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█         | 128/1176 [04:30<1:00:15,  3.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█         | 129/1176 [04:33<1:00:44,  3.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█         | 130/1176 [04:35<51:43,  2.97s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█         | 131/1176 [04:40<1:01:15,  3.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█         | 132/1176 [04:43<1:00:27,  3.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█▏        | 133/1176 [04:46<56:47,  3.27s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█▏        | 134/1176 [04:48<50:25,  2.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 11%|█▏        | 135/1176 [04:52<57:27,  3.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▏        | 136/1176 [04:55<54:56,  3.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▏        | 137/1176 [04:58<52:11,  3.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▏        | 138/1176 [05:03<1:02:35,  3.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▏        | 139/1176 [05:07<1:05:40,  3.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▏        | 140/1176 [05:10<1:01:50,  3.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▏        | 141/1176 [05:14<1:03:23,  3.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▏        | 142/1176 [05:17<59:16,  3.44s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▏        | 143/1176 [05:19<53:22,  3.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▏        | 144/1176 [05:22<51:06,  2.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▏        | 145/1176 [05:24<44:59,  2.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▏        | 146/1176 [05:27<47:09,  2.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 12%|█▎        | 147/1176 [05:31<54:06,  3.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 13%|█▎        | 148/1176 [05:32<45:41,  2.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 13%|█▎        | 149/1176 [05:34<39:51,  2.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 13%|█▎        | 150/1176 [05:38<49:21,  2.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 13%|█▎        | 151/1176 [05:39<40:14,  2.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 13%|█▎        | 152/1176 [05:40<33:19,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 13%|█▎        | 153/1176 [05:42<32:55,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 13%|█▎        | 154/1176 [05:44<32:41,  1.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 13%|█▎        | 155/1176 [05:48<44:21,  2.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 13%|█▎        | 156/1176 [05:50<39:02,  2.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 13%|█▎        | 157/1176 [05:52<36:48,  2.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 13%|█▎        | 158/1176 [05:53<32:02,  1.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▎        | 159/1176 [05:54<28:33,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▎        | 160/1176 [06:00<53:05,  3.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▎        | 161/1176 [06:02<42:50,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▍        | 162/1176 [06:03<36:50,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▍        | 163/1176 [06:06<41:17,  2.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▍        | 164/1176 [06:08<37:45,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▍        | 165/1176 [06:09<32:20,  1.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▍        | 166/1176 [06:10<29:38,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▍        | 167/1176 [06:12<28:01,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▍        | 168/1176 [06:13<26:22,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▍        | 169/1176 [06:14<23:58,  1.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 14%|█▍        | 170/1176 [06:16<23:22,  1.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▍        | 171/1176 [06:17<25:44,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▍        | 172/1176 [06:19<24:19,  1.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▍        | 173/1176 [06:20<23:05,  1.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▍        | 174/1176 [06:24<36:46,  2.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▍        | 175/1176 [06:25<31:53,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▍        | 176/1176 [06:26<26:07,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▌        | 177/1176 [06:28<25:47,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▌        | 178/1176 [06:29<23:27,  1.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▌        | 179/1176 [06:30<22:09,  1.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▌        | 180/1176 [06:30<19:07,  1.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▌        | 181/1176 [06:32<20:25,  1.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 15%|█▌        | 182/1176 [06:33<17:48,  1.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▌        | 183/1176 [06:33<16:23,  1.01it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▌        | 184/1176 [06:34<16:50,  1.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▌        | 185/1176 [06:35<15:09,  1.09it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▌        | 186/1176 [06:36<14:11,  1.16it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▌        | 187/1176 [06:40<29:18,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▌        | 188/1176 [06:42<28:58,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▌        | 189/1176 [06:43<28:07,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▌        | 190/1176 [06:45<27:16,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▌        | 191/1176 [06:47<30:41,  1.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▋        | 192/1176 [06:49<31:39,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▋        | 193/1176 [06:51<31:08,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 16%|█▋        | 194/1176 [06:54<35:28,  2.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 17%|█▋        | 195/1176 [06:56<34:15,  2.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 17%|█▋        | 196/1176 [06:58<33:17,  2.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 17%|█▋        | 197/1176 [07:00<33:58,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 17%|█▋        | 198/1176 [07:01<30:29,  1.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 17%|█▋        | 199/1176 [07:02<25:31,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 17%|█▋        | 200/1176 [07:04<26:25,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 17%|█▋        | 201/1176 [07:08<38:51,  2.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 17%|█▋        | 202/1176 [07:09<34:37,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 17%|█▋        | 203/1176 [07:11<30:30,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 17%|█▋        | 204/1176 [07:12<29:38,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 17%|█▋        | 205/1176 [07:14<29:25,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 206/1176 [07:16<28:52,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 207/1176 [07:17<27:16,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 208/1176 [07:19<26:13,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 209/1176 [07:20<25:58,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 210/1176 [07:22<27:46,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 211/1176 [07:25<32:03,  1.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 212/1176 [07:27<33:09,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 213/1176 [07:29<30:38,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 214/1176 [07:30<28:27,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 215/1176 [07:32<28:56,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 216/1176 [07:34<27:34,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 18%|█▊        | 217/1176 [07:35<26:07,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▊        | 218/1176 [07:37<25:47,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▊        | 219/1176 [07:40<36:02,  2.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▊        | 220/1176 [07:43<37:18,  2.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▉        | 221/1176 [07:45<36:15,  2.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▉        | 222/1176 [07:49<41:46,  2.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▉        | 223/1176 [07:51<39:35,  2.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▉        | 224/1176 [07:53<40:02,  2.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▉        | 225/1176 [07:56<40:15,  2.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▉        | 226/1176 [07:59<41:25,  2.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▉        | 227/1176 [08:01<38:10,  2.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▉        | 228/1176 [08:05<48:06,  3.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 19%|█▉        | 229/1176 [08:09<51:07,  3.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|█▉        | 230/1176 [08:11<43:53,  2.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|█▉        | 231/1176 [08:13<43:57,  2.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|█▉        | 232/1176 [08:15<39:51,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|█▉        | 233/1176 [08:21<56:16,  3.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|█▉        | 234/1176 [08:24<50:47,  3.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|█▉        | 235/1176 [08:26<47:29,  3.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|██        | 236/1176 [08:28<40:59,  2.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|██        | 237/1176 [08:30<39:05,  2.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|██        | 238/1176 [08:35<47:52,  3.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|██        | 239/1176 [08:37<45:33,  2.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|██        | 240/1176 [08:39<41:13,  2.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 20%|██        | 241/1176 [08:41<36:17,  2.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 21%|██        | 242/1176 [08:42<32:14,  2.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 21%|██        | 243/1176 [08:44<30:45,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 21%|██        | 244/1176 [08:45<27:59,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 21%|██        | 245/1176 [08:47<27:01,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 21%|██        | 246/1176 [08:50<35:05,  2.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 21%|██        | 247/1176 [08:53<35:23,  2.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 21%|██        | 248/1176 [08:55<32:59,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 21%|██        | 249/1176 [08:57<34:36,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 21%|██▏       | 250/1176 [09:00<36:21,  2.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 21%|██▏       | 251/1176 [09:04<44:20,  2.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 21%|██▏       | 252/1176 [09:06<40:36,  2.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 253/1176 [09:08<38:24,  2.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 254/1176 [09:10<36:28,  2.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 255/1176 [09:12<33:28,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 256/1176 [09:13<30:51,  2.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 257/1176 [09:15<28:30,  1.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 258/1176 [09:16<26:04,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 259/1176 [09:18<24:33,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 260/1176 [09:19<21:20,  1.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 261/1176 [09:20<18:58,  1.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 262/1176 [09:23<28:04,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 263/1176 [09:25<28:37,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 22%|██▏       | 264/1176 [09:27<29:56,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 265/1176 [09:28<27:47,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 266/1176 [09:30<28:06,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 267/1176 [09:32<29:33,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 268/1176 [09:34<26:39,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 269/1176 [09:37<31:01,  2.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 270/1176 [09:38<28:34,  1.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 271/1176 [09:40<27:43,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 272/1176 [09:42<27:12,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 273/1176 [09:43<25:38,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 274/1176 [09:45<27:12,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 275/1176 [09:47<26:05,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 23%|██▎       | 276/1176 [09:48<25:00,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▎       | 277/1176 [09:50<24:11,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▎       | 278/1176 [09:51<22:16,  1.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▎       | 279/1176 [09:53<24:04,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▍       | 280/1176 [09:54<23:24,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▍       | 281/1176 [09:55<22:08,  1.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▍       | 282/1176 [09:59<30:49,  2.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▍       | 283/1176 [10:00<28:20,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▍       | 284/1176 [10:02<26:04,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▍       | 285/1176 [10:03<24:49,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▍       | 286/1176 [10:04<21:48,  1.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▍       | 287/1176 [10:05<19:54,  1.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 24%|██▍       | 288/1176 [10:07<23:31,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 25%|██▍       | 289/1176 [10:09<23:02,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 25%|██▍       | 290/1176 [10:11<23:04,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 25%|██▍       | 291/1176 [10:12<22:12,  1.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 25%|██▍       | 292/1176 [10:13<21:03,  1.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 25%|██▍       | 293/1176 [10:15<21:03,  1.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 25%|██▌       | 294/1176 [10:16<19:58,  1.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 25%|██▌       | 295/1176 [10:17<20:50,  1.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 25%|██▌       | 296/1176 [10:19<23:02,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 25%|██▌       | 297/1176 [10:21<23:24,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 25%|██▌       | 298/1176 [10:22<22:48,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 25%|██▌       | 299/1176 [10:24<21:28,  1.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▌       | 300/1176 [10:25<20:56,  1.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▌       | 301/1176 [10:30<34:21,  2.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▌       | 302/1176 [10:31<32:25,  2.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▌       | 303/1176 [10:33<30:16,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▌       | 304/1176 [10:35<28:22,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▌       | 305/1176 [10:36<26:12,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▌       | 306/1176 [10:38<26:48,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▌       | 307/1176 [10:40<25:34,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▌       | 308/1176 [10:42<25:31,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▋       | 309/1176 [10:43<24:46,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▋       | 310/1176 [10:45<23:25,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 26%|██▋       | 311/1176 [10:46<23:04,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 312/1176 [10:48<23:18,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 313/1176 [10:49<23:06,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 314/1176 [10:50<19:57,  1.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 315/1176 [10:52<20:47,  1.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 316/1176 [10:53<20:52,  1.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 317/1176 [10:55<21:32,  1.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 318/1176 [10:56<21:35,  1.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 319/1176 [10:58<22:28,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 320/1176 [11:00<25:20,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 321/1176 [11:02<23:58,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 322/1176 [11:04<24:55,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 27%|██▋       | 323/1176 [11:06<24:56,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 324/1176 [11:07<23:21,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 325/1176 [11:08<22:19,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 326/1176 [11:10<22:28,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 327/1176 [11:12<22:27,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 328/1176 [11:13<21:37,  1.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 329/1176 [11:14<21:21,  1.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 330/1176 [11:16<22:26,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 331/1176 [11:18<23:08,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 332/1176 [11:20<25:01,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 333/1176 [11:22<24:55,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 334/1176 [11:23<24:11,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 28%|██▊       | 335/1176 [11:25<24:44,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 29%|██▊       | 336/1176 [11:27<23:13,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 29%|██▊       | 337/1176 [11:29<26:46,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 29%|██▊       | 338/1176 [11:31<24:20,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 29%|██▉       | 339/1176 [11:33<27:14,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 29%|██▉       | 340/1176 [11:35<26:30,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 29%|██▉       | 341/1176 [11:36<25:21,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 29%|██▉       | 342/1176 [11:41<35:59,  2.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 29%|██▉       | 343/1176 [11:44<38:23,  2.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 29%|██▉       | 344/1176 [11:46<34:13,  2.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 29%|██▉       | 345/1176 [11:47<30:36,  2.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 29%|██▉       | 346/1176 [11:49<27:45,  2.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|██▉       | 347/1176 [11:51<28:04,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|██▉       | 348/1176 [11:53<26:07,  1.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|██▉       | 349/1176 [11:54<25:09,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|██▉       | 350/1176 [11:56<24:32,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|██▉       | 351/1176 [11:58<25:37,  1.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|██▉       | 352/1176 [12:00<25:08,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|███       | 353/1176 [12:01<23:18,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|███       | 354/1176 [12:03<22:13,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|███       | 355/1176 [12:04<21:55,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|███       | 356/1176 [12:07<28:57,  2.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|███       | 357/1176 [12:10<29:05,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 30%|███       | 358/1176 [12:11<26:43,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███       | 359/1176 [12:13<26:52,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███       | 360/1176 [12:17<35:47,  2.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███       | 361/1176 [12:19<31:52,  2.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███       | 362/1176 [12:22<35:23,  2.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███       | 363/1176 [12:24<30:13,  2.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███       | 364/1176 [12:25<27:02,  2.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███       | 365/1176 [12:27<25:17,  1.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███       | 366/1176 [12:29<26:52,  1.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███       | 367/1176 [12:30<24:26,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███▏      | 368/1176 [12:32<23:24,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███▏      | 369/1176 [12:33<21:16,  1.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 31%|███▏      | 370/1176 [12:35<21:51,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 371/1176 [12:36<21:41,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 372/1176 [12:41<35:25,  2.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 373/1176 [12:43<30:31,  2.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 374/1176 [12:45<30:38,  2.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 375/1176 [12:50<39:35,  2.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 376/1176 [12:55<48:28,  3.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 377/1176 [12:57<40:12,  3.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 378/1176 [12:58<33:21,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 379/1176 [12:59<28:49,  2.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 380/1176 [13:02<30:39,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 381/1176 [13:03<27:29,  2.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 32%|███▏      | 382/1176 [13:09<43:26,  3.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 33%|███▎      | 383/1176 [13:11<36:06,  2.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 33%|███▎      | 384/1176 [13:12<31:02,  2.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 33%|███▎      | 385/1176 [13:14<28:30,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 33%|███▎      | 386/1176 [13:16<26:34,  2.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 33%|███▎      | 387/1176 [13:17<25:14,  1.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 33%|███▎      | 388/1176 [13:19<23:09,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 33%|███▎      | 389/1176 [13:21<24:05,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 33%|███▎      | 390/1176 [13:22<22:33,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 33%|███▎      | 391/1176 [13:24<21:41,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 33%|███▎      | 392/1176 [13:25<20:14,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 33%|███▎      | 393/1176 [13:27<21:28,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▎      | 394/1176 [13:31<30:20,  2.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▎      | 395/1176 [13:33<29:11,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▎      | 396/1176 [13:35<27:28,  2.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▍      | 397/1176 [13:36<25:40,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▍      | 398/1176 [13:38<23:14,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▍      | 399/1176 [13:40<24:26,  1.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▍      | 400/1176 [13:41<22:51,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▍      | 401/1176 [13:43<21:38,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▍      | 402/1176 [13:45<22:43,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▍      | 403/1176 [13:47<22:23,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▍      | 404/1176 [13:49<26:08,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 34%|███▍      | 405/1176 [13:51<26:24,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▍      | 406/1176 [13:53<26:24,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▍      | 407/1176 [13:55<23:29,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▍      | 408/1176 [13:57<23:32,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▍      | 409/1176 [13:58<21:22,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▍      | 410/1176 [14:00<21:21,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▍      | 411/1176 [14:01<19:56,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▌      | 412/1176 [14:02<19:33,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▌      | 413/1176 [14:04<21:32,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▌      | 414/1176 [14:06<21:36,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▌      | 415/1176 [14:08<21:14,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▌      | 416/1176 [14:10<21:55,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 35%|███▌      | 417/1176 [14:13<28:35,  2.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▌      | 418/1176 [14:14<25:20,  2.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▌      | 419/1176 [14:16<23:10,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▌      | 420/1176 [14:17<20:39,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▌      | 421/1176 [14:19<19:49,  1.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▌      | 422/1176 [14:20<20:15,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▌      | 423/1176 [14:22<22:05,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▌      | 424/1176 [14:24<22:00,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▌      | 425/1176 [14:26<21:16,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▌      | 426/1176 [14:27<21:14,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▋      | 427/1176 [14:30<24:12,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▋      | 428/1176 [14:31<23:08,  1.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 36%|███▋      | 429/1176 [14:33<21:42,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 37%|███▋      | 430/1176 [14:35<21:02,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 37%|███▋      | 431/1176 [14:36<20:42,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 37%|███▋      | 432/1176 [14:38<22:38,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 37%|███▋      | 433/1176 [14:40<23:06,  1.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 37%|███▋      | 434/1176 [14:42<20:58,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 37%|███▋      | 435/1176 [14:43<20:07,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 37%|███▋      | 436/1176 [14:45<20:02,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 37%|███▋      | 437/1176 [14:46<19:12,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 37%|███▋      | 438/1176 [14:48<19:48,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 37%|███▋      | 439/1176 [14:49<19:34,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 37%|███▋      | 440/1176 [14:51<19:38,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 441/1176 [14:53<21:03,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 442/1176 [14:55<22:01,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 443/1176 [14:56<20:08,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 444/1176 [15:00<29:20,  2.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 445/1176 [15:02<26:18,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 446/1176 [15:03<23:37,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 447/1176 [15:05<22:34,  1.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 448/1176 [15:07<21:44,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 449/1176 [15:09<23:00,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 450/1176 [15:13<32:08,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 451/1176 [15:19<43:21,  3.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 38%|███▊      | 452/1176 [15:21<35:24,  2.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▊      | 453/1176 [15:22<30:14,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▊      | 454/1176 [15:24<26:53,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▊      | 455/1176 [15:25<25:10,  2.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▉      | 456/1176 [15:27<23:15,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▉      | 457/1176 [15:29<22:34,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▉      | 458/1176 [15:30<20:14,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▉      | 459/1176 [15:31<19:35,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▉      | 460/1176 [15:34<21:20,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▉      | 461/1176 [15:35<19:13,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▉      | 462/1176 [15:36<18:22,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▉      | 463/1176 [15:37<17:18,  1.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 39%|███▉      | 464/1176 [15:39<16:50,  1.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|███▉      | 465/1176 [15:40<17:21,  1.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|███▉      | 466/1176 [15:42<17:47,  1.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|███▉      | 467/1176 [15:47<29:14,  2.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|███▉      | 468/1176 [15:48<25:02,  2.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|███▉      | 469/1176 [15:49<22:24,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|███▉      | 470/1176 [15:51<21:07,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|████      | 471/1176 [15:52<20:08,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|████      | 472/1176 [15:54<18:47,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|████      | 473/1176 [15:55<18:18,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|████      | 474/1176 [15:57<18:22,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|████      | 475/1176 [16:02<31:59,  2.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 40%|████      | 476/1176 [16:04<27:27,  2.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████      | 477/1176 [16:05<24:35,  2.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████      | 478/1176 [16:09<28:27,  2.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████      | 479/1176 [16:13<37:06,  3.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████      | 480/1176 [16:15<30:57,  2.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████      | 481/1176 [16:19<37:08,  3.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████      | 482/1176 [16:21<32:21,  2.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████      | 483/1176 [16:23<27:46,  2.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████      | 484/1176 [16:24<25:24,  2.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████      | 485/1176 [16:27<25:37,  2.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████▏     | 486/1176 [16:28<22:39,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████▏     | 487/1176 [16:29<20:34,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 41%|████▏     | 488/1176 [16:31<19:21,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 42%|████▏     | 489/1176 [16:33<18:55,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 42%|████▏     | 490/1176 [16:34<18:58,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 42%|████▏     | 491/1176 [16:36<18:52,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 42%|████▏     | 492/1176 [16:37<18:28,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 42%|████▏     | 493/1176 [16:39<18:41,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 42%|████▏     | 494/1176 [16:41<20:22,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 42%|████▏     | 495/1176 [16:43<20:26,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 42%|████▏     | 496/1176 [16:45<19:35,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 42%|████▏     | 497/1176 [16:46<18:02,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 42%|████▏     | 498/1176 [16:50<26:03,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 42%|████▏     | 499/1176 [16:51<23:13,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 500/1176 [16:53<22:19,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 501/1176 [16:55<21:35,  1.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 502/1176 [16:56<20:15,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 503/1176 [16:58<18:58,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 504/1176 [16:59<18:33,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 505/1176 [17:01<18:32,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 506/1176 [17:03<19:11,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 507/1176 [17:05<18:46,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 508/1176 [17:06<18:43,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 509/1176 [17:08<17:57,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 510/1176 [17:09<17:44,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 43%|████▎     | 511/1176 [17:11<17:01,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▎     | 512/1176 [17:14<23:03,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▎     | 513/1176 [17:16<21:12,  1.92s/it][anthropic._base_client] Retrying request to /v1/messages in 0.393581 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▎     | 514/1176 [17:18<23:30,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▍     | 515/1176 [17:19<19:12,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▍     | 516/1176 [17:20<16:17,  1.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▍     | 517/1176 [17:23<22:34,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▍     | 518/1176 [17:25<21:36,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▍     | 519/1176 [17:27<20:04,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▍     | 520/1176 [17:28<18:36,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▍     | 521/1176 [17:31<21:31,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▍     | 522/1176 [17:32<19:05,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 44%|████▍     | 523/1176 [17:33<18:09,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▍     | 524/1176 [17:35<17:20,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▍     | 525/1176 [17:36<16:40,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▍     | 526/1176 [17:41<26:47,  2.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▍     | 527/1176 [17:42<24:16,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▍     | 528/1176 [17:45<24:09,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▍     | 529/1176 [17:48<27:02,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▌     | 530/1176 [17:49<23:12,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▌     | 531/1176 [17:51<21:40,  2.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▌     | 532/1176 [17:53<20:42,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▌     | 533/1176 [17:54<20:43,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▌     | 534/1176 [17:56<19:47,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 45%|████▌     | 535/1176 [17:59<22:32,  2.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 46%|████▌     | 536/1176 [18:00<20:41,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 46%|████▌     | 537/1176 [18:03<21:29,  2.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 46%|████▌     | 538/1176 [18:04<20:29,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 46%|████▌     | 539/1176 [18:06<18:48,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 46%|████▌     | 540/1176 [18:08<20:20,  1.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 46%|████▌     | 541/1176 [18:09<18:28,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 46%|████▌     | 542/1176 [18:11<18:29,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 46%|████▌     | 543/1176 [18:13<17:33,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 46%|████▋     | 544/1176 [18:14<17:11,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 46%|████▋     | 545/1176 [18:16<16:53,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 46%|████▋     | 546/1176 [18:17<17:33,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 547/1176 [18:21<21:51,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 548/1176 [18:23<21:52,  2.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 549/1176 [18:24<20:13,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 550/1176 [18:26<18:08,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 551/1176 [18:27<18:33,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 552/1176 [18:29<16:52,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 553/1176 [18:30<16:24,  1.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 554/1176 [18:33<19:52,  1.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 555/1176 [18:34<18:04,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 556/1176 [18:36<17:49,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 557/1176 [18:40<26:45,  2.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 47%|████▋     | 558/1176 [18:42<23:37,  2.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 559/1176 [18:48<35:28,  3.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 560/1176 [18:53<40:08,  3.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 561/1176 [18:55<34:04,  3.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 562/1176 [18:58<33:46,  3.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 563/1176 [19:03<38:16,  3.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 564/1176 [19:06<35:22,  3.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 565/1176 [19:10<37:43,  3.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 566/1176 [19:12<32:26,  3.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 567/1176 [19:15<31:16,  3.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 568/1176 [19:29<1:03:45,  6.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 569/1176 [19:31<50:41,  5.01s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 48%|████▊     | 570/1176 [19:33<40:29,  4.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▊     | 571/1176 [19:35<35:57,  3.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▊     | 572/1176 [19:37<30:04,  2.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▊     | 573/1176 [19:38<25:29,  2.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▉     | 574/1176 [19:40<24:38,  2.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▉     | 575/1176 [19:42<22:47,  2.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▉     | 576/1176 [19:44<22:14,  2.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▉     | 577/1176 [19:47<22:51,  2.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▉     | 578/1176 [19:53<35:02,  3.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▉     | 579/1176 [19:55<30:07,  3.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▉     | 580/1176 [19:57<26:43,  2.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▉     | 581/1176 [20:00<26:23,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 49%|████▉     | 582/1176 [20:02<25:09,  2.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 50%|████▉     | 583/1176 [20:05<27:10,  2.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 50%|████▉     | 584/1176 [20:07<25:41,  2.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 50%|████▉     | 585/1176 [20:09<23:58,  2.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 50%|████▉     | 586/1176 [20:11<21:03,  2.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 50%|████▉     | 587/1176 [20:13<20:35,  2.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 50%|█████     | 588/1176 [20:15<20:06,  2.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 50%|█████     | 589/1176 [20:16<18:54,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 50%|█████     | 590/1176 [20:18<17:02,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 50%|█████     | 591/1176 [20:19<15:47,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 50%|█████     | 592/1176 [20:20<14:37,  1.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 50%|█████     | 593/1176 [20:22<15:58,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████     | 594/1176 [20:24<14:59,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████     | 595/1176 [20:26<16:53,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████     | 596/1176 [20:28<16:55,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████     | 597/1176 [20:29<15:45,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████     | 598/1176 [20:30<14:57,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████     | 599/1176 [20:33<18:44,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████     | 600/1176 [20:37<25:07,  2.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████     | 601/1176 [20:40<25:10,  2.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████     | 602/1176 [20:42<24:06,  2.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████▏    | 603/1176 [20:44<22:58,  2.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████▏    | 604/1176 [20:47<23:25,  2.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 51%|█████▏    | 605/1176 [20:51<26:46,  2.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 606/1176 [20:52<23:28,  2.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 607/1176 [20:54<22:20,  2.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 608/1176 [20:57<22:24,  2.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 609/1176 [21:00<25:17,  2.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 610/1176 [21:02<22:18,  2.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 611/1176 [21:03<19:35,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 612/1176 [21:05<18:58,  2.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 613/1176 [21:08<20:55,  2.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 614/1176 [21:10<21:52,  2.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 615/1176 [21:13<21:30,  2.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 616/1176 [21:15<20:26,  2.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 52%|█████▏    | 617/1176 [21:16<18:54,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 618/1176 [21:18<17:47,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 619/1176 [21:21<21:46,  2.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 620/1176 [21:23<19:22,  2.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 621/1176 [21:24<17:53,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 622/1176 [21:27<19:28,  2.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 623/1176 [21:28<18:11,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 624/1176 [21:30<17:13,  1.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 625/1176 [21:31<15:28,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 626/1176 [21:34<18:35,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 627/1176 [21:35<15:42,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 628/1176 [21:37<16:19,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 53%|█████▎    | 629/1176 [21:39<15:42,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 54%|█████▎    | 630/1176 [21:41<18:08,  1.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 54%|█████▎    | 631/1176 [21:43<15:55,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 54%|█████▎    | 632/1176 [21:46<19:20,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 54%|█████▍    | 633/1176 [21:49<22:48,  2.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 54%|█████▍    | 634/1176 [21:51<22:29,  2.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 54%|█████▍    | 635/1176 [21:54<21:40,  2.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 54%|█████▍    | 636/1176 [21:55<19:44,  2.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 54%|█████▍    | 637/1176 [21:57<19:36,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 54%|█████▍    | 638/1176 [22:01<22:12,  2.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 54%|█████▍    | 639/1176 [22:03<20:34,  2.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 54%|█████▍    | 640/1176 [22:04<18:07,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▍    | 641/1176 [22:06<17:36,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▍    | 642/1176 [22:08<18:10,  2.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▍    | 643/1176 [22:10<17:29,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▍    | 644/1176 [22:11<16:49,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▍    | 645/1176 [22:13<16:02,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▍    | 646/1176 [22:15<16:05,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▌    | 647/1176 [22:17<16:11,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▌    | 648/1176 [22:19<16:14,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▌    | 649/1176 [22:26<31:16,  3.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▌    | 650/1176 [22:28<27:04,  3.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▌    | 651/1176 [22:30<23:16,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 55%|█████▌    | 652/1176 [22:32<21:09,  2.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▌    | 653/1176 [22:34<19:34,  2.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▌    | 654/1176 [22:35<17:47,  2.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▌    | 655/1176 [22:37<16:27,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▌    | 656/1176 [22:39<16:18,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▌    | 657/1176 [22:42<21:17,  2.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▌    | 658/1176 [22:46<24:08,  2.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▌    | 659/1176 [22:48<21:35,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▌    | 660/1176 [22:50<20:32,  2.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▌    | 661/1176 [22:51<17:37,  2.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▋    | 662/1176 [23:03<41:47,  4.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▋    | 663/1176 [23:05<35:12,  4.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 56%|█████▋    | 664/1176 [23:07<30:36,  3.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 665/1176 [23:10<28:59,  3.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 666/1176 [23:13<26:50,  3.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 667/1176 [23:15<24:09,  2.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 668/1176 [23:17<22:07,  2.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 669/1176 [23:19<21:15,  2.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 670/1176 [23:22<21:30,  2.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 671/1176 [23:25<23:16,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 672/1176 [23:27<21:37,  2.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 673/1176 [23:33<29:56,  3.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 674/1176 [23:40<36:56,  4.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 675/1176 [23:43<33:00,  3.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 57%|█████▋    | 676/1176 [23:47<35:10,  4.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 58%|█████▊    | 677/1176 [23:50<31:24,  3.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 58%|█████▊    | 678/1176 [23:53<29:19,  3.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 58%|█████▊    | 679/1176 [23:55<26:08,  3.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 58%|█████▊    | 680/1176 [23:57<22:48,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 58%|█████▊    | 681/1176 [24:00<21:54,  2.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 58%|█████▊    | 682/1176 [24:02<22:04,  2.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 58%|█████▊    | 683/1176 [24:04<20:35,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 58%|█████▊    | 684/1176 [24:08<22:50,  2.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 58%|█████▊    | 685/1176 [24:09<19:45,  2.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 58%|█████▊    | 686/1176 [24:15<27:56,  3.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 58%|█████▊    | 687/1176 [24:21<33:12,  4.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▊    | 688/1176 [24:24<30:12,  3.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▊    | 689/1176 [24:28<32:15,  3.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▊    | 690/1176 [24:32<32:21,  3.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▉    | 691/1176 [24:36<30:38,  3.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▉    | 692/1176 [24:38<27:17,  3.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▉    | 693/1176 [24:41<25:18,  3.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▉    | 694/1176 [24:42<21:43,  2.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▉    | 695/1176 [24:45<22:12,  2.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▉    | 696/1176 [24:48<22:19,  2.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▉    | 697/1176 [24:50<21:15,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▉    | 698/1176 [24:54<23:19,  2.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 59%|█████▉    | 699/1176 [24:56<21:55,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|█████▉    | 700/1176 [25:00<22:55,  2.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|█████▉    | 701/1176 [25:02<21:42,  2.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|█████▉    | 702/1176 [25:04<20:58,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|█████▉    | 703/1176 [25:07<20:48,  2.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|█████▉    | 704/1176 [25:10<20:23,  2.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|█████▉    | 705/1176 [25:11<18:37,  2.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|██████    | 706/1176 [25:14<18:30,  2.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|██████    | 707/1176 [25:18<22:05,  2.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|██████    | 708/1176 [25:19<19:45,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|██████    | 709/1176 [25:22<19:51,  2.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|██████    | 710/1176 [25:24<18:45,  2.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 60%|██████    | 711/1176 [25:25<16:05,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████    | 712/1176 [25:27<14:45,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████    | 713/1176 [25:29<14:59,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████    | 714/1176 [25:32<16:29,  2.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████    | 715/1176 [25:34<17:21,  2.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████    | 716/1176 [25:39<22:14,  2.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████    | 717/1176 [25:40<20:01,  2.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████    | 718/1176 [25:43<19:32,  2.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████    | 719/1176 [25:46<21:08,  2.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████    | 720/1176 [25:49<20:28,  2.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████▏   | 721/1176 [25:52<20:56,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████▏   | 722/1176 [25:53<18:29,  2.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 61%|██████▏   | 723/1176 [25:55<16:13,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▏   | 724/1176 [25:56<14:35,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▏   | 725/1176 [25:58<13:09,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▏   | 726/1176 [26:00<14:44,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▏   | 727/1176 [26:03<16:26,  2.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▏   | 728/1176 [26:07<21:23,  2.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▏   | 729/1176 [26:10<21:04,  2.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▏   | 730/1176 [26:12<19:58,  2.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▏   | 731/1176 [26:17<25:08,  3.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▏   | 732/1176 [26:20<24:10,  3.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▏   | 733/1176 [26:23<23:25,  3.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▏   | 734/1176 [26:26<21:33,  2.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 62%|██████▎   | 735/1176 [26:28<20:41,  2.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 63%|██████▎   | 736/1176 [26:32<22:58,  3.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 63%|██████▎   | 737/1176 [26:34<19:33,  2.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 63%|██████▎   | 738/1176 [26:43<33:49,  4.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 63%|██████▎   | 739/1176 [26:46<29:52,  4.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 63%|██████▎   | 740/1176 [26:49<28:00,  3.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 63%|██████▎   | 741/1176 [26:52<25:51,  3.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 63%|██████▎   | 742/1176 [26:53<21:35,  2.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 63%|██████▎   | 743/1176 [26:55<18:55,  2.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 63%|██████▎   | 744/1176 [26:57<17:31,  2.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 63%|██████▎   | 745/1176 [26:59<15:15,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 63%|██████▎   | 746/1176 [27:00<14:30,  2.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▎   | 747/1176 [27:03<15:24,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▎   | 748/1176 [27:06<18:16,  2.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▎   | 749/1176 [27:11<22:53,  3.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▍   | 750/1176 [27:13<20:58,  2.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▍   | 751/1176 [27:17<22:06,  3.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▍   | 752/1176 [27:21<23:19,  3.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▍   | 753/1176 [27:24<24:00,  3.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▍   | 754/1176 [27:28<23:23,  3.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▍   | 755/1176 [27:30<20:33,  2.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▍   | 756/1176 [27:38<31:51,  4.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▍   | 757/1176 [27:40<27:03,  3.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 64%|██████▍   | 758/1176 [27:44<26:09,  3.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▍   | 759/1176 [27:49<29:48,  4.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▍   | 760/1176 [27:53<28:05,  4.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▍   | 761/1176 [27:55<24:13,  3.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▍   | 762/1176 [27:57<21:36,  3.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▍   | 763/1176 [27:59<19:39,  2.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▍   | 764/1176 [28:01<18:04,  2.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▌   | 765/1176 [28:04<17:44,  2.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▌   | 766/1176 [28:05<15:21,  2.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▌   | 767/1176 [28:07<14:41,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▌   | 768/1176 [28:09<13:49,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▌   | 769/1176 [28:12<15:09,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 65%|██████▌   | 770/1176 [28:13<13:38,  2.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▌   | 771/1176 [28:15<13:06,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▌   | 772/1176 [28:20<19:30,  2.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▌   | 773/1176 [28:22<17:52,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▌   | 774/1176 [28:26<20:04,  3.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▌   | 775/1176 [28:31<22:56,  3.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▌   | 776/1176 [28:34<23:29,  3.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▌   | 777/1176 [28:39<26:13,  3.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▌   | 778/1176 [28:42<23:04,  3.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▌   | 779/1176 [28:44<19:59,  3.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▋   | 780/1176 [28:46<19:07,  2.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▋   | 781/1176 [28:51<22:22,  3.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 66%|██████▋   | 782/1176 [28:55<24:02,  3.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 67%|██████▋   | 783/1176 [28:58<21:50,  3.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 67%|██████▋   | 784/1176 [29:01<21:20,  3.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 67%|██████▋   | 785/1176 [29:04<20:49,  3.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 67%|██████▋   | 786/1176 [29:10<27:03,  4.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 67%|██████▋   | 787/1176 [29:15<27:40,  4.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 67%|██████▋   | 788/1176 [29:19<27:01,  4.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 67%|██████▋   | 789/1176 [29:22<25:46,  4.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 67%|██████▋   | 790/1176 [29:26<25:33,  3.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 67%|██████▋   | 791/1176 [29:29<23:54,  3.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 67%|██████▋   | 792/1176 [29:33<24:36,  3.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 67%|██████▋   | 793/1176 [29:36<22:00,  3.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 794/1176 [29:39<20:22,  3.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 795/1176 [29:42<21:03,  3.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 796/1176 [29:44<18:59,  3.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 797/1176 [29:47<18:07,  2.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 798/1176 [29:49<15:57,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 799/1176 [29:52<16:42,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 800/1176 [29:54<16:28,  2.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 801/1176 [29:56<14:24,  2.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 802/1176 [29:59<15:28,  2.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 803/1176 [30:01<14:40,  2.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 804/1176 [30:03<14:54,  2.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 68%|██████▊   | 805/1176 [30:05<14:21,  2.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▊   | 806/1176 [30:07<13:49,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▊   | 807/1176 [30:10<14:37,  2.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▊   | 808/1176 [30:13<15:52,  2.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▉   | 809/1176 [30:15<13:43,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▉   | 810/1176 [30:17<14:29,  2.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▉   | 811/1176 [30:20<15:16,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▉   | 812/1176 [30:25<18:50,  3.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▉   | 813/1176 [30:28<18:47,  3.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▉   | 814/1176 [30:30<17:57,  2.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▉   | 815/1176 [30:34<18:18,  3.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▉   | 816/1176 [30:35<15:39,  2.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 69%|██████▉   | 817/1176 [30:37<13:59,  2.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|██████▉   | 818/1176 [30:41<16:14,  2.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|██████▉   | 819/1176 [30:43<16:15,  2.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|██████▉   | 820/1176 [30:46<16:20,  2.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|██████▉   | 821/1176 [30:49<16:59,  2.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|██████▉   | 822/1176 [30:52<16:34,  2.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|██████▉   | 823/1176 [30:55<16:19,  2.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|███████   | 824/1176 [30:58<16:55,  2.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|███████   | 825/1176 [30:59<14:21,  2.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|███████   | 826/1176 [31:01<13:46,  2.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|███████   | 827/1176 [31:04<14:06,  2.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|███████   | 828/1176 [31:05<12:05,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 70%|███████   | 829/1176 [31:07<11:13,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 71%|███████   | 830/1176 [31:09<11:18,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 71%|███████   | 831/1176 [31:10<10:03,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 71%|███████   | 832/1176 [31:12<10:33,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 71%|███████   | 833/1176 [31:17<16:02,  2.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 71%|███████   | 834/1176 [31:22<18:47,  3.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 71%|███████   | 835/1176 [31:27<21:36,  3.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 71%|███████   | 836/1176 [31:28<17:30,  3.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 71%|███████   | 837/1176 [31:31<16:29,  2.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 71%|███████▏  | 838/1176 [31:35<18:46,  3.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 71%|███████▏  | 839/1176 [31:36<15:43,  2.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 71%|███████▏  | 840/1176 [31:40<17:37,  3.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 841/1176 [31:42<15:33,  2.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 842/1176 [31:44<14:15,  2.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 843/1176 [31:47<14:44,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 844/1176 [31:50<14:44,  2.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 845/1176 [31:53<15:44,  2.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 846/1176 [31:55<14:38,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 847/1176 [31:57<12:38,  2.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 848/1176 [32:02<16:36,  3.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 849/1176 [32:06<19:31,  3.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 850/1176 [32:10<18:49,  3.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 851/1176 [32:12<16:48,  3.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 72%|███████▏  | 852/1176 [32:14<15:46,  2.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 853/1176 [32:19<18:50,  3.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 854/1176 [32:22<17:53,  3.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 855/1176 [32:25<17:12,  3.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 856/1176 [32:28<17:02,  3.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 857/1176 [32:30<14:46,  2.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 858/1176 [32:32<12:52,  2.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 859/1176 [32:33<11:15,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 860/1176 [32:35<10:14,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 861/1176 [32:37<10:36,  2.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 862/1176 [32:39<10:00,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 863/1176 [32:40<09:57,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 73%|███████▎  | 864/1176 [32:43<10:18,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▎  | 865/1176 [32:45<11:28,  2.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▎  | 866/1176 [32:48<12:38,  2.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▎  | 867/1176 [32:51<13:06,  2.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▍  | 868/1176 [32:54<14:02,  2.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▍  | 869/1176 [32:56<12:00,  2.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▍  | 870/1176 [32:58<11:21,  2.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▍  | 871/1176 [32:59<10:21,  2.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▍  | 872/1176 [33:01<09:58,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▍  | 873/1176 [33:03<09:45,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▍  | 874/1176 [33:05<09:18,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▍  | 875/1176 [33:07<10:35,  2.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 74%|███████▍  | 876/1176 [33:10<11:25,  2.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 75%|███████▍  | 877/1176 [33:12<10:17,  2.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 75%|███████▍  | 878/1176 [33:16<13:50,  2.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 75%|███████▍  | 879/1176 [33:22<17:56,  3.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 75%|███████▍  | 880/1176 [33:23<14:44,  2.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 75%|███████▍  | 881/1176 [33:26<14:16,  2.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 75%|███████▌  | 882/1176 [33:28<13:53,  2.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 75%|███████▌  | 883/1176 [33:31<13:44,  2.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 75%|███████▌  | 884/1176 [33:33<11:57,  2.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 75%|███████▌  | 885/1176 [33:35<11:46,  2.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 75%|███████▌  | 886/1176 [33:38<11:34,  2.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 75%|███████▌  | 887/1176 [33:41<12:41,  2.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▌  | 888/1176 [33:43<11:59,  2.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▌  | 889/1176 [33:47<14:15,  2.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▌  | 890/1176 [33:51<16:00,  3.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▌  | 891/1176 [33:54<15:07,  3.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▌  | 892/1176 [33:59<17:12,  3.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▌  | 893/1176 [34:03<17:34,  3.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▌  | 894/1176 [34:07<18:54,  4.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▌  | 895/1176 [34:11<18:25,  3.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▌  | 896/1176 [34:14<17:11,  3.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▋  | 897/1176 [34:16<15:03,  3.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▋  | 898/1176 [34:18<13:19,  2.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 76%|███████▋  | 899/1176 [34:21<12:17,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 900/1176 [34:23<11:23,  2.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 901/1176 [34:25<11:28,  2.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 902/1176 [34:28<12:20,  2.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 903/1176 [34:32<12:52,  2.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 904/1176 [34:35<13:17,  2.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 905/1176 [34:37<12:54,  2.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 906/1176 [34:40<11:58,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 907/1176 [34:42<11:44,  2.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 908/1176 [34:45<11:26,  2.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 909/1176 [34:47<11:28,  2.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 910/1176 [34:50<11:22,  2.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 77%|███████▋  | 911/1176 [34:52<11:00,  2.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 912/1176 [34:53<09:32,  2.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 913/1176 [34:56<10:16,  2.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 914/1176 [34:58<09:54,  2.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 915/1176 [35:00<09:14,  2.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 916/1176 [35:02<09:12,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 917/1176 [35:05<10:01,  2.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 918/1176 [35:08<10:37,  2.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 919/1176 [35:10<10:49,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 920/1176 [35:12<09:51,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 921/1176 [35:14<09:11,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 922/1176 [35:18<11:48,  2.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 78%|███████▊  | 923/1176 [35:22<12:52,  3.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 79%|███████▊  | 924/1176 [35:23<10:49,  2.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 79%|███████▊  | 925/1176 [35:25<09:06,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 79%|███████▊  | 926/1176 [35:27<08:48,  2.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 79%|███████▉  | 927/1176 [35:28<08:24,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 79%|███████▉  | 928/1176 [35:32<10:38,  2.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 79%|███████▉  | 929/1176 [35:34<09:41,  2.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 79%|███████▉  | 930/1176 [35:37<10:29,  2.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 79%|███████▉  | 931/1176 [35:39<09:47,  2.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 79%|███████▉  | 932/1176 [35:43<10:56,  2.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 79%|███████▉  | 933/1176 [35:45<10:32,  2.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 79%|███████▉  | 934/1176 [35:48<10:30,  2.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|███████▉  | 935/1176 [35:50<09:46,  2.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|███████▉  | 936/1176 [35:52<10:02,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|███████▉  | 937/1176 [35:55<10:27,  2.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|███████▉  | 938/1176 [35:57<09:14,  2.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|███████▉  | 939/1176 [35:59<08:26,  2.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|███████▉  | 940/1176 [36:00<07:45,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|████████  | 941/1176 [36:02<08:00,  2.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|████████  | 942/1176 [36:05<08:29,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|████████  | 943/1176 [36:07<08:50,  2.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|████████  | 944/1176 [36:09<07:58,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|████████  | 945/1176 [36:11<08:07,  2.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 80%|████████  | 946/1176 [36:13<07:36,  1.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████  | 947/1176 [36:15<08:10,  2.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████  | 948/1176 [36:17<07:41,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████  | 949/1176 [36:20<08:42,  2.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████  | 950/1176 [36:22<08:11,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████  | 951/1176 [36:24<08:19,  2.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████  | 952/1176 [36:27<08:59,  2.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████  | 953/1176 [36:29<08:13,  2.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████  | 954/1176 [36:31<08:16,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████  | 955/1176 [36:34<08:49,  2.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████▏ | 956/1176 [36:36<08:46,  2.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████▏ | 957/1176 [36:39<08:59,  2.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 81%|████████▏ | 958/1176 [36:41<08:25,  2.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 959/1176 [36:43<08:16,  2.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 960/1176 [36:47<09:48,  2.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 961/1176 [36:49<09:05,  2.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 962/1176 [36:51<08:19,  2.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 963/1176 [36:54<09:19,  2.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 964/1176 [36:57<09:34,  2.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 965/1176 [37:00<09:44,  2.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 966/1176 [37:01<08:24,  2.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 967/1176 [37:04<08:24,  2.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 968/1176 [37:05<07:27,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 969/1176 [37:07<07:01,  2.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 82%|████████▏ | 970/1176 [37:09<06:33,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 83%|████████▎ | 971/1176 [37:10<05:53,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 83%|████████▎ | 972/1176 [37:12<05:37,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 83%|████████▎ | 973/1176 [37:13<05:23,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 83%|████████▎ | 974/1176 [37:16<06:36,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 83%|████████▎ | 975/1176 [37:18<06:56,  2.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 83%|████████▎ | 976/1176 [37:20<06:27,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 83%|████████▎ | 977/1176 [37:23<07:21,  2.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 83%|████████▎ | 978/1176 [37:26<07:57,  2.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 83%|████████▎ | 979/1176 [37:28<08:06,  2.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 83%|████████▎ | 980/1176 [37:30<07:49,  2.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 83%|████████▎ | 981/1176 [37:33<08:23,  2.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▎ | 982/1176 [37:36<08:45,  2.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▎ | 983/1176 [37:39<08:57,  2.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▎ | 984/1176 [37:42<08:22,  2.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▍ | 985/1176 [37:44<08:11,  2.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▍ | 986/1176 [37:47<08:09,  2.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▍ | 987/1176 [37:49<07:31,  2.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▍ | 988/1176 [37:50<06:43,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▍ | 989/1176 [37:52<06:08,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▍ | 990/1176 [37:55<07:06,  2.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▍ | 991/1176 [37:57<07:15,  2.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▍ | 992/1176 [38:00<07:47,  2.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 84%|████████▍ | 993/1176 [38:02<06:54,  2.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▍ | 994/1176 [38:04<06:25,  2.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▍ | 995/1176 [38:06<06:39,  2.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▍ | 996/1176 [38:17<14:18,  4.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▍ | 997/1176 [38:20<13:02,  4.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▍ | 998/1176 [38:24<12:38,  4.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▍ | 999/1176 [38:29<13:10,  4.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▌ | 1000/1176 [38:35<14:34,  4.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▌ | 1001/1176 [38:38<12:11,  4.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▌ | 1002/1176 [38:41<11:15,  3.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▌ | 1003/1176 [38:43<09:40,  3.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▌ | 1004/1176 [38:47<10:31,  3.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 85%|████████▌ | 1005/1176 [38:49<08:45,  3.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▌ | 1006/1176 [38:51<07:50,  2.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▌ | 1007/1176 [38:54<08:01,  2.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▌ | 1008/1176 [38:58<08:21,  2.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▌ | 1009/1176 [39:00<07:32,  2.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▌ | 1010/1176 [39:03<07:56,  2.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▌ | 1011/1176 [39:06<08:32,  3.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▌ | 1012/1176 [39:13<11:03,  4.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▌ | 1013/1176 [39:15<09:55,  3.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▌ | 1014/1176 [39:19<09:52,  3.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▋ | 1015/1176 [39:22<09:28,  3.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▋ | 1016/1176 [39:25<08:28,  3.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 86%|████████▋ | 1017/1176 [39:27<07:21,  2.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 87%|████████▋ | 1018/1176 [39:30<08:06,  3.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 87%|████████▋ | 1019/1176 [39:34<08:31,  3.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 87%|████████▋ | 1020/1176 [39:38<08:39,  3.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 87%|████████▋ | 1021/1176 [39:41<08:35,  3.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 87%|████████▋ | 1022/1176 [39:43<07:29,  2.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 87%|████████▋ | 1023/1176 [39:47<08:07,  3.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 87%|████████▋ | 1024/1176 [39:50<08:19,  3.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 87%|████████▋ | 1025/1176 [39:53<07:51,  3.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 87%|████████▋ | 1026/1176 [39:57<08:37,  3.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 87%|████████▋ | 1027/1176 [40:01<08:35,  3.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 87%|████████▋ | 1028/1176 [40:04<08:13,  3.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1029/1176 [40:08<09:00,  3.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1030/1176 [40:14<10:55,  4.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1031/1176 [40:17<09:43,  4.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1032/1176 [40:21<09:08,  3.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1033/1176 [40:24<08:43,  3.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1034/1176 [40:28<08:45,  3.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1035/1176 [40:33<09:33,  4.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1036/1176 [40:36<09:03,  3.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1037/1176 [40:38<07:52,  3.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1038/1176 [40:43<08:30,  3.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1039/1176 [40:45<07:26,  3.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 88%|████████▊ | 1040/1176 [40:47<06:45,  2.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▊ | 1041/1176 [40:51<06:55,  3.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▊ | 1042/1176 [40:56<08:13,  3.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▊ | 1043/1176 [40:59<07:33,  3.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▉ | 1044/1176 [41:02<07:12,  3.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▉ | 1045/1176 [41:03<06:15,  2.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▉ | 1046/1176 [41:08<07:12,  3.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▉ | 1047/1176 [41:11<06:50,  3.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▉ | 1048/1176 [41:14<06:36,  3.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▉ | 1049/1176 [41:19<08:15,  3.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▉ | 1050/1176 [41:22<07:35,  3.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▉ | 1051/1176 [41:25<07:01,  3.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 89%|████████▉ | 1052/1176 [41:29<07:18,  3.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|████████▉ | 1053/1176 [41:31<06:32,  3.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|████████▉ | 1054/1176 [41:36<07:13,  3.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|████████▉ | 1055/1176 [41:39<07:08,  3.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|████████▉ | 1056/1176 [41:43<06:52,  3.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|████████▉ | 1057/1176 [41:45<06:25,  3.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|████████▉ | 1058/1176 [41:48<06:16,  3.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|█████████ | 1059/1176 [41:59<10:26,  5.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|█████████ | 1060/1176 [42:00<08:07,  4.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|█████████ | 1061/1176 [42:02<06:42,  3.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|█████████ | 1062/1176 [42:05<06:28,  3.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|█████████ | 1063/1176 [42:08<05:54,  3.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 90%|█████████ | 1064/1176 [42:11<05:46,  3.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████ | 1065/1176 [42:13<05:18,  2.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████ | 1066/1176 [42:16<05:16,  2.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████ | 1067/1176 [42:19<05:20,  2.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████ | 1068/1176 [42:22<05:06,  2.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████ | 1069/1176 [42:23<04:21,  2.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████ | 1070/1176 [42:25<03:53,  2.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████ | 1071/1176 [42:27<03:53,  2.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████ | 1072/1176 [42:30<03:56,  2.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████ | 1073/1176 [42:31<03:39,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████▏| 1074/1176 [42:35<04:13,  2.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████▏| 1075/1176 [42:36<03:47,  2.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 91%|█████████▏| 1076/1176 [42:38<03:36,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 92%|█████████▏| 1077/1176 [42:40<03:15,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 92%|█████████▏| 1078/1176 [42:42<03:11,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 92%|█████████▏| 1079/1176 [42:46<04:01,  2.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 92%|█████████▏| 1080/1176 [42:49<04:21,  2.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 92%|█████████▏| 1081/1176 [42:52<04:26,  2.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 92%|█████████▏| 1082/1176 [42:54<04:01,  2.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 92%|█████████▏| 1083/1176 [42:57<04:19,  2.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 92%|█████████▏| 1084/1176 [43:00<04:18,  2.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 92%|█████████▏| 1085/1176 [43:03<04:25,  2.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 92%|█████████▏| 1086/1176 [43:06<04:21,  2.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 92%|█████████▏| 1087/1176 [43:08<03:58,  2.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1088/1176 [43:11<03:47,  2.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1089/1176 [43:13<03:31,  2.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1090/1176 [43:15<03:26,  2.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1091/1176 [43:18<03:45,  2.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1092/1176 [43:21<03:32,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1093/1176 [43:22<03:06,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1094/1176 [43:24<02:52,  2.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1095/1176 [43:27<03:10,  2.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1096/1176 [43:29<03:03,  2.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1097/1176 [43:31<02:48,  2.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1098/1176 [43:33<02:47,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 93%|█████████▎| 1099/1176 [43:34<02:32,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▎| 1100/1176 [43:36<02:13,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▎| 1101/1176 [43:37<02:02,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▎| 1102/1176 [43:38<01:55,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▍| 1103/1176 [43:41<02:19,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▍| 1104/1176 [43:43<02:22,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▍| 1105/1176 [43:46<02:42,  2.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▍| 1106/1176 [43:49<02:42,  2.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▍| 1107/1176 [43:51<02:29,  2.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▍| 1108/1176 [43:53<02:34,  2.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▍| 1109/1176 [43:54<02:11,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▍| 1110/1176 [43:56<01:57,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 94%|█████████▍| 1111/1176 [43:57<01:57,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▍| 1112/1176 [43:59<01:45,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▍| 1113/1176 [44:03<02:28,  2.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▍| 1114/1176 [44:05<02:20,  2.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▍| 1115/1176 [44:08<02:34,  2.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▍| 1116/1176 [44:13<03:24,  3.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▍| 1117/1176 [44:15<02:54,  2.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▌| 1118/1176 [44:17<02:26,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▌| 1119/1176 [44:21<02:50,  2.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▌| 1120/1176 [44:22<02:21,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▌| 1121/1176 [44:24<02:11,  2.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▌| 1122/1176 [44:26<01:49,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 95%|█████████▌| 1123/1176 [44:30<02:17,  2.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 96%|█████████▌| 1124/1176 [44:32<02:13,  2.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 96%|█████████▌| 1125/1176 [44:37<02:40,  3.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 96%|█████████▌| 1126/1176 [44:38<02:10,  2.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 96%|█████████▌| 1127/1176 [44:41<02:15,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 96%|█████████▌| 1128/1176 [44:44<02:11,  2.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 96%|█████████▌| 1129/1176 [44:47<02:11,  2.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 96%|█████████▌| 1130/1176 [44:50<02:14,  2.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 96%|█████████▌| 1131/1176 [44:52<01:58,  2.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 96%|█████████▋| 1132/1176 [44:53<01:41,  2.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 96%|█████████▋| 1133/1176 [44:55<01:26,  2.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 96%|█████████▋| 1134/1176 [44:56<01:14,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1135/1176 [44:57<01:10,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1136/1176 [44:59<01:09,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1137/1176 [45:01<01:08,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1138/1176 [45:03<01:09,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1139/1176 [45:05<01:13,  1.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1140/1176 [45:07<01:09,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1141/1176 [45:09<01:08,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1142/1176 [45:11<01:07,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1143/1176 [45:13<01:04,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1144/1176 [45:15<01:04,  2.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1145/1176 [45:17<01:02,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 97%|█████████▋| 1146/1176 [45:19<01:00,  2.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1147/1176 [45:21<00:58,  2.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1148/1176 [45:25<01:12,  2.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1149/1176 [45:28<01:08,  2.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1150/1176 [45:31<01:10,  2.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1151/1176 [45:33<01:06,  2.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1152/1176 [45:36<01:01,  2.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1153/1176 [45:40<01:11,  3.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1154/1176 [45:44<01:10,  3.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1155/1176 [45:49<01:18,  3.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1156/1176 [45:51<01:06,  3.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1157/1176 [45:52<00:52,  2.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 98%|█████████▊| 1158/1176 [45:54<00:44,  2.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▊| 1159/1176 [45:57<00:43,  2.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▊| 1160/1176 [45:59<00:36,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▊| 1161/1176 [46:01<00:34,  2.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▉| 1162/1176 [46:08<00:50,  3.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▉| 1163/1176 [46:11<00:44,  3.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▉| 1164/1176 [46:12<00:33,  2.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▉| 1165/1176 [46:14<00:28,  2.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▉| 1166/1176 [46:16<00:24,  2.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▉| 1167/1176 [46:18<00:21,  2.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▉| 1168/1176 [46:21<00:18,  2.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▉| 1169/1176 [46:23<00:16,  2.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+ 99%|█████████▉| 1170/1176 [46:25<00:13,  2.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+100%|█████████▉| 1171/1176 [46:27<00:11,  2.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+100%|█████████▉| 1172/1176 [46:28<00:07,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+100%|█████████▉| 1173/1176 [46:29<00:05,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+100%|█████████▉| 1174/1176 [46:32<00:03,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+100%|█████████▉| 1175/1176 [46:33<00:01,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+100%|██████████| 1176/1176 [46:34<00:00,  1.51s/it]100%|██████████| 1176/1176 [46:34<00:00,  2.38s/it]
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Directly.json
+[root] End Generation......
+
+--- Sample Generation Debug ---
+PID: chem_1
+Problem: {
+  "query": "\n<image_1> An 'arrow-pushing' diagram is a common type of chemical image used to illustrate electron flow in mechanistic steps. The transition-state structure undergoes changes after the electron has been relocated or reacted. Which of the following options shows the structure after the change? Note: Disregard the arrows in the options. The selected option should represent the immediate product of the next step, not the final product of the reaction.\nA: <image_2>\nB: <image_3>\nC: <image_4>\nD: <image_5>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps).",
+  "gt_content": "<image_3>",
+  "pid": "chem_1",
+  "question": "<image_1> An 'arrow-pushing' diagram is a common type of chemical image used to illustrate electron flow in mechanistic steps. The transition-state structure undergoes changes after the electron has been relocated or reacted. Which of the following options shows the structure after the change? Note: Disregard the arrows in the options. The selected option should represent the immediate product of the next step, not the final product of the reaction.",
+  "options": [
+    "<image_2>",
+    "<image_3>",
+    "<image_4>",
+    "<image_5>"
+  ],
+  "answer": "B",
+  "solution": "",
+  "subject": "Chemistry",
+  "task": "",
+  "category": "Reaction Simulation Pro",
+  "source": "new_annotated",
+  "type": "Multiple choice",
+  "context": "",
+  "response": "\\boxed{C}"
+}
+Generated Response: \boxed{C}
+------ End  ------
+
+
+--- Sample Generation Debug ---
+PID: chem_2
+Problem: {
+  "query": "\n<image_1> An 'arrow-pushing' diagram is a common type of chemical image used to illustrate electron flow in mechanistic steps. The transition-state structure undergoes changes after the electron has been relocated or reacted. Which of the following options shows the structure after the change? Note: Disregard the arrows in the options. The selected option should represent the immediate product of the next step, not the final product of the reaction.\nA: <image_2>\nB: <image_3>\nC: <image_4>\nD: <image_5>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps).",
+  "gt_content": "<image_2>",
+  "pid": "chem_2",
+  "question": "<image_1> An 'arrow-pushing' diagram is a common type of chemical image used to illustrate electron flow in mechanistic steps. The transition-state structure undergoes changes after the electron has been relocated or reacted. Which of the following options shows the structure after the change? Note: Disregard the arrows in the options. The selected option should represent the immediate product of the next step, not the final product of the reaction.",
+  "options": [
+    "<image_2>",
+    "<image_3>",
+    "<image_4>",
+    "<image_5>"
+  ],
+  "answer": "A",
+  "solution": "",
+  "subject": "Chemistry",
+  "task": "",
+  "category": "Reaction Simulation Pro",
+  "source": "new_annotated",
+  "type": "Multiple choice",
+  "context": "",
+  "response": "\\boxed{A}"
+}
+Generated Response: \boxed{A}
+------ End  ------
+
+
+--- Sample Generation Debug ---
+PID: chem_3
+Problem: {
+  "query": "\n<image_1> An 'arrow-pushing' diagram is a common type of chemical image used to illustrate electron flow in mechanistic steps. The transition-state structure undergoes changes after the electron has been relocated or reacted. Which of the following options shows the structure after the change? Note: Disregard the arrows in the options. The selected option should represent the immediate product of the next step, not the final product of the reaction.\nA: <image_2>\nB: <image_3>\nC: <image_4>\nD: <image_5>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps).",
+  "gt_content": "<image_2>",
+  "pid": "chem_3",
+  "question": "<image_1> An 'arrow-pushing' diagram is a common type of chemical image used to illustrate electron flow in mechanistic steps. The transition-state structure undergoes changes after the electron has been relocated or reacted. Which of the following options shows the structure after the change? Note: Disregard the arrows in the options. The selected option should represent the immediate product of the next step, not the final product of the reaction.",
+  "options": [
+    "<image_2>",
+    "<image_3>",
+    "<image_4>",
+    "<image_5>"
+  ],
+  "answer": "A",
+  "solution": "",
+  "subject": "Chemistry",
+  "task": "",
+  "category": "Reaction Simulation Pro",
+  "source": "new_annotated",
+  "type": "Multiple choice",
+  "context": "",
+  "response": "\\boxed{A}"
+}
+Generated Response: \boxed{A}
+------ End  ------
+

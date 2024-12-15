@@ -2,11 +2,11 @@
 
 # Subjects and strategy
 SUBJECT="Chemistry" # You can use multiple subjects separated by spaces
-STRATEGY="CoT" # CoT or Directly
+STRATEGY="Direct" # CoT or Directly
 
 # Remote proprietary model selection
 MODEL="chatgpt-4o-latest" # Remote model name
-API_KEY="<your_api_key>"
+API_KEY= # Your OpenAI API key
 
 # Default additional parameters
 MAX_TOKENS=1024

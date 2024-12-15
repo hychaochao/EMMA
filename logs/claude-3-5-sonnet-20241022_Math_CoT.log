@@ -1,0 +1,11 @@
+usage: generate_response.py [-h] [--dataset_name DATASET_NAME] --subject
+                            SUBJECT [SUBJECT ...] [--split SPLIT]
+                            [--strategy {CoT,Directly}]
+                            [--config_path CONFIG_PATH]
+                            [--output_path OUTPUT_PATH]
+                            [--save_every SAVE_EVERY]
+                            [--model {chatgpt-4o-latest,claude-3-5-sonnet-latest,gemini-2.0-flash-exp}]
+                            [--api_key API_KEY] [--model_path MODEL_PATH]
+                            [--max_tokens MAX_TOKENS]
+                            [--temperature TEMPERATURE]
+generate_response.py: error: argument --model: invalid choice: 'claude-3-5-sonnet-20241022' (choose from 'chatgpt-4o-latest', 'claude-3-5-sonnet-latest', 'gemini-2.0-flash-exp')
