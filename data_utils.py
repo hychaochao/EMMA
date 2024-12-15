@@ -21,6 +21,19 @@ def verify_response(response):
         return False
     return True
 
+def is_special_chem(sample):
+    """
+    determine whether a sample is a chemistry counting question or not
+    """
+    if (
+        sample.get('subject') == 'Chemistry' and
+        sample.get('category') == 'Knowledge-based counting' and
+        sample.get('source') == 'new_annotated'
+    ):
+        return True
+    else:
+        return False
+
 
 def build_query(sample, config, strategy):
     """Build the text query by combining the context, question and options. The <image_n> token is still there"""
@@ -36,6 +49,8 @@ def build_query(sample, config, strategy):
             start_chr = chr(ord(start_chr) + 1)
         empty_prompt_sample_structure = config['multi_choice_format']
         empty_prompt = empty_prompt_sample_structure.format(context=context, question=question, options=example)
+        if is_special_chem(sample):
+            empty_prompt += config['Chemistry_Counting_Instruction']
         if strategy == 'CoT':
             res_dict['query'] = empty_prompt + config['Strategy_Instruction']['CoT']
         else:
@@ -45,27 +60,14 @@ def build_query(sample, config, strategy):
     else:
         empty_prompt_sample_structure = config['open_ended_format']
         empty_prompt = empty_prompt_sample_structure.format(context=context, question=question)
+        if is_special_chem(sample):
+            empty_prompt += config['Chemistry_Counting_Instruction']
         if strategy == 'CoT':
             res_dict['query'] = empty_prompt + config['Strategy_Instruction']['CoT']
         else:
             res_dict['query'] = empty_prompt + config['Strategy_Instruction']['Directly']
         res_dict['gt_content'] = sample['answer']
 
-    res_dict = add_chem_special_inst(sample, res_dict, config)
-
     # append existing key and value in data
     res_dict.update(sample)
-    return res_dict
-
-def add_chem_special_inst(sample,res_dict, config):
-    """
-    Add special instruction to the query if the sample is a chemistry counting question
-    """
-    chemistry_counting_format = config['chemistry_counting_format']
-    if (
-        sample.get('subject') == 'Chemistry' and
-        sample.get('category') == 'Knowledge-based counting' and
-        sample.get('source') == 'new_annotated'
-    ):
-        res_dict['query'] += chemistry_counting_format
     return res_dict
