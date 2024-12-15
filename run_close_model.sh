@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Subjects and strategy
-SUBJECT="Math" # You can use multiple subjects separated by spaces
-STRATEGY="CoT" # CoT or Directly
+SUBJECT="Chemistry" # You can use multiple subjects separated by spaces
+STRATEGY="Direct" # CoT or Directly
 
 # Remote proprietary model selection
-MODEL="gemini-2.0-flash-exp" # Remote model name
-API_KEY="AIzaSyDlmb73omTgAGvw_a9lGxK5pC56fuLtJoQ" # Replace with your actual API key
+MODEL="chatgpt-4o-latest" # Remote model name
+API_KEY= # Your OpenAI API key
 
 # Default additional parameters
 MAX_TOKENS=1024

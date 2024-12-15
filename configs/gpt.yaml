@@ -18,3 +18,4 @@ open_ended_format:
 
 Answer the question using a single word or phrase and put the answer in one \"\\boxed{{}}\". "
 
+chemistry_counting_format: "In particular, fill in the two numbers of your answer in the following format:\nAtom Count: \\boxed{}, Bond Count: \\boxed{}\". "

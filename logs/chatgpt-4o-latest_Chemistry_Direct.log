@@ -1,0 +1,584 @@
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Chemistry']
+Generating test split:   0%|          | 0/1176 [00:00<?, ? examples/s]Generating test split:  17%|█▋        | 200/1176 [00:00<00:01, 836.25 examples/s]Generating test split: 100%|██████████| 1176/1176 [00:00<00:00, 4291.77 examples/s]
+[root] Loading config
+[root] Loading chatgpt-4o-latest
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/1176 [00:00<?, ?it/s]  0%|          | 1/1176 [00:02<55:44,  2.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  0%|          | 2/1176 [00:06<1:00:17,  3.08s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  0%|          | 3/1176 [00:08<55:50,  2.86s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  0%|          | 4/1176 [00:11<54:22,  2.78s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  0%|          | 5/1176 [00:13<52:00,  2.67s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|          | 6/1176 [00:17<56:44,  2.91s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|          | 7/1176 [00:19<52:04,  2.67s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|          | 8/1176 [00:23<58:04,  2.98s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|          | 9/1176 [00:25<56:45,  2.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|          | 10/1176 [00:28<55:29,  2.86s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|          | 11/1176 [00:32<1:00:01,  3.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|          | 12/1176 [00:34<54:36,  2.81s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|          | 13/1176 [00:36<51:25,  2.65s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|          | 14/1176 [00:39<51:39,  2.67s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|▏         | 15/1176 [00:42<55:09,  2.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|▏         | 16/1176 [00:47<1:05:12,  3.37s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  1%|▏         | 17/1176 [00:50<1:03:07,  3.27s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 18/1176 [00:53<1:05:56,  3.42s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 19/1176 [01:00<1:25:48,  4.45s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 20/1176 [01:03<1:16:40,  3.98s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 21/1176 [01:06<1:11:24,  3.71s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 22/1176 [01:10<1:14:14,  3.86s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 23/1176 [01:15<1:16:33,  3.98s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 24/1176 [01:18<1:12:53,  3.80s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 25/1176 [01:21<1:09:46,  3.64s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 26/1176 [01:24<1:04:32,  3.37s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 27/1176 [01:29<1:12:19,  3.78s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 28/1176 [01:31<1:03:51,  3.34s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  2%|▏         | 29/1176 [01:35<1:05:38,  3.43s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 30/1176 [01:38<1:03:56,  3.35s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 31/1176 [01:41<59:13,  3.10s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 32/1176 [01:45<1:05:08,  3.42s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 33/1176 [01:48<1:02:23,  3.27s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 34/1176 [01:51<1:02:31,  3.28s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 35/1176 [01:54<1:02:27,  3.28s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 36/1176 [01:57<58:11,  3.06s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 37/1176 [01:59<53:58,  2.84s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 38/1176 [02:03<57:52,  3.05s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 39/1176 [02:05<53:50,  2.84s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 40/1176 [02:07<52:05,  2.75s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  3%|▎         | 41/1176 [02:10<50:33,  2.67s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  4%|▎         | 42/1176 [02:13<50:49,  2.69s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  4%|▎         | 43/1176 [02:17<59:25,  3.15s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  4%|▎         | 44/1176 [02:21<1:03:29,  3.37s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  4%|▍         | 45/1176 [02:23<57:52,  3.07s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  4%|▍         | 46/1176 [02:27<1:01:08,  3.25s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  4%|▍         | 47/1176 [02:31<1:07:04,  3.56s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  4%|▍         | 48/1176 [02:34<1:00:45,  3.23s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  4%|▍         | 49/1176 [02:37<1:03:23,  3.37s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  4%|▍         | 50/1176 [02:41<1:06:34,  3.55s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  4%|▍         | 51/1176 [02:44<59:20,  3.17s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  4%|▍         | 52/1176 [02:47<1:02:14,  3.32s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▍         | 53/1176 [02:49<55:51,  2.98s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▍         | 54/1176 [02:53<59:04,  3.16s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▍         | 55/1176 [02:56<55:27,  2.97s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▍         | 56/1176 [03:00<1:02:52,  3.37s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▍         | 57/1176 [03:02<57:11,  3.07s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▍         | 58/1176 [03:06<1:00:03,  3.22s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▌         | 59/1176 [03:09<59:42,  3.21s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▌         | 60/1176 [03:12<59:27,  3.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▌         | 61/1176 [03:15<58:43,  3.16s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▌         | 62/1176 [03:19<59:52,  3.22s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▌         | 63/1176 [03:23<1:04:02,  3.45s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  5%|▌         | 64/1176 [03:25<58:19,  3.15s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▌         | 65/1176 [03:28<58:18,  3.15s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▌         | 66/1176 [03:32<1:03:16,  3.42s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▌         | 67/1176 [03:35<1:01:15,  3.31s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▌         | 68/1176 [03:40<1:11:06,  3.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▌         | 69/1176 [03:44<1:10:15,  3.81s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▌         | 70/1176 [03:53<1:40:39,  5.46s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▌         | 71/1176 [03:55<1:21:56,  4.45s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▌         | 72/1176 [03:58<1:11:28,  3.88s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▌         | 73/1176 [04:01<1:08:12,  3.71s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▋         | 74/1176 [04:06<1:15:53,  4.13s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▋         | 75/1176 [04:10<1:12:21,  3.94s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  6%|▋         | 76/1176 [04:13<1:09:15,  3.78s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 77/1176 [04:19<1:18:30,  4.29s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 78/1176 [04:23<1:18:17,  4.28s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 79/1176 [04:27<1:16:04,  4.16s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 80/1176 [04:32<1:19:37,  4.36s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 81/1176 [04:35<1:15:08,  4.12s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 82/1176 [04:39<1:10:59,  3.89s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 83/1176 [04:45<1:26:03,  4.72s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 84/1176 [04:49<1:20:44,  4.44s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 85/1176 [04:52<1:14:12,  4.08s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 86/1176 [04:55<1:08:26,  3.77s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 87/1176 [05:01<1:18:22,  4.32s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  7%|▋         | 88/1176 [05:03<1:07:52,  3.74s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  8%|▊         | 89/1176 [05:07<1:06:12,  3.65s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  8%|▊         | 90/1176 [05:10<1:02:33,  3.46s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  8%|▊         | 91/1176 [05:12<55:46,  3.08s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  8%|▊         | 92/1176 [05:14<51:22,  2.84s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  8%|▊         | 93/1176 [05:17<48:21,  2.68s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  8%|▊         | 94/1176 [05:20<49:20,  2.74s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  8%|▊         | 95/1176 [05:22<47:33,  2.64s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  8%|▊         | 96/1176 [05:26<57:40,  3.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  8%|▊         | 97/1176 [05:31<1:02:56,  3.50s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  8%|▊         | 98/1176 [05:35<1:04:55,  3.61s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  8%|▊         | 99/1176 [05:38<1:03:38,  3.55s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▊         | 100/1176 [05:42<1:07:09,  3.74s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▊         | 101/1176 [05:45<1:03:54,  3.57s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▊         | 102/1176 [05:48<57:30,  3.21s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▉         | 103/1176 [05:52<1:01:00,  3.41s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▉         | 104/1176 [05:55<1:03:09,  3.53s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▉         | 105/1176 [05:58<58:04,  3.25s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▉         | 106/1176 [06:06<1:21:34,  4.57s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▉         | 107/1176 [06:17<1:55:20,  6.47s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▉         | 108/1176 [06:25<2:05:31,  7.05s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▉         | 109/1176 [06:33<2:09:14,  7.27s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▉         | 110/1176 [06:46<2:41:25,  9.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+  9%|▉         | 111/1176 [06:51<2:17:13,  7.73s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|▉         | 112/1176 [07:00<2:27:56,  8.34s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|▉         | 113/1176 [07:04<2:04:44,  7.04s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|▉         | 114/1176 [07:12<2:06:17,  7.14s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|▉         | 115/1176 [07:26<2:41:28,  9.13s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|▉         | 116/1176 [07:31<2:24:34,  8.18s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|▉         | 117/1176 [07:39<2:19:35,  7.91s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|█         | 118/1176 [07:42<1:53:37,  6.44s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|█         | 119/1176 [09:08<8:56:57, 30.48s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|█         | 120/1176 [09:12<6:37:20, 22.58s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|█         | 121/1176 [09:18<5:07:59, 17.52s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|█         | 122/1176 [09:24<4:07:13, 14.07s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 10%|█         | 123/1176 [09:30<3:24:01, 11.63s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█         | 124/1176 [09:33<2:38:59,  9.07s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█         | 125/1176 [09:41<2:30:59,  8.62s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█         | 126/1176 [09:46<2:15:00,  7.72s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█         | 127/1176 [09:53<2:09:49,  7.43s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█         | 128/1176 [10:00<2:06:56,  7.27s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█         | 129/1176 [10:07<2:07:07,  7.28s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█         | 130/1176 [10:12<1:51:38,  6.40s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█         | 131/1176 [10:20<2:00:22,  6.91s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█         | 132/1176 [10:24<1:46:31,  6.12s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█▏        | 133/1176 [10:29<1:37:22,  5.60s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█▏        | 134/1176 [10:31<1:18:41,  4.53s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 11%|█▏        | 135/1176 [10:38<1:32:37,  5.34s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▏        | 136/1176 [10:43<1:31:53,  5.30s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▏        | 137/1176 [10:47<1:27:45,  5.07s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▏        | 138/1176 [10:56<1:46:47,  6.17s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▏        | 139/1176 [11:07<2:08:07,  7.41s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▏        | 140/1176 [11:14<2:07:05,  7.36s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▏        | 141/1176 [11:20<1:59:07,  6.91s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▏        | 142/1176 [11:24<1:47:57,  6.26s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▏        | 143/1176 [11:28<1:35:16,  5.53s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▏        | 144/1176 [11:34<1:37:16,  5.66s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▏        | 145/1176 [11:38<1:26:09,  5.01s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▏        | 146/1176 [11:45<1:38:02,  5.71s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 12%|█▎        | 147/1176 [11:54<1:52:39,  6.57s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 13%|█▎        | 148/1176 [11:57<1:34:11,  5.50s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 13%|█▎        | 149/1176 [11:59<1:15:52,  4.43s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 13%|█▎        | 150/1176 [12:00<1:02:30,  3.66s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 13%|█▎        | 151/1176 [12:02<50:59,  2.99s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 13%|█▎        | 152/1176 [12:04<46:07,  2.70s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 13%|█▎        | 153/1176 [12:06<40:43,  2.39s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 13%|█▎        | 154/1176 [12:07<38:25,  2.26s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 13%|█▎        | 155/1176 [12:09<35:44,  2.10s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 13%|█▎        | 156/1176 [12:12<38:03,  2.24s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 13%|█▎        | 157/1176 [12:16<45:54,  2.70s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 13%|█▎        | 158/1176 [12:20<56:36,  3.34s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▎        | 159/1176 [12:22<49:59,  2.95s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▎        | 160/1176 [12:24<43:42,  2.58s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▎        | 161/1176 [12:26<41:25,  2.45s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▍        | 162/1176 [12:31<53:31,  3.17s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▍        | 163/1176 [12:36<1:01:50,  3.66s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▍        | 164/1176 [12:41<1:11:14,  4.22s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▍        | 165/1176 [12:43<1:00:07,  3.57s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▍        | 166/1176 [12:45<50:33,  3.00s/it]  [root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▍        | 167/1176 [12:47<46:58,  2.79s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▍        | 168/1176 [12:49<41:25,  2.47s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▍        | 169/1176 [12:52<41:34,  2.48s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 14%|█▍        | 170/1176 [12:53<36:15,  2.16s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▍        | 171/1176 [12:57<47:01,  2.81s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▍        | 172/1176 [13:01<52:23,  3.13s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▍        | 173/1176 [13:04<47:36,  2.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▍        | 174/1176 [13:05<41:40,  2.50s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▍        | 175/1176 [13:07<40:26,  2.42s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▍        | 176/1176 [13:10<39:09,  2.35s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▌        | 177/1176 [13:11<36:35,  2.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▌        | 178/1176 [13:14<35:48,  2.15s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▌        | 179/1176 [13:16<35:56,  2.16s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▌        | 180/1176 [13:18<38:56,  2.35s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▌        | 181/1176 [13:20<36:59,  2.23s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 15%|█▌        | 182/1176 [13:22<35:13,  2.13s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▌        | 183/1176 [13:24<34:42,  2.10s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▌        | 184/1176 [13:27<39:36,  2.40s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▌        | 185/1176 [13:30<38:15,  2.32s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▌        | 186/1176 [13:32<37:42,  2.29s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▌        | 187/1176 [13:34<36:17,  2.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▌        | 188/1176 [13:35<31:55,  1.94s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▌        | 189/1176 [13:37<29:25,  1.79s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▌        | 190/1176 [13:39<32:34,  1.98s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▌        | 191/1176 [13:44<45:04,  2.75s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▋        | 192/1176 [13:46<43:31,  2.65s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▋        | 193/1176 [13:49<46:59,  2.87s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 16%|█▋        | 194/1176 [13:52<44:43,  2.73s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 17%|█▋        | 195/1176 [13:56<51:49,  3.17s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 17%|█▋        | 196/1176 [13:58<45:34,  2.79s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 17%|█▋        | 197/1176 [14:00<41:24,  2.54s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 17%|█▋        | 198/1176 [14:01<36:50,  2.26s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 17%|█▋        | 199/1176 [14:04<36:28,  2.24s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 17%|█▋        | 200/1176 [14:06<36:27,  2.24s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 17%|█▋        | 201/1176 [14:08<34:15,  2.11s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 17%|█▋        | 202/1176 [14:09<32:48,  2.02s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 17%|█▋        | 203/1176 [14:11<31:14,  1.93s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 17%|█▋        | 204/1176 [14:13<29:51,  1.84s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 17%|█▋        | 205/1176 [14:15<30:16,  1.87s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 206/1176 [14:16<27:34,  1.71s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 207/1176 [14:19<31:27,  1.95s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 208/1176 [14:25<51:23,  3.19s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 209/1176 [14:27<46:49,  2.91s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 210/1176 [14:29<44:17,  2.75s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 211/1176 [14:31<41:34,  2.58s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 212/1176 [14:33<36:43,  2.29s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 213/1176 [14:35<34:02,  2.12s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 214/1176 [14:37<35:37,  2.22s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 215/1176 [14:40<37:51,  2.36s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 216/1176 [14:42<37:34,  2.35s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 18%|█▊        | 217/1176 [14:44<33:45,  2.11s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▊        | 218/1176 [14:46<33:25,  2.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▊        | 219/1176 [14:47<30:15,  1.90s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▊        | 220/1176 [14:49<28:58,  1.82s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▉        | 221/1176 [14:51<31:08,  1.96s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▉        | 222/1176 [14:53<29:49,  1.88s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▉        | 223/1176 [14:55<29:37,  1.87s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▉        | 224/1176 [14:58<35:55,  2.26s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▉        | 225/1176 [15:00<36:12,  2.28s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▉        | 226/1176 [15:02<34:44,  2.19s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▉        | 227/1176 [15:05<34:58,  2.21s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▉        | 228/1176 [15:07<35:24,  2.24s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 19%|█▉        | 229/1176 [15:08<31:45,  2.01s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|█▉        | 230/1176 [15:11<34:10,  2.17s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|█▉        | 231/1176 [15:14<37:04,  2.35s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|█▉        | 232/1176 [15:16<36:31,  2.32s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|█▉        | 233/1176 [15:18<37:40,  2.40s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|█▉        | 234/1176 [15:20<33:09,  2.11s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|█▉        | 235/1176 [15:22<31:15,  1.99s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|██        | 236/1176 [15:24<31:48,  2.03s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|██        | 237/1176 [15:26<33:40,  2.15s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|██        | 238/1176 [15:28<34:19,  2.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|██        | 239/1176 [15:31<36:02,  2.31s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|██        | 240/1176 [15:35<43:52,  2.81s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 20%|██        | 241/1176 [15:37<41:03,  2.63s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 21%|██        | 242/1176 [15:40<39:53,  2.56s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 21%|██        | 243/1176 [15:41<36:30,  2.35s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 21%|██        | 244/1176 [15:43<32:12,  2.07s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 21%|██        | 245/1176 [15:44<29:38,  1.91s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 21%|██        | 246/1176 [15:46<30:16,  1.95s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 21%|██        | 247/1176 [15:49<32:22,  2.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 21%|██        | 248/1176 [15:51<30:27,  1.97s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 21%|██        | 249/1176 [15:53<32:53,  2.13s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 21%|██▏       | 250/1176 [15:55<32:58,  2.14s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 21%|██▏       | 251/1176 [15:56<28:30,  1.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 21%|██▏       | 252/1176 [15:58<27:29,  1.78s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 253/1176 [15:59<25:46,  1.68s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 254/1176 [16:01<24:04,  1.57s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 255/1176 [16:03<25:28,  1.66s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 256/1176 [16:05<27:14,  1.78s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 257/1176 [16:06<26:05,  1.70s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 258/1176 [16:09<29:04,  1.90s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 259/1176 [16:11<29:17,  1.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 260/1176 [16:12<26:59,  1.77s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 261/1176 [16:14<29:01,  1.90s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 262/1176 [16:16<27:51,  1.83s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 263/1176 [16:21<42:00,  2.76s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 22%|██▏       | 264/1176 [16:22<35:25,  2.33s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 265/1176 [16:25<35:53,  2.36s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 266/1176 [16:26<31:22,  2.07s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 267/1176 [16:27<28:48,  1.90s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 268/1176 [16:29<28:01,  1.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 269/1176 [16:35<47:55,  3.17s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 270/1176 [16:37<40:55,  2.71s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 271/1176 [16:40<43:13,  2.87s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 272/1176 [16:42<39:42,  2.64s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 273/1176 [16:45<37:33,  2.50s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 274/1176 [16:46<32:05,  2.13s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 275/1176 [16:48<32:56,  2.19s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 23%|██▎       | 276/1176 [16:50<29:00,  1.93s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▎       | 277/1176 [16:56<50:09,  3.35s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▎       | 278/1176 [16:58<41:30,  2.77s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▎       | 279/1176 [17:00<38:24,  2.57s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▍       | 280/1176 [17:01<33:17,  2.23s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▍       | 281/1176 [17:03<30:11,  2.02s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▍       | 282/1176 [17:05<32:05,  2.15s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▍       | 283/1176 [17:08<34:42,  2.33s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▍       | 284/1176 [17:10<31:48,  2.14s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▍       | 285/1176 [17:11<29:47,  2.01s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▍       | 286/1176 [17:13<27:42,  1.87s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▍       | 287/1176 [17:16<31:35,  2.13s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 24%|██▍       | 288/1176 [17:19<35:49,  2.42s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 25%|██▍       | 289/1176 [17:20<33:13,  2.25s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 25%|██▍       | 290/1176 [17:23<34:10,  2.31s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 25%|██▍       | 291/1176 [17:25<32:11,  2.18s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 25%|██▍       | 292/1176 [17:27<31:35,  2.14s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 25%|██▍       | 293/1176 [17:29<31:41,  2.15s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 25%|██▌       | 294/1176 [17:31<31:26,  2.14s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 25%|██▌       | 295/1176 [17:32<27:22,  1.86s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 25%|██▌       | 296/1176 [17:34<26:09,  1.78s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 25%|██▌       | 297/1176 [17:36<27:37,  1.89s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 25%|██▌       | 298/1176 [17:38<29:03,  1.99s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 25%|██▌       | 299/1176 [17:40<29:09,  1.99s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▌       | 300/1176 [17:47<49:34,  3.40s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▌       | 301/1176 [17:49<41:54,  2.87s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▌       | 302/1176 [17:50<36:56,  2.54s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▌       | 303/1176 [17:52<32:50,  2.26s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▌       | 304/1176 [17:54<30:55,  2.13s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▌       | 305/1176 [17:56<31:28,  2.17s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▌       | 306/1176 [17:57<27:57,  1.93s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▌       | 307/1176 [17:59<25:36,  1.77s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▌       | 308/1176 [18:01<27:42,  1.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▋       | 309/1176 [18:03<27:48,  1.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▋       | 310/1176 [18:08<39:30,  2.74s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 26%|██▋       | 311/1176 [18:09<34:34,  2.40s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 312/1176 [18:11<30:22,  2.11s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 313/1176 [18:12<28:25,  1.98s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 314/1176 [18:14<25:35,  1.78s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 315/1176 [18:17<32:23,  2.26s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 316/1176 [18:19<32:21,  2.26s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 317/1176 [18:21<27:50,  1.94s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 318/1176 [18:23<28:40,  2.01s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 319/1176 [18:24<27:07,  1.90s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 320/1176 [18:26<27:35,  1.93s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 321/1176 [18:28<27:19,  1.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 322/1176 [18:30<27:21,  1.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 27%|██▋       | 323/1176 [18:32<26:09,  1.84s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 324/1176 [18:33<24:05,  1.70s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 325/1176 [18:39<40:16,  2.84s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 326/1176 [18:43<47:20,  3.34s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 327/1176 [18:45<40:51,  2.89s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 328/1176 [18:47<37:39,  2.66s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 329/1176 [18:50<37:38,  2.67s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 330/1176 [18:52<33:15,  2.36s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 331/1176 [18:53<29:33,  2.10s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 332/1176 [18:55<27:50,  1.98s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 333/1176 [18:57<28:47,  2.05s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 334/1176 [18:58<26:20,  1.88s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 28%|██▊       | 335/1176 [19:02<31:28,  2.25s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 29%|██▊       | 336/1176 [19:03<29:58,  2.14s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 29%|██▊       | 337/1176 [19:05<27:09,  1.94s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 29%|██▊       | 338/1176 [19:07<28:35,  2.05s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 29%|██▉       | 339/1176 [19:09<26:39,  1.91s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 29%|██▉       | 340/1176 [19:11<27:16,  1.96s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 29%|██▉       | 341/1176 [19:13<26:25,  1.90s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 29%|██▉       | 342/1176 [19:14<24:12,  1.74s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 29%|██▉       | 343/1176 [19:16<26:30,  1.91s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 29%|██▉       | 344/1176 [19:19<28:59,  2.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 29%|██▉       | 345/1176 [19:20<26:06,  1.89s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 29%|██▉       | 346/1176 [19:22<27:20,  1.98s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|██▉       | 347/1176 [19:25<31:40,  2.29s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|██▉       | 348/1176 [19:28<31:51,  2.31s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|██▉       | 349/1176 [19:30<30:48,  2.23s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|██▉       | 350/1176 [19:32<30:49,  2.24s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|██▉       | 351/1176 [19:34<27:38,  2.01s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|██▉       | 352/1176 [19:36<28:52,  2.10s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|███       | 353/1176 [19:38<30:09,  2.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|███       | 354/1176 [19:40<27:26,  2.00s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|███       | 355/1176 [19:42<27:14,  1.99s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|███       | 356/1176 [19:44<26:17,  1.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|███       | 357/1176 [19:46<28:05,  2.06s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 30%|███       | 358/1176 [19:48<28:36,  2.10s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███       | 359/1176 [19:50<27:10,  2.00s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███       | 360/1176 [19:52<26:58,  1.98s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███       | 361/1176 [19:55<29:47,  2.19s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███       | 362/1176 [19:56<27:50,  2.05s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███       | 363/1176 [19:58<25:29,  1.88s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███       | 364/1176 [19:59<24:14,  1.79s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███       | 365/1176 [20:01<22:14,  1.65s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███       | 366/1176 [20:02<21:28,  1.59s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███       | 367/1176 [20:04<21:12,  1.57s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███▏      | 368/1176 [20:06<23:38,  1.76s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███▏      | 369/1176 [20:08<26:20,  1.96s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 31%|███▏      | 370/1176 [20:10<27:04,  2.02s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 371/1176 [20:13<29:48,  2.22s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 372/1176 [20:15<30:31,  2.28s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 373/1176 [20:17<29:22,  2.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 374/1176 [20:19<25:16,  1.89s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 375/1176 [20:20<23:38,  1.77s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 376/1176 [20:22<24:34,  1.84s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 377/1176 [20:23<21:52,  1.64s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 378/1176 [20:26<25:11,  1.89s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 379/1176 [20:27<22:57,  1.73s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 380/1176 [20:28<21:13,  1.60s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 381/1176 [20:30<21:02,  1.59s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 32%|███▏      | 382/1176 [20:32<21:52,  1.65s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 33%|███▎      | 383/1176 [20:33<21:21,  1.62s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 33%|███▎      | 384/1176 [20:36<23:52,  1.81s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 33%|███▎      | 385/1176 [20:37<23:05,  1.75s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 33%|███▎      | 386/1176 [20:40<26:11,  1.99s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 33%|███▎      | 387/1176 [20:42<27:29,  2.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 33%|███▎      | 388/1176 [20:43<24:09,  1.84s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 33%|███▎      | 389/1176 [20:46<26:03,  1.99s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 33%|███▎      | 390/1176 [20:47<24:16,  1.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 33%|███▎      | 391/1176 [20:49<25:40,  1.96s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 33%|███▎      | 392/1176 [20:52<26:57,  2.06s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 33%|███▎      | 393/1176 [20:53<24:39,  1.89s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▎      | 394/1176 [20:58<35:17,  2.71s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▎      | 395/1176 [20:59<30:13,  2.32s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▎      | 396/1176 [21:01<27:11,  2.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▍      | 397/1176 [21:02<25:15,  1.95s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▍      | 398/1176 [21:04<23:27,  1.81s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▍      | 399/1176 [21:08<31:45,  2.45s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▍      | 400/1176 [21:09<27:54,  2.16s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▍      | 401/1176 [21:11<25:25,  1.97s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▍      | 402/1176 [21:13<24:15,  1.88s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▍      | 403/1176 [21:15<25:11,  1.96s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▍      | 404/1176 [21:19<32:27,  2.52s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 34%|███▍      | 405/1176 [21:20<29:13,  2.27s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▍      | 406/1176 [21:22<28:35,  2.23s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▍      | 407/1176 [21:24<27:52,  2.17s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▍      | 408/1176 [21:27<28:23,  2.22s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▍      | 409/1176 [21:28<26:24,  2.07s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▍      | 410/1176 [21:31<26:29,  2.08s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▍      | 411/1176 [21:33<27:00,  2.12s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▌      | 412/1176 [21:35<26:48,  2.11s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▌      | 413/1176 [21:38<30:02,  2.36s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▌      | 414/1176 [21:40<29:54,  2.36s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▌      | 415/1176 [21:42<26:20,  2.08s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▌      | 416/1176 [21:43<24:16,  1.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 35%|███▌      | 417/1176 [21:45<25:17,  2.00s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▌      | 418/1176 [21:47<22:46,  1.80s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▌      | 419/1176 [21:48<21:02,  1.67s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▌      | 420/1176 [21:49<20:07,  1.60s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▌      | 421/1176 [21:51<18:50,  1.50s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▌      | 422/1176 [21:55<30:34,  2.43s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▌      | 423/1176 [21:57<27:37,  2.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▌      | 424/1176 [22:00<32:25,  2.59s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▌      | 425/1176 [22:02<28:26,  2.27s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▌      | 426/1176 [22:03<25:14,  2.02s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▋      | 427/1176 [22:05<22:34,  1.81s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▋      | 428/1176 [22:06<20:55,  1.68s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 36%|███▋      | 429/1176 [22:08<23:04,  1.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 37%|███▋      | 430/1176 [22:11<25:13,  2.03s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 37%|███▋      | 431/1176 [22:13<27:18,  2.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 37%|███▋      | 432/1176 [22:15<24:02,  1.94s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 37%|███▋      | 433/1176 [22:17<25:11,  2.03s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 37%|███▋      | 434/1176 [22:19<26:02,  2.11s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 37%|███▋      | 435/1176 [22:21<24:11,  1.96s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 37%|███▋      | 436/1176 [22:23<24:50,  2.01s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 37%|███▋      | 437/1176 [22:25<22:59,  1.87s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 37%|███▋      | 438/1176 [22:27<24:23,  1.98s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 37%|███▋      | 439/1176 [22:29<26:18,  2.14s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 37%|███▋      | 440/1176 [22:33<33:20,  2.72s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 441/1176 [22:36<32:50,  2.68s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 442/1176 [22:38<30:59,  2.53s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 443/1176 [22:40<29:07,  2.38s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 444/1176 [22:42<27:10,  2.23s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 445/1176 [22:45<28:44,  2.36s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 446/1176 [22:46<25:41,  2.11s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 447/1176 [22:48<25:49,  2.13s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 448/1176 [22:50<23:27,  1.93s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 449/1176 [22:52<25:13,  2.08s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 450/1176 [22:54<24:11,  2.00s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 451/1176 [22:58<30:02,  2.49s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 38%|███▊      | 452/1176 [22:59<27:15,  2.26s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▊      | 453/1176 [23:01<25:48,  2.14s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▊      | 454/1176 [23:04<28:21,  2.36s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▊      | 455/1176 [23:09<35:26,  2.95s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▉      | 456/1176 [23:11<32:33,  2.71s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▉      | 457/1176 [23:13<31:03,  2.59s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▉      | 458/1176 [23:16<32:16,  2.70s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▉      | 459/1176 [23:18<28:54,  2.42s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▉      | 460/1176 [23:19<25:42,  2.15s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▉      | 461/1176 [23:21<25:44,  2.16s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▉      | 462/1176 [23:23<25:04,  2.11s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▉      | 463/1176 [23:26<25:37,  2.16s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 39%|███▉      | 464/1176 [23:27<22:47,  1.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|███▉      | 465/1176 [23:29<24:30,  2.07s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|███▉      | 466/1176 [23:31<22:32,  1.91s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|███▉      | 467/1176 [23:33<23:36,  2.00s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|███▉      | 468/1176 [23:36<25:02,  2.12s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|███▉      | 469/1176 [23:38<25:57,  2.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|███▉      | 470/1176 [23:40<25:42,  2.18s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|████      | 471/1176 [23:42<25:38,  2.18s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|████      | 472/1176 [23:44<25:30,  2.17s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|████      | 473/1176 [23:46<23:38,  2.02s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|████      | 474/1176 [23:48<24:24,  2.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|████      | 475/1176 [23:51<24:44,  2.12s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 40%|████      | 476/1176 [23:53<25:19,  2.17s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████      | 477/1176 [23:55<25:00,  2.15s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████      | 478/1176 [23:56<22:28,  1.93s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████      | 479/1176 [23:58<20:59,  1.81s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████      | 480/1176 [24:00<23:33,  2.03s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████      | 481/1176 [24:03<24:14,  2.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████      | 482/1176 [24:05<24:20,  2.10s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████      | 483/1176 [24:06<21:35,  1.87s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████      | 484/1176 [24:10<28:15,  2.45s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████      | 485/1176 [24:12<27:29,  2.39s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████▏     | 486/1176 [24:14<24:12,  2.11s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████▏     | 487/1176 [24:15<21:42,  1.89s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 41%|████▏     | 488/1176 [24:16<19:36,  1.71s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 42%|████▏     | 489/1176 [24:19<22:24,  1.96s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 42%|████▏     | 490/1176 [24:21<24:06,  2.11s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 42%|████▏     | 491/1176 [24:25<28:55,  2.53s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 42%|████▏     | 492/1176 [24:27<28:27,  2.50s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 42%|████▏     | 493/1176 [24:29<24:14,  2.13s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 42%|████▏     | 494/1176 [24:31<24:46,  2.18s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 42%|████▏     | 495/1176 [24:32<21:48,  1.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 42%|████▏     | 496/1176 [24:34<20:06,  1.77s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 42%|████▏     | 497/1176 [24:35<18:14,  1.61s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 42%|████▏     | 498/1176 [24:37<19:26,  1.72s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 42%|████▏     | 499/1176 [24:38<18:12,  1.61s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 500/1176 [24:40<17:41,  1.57s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 501/1176 [24:42<19:38,  1.75s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 502/1176 [24:43<19:01,  1.69s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 503/1176 [24:46<21:30,  1.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 504/1176 [24:48<21:35,  1.93s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 505/1176 [24:50<23:20,  2.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 506/1176 [24:52<21:48,  1.95s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 507/1176 [24:53<20:23,  1.83s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 508/1176 [24:57<26:21,  2.37s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 509/1176 [25:01<32:16,  2.90s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 510/1176 [25:05<35:51,  3.23s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 43%|████▎     | 511/1176 [25:07<31:34,  2.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▎     | 512/1176 [25:09<28:08,  2.54s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▎     | 513/1176 [25:11<26:26,  2.39s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▎     | 514/1176 [25:13<24:35,  2.23s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▍     | 515/1176 [25:15<24:18,  2.21s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▍     | 516/1176 [25:16<21:47,  1.98s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▍     | 517/1176 [25:19<22:33,  2.05s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▍     | 518/1176 [25:20<20:51,  1.90s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▍     | 519/1176 [25:22<21:28,  1.96s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▍     | 520/1176 [25:24<21:34,  1.97s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▍     | 521/1176 [25:26<20:13,  1.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▍     | 522/1176 [25:29<23:03,  2.12s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 44%|████▍     | 523/1176 [25:30<20:45,  1.91s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▍     | 524/1176 [25:32<21:51,  2.01s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▍     | 525/1176 [25:34<21:57,  2.02s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▍     | 526/1176 [25:39<31:59,  2.95s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▍     | 527/1176 [25:42<29:37,  2.74s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▍     | 528/1176 [25:44<28:26,  2.63s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▍     | 529/1176 [25:47<27:51,  2.58s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▌     | 530/1176 [25:48<25:24,  2.36s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▌     | 531/1176 [25:50<22:03,  2.05s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▌     | 532/1176 [25:52<23:31,  2.19s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▌     | 533/1176 [25:54<22:20,  2.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▌     | 534/1176 [25:57<23:40,  2.21s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 45%|████▌     | 535/1176 [25:59<23:32,  2.20s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 46%|████▌     | 536/1176 [26:01<22:07,  2.07s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 46%|████▌     | 537/1176 [26:02<21:14,  1.99s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 46%|████▌     | 538/1176 [26:05<22:29,  2.12s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 46%|████▌     | 539/1176 [26:06<20:56,  1.97s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 46%|████▌     | 540/1176 [26:09<21:36,  2.04s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 46%|████▌     | 541/1176 [26:11<22:08,  2.09s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 46%|████▌     | 542/1176 [26:12<20:18,  1.92s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 46%|████▌     | 543/1176 [26:15<22:35,  2.14s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 46%|████▋     | 544/1176 [26:16<20:00,  1.90s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 46%|████▋     | 545/1176 [26:18<18:06,  1.72s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 46%|████▋     | 546/1176 [26:20<19:43,  1.88s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 547/1176 [26:22<19:11,  1.83s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 548/1176 [26:23<18:04,  1.73s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 549/1176 [26:25<20:08,  1.93s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 550/1176 [26:28<21:32,  2.07s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 551/1176 [26:30<21:07,  2.03s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 552/1176 [26:31<19:24,  1.87s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 553/1176 [26:33<18:37,  1.79s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 554/1176 [26:35<18:46,  1.81s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 555/1176 [26:36<18:11,  1.76s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 556/1176 [26:38<16:51,  1.63s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 557/1176 [26:40<19:03,  1.85s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 47%|████▋     | 558/1176 [26:42<17:48,  1.73s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 559/1176 [26:43<17:33,  1.71s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 560/1176 [26:48<25:42,  2.50s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 561/1176 [26:50<24:56,  2.43s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 562/1176 [26:52<24:37,  2.41s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 563/1176 [26:57<32:23,  3.17s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 564/1176 [26:59<27:02,  2.65s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 565/1176 [27:00<24:08,  2.37s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 566/1176 [27:02<23:35,  2.32s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 567/1176 [27:04<20:43,  2.04s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 568/1176 [27:06<20:44,  2.05s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 569/1176 [27:07<19:00,  1.88s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 48%|████▊     | 570/1176 [27:10<20:06,  1.99s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 49%|████▊     | 571/1176 [27:11<18:43,  1.86s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 49%|████▊     | 572/1176 [27:13<17:26,  1.73s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 49%|████▊     | 573/1176 [27:15<19:01,  1.89s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 49%|████▉     | 574/1176 [27:17<20:06,  2.00s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 49%|████▉     | 575/1176 [27:19<18:07,  1.81s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 49%|████▉     | 576/1176 [27:20<17:46,  1.78s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 49%|████▉     | 577/1176 [27:22<17:47,  1.78s/it][root] Save results to results/chatgpt-4o-latest_Chemistry_Direct.json
+ 49%|████▉     | 578/1176 [27:24<18:39,  1.87s/it]
