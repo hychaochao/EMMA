@@ -73,6 +73,20 @@ def is_equal(md_ans, gt_ans):
     return False
 
 
-score_demo_prompt = """
+score_demo_prompt = """Please read the following example. Then determine whether the response is correct and type it 
+at the end of the prompt. It is worth noting that the final answer in the response is usually in \\boxed{}, 
+You only need to compare the final answer in the response with the answer, without considering the logical 
+correctness of the response itself.
 
+Response: The correct answer is:\n\nA
+
+Answer: A
+
+Correct_or_not: Correct
+
+Response: The correct option is:\n\n\\[\n\\boxed{E}\n\\]
+
+Answer: C
+
+Correct_or_not: Incorrect
 """
