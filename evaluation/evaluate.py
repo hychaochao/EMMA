@@ -84,8 +84,8 @@ def gen_true_false(answer_file, args):
 
     skip_pids = []
     for pid, problem in results.items():
-        extraction = problem.get('extraction')
-        if extraction is not None and verify_extraction(extraction):
+        flag = problem.get('true_false')
+        if flag is not None:
             skip_pids.append(problem['pid'])
 
     if args.rerun:
@@ -103,9 +103,9 @@ def gen_true_false(answer_file, args):
         problem = results[pid]
         flag = False
         if args.gpt_eval:
-            results[pid].pop('extraction')
             user_prompt = create_test_prompt(score_demo_prompt, problem)
             flag_cache = call_gpt(client, args.model, user_prompt)
+            results[pid]['gpt_eval'] = flag_cache
             if flag_cache.lower() == 'correct':
                 flag = True
             else:
@@ -127,7 +127,7 @@ def gen_true_false(answer_file, args):
 def main():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/Math_gpt_eval')
+    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/Math_gpt_eval_v2')
     parser.add_argument('--response_label', type=str, default='response', help='response label for the input file')
     parser.add_argument('--rerun', action='store_true', help='rerun the answer extraction')
     parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
