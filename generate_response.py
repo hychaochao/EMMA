@@ -1,7 +1,7 @@
 import argparse
 import json
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = "0,1,2,3"
+os.environ['CUDA_VISIBLE_DEVICES'] = "4,5,6,7"
 import logging
 from tqdm import tqdm
 
@@ -19,7 +19,7 @@ def main():
     parser.add_argument('--strategy', type=str, default='CoT', choices=['CoT', 'Direct'])
     parser.add_argument('--config_path', type=str, default="configs/gpt.yaml")
     parser.add_argument('--output_path', type=str, default='results/test-gemini.json')
-    parser.add_argument('--save_every', type=int, default=1, help='save every n problems')
+    parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
     # Remote model
     parser.add_argument('--model', type=str, default="gemini-2.0-flash-exp", help='llm engine',
                         choices=['chatgpt-4o-latest', 'claude-3-5-sonnet-latest', 'gemini-2.0-flash-exp'])
@@ -49,7 +49,6 @@ def main():
     # If we were given a custom path, load that model, otherwise use a remote service model
     if args.model_path:
         logging.info(f"Loading local model {args.model_path}")
-        # TODO: Add qwen, intern-vl, llava
         if 'llava' in args.model_path.lower():
             from models import llava
             model = llava.Llava_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
