@@ -20,6 +20,7 @@ def main():
     parser.add_argument('--config_path', type=str, default="configs/gpt.yaml")
     parser.add_argument('--output_path', type=str, default='results/test-gemini.json')
     parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
+    parser.add_argument('--rerun', action='store_true', help='rerun the answer generation')
     # Remote model
     parser.add_argument('--model', type=str, default="gemini-2.0-flash-exp", help='llm engine',
                         choices=['chatgpt-4o-latest', 'claude-3-5-sonnet-latest', 'gemini-2.0-flash-exp'])
@@ -98,14 +99,15 @@ def main():
         results = {}
 
     skip_pids = []
-    if results:
-        for pid, data in results.items():
-            if 'response' in data and verify_response(data['response']):
-                skip_pids.append(pid)
+    if not args.rerun:
+        if results:
+            for pid, data in results.items():
+                if 'response' in data and verify_response(data['response']):
+                    skip_pids.append(pid)
 
-    if len(skip_pids) > 0:
-        logging.info(
-            f"Found existing results file with {len(skip_pids)} problems with valid responses. Skipping these problems...")
+        if len(skip_pids) > 0:
+            logging.info(
+                f"Found existing results file with {len(skip_pids)} problems with valid responses. Skipping these problems...")
 
     logging.info(f"Starting to generate.....")
     for idx, sample in tqdm(enumerate(dataset), total=len(dataset)):

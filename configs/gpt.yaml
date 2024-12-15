@@ -2,8 +2,6 @@ Strategy_Instruction:
  CoT: "Please solve the problem step by step."
  Directly: "Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps)."
 
-Chemistry_Counting_Instruction: "In particular, fill in the two numbers of your answer in the following format:\nAtom Count: \\boxed{}, Bond Count: \\boxed{}\". "
-
 multi_choice_format:
  "{context}
  
