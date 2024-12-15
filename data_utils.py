@@ -49,16 +49,17 @@ def build_query(sample, config, strategy):
             res_dict['query'] = empty_prompt + config['Strategy_Instruction']['CoT']
         else:
             res_dict['query'] = empty_prompt + config['Strategy_Instruction']['Directly']
-        res_dict = add_special_prompt(sample, res_dict, config)
         res_dict['gt_content'] = sample['answer']
+
+    res_dict = add_chem_special_inst(sample, res_dict, config)
 
     # append existing key and value in data
     res_dict.update(sample)
     return res_dict
 
-def add_special_prompt(sample,res_dict, config):
+def add_chem_special_inst(sample,res_dict, config):
     """
-    Add special prompt to the query if the sample is a chemistry counting question
+    Add special instruction to the query if the sample is a chemistry counting question
     """
     chemistry_counting_format = config['chemistry_counting_format']
     if (
