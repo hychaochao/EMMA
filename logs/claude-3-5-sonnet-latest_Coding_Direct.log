@@ -1,0 +1,411 @@
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Coding']
+[root] Loading config
+[root] Loading claude-3-5-sonnet-latest
+[root] Model loaded!
+[root] Results already exists.
+[root] Reading results/claude-3-5-sonnet-latest_Coding_Direct.json
+[root] Found existing results file with 188 problems with valid responses. Skipping these problems...
+[root] Starting to generate.....
+  0%|          | 0/564 [00:00<?, ?it/s]  0%|          | 1/564 [00:00<01:55,  4.86it/s]  0%|          | 2/564 [00:00<01:30,  6.22it/s]  1%|          | 3/564 [00:00<01:23,  6.72it/s]  1%|          | 4/564 [00:00<01:21,  6.89it/s]  1%|          | 5/564 [00:01<02:39,  3.51it/s]  1%|          | 6/564 [00:01<02:41,  3.45it/s]  1%|          | 7/564 [00:01<02:33,  3.63it/s]  1%|▏         | 8/564 [00:01<02:24,  3.84it/s]  2%|▏         | 9/564 [00:02<02:02,  4.53it/s]  2%|▏         | 10/564 [00:02<01:48,  5.13it/s]  2%|▏         | 11/564 [00:02<01:34,  5.87it/s]  2%|▏         | 12/564 [00:02<01:27,  6.34it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  2%|▏         | 13/564 [00:06<11:21,  1.24s/it]  3%|▎         | 15/564 [00:06<06:26,  1.42it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  3%|▎         | 16/564 [00:09<11:33,  1.27s/it]  3%|▎         | 17/564 [00:09<09:34,  1.05s/it]  3%|▎         | 18/564 [00:10<07:54,  1.15it/s]  3%|▎         | 19/564 [00:10<06:25,  1.41it/s]  4%|▎         | 20/564 [00:10<05:18,  1.71it/s]  4%|▍         | 22/564 [00:10<03:14,  2.79it/s][anthropic._base_client] Retrying request to /v1/messages in 0.382046 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  4%|▍         | 23/564 [00:31<48:08,  5.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  4%|▍         | 24/564 [00:35<43:43,  4.86s/it]  5%|▍         | 26/564 [00:35<25:21,  2.83s/it]  5%|▍         | 27/564 [00:35<19:53,  2.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  5%|▌         | 29/564 [00:38<17:20,  1.94s/it]  5%|▌         | 30/564 [00:38<13:44,  1.54s/it]  5%|▌         | 31/564 [00:38<10:42,  1.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  6%|▌         | 32/564 [00:43<17:43,  2.00s/it]  6%|▌         | 33/564 [00:43<13:12,  1.49s/it]  6%|▌         | 35/564 [00:43<07:49,  1.13it/s]  7%|▋         | 37/564 [00:43<05:04,  1.73it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  7%|▋         | 38/564 [00:46<09:12,  1.05s/it]  7%|▋         | 40/564 [00:46<05:51,  1.49it/s]  8%|▊         | 43/564 [00:46<03:24,  2.55it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  8%|▊         | 45/564 [00:49<06:06,  1.42it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  8%|▊         | 47/564 [00:51<06:51,  1.26it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  9%|▊         | 48/564 [00:53<09:16,  1.08s/it]  9%|▊         | 49/564 [00:54<07:39,  1.12it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  9%|▉         | 50/564 [00:57<11:58,  1.40s/it]  9%|▉         | 51/564 [00:57<09:22,  1.10s/it]  9%|▉         | 52/564 [00:57<07:14,  1.18it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+  9%|▉         | 53/564 [01:00<12:14,  1.44s/it][anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 10%|▉         | 54/564 [01:10<32:24,  3.81s/it] 10%|▉         | 56/564 [01:10<18:17,  2.16s/it] 10%|█         | 58/564 [01:10<11:23,  1.35s/it] 10%|█         | 59/564 [01:11<09:14,  1.10s/it] 11%|█         | 61/564 [01:11<05:58,  1.40it/s] 11%|█         | 62/564 [01:11<04:52,  1.72it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 11%|█         | 63/564 [01:14<10:21,  1.24s/it] 11%|█▏        | 64/564 [01:14<08:00,  1.04it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 12%|█▏        | 65/564 [01:17<12:04,  1.45s/it] 12%|█▏        | 66/564 [01:17<08:59,  1.08s/it] 12%|█▏        | 68/564 [01:17<05:20,  1.55it/s][anthropic._base_client] Retrying request to /v1/messages in 8.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 13%|█▎        | 71/564 [01:36<26:49,  3.26s/it] 13%|█▎        | 73/564 [01:36<18:33,  2.27s/it] 13%|█▎        | 74/564 [01:36<15:20,  1.88s/it] 13%|█▎        | 75/564 [01:36<12:25,  1.52s/it] 13%|█▎        | 76/564 [01:36<09:48,  1.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 14%|█▍        | 78/564 [01:40<11:44,  1.45s/it] 14%|█▍        | 80/564 [01:40<07:44,  1.04it/s][anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 15%|█▍        | 82/564 [01:57<27:45,  3.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 15%|█▌        | 85/564 [02:00<19:18,  2.42s/it] 15%|█▌        | 87/564 [02:00<13:50,  1.74s/it] 16%|█▌        | 89/564 [02:00<09:55,  1.25s/it] 16%|█▌        | 91/564 [02:00<07:10,  1.10it/s] 16%|█▋        | 93/564 [02:00<05:10,  1.52it/s] 17%|█▋        | 96/564 [02:00<03:15,  2.40it/s] 18%|█▊        | 99/564 [02:00<02:12,  3.50it/s] 18%|█▊        | 101/564 [02:01<01:45,  4.40it/s] 18%|█▊        | 103/564 [02:01<01:25,  5.37it/s] 19%|█▊        | 105/564 [02:01<01:10,  6.48it/s] 19%|█▉        | 107/564 [02:01<00:59,  7.74it/s] 19%|█▉        | 109/564 [02:01<00:49,  9.14it/s] 20%|█▉        | 111/564 [02:01<00:42, 10.74it/s] 20%|██        | 114/564 [02:01<00:33, 13.59it/s] 21%|██        | 117/564 [02:02<00:28, 15.42it/s] 21%|██        | 119/564 [02:02<00:30, 14.66it/s] 21%|██▏       | 121/564 [02:02<00:29, 14.96it/s] 22%|██▏       | 124/564 [02:02<00:26, 16.65it/s] 23%|██▎       | 127/564 [02:02<00:22, 19.03it/s] 23%|██▎       | 130/564 [02:02<00:21, 20.40it/s] 24%|██▎       | 133/564 [02:02<00:22, 19.29it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 24%|██▍       | 136/564 [02:05<02:16,  3.15it/s] 24%|██▍       | 138/564 [02:05<01:49,  3.89it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 25%|██▍       | 140/564 [02:07<03:21,  2.11it/s] 25%|██▌       | 142/564 [02:08<02:33,  2.74it/s] 26%|██▌       | 144/564 [02:08<01:57,  3.57it/s] 26%|██▌       | 147/564 [02:08<01:19,  5.22it/s] 27%|██▋       | 150/564 [02:08<00:57,  7.21it/s] 27%|██▋       | 153/564 [02:08<00:44,  9.34it/s] 28%|██▊       | 156/564 [02:08<00:35, 11.37it/s] 28%|██▊       | 159/564 [02:08<00:37, 10.76it/s] 29%|██▊       | 161/564 [02:09<00:38, 10.43it/s] 29%|██▉       | 163/564 [02:09<00:41,  9.63it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 29%|██▉       | 165/564 [02:12<03:20,  1.99it/s] 30%|██▉       | 167/564 [02:12<02:34,  2.57it/s] 30%|██▉       | 169/564 [02:13<01:58,  3.32it/s] 30%|███       | 171/564 [02:13<01:32,  4.25it/s] 31%|███       | 173/564 [02:13<01:11,  5.48it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 31%|███       | 176/564 [02:16<03:49,  1.69it/s] 32%|███▏      | 178/564 [02:17<02:59,  2.15it/s] 32%|███▏      | 179/564 [02:17<02:37,  2.44it/s] 32%|███▏      | 180/564 [02:17<02:15,  2.83it/s] 32%|███▏      | 182/564 [02:17<01:39,  3.85it/s] 33%|███▎      | 184/564 [02:17<01:17,  4.93it/s] 33%|███▎      | 186/564 [02:18<01:09,  5.46it/s] 33%|███▎      | 188/564 [02:18<00:59,  6.33it/s] 34%|███▍      | 192/564 [02:18<00:35, 10.43it/s] 34%|███▍      | 194/564 [02:18<00:31, 11.83it/s] 35%|███▍      | 196/564 [02:18<00:27, 13.14it/s] 35%|███▌      | 198/564 [02:19<00:42,  8.64it/s][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 35%|███▌      | 200/564 [02:27<08:05,  1.33s/it] 36%|███▋      | 205/564 [02:28<04:02,  1.48it/s] 37%|███▋      | 208/564 [02:28<02:55,  2.03it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 37%|███▋      | 211/564 [02:29<02:59,  1.97it/s][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 38%|███▊      | 214/564 [02:33<04:22,  1.33it/s][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 38%|███▊      | 215/564 [02:38<07:27,  1.28s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 38%|███▊      | 216/564 [02:50<16:27,  2.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 38%|███▊      | 217/564 [02:53<16:51,  2.91s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 39%|███▊      | 218/564 [03:00<21:25,  3.71s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 39%|███▉      | 219/564 [03:09<28:10,  4.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 39%|███▉      | 220/564 [03:11<24:09,  4.21s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 39%|███▉      | 221/564 [03:16<25:22,  4.44s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 39%|███▉      | 222/564 [03:28<36:07,  6.34s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 40%|███▉      | 223/564 [03:36<39:21,  6.93s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 40%|███▉      | 224/564 [03:46<44:20,  7.82s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 40%|███▉      | 225/564 [03:54<44:49,  7.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 40%|████      | 226/564 [03:56<34:26,  6.11s/it][anthropic._base_client] Retrying request to /v1/messages in 0.388907 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 40%|████      | 227/564 [04:24<1:10:00, 12.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 40%|████      | 228/564 [04:26<52:02,  9.29s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 41%|████      | 229/564 [04:28<40:06,  7.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 41%|████      | 230/564 [04:30<31:31,  5.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 41%|████      | 231/564 [04:32<25:55,  4.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 41%|████      | 232/564 [04:34<20:57,  3.79s/it][anthropic._base_client] Retrying request to /v1/messages in 7.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 41%|████▏     | 233/564 [04:51<43:21,  7.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 41%|████▏     | 234/564 [04:55<36:18,  6.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 42%|████▏     | 235/564 [04:57<29:15,  5.34s/it][anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 42%|████▏     | 236/564 [05:08<38:45,  7.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 42%|████▏     | 237/564 [05:12<32:58,  6.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 42%|████▏     | 238/564 [05:15<27:19,  5.03s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 42%|████▏     | 239/564 [05:21<29:10,  5.39s/it][anthropic._base_client] Retrying request to /v1/messages in 8.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 43%|████▎     | 240/564 [05:33<39:50,  7.38s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 43%|████▎     | 241/564 [05:51<56:29, 10.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 43%|████▎     | 242/564 [05:52<41:57,  7.82s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 43%|████▎     | 243/564 [05:58<37:58,  7.10s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 43%|████▎     | 244/564 [06:06<40:09,  7.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 43%|████▎     | 245/564 [06:09<31:40,  5.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 44%|████▎     | 246/564 [06:11<25:33,  4.82s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 44%|████▍     | 247/564 [06:16<26:48,  5.07s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 44%|████▍     | 248/564 [06:30<39:34,  7.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 44%|████▍     | 249/564 [06:32<31:10,  5.94s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 44%|████▍     | 250/564 [06:46<44:24,  8.48s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 45%|████▍     | 251/564 [06:55<45:05,  8.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 45%|████▍     | 252/564 [06:57<34:42,  6.67s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 45%|████▍     | 253/564 [07:12<46:43,  9.01s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 45%|████▌     | 254/564 [07:18<42:04,  8.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 45%|████▌     | 255/564 [07:20<32:01,  6.22s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 45%|████▌     | 256/564 [07:26<32:43,  6.37s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 46%|████▌     | 257/564 [07:32<30:58,  6.05s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 46%|████▌     | 258/564 [07:45<41:16,  8.09s/it][anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 46%|████▌     | 259/564 [07:55<43:59,  8.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 46%|████▌     | 260/564 [07:57<33:49,  6.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 46%|████▋     | 261/564 [07:59<27:28,  5.44s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 46%|████▋     | 262/564 [08:09<33:23,  6.64s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 47%|████▋     | 263/564 [08:16<33:59,  6.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 47%|████▋     | 264/564 [08:19<28:33,  5.71s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 47%|████▋     | 265/564 [08:43<55:25, 11.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 47%|████▋     | 266/564 [08:46<44:11,  8.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 47%|████▋     | 267/564 [08:50<36:24,  7.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 48%|████▊     | 268/564 [08:54<31:24,  6.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 48%|████▊     | 269/564 [08:58<28:06,  5.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 48%|████▊     | 270/564 [09:02<24:25,  4.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 48%|████▊     | 271/564 [09:05<22:32,  4.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 48%|████▊     | 272/564 [09:08<19:38,  4.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 48%|████▊     | 273/564 [09:12<19:04,  3.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 49%|████▊     | 274/564 [09:16<18:44,  3.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 49%|████▉     | 275/564 [09:19<18:32,  3.85s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 49%|████▉     | 276/564 [09:28<25:07,  5.23s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 49%|████▉     | 277/564 [09:40<35:13,  7.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 49%|████▉     | 278/564 [09:44<30:40,  6.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 49%|████▉     | 279/564 [09:48<27:05,  5.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 50%|████▉     | 280/564 [09:53<25:17,  5.34s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 50%|████▉     | 281/564 [10:04<33:14,  7.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 50%|█████     | 282/564 [10:06<26:30,  5.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 50%|█████     | 283/564 [10:09<22:18,  4.76s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 50%|█████     | 284/564 [10:17<27:01,  5.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 51%|█████     | 285/564 [10:19<21:22,  4.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 51%|█████     | 286/564 [10:21<18:20,  3.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 51%|█████     | 287/564 [10:24<15:45,  3.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 51%|█████     | 288/564 [10:25<13:14,  2.88s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 51%|█████     | 289/564 [10:35<22:04,  4.82s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 51%|█████▏    | 290/564 [10:44<27:57,  6.12s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 52%|█████▏    | 291/564 [10:49<26:48,  5.89s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 52%|█████▏    | 292/564 [10:56<27:50,  6.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 52%|█████▏    | 293/564 [10:58<22:31,  4.99s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 52%|█████▏    | 294/564 [11:04<23:13,  5.16s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 52%|█████▏    | 295/564 [11:13<28:35,  6.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 52%|█████▏    | 296/564 [11:15<22:47,  5.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 53%|█████▎    | 297/564 [11:17<18:44,  4.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 53%|█████▎    | 298/564 [11:19<15:33,  3.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 53%|█████▎    | 299/564 [11:21<13:46,  3.12s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 53%|█████▎    | 300/564 [11:28<18:16,  4.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 53%|█████▎    | 301/564 [11:31<16:35,  3.79s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 54%|█████▎    | 302/564 [11:41<24:55,  5.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 54%|█████▎    | 303/564 [11:43<19:52,  4.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 54%|█████▍    | 304/564 [11:45<17:01,  3.93s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 54%|█████▍    | 305/564 [11:52<20:03,  4.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 54%|█████▍    | 306/564 [11:54<17:11,  4.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 54%|█████▍    | 307/564 [11:59<17:43,  4.14s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 55%|█████▍    | 308/564 [12:07<23:34,  5.52s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 55%|█████▍    | 309/564 [12:17<28:30,  6.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 55%|█████▍    | 310/564 [12:19<22:26,  5.30s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 55%|█████▌    | 311/564 [12:26<24:22,  5.78s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 55%|█████▌    | 312/564 [12:34<27:57,  6.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 55%|█████▌    | 313/564 [12:36<21:52,  5.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 56%|█████▌    | 314/564 [12:38<17:27,  4.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 56%|█████▌    | 315/564 [12:40<14:07,  3.40s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 56%|█████▌    | 316/564 [12:48<19:53,  4.81s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 56%|█████▌    | 317/564 [12:54<22:07,  5.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 56%|█████▋    | 318/564 [13:11<35:19,  8.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 57%|█████▋    | 319/564 [13:13<27:08,  6.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 57%|█████▋    | 320/564 [13:15<21:35,  5.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 57%|█████▋    | 321/564 [13:17<18:10,  4.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 57%|█████▋    | 322/564 [13:19<15:10,  3.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 57%|█████▋    | 323/564 [13:22<13:24,  3.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 57%|█████▋    | 324/564 [13:24<11:40,  2.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 58%|█████▊    | 325/564 [13:26<10:30,  2.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 58%|█████▊    | 326/564 [13:28<09:29,  2.39s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 58%|█████▊    | 327/564 [13:35<15:38,  3.96s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 58%|█████▊    | 328/564 [13:41<17:13,  4.38s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 58%|█████▊    | 329/564 [13:48<21:11,  5.41s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 59%|█████▊    | 330/564 [13:55<22:10,  5.69s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 59%|█████▊    | 331/564 [14:01<22:51,  5.89s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 59%|█████▉    | 332/564 [14:07<23:06,  5.98s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 59%|█████▉    | 333/564 [14:14<23:24,  6.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 59%|█████▉    | 334/564 [14:15<18:01,  4.70s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 59%|█████▉    | 335/564 [14:25<23:25,  6.14s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 60%|█████▉    | 336/564 [14:34<27:04,  7.13s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 60%|█████▉    | 337/564 [14:39<24:54,  6.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 60%|█████▉    | 338/564 [14:41<19:14,  5.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 60%|██████    | 339/564 [14:43<15:36,  4.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 60%|██████    | 340/564 [14:45<12:51,  3.45s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 60%|██████    | 341/564 [14:50<14:38,  3.94s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 61%|██████    | 342/564 [14:55<15:54,  4.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 61%|██████    | 343/564 [14:57<13:04,  3.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 61%|██████    | 344/564 [14:59<11:09,  3.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 61%|██████    | 345/564 [15:00<09:29,  2.60s/it][anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 61%|██████▏   | 346/564 [15:10<17:34,  4.84s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 62%|██████▏   | 347/564 [15:17<19:06,  5.28s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 62%|██████▏   | 348/564 [15:23<20:39,  5.74s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 62%|██████▏   | 349/564 [15:30<21:06,  5.89s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 62%|██████▏   | 350/564 [15:37<22:12,  6.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 62%|██████▏   | 351/564 [15:38<17:15,  4.86s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 62%|██████▏   | 352/564 [15:44<17:39,  5.00s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 63%|██████▎   | 353/564 [15:53<22:21,  6.36s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 63%|██████▎   | 354/564 [15:58<21:12,  6.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 63%|██████▎   | 355/564 [16:00<16:23,  4.71s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 63%|██████▎   | 356/564 [16:11<23:07,  6.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 63%|██████▎   | 357/564 [16:13<18:04,  5.24s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 63%|██████▎   | 358/564 [16:22<21:39,  6.31s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 64%|██████▎   | 359/564 [16:31<24:45,  7.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 64%|██████▍   | 360/564 [16:34<19:44,  5.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 64%|██████▍   | 361/564 [16:36<16:01,  4.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 64%|██████▍   | 362/564 [16:38<12:44,  3.78s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 64%|██████▍   | 363/564 [16:43<14:23,  4.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 65%|██████▍   | 364/564 [16:45<11:35,  3.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 65%|██████▍   | 365/564 [16:46<09:45,  2.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 65%|██████▍   | 366/564 [16:48<08:41,  2.64s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 65%|██████▌   | 367/564 [16:55<12:10,  3.71s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 65%|██████▌   | 368/564 [17:00<13:47,  4.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 65%|██████▌   | 369/564 [17:03<12:26,  3.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 66%|██████▌   | 370/564 [17:05<10:41,  3.31s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 66%|██████▌   | 371/564 [17:10<12:41,  3.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 66%|██████▌   | 372/564 [17:13<11:13,  3.51s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 66%|██████▌   | 373/564 [17:20<14:55,  4.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 66%|██████▋   | 374/564 [17:22<11:59,  3.79s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 66%|██████▋   | 375/564 [17:26<12:34,  3.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 67%|██████▋   | 376/564 [17:28<10:14,  3.27s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 67%|██████▋   | 377/564 [17:34<12:20,  3.96s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 67%|██████▋   | 378/564 [20:42<3:03:54, 59.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 67%|██████▋   | 379/564 [20:44<2:09:41, 42.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 67%|██████▋   | 380/564 [20:47<1:33:12, 30.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 68%|██████▊   | 381/564 [20:49<1:06:49, 21.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 68%|██████▊   | 382/564 [20:51<48:16, 15.91s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 68%|██████▊   | 383/564 [20:53<35:35, 11.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 68%|██████▊   | 384/564 [20:55<26:30,  8.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 68%|██████▊   | 385/564 [20:58<20:38,  6.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 68%|██████▊   | 386/564 [21:00<16:51,  5.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 69%|██████▊   | 387/564 [21:02<13:12,  4.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 69%|██████▉   | 388/564 [21:04<11:00,  3.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 69%|██████▉   | 389/564 [21:07<09:58,  3.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 69%|██████▉   | 390/564 [21:09<08:36,  2.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 69%|██████▉   | 391/564 [21:11<07:35,  2.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 70%|██████▉   | 392/564 [21:13<07:44,  2.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 70%|██████▉   | 393/564 [21:17<08:12,  2.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 70%|██████▉   | 394/564 [21:19<07:18,  2.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 70%|███████   | 395/564 [21:21<06:39,  2.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 70%|███████   | 396/564 [21:22<05:52,  2.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 70%|███████   | 397/564 [21:24<05:41,  2.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 71%|███████   | 398/564 [21:27<06:33,  2.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 71%|███████   | 399/564 [21:28<05:45,  2.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 71%|███████   | 400/564 [21:30<05:09,  1.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 71%|███████   | 401/564 [21:32<05:34,  2.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 71%|███████▏  | 402/564 [21:34<05:33,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 71%|███████▏  | 403/564 [21:36<05:07,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 72%|███████▏  | 404/564 [21:38<05:13,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 72%|███████▏  | 405/564 [21:41<05:37,  2.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 72%|███████▏  | 406/564 [21:42<05:17,  2.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 72%|███████▏  | 407/564 [21:44<05:08,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 72%|███████▏  | 408/564 [21:46<05:03,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 73%|███████▎  | 409/564 [21:48<04:44,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 73%|███████▎  | 410/564 [22:40<43:46, 17.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 73%|███████▎  | 411/564 [22:42<31:44, 12.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 73%|███████▎  | 412/564 [22:44<23:21,  9.22s/it][anthropic._base_client] Retrying request to /v1/messages in 0.490791 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 73%|███████▎  | 413/564 [23:03<30:57, 12.30s/it][anthropic._base_client] Retrying request to /v1/messages in 0.377783 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 73%|███████▎  | 414/564 [23:22<35:56, 14.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 74%|███████▎  | 415/564 [23:24<26:06, 10.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 74%|███████▍  | 416/564 [23:25<19:20,  7.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 74%|███████▍  | 417/564 [23:27<14:41,  6.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 74%|███████▍  | 418/564 [23:29<11:28,  4.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 74%|███████▍  | 419/564 [23:31<09:11,  3.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 74%|███████▍  | 420/564 [23:32<07:43,  3.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 75%|███████▍  | 421/564 [23:34<06:47,  2.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 75%|███████▍  | 422/564 [23:37<06:20,  2.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 75%|███████▌  | 423/564 [23:38<05:32,  2.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 75%|███████▌  | 424/564 [23:40<04:54,  2.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 75%|███████▌  | 425/564 [23:42<05:03,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 76%|███████▌  | 426/564 [23:44<04:46,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 76%|███████▌  | 427/564 [23:46<04:35,  2.01s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 76%|███████▌  | 428/564 [23:54<08:52,  3.91s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 76%|███████▌  | 429/564 [24:00<10:12,  4.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 76%|███████▌  | 430/564 [24:02<08:31,  3.82s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 76%|███████▋  | 431/564 [24:08<09:38,  4.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 77%|███████▋  | 432/564 [24:10<07:48,  3.55s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 77%|███████▋  | 433/564 [24:15<09:01,  4.14s/it][anthropic._base_client] Retrying request to /v1/messages in 0.408603 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 77%|███████▋  | 434/564 [25:18<47:22, 21.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 77%|███████▋  | 435/564 [25:20<34:09, 15.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 77%|███████▋  | 436/564 [25:23<25:41, 12.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 77%|███████▋  | 437/564 [25:25<18:51,  8.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 78%|███████▊  | 438/564 [25:27<14:06,  6.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 78%|███████▊  | 439/564 [25:28<10:51,  5.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 78%|███████▊  | 440/564 [25:30<08:26,  4.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 78%|███████▊  | 441/564 [25:31<06:49,  3.33s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 78%|███████▊  | 442/564 [25:37<08:00,  3.94s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 79%|███████▊  | 443/564 [25:42<08:44,  4.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 79%|███████▊  | 444/564 [25:43<07:00,  3.50s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 79%|███████▉  | 445/564 [25:49<08:08,  4.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 79%|███████▉  | 446/564 [25:51<06:50,  3.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 79%|███████▉  | 447/564 [25:52<05:38,  2.89s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 79%|███████▉  | 448/564 [25:59<07:39,  3.96s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 80%|███████▉  | 449/564 [26:05<09:03,  4.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 80%|███████▉  | 450/564 [26:07<07:18,  3.85s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 80%|███████▉  | 451/564 [26:16<09:54,  5.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 80%|████████  | 452/564 [26:27<12:55,  6.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 80%|████████  | 453/564 [26:29<10:01,  5.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 80%|████████  | 454/564 [26:30<07:45,  4.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 81%|████████  | 455/564 [26:32<06:19,  3.49s/it][anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 81%|████████  | 456/564 [26:42<09:44,  5.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 81%|████████  | 457/564 [26:43<07:36,  4.27s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Coding_Direct.json
+ 81%|████████  | 458/564 [26:52<09:55,  5.61s/it]

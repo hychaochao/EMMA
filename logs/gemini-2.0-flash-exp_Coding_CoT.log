@@ -1,0 +1,755 @@
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Coding']
+[root] Loading config
+[root] Loading gemini-2.0-flash-exp
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/564 [00:00<?, ?it/s]
+--- Sample Generation Debug ---
+PID: coding_1
+Problem: {
+  "query": "\nWhich visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.show()\nA: <image_1>\nB: <image_2>\nC: <image_3>\nD: <image_4>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
+  "gt_content": "<image_2>",
+  "pid": "coding_1",
+  "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.show()",
+  "options": [
+    "<image_1>",
+    "<image_2>",
+    "<image_3>",
+    "<image_4>"
+  ],
+  "answer": "B",
+  "solution": "",
+  "subject": "Coding",
+  "task": "Code Choose Vis",
+  "category": "Advanced Chart Type;Axis & Scale",
+  "source": "new_annotated",
+  "type": "Multiple Choice",
+  "context": "",
+  "response": "The code generates a scatter plot with two groups of points, colored blue and red, based on the `labels` array. It also includes histograms along the x and y axes, corresponding to the distributions of x and y values for each group. Additionally, it draws horizontal and vertical lines at y=0.5 and x=0, respectively, and adds text labels.\n\nLet's analyze the code step by step:\n\n1. **Scatter Plot:**\n   - `plt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)`: Plots blue points where `labels` is 0.\n   - `plt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)`: Plots red points where `labels` is 1.\n   - This creates a scatter plot with two distinct groups of points, one blue and one red.\n\n2. **Horizontal and Vertical Lines:**\n   - `plt.axhline(0.5, color='black', linestyle=':', linewidth=1)`: Draws a horizontal dotted line at y=0.5.\n   - `plt.axvline(0, color='black', linestyle=':', linewidth=1)`: Draws a vertical dotted line at x=0.\n\n3. **Axis Labels and Legend:**\n   - `plt.xlabel(r'$P(F_{i+1} | F_i)$')`: Sets the x-axis label.\n   - `plt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')`: Sets the y-axis label.\n   - `plt.legend(title='Boundary')`: Adds a legend with the title \"Boundary\".\n\n4. **Histograms:**\n   - `plt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)`: Creates a vertical histogram of x values for the blue points.\n   - `plt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)`: Creates a vertical histogram of x values for the red points.\n   - `plt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)`: Creates a horizontal histogram of y values for the blue points.\n   - `plt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)`: Creates a horizontal histogram of y values for the red points.\n   - These histograms are placed along the edges of the scatter plot.\n\n5. **Text Labels:**\n   - `plt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)`: Adds the text \"\u03b1\u2081\" at the coordinates (-0.1, -1).\n   - `plt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)`: Adds the text \"\u03b1\u2082\" at the coordinates (1.02, 0.5).\n\n6. **Axis Limits:**\n   - `plt.xlim(-0.1, 1.1)`: Sets the x-axis limits.\n   - `plt.ylim(-1.1, 1.1)`: Sets the y-axis limits.\n\nComparing the code's output with the given options, we can see that option C matches the description. It has a scatter plot with blue and red points, histograms along the axes, horizontal and vertical dotted lines, text labels, and the correct axis limits. Option D is identical to C. Options A and B do not have the histograms correctly placed.\n\nTherefore, the correct answer is C or D. Since both are identical, we can choose either.\n\nFinal Answer: The final answer is $\\boxed{C}$"
+}
+  0%|          | 1/564 [00:09<1:31:05,  9.71s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  0%|          | 2/564 [00:16<1:13:59,  7.90s/it]Generated Response: The code generates a scatter plot with two groups of points, colored blue and red, based on the `labels` array. It also includes histograms along the x and y axes, corresponding to the distributions of x and y values for each group. Additionally, it draws horizontal and vertical lines at y=0.5 and x=0, respectively, and adds text labels.
+
+Let's analyze the code step by step:
+
+1. **Scatter Plot:**
+   - `plt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)`: Plots blue points where `labels` is 0.
+   - `plt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)`: Plots red points where `labels` is 1.
+   - This creates a scatter plot with two distinct groups of points, one blue and one red.
+
+2. **Horizontal and Vertical Lines:**
+   - `plt.axhline(0.5, color='black', linestyle=':', linewidth=1)`: Draws a horizontal dotted line at y=0.5.
+   - `plt.axvline(0, color='black', linestyle=':', linewidth=1)`: Draws a vertical dotted line at x=0.
+
+3. **Axis Labels and Legend:**
+   - `plt.xlabel(r'$P(F_{i+1} | F_i)$')`: Sets the x-axis label.
+   - `plt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')`: Sets the y-axis label.
+   - `plt.legend(title='Boundary')`: Adds a legend with the title "Boundary".
+
+4. **Histograms:**
+   - `plt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)`: Creates a vertical histogram of x values for the blue points.
+   - `plt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)`: Creates a vertical histogram of x values for the red points.
+   - `plt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)`: Creates a horizontal histogram of y values for the blue points.
+   - `plt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)`: Creates a horizontal histogram of y values for the red points.
+   - These histograms are placed along the edges of the scatter plot.
+
+5. **Text Labels:**
+   - `plt.text(-0.1, -1, r'$\alpha_1$', fontsize=12)`: Adds the text "α₁" at the coordinates (-0.1, -1).
+   - `plt.text(1.02, 0.5, r'$\alpha_2$', fontsize=12)`: Adds the text "α₂" at the coordinates (1.02, 0.5).
+
+6. **Axis Limits:**
+   - `plt.xlim(-0.1, 1.1)`: Sets the x-axis limits.
+   - `plt.ylim(-1.1, 1.1)`: Sets the y-axis limits.
+
+Comparing the code's output with the given options, we can see that option C matches the description. It has a scatter plot with blue and red points, histograms along the axes, horizontal and vertical dotted lines, text labels, and the correct axis limits. Option D is identical to C. Options A and B do not have the histograms correctly placed.
+
+Therefore, the correct answer is C or D. Since both are identical, we can choose either.
+
+Final Answer: The final answer is $\boxed{C}$
+------ End  ------
+
+
+--- Sample Generation Debug ---
+PID: coding_2
+Problem: {
+  "query": "\nWhich visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nfrom matplotlib.gridspec import GridSpec\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1  \nlabels = np.random.choice([0, 1], size=1000)\nfig = plt.figure(figsize=(8, 8))\ngs = GridSpec(4, 4, figure=fig)\nax_main = fig.add_subplot(gs[1:4, 0:3])\nax_main.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nax_main.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nax_main.axhline(0.5, color='black', linestyle=':', linewidth=1)\nax_main.axvline(0, color='black', linestyle=':', linewidth=1)\nax_main.set_xlabel(r'$P(F_{i+1} | F_i)$')\nax_main.set_ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nax_main.legend(title='Boundary')\nax_main.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nax_main.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nax_main.set_xlim(-0.1, 1.1)\nax_main.set_ylim(-1.1, 1.1)\nax_histx = fig.add_subplot(gs[0, 0:3], sharex=ax_main)\nax_histy = fig.add_subplot(gs[1:4, 3], sharey=ax_main)\nax_histx.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, density=True)\nax_histx.hist(x[labels == 1], bins=30, color='red', alpha=0.3, density=True)\nax_histy.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nax_histy.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nax_histx.label_outer()\nax_histy.label_outer()\nax_histy.tick_params(axis='both', direction='in')\nplt.show()\nA: <image_1>\nB: <image_2>\nC: <image_3>\nD: <image_4>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
+  "gt_content": "<image_1>",
+  "pid": "coding_2",
+  "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nfrom matplotlib.gridspec import GridSpec\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1  \nlabels = np.random.choice([0, 1], size=1000)\nfig = plt.figure(figsize=(8, 8))\ngs = GridSpec(4, 4, figure=fig)\nax_main = fig.add_subplot(gs[1:4, 0:3])\nax_main.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nax_main.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nax_main.axhline(0.5, color='black', linestyle=':', linewidth=1)\nax_main.axvline(0, color='black', linestyle=':', linewidth=1)\nax_main.set_xlabel(r'$P(F_{i+1} | F_i)$')\nax_main.set_ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nax_main.legend(title='Boundary')\nax_main.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nax_main.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nax_main.set_xlim(-0.1, 1.1)\nax_main.set_ylim(-1.1, 1.1)\nax_histx = fig.add_subplot(gs[0, 0:3], sharex=ax_main)\nax_histy = fig.add_subplot(gs[1:4, 3], sharey=ax_main)\nax_histx.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, density=True)\nax_histx.hist(x[labels == 1], bins=30, color='red', alpha=0.3, density=True)\nax_histy.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nax_histy.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nax_histx.label_outer()\nax_histy.label_outer()\nax_histy.tick_params(axis='both', direction='in')\nplt.show()",
+  "options": [
+    "<image_1>",
+    "<image_2>",
+    "<image_3>",
+    "<image_4>"
+  ],
+  "answer": "A",
+  "solution": "",
+  "subject": "Coding",
+  "task": "Code Choose Vis",
+  "category": "Advanced Chart Type;Axis & Scale",
+  "source": "new_annotated",
+  "type": "Multiple Choice",
+  "context": "",
+  "response": "The code generates a figure with a scatter plot and two histograms. Let's break down the code:\n\n1. **Import Libraries:** Imports `matplotlib.pyplot` for plotting, `numpy` for numerical operations, and `matplotlib.gridspec` for creating subplots.\n2. **Generate Data:**\n   - `x`: 1000 random numbers between 0 and 1.\n   - `y`: 1000 random numbers between -1 and 1.\n   - `labels`: 1000 random binary labels (0 or 1).\n3. **Create Figure and Grid:**\n   - Creates a figure with a size of 8x8 inches.\n   - Creates a 4x4 grid using `GridSpec`.\n4. **Main Scatter Plot:**\n   - `ax_main`: A subplot spanning rows 1 to 3 and columns 0 to 2.\n   - Scatter plot of `x` and `y`, colored blue for `labels == 0` and red for `labels == 1`.\n   - Horizontal line at `y=0.5` and vertical line at `x=0`.\n   - Labels for x and y axes.\n   - Legend with title \"Boundary\".\n   - Text annotations for `alpha_1` and `alpha_2`.\n   - Sets x and y axis limits.\n5. **Histograms:**\n   - `ax_histx`: A subplot in row 0, columns 0 to 2, sharing the x-axis with `ax_main`.\n   - Histogram of `x` values, colored blue for `labels == 0` and red for `labels == 1`.\n   - `ax_histy`: A subplot in rows 1 to 3, column 3, sharing the y-axis with `ax_main`.\n   - Histogram of `y` values, colored blue for `labels == 0` and red for `labels == 1`, with horizontal orientation.\n   - Removes labels from the outer axes of the histograms.\n   - Sets the direction of the ticks to be inside the plot for the y-axis histogram.\n6. **Show Plot:** Displays the generated plot.\n\nBased on this analysis, the correct visualization is the one with a scatter plot in the center, a histogram above it sharing the x-axis, and a histogram to the right sharing the y-axis. The scatter plot should have blue and red points, and the histograms should also have blue and red bars.\n\nComparing the options, option A matches this description.\n\nTherefore, the answer is \\boxed{A}."
+}
+Generated Response: The code generates a figure with a scatter plot and two histograms. Let's break down the code:
+
+1. **Import Libraries:** Imports `matplotlib.pyplot` for plotting, `numpy` for numerical operations, and `matplotlib.gridspec` for creating subplots.
+2. **Generate Data:**
+   - `x`: 1000 random numbers between 0 and 1.
+   - `y`: 1000 random numbers between -1 and 1.
+   - `labels`: 1000 random binary labels (0 or 1).
+3. **Create Figure and Grid:**
+   - Creates a figure with a size of 8x8 inches.
+   - Creates a 4x4 grid using `GridSpec`.
+4. **Main Scatter Plot:**
+   - `ax_main`: A subplot spanning rows 1 to 3 and columns 0 to 2.
+   - Scatter plot of `x` and `y`, colored blue for `labels == 0` and red for `labels == 1`.
+   - Horizontal line at `y=0.5` and vertical line at `x=0`.
+   - Labels for x and y axes.
+   - Legend with title "Boundary".
+   - Text annotations for `alpha_1` and `alpha_2`.
+   - Sets x and y axis limits.
+5. **Histograms:**
+   - `ax_histx`: A subplot in row 0, columns 0 to 2, sharing the x-axis with `ax_main`.
+   - Histogram of `x` values, colored blue for `labels == 0` and red for `labels == 1`.
+   - `ax_histy`: A subplot in rows 1 to 3, column 3, sharing the y-axis with `ax_main`.
+   - Histogram of `y` values, colored blue for `labels == 0` and red for `labels == 1`, with horizontal orientation.
+   - Removes labels from the outer axes of the histograms.
+   - Sets the direction of the ticks to be inside the plot for the y-axis histogram.
+6. **Show Plot:** Displays the generated plot.
+
+Based on this analysis, the correct visualization is the one with a scatter plot in the center, a histogram above it sharing the x-axis, and a histogram to the right sharing the y-axis. The scatter plot should have blue and red points, and the histograms should also have blue and red bars.
+
+Comparing the options, option A matches this description.
+
+Therefore, the answer is \boxed{A}.
+------ End  ------
+
+
+--- Sample Generation Debug ---
+PID: coding_3
+Problem: {
+  "query": "\nWhich visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.tick_params(axis='both', direction='in')\nplt.show()\nA: <image_1>\nB: <image_2>\nC: <image_3>\nD: <image_4>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
+  "gt_content": "<image_3>",
+  "pid": "coding_3",
+  "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.tick_params(axis='both', direction='in')\nplt.show()",
+  "options": [
+    "<image_1>",
+    "<image_2>",
+    "<image_3>",
+    "<image_4>"
+  ],
+  "answer": "C",
+  "solution": "",
+  "subject": "Coding",
+  "task": "Code Choose Vis",
+  "category": "Advanced Chart Type;Axis & Scale",
+  "source": "new_annotated",
+  "type": "Multiple Choice",
+  "context": "",
+  "response": "The code generates a scatter plot with two groups of points, colored blue and red, based on the `labels` array. It also includes histograms along the top and right edges of the scatter plot. Let's analyze the code step by step:\n\n1. **Import Libraries:** The code imports `matplotlib.pyplot` for plotting and `numpy` for numerical operations.\n2. **Generate Data:**\n   - `np.random.seed(0)`: Sets the random seed for reproducibility.\n   - `x = np.random.rand(1000)`: Generates 1000 random numbers between 0 and 1 for the x-coordinates.\n   - `y = np.random.rand(1000) * 2 - 1`: Generates 1000 random numbers between -1 and 1 for the y-coordinates.\n   - `labels = np.random.choice([0, 1], size=1000)`: Generates 1000 random labels, either 0 or 1.\n3. **Create Scatter Plot:**\n   - `plt.figure(figsize=(8, 8))`: Creates a figure with a size of 8x8 inches.\n   - `plt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)`: Plots the points where `labels` is 0 in blue with transparency 0.6.\n   - `plt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)`: Plots the points where `labels` is 1 in red with transparency 0.6.\n   - `plt.axhline(0.5, color='black', linestyle=':', linewidth=1)`: Draws a horizontal dotted line at y=0.5.\n   - `plt.axvline(0, color='black', linestyle=':', linewidth=1)`: Draws a vertical dotted line at x=0.\n   - `plt.xlabel(r'$P(F_{i+1} | F_i)$')`: Sets the x-axis label.\n   - `plt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')`: Sets the y-axis label.\n   - `plt.legend(title='Boundary')`: Adds a legend with the title \"Boundary\".\n4. **Create Histograms:**\n   - `plt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)`: Creates a vertical histogram of x-values where `labels` is 0, with 30 bins, blue color, transparency 0.3, and normalized to density.\n   - `plt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)`: Creates a vertical histogram of x-values where `labels` is 1, with 30 bins, red color, transparency 0.3, and normalized to density.\n   - `plt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)`: Creates a horizontal histogram of y-values where `labels` is 0, with 30 bins, blue color, transparency 0.3, and normalized to density.\n   - `plt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)`: Creates a horizontal histogram of y-values where `labels` is 1, with 30 bins, red color, transparency 0.3, and normalized to density.\n5. **Add Text Annotations:**\n   - `plt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)`: Adds the text \"\u03b1\u2081\" at coordinates (-0.1, -1).\n   - `plt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)`: Adds the text \"\u03b1\u2082\" at coordinates (1.02, 0.5).\n6. **Set Axis Limits and Ticks:**\n   - `plt.xlim(-0.1, 1.1)`: Sets the x-axis limits.\n   - `plt.ylim(-1.1, 1.1)`: Sets the y-axis limits.\n   - `plt.tick_params(axis='both', direction='in')`: Sets the tick direction to be inside the plot.\n7. **Show Plot:**\n   - `plt.show()`: Displays the plot.\n\nBased on this analysis, the correct visualization is **A**. It shows a scatter plot with blue and red points, horizontal and vertical dotted lines, histograms along the top and right edges, and the text annotations.\n\nFinal Answer: The final answer is $\\boxed{A}$"
+}
+[root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  1%|          | 3/564 [00:26<1:24:53,  9.08s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  1%|          | 4/564 [00:37<1:29:46,  9.62s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  1%|          | 5/564 [00:41<1:12:30,  7.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  1%|          | 6/564 [00:50<1:14:56,  8.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  1%|          | 7/564 [00:56<1:08:10,  7.34s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  1%|▏         | 8/564 [01:04<1:11:34,  7.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  2%|▏         | 9/564 [01:08<1:00:31,  6.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  2%|▏         | 10/564 [01:17<1:05:59,  7.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  2%|▏         | 11/564 [01:22<1:01:36,  6.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  2%|▏         | 12/564 [01:26<53:15,  5.79s/it]  [root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  2%|▏         | 13/564 [01:31<51:45,  5.64s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  2%|▏         | 14/564 [01:35<46:16,  5.05s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  3%|▎         | 15/564 [01:42<50:21,  5.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  3%|▎         | 16/564 [01:48<52:52,  5.79s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  3%|▎         | 17/564 [02:02<1:15:37,  8.30s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  3%|▎         | 18/564 [02:06<1:04:15,  7.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  3%|▎         | 19/564 [02:11<56:23,  6.21s/it]  [root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  4%|▎         | 20/564 [02:15<51:11,  5.65s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  4%|▎         | 21/564 [02:21<52:30,  5.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  4%|▍         | 22/564 [02:24<45:43,  5.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  4%|▍         | 23/564 [02:28<41:24,  4.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  4%|▍         | 24/564 [02:31<37:43,  4.19s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  4%|▍         | 25/564 [02:36<40:00,  4.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  5%|▍         | 26/564 [02:40<37:58,  4.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  5%|▍         | 27/564 [02:45<39:57,  4.46s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  5%|▍         | 28/564 [02:49<39:04,  4.37s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  5%|▌         | 29/564 [02:56<44:50,  5.03s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  5%|▌         | 30/564 [03:00<41:23,  4.65s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  5%|▌         | 31/564 [03:04<40:08,  4.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  6%|▌         | 32/564 [03:08<39:18,  4.43s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  6%|▌         | 33/564 [03:15<46:00,  5.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  6%|▌         | 34/564 [03:21<47:35,  5.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  6%|▌         | 35/564 [03:27<51:01,  5.79s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  6%|▋         | 36/564 [03:33<50:54,  5.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  7%|▋         | 37/564 [03:39<51:15,  5.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  7%|▋         | 38/564 [03:46<53:22,  6.09s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  7%|▋         | 39/564 [03:53<56:53,  6.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  7%|▋         | 40/564 [03:59<54:24,  6.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  7%|▋         | 41/564 [04:05<54:31,  6.26s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  7%|▋         | 42/564 [04:12<56:45,  6.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  8%|▊         | 43/564 [04:20<58:20,  6.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  8%|▊         | 44/564 [04:27<1:00:49,  7.02s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  8%|▊         | 45/564 [04:34<59:25,  6.87s/it]  [root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  8%|▊         | 46/564 [04:40<56:16,  6.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  8%|▊         | 47/564 [04:49<1:02:36,  7.27s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  9%|▊         | 48/564 [04:56<1:03:04,  7.33s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  9%|▊         | 49/564 [05:02<58:58,  6.87s/it]  [root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  9%|▉         | 50/564 [05:06<52:02,  6.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  9%|▉         | 51/564 [05:13<53:11,  6.22s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  9%|▉         | 52/564 [05:21<59:04,  6.92s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+  9%|▉         | 53/564 [05:28<58:42,  6.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 10%|▉         | 54/564 [05:40<1:10:29,  8.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 10%|▉         | 55/564 [05:46<1:05:59,  7.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 10%|▉         | 56/564 [05:53<1:03:00,  7.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 10%|█         | 57/564 [05:57<53:58,  6.39s/it]  [root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 10%|█         | 58/564 [06:00<46:45,  5.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 10%|█         | 59/564 [06:05<44:25,  5.28s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 11%|█         | 60/564 [06:08<38:39,  4.60s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 11%|█         | 61/564 [06:13<39:05,  4.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 11%|█         | 62/564 [06:18<39:24,  4.71s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 11%|█         | 63/564 [06:23<42:11,  5.05s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 11%|█▏        | 64/564 [06:31<48:11,  5.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 12%|█▏        | 65/564 [06:37<48:08,  5.79s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 12%|█▏        | 66/564 [06:41<44:12,  5.33s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 12%|█▏        | 67/564 [06:45<41:58,  5.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 12%|█▏        | 68/564 [06:51<42:05,  5.09s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 12%|█▏        | 69/564 [06:54<37:20,  4.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 12%|█▏        | 70/564 [06:58<35:19,  4.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 13%|█▎        | 71/564 [07:02<35:27,  4.31s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 13%|█▎        | 72/564 [07:06<33:38,  4.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 13%|█▎        | 73/564 [07:11<37:30,  4.58s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 13%|█▎        | 74/564 [07:15<36:10,  4.43s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 13%|█▎        | 75/564 [07:19<35:03,  4.30s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 13%|█▎        | 76/564 [07:28<46:21,  5.70s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 14%|█▎        | 77/564 [07:34<47:08,  5.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 14%|█▍        | 78/564 [07:38<40:46,  5.03s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 14%|█▍        | 79/564 [07:42<38:49,  4.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 14%|█▍        | 80/564 [07:49<45:11,  5.60s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 14%|█▍        | 81/564 [08:01<59:35,  7.40s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 15%|█▍        | 82/564 [08:16<1:17:16,  9.62s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 15%|█▍        | 83/564 [08:22<1:08:39,  8.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 15%|█▍        | 84/564 [08:26<58:05,  7.26s/it]  [root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 15%|█▌        | 85/564 [08:32<55:38,  6.97s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 15%|█▌        | 86/564 [08:37<49:10,  6.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 15%|█▌        | 87/564 [08:43<50:00,  6.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 16%|█▌        | 88/564 [08:52<55:34,  7.00s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 16%|█▌        | 89/564 [08:57<52:06,  6.58s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 16%|█▌        | 90/564 [09:03<50:06,  6.34s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 16%|█▌        | 91/564 [09:08<46:12,  5.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 16%|█▋        | 92/564 [09:15<48:23,  6.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 16%|█▋        | 93/564 [09:21<49:28,  6.30s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 17%|█▋        | 94/564 [09:27<48:03,  6.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 17%|█▋        | 95/564 [09:32<44:56,  5.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 17%|█▋        | 96/564 [09:39<48:07,  6.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 17%|█▋        | 97/564 [09:46<49:59,  6.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 17%|█▋        | 98/564 [09:55<55:03,  7.09s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 18%|█▊        | 99/564 [10:03<56:34,  7.30s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 18%|█▊        | 100/564 [10:10<56:12,  7.27s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 18%|█▊        | 101/564 [10:18<58:41,  7.61s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 18%|█▊        | 102/564 [10:26<58:19,  7.58s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 18%|█▊        | 103/564 [10:34<58:53,  7.67s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 18%|█▊        | 104/564 [10:39<52:51,  6.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 19%|█▊        | 105/564 [10:42<45:09,  5.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 19%|█▉        | 106/564 [10:49<47:33,  6.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 19%|█▉        | 107/564 [10:53<41:18,  5.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 19%|█▉        | 108/564 [11:01<47:19,  6.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 19%|█▉        | 109/564 [11:06<44:50,  5.91s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 20%|█▉        | 110/564 [11:11<41:32,  5.49s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 20%|█▉        | 111/564 [11:17<42:31,  5.63s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 20%|█▉        | 112/564 [11:22<42:53,  5.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 20%|██        | 113/564 [11:27<40:51,  5.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 20%|██        | 114/564 [11:32<39:28,  5.26s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 20%|██        | 115/564 [11:36<36:23,  4.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 21%|██        | 116/564 [11:42<38:22,  5.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 21%|██        | 117/564 [11:51<47:34,  6.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 21%|██        | 118/564 [12:00<53:21,  7.18s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 21%|██        | 119/564 [12:07<52:30,  7.08s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 21%|██▏       | 120/564 [12:14<51:20,  6.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 21%|██▏       | 121/564 [12:22<53:24,  7.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 22%|██▏       | 122/564 [12:28<52:35,  7.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 22%|██▏       | 123/564 [12:36<52:53,  7.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 22%|██▏       | 124/564 [12:44<55:18,  7.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 22%|██▏       | 125/564 [12:50<52:12,  7.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 22%|██▏       | 126/564 [12:56<49:12,  6.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 23%|██▎       | 127/564 [13:03<49:50,  6.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 23%|██▎       | 128/564 [13:08<46:14,  6.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 23%|██▎       | 129/564 [13:11<37:15,  5.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 23%|██▎       | 130/564 [13:17<40:24,  5.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 23%|██▎       | 131/564 [13:22<38:08,  5.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 23%|██▎       | 132/564 [13:27<37:46,  5.25s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 24%|██▎       | 133/564 [13:36<46:05,  6.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 24%|██▍       | 134/564 [13:56<1:14:09, 10.35s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 24%|██▍       | 135/564 [14:00<1:00:56,  8.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 24%|██▍       | 136/564 [14:05<52:22,  7.34s/it]  [root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 24%|██▍       | 137/564 [14:09<45:55,  6.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 24%|██▍       | 138/564 [14:11<37:06,  5.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 25%|██▍       | 139/564 [14:16<34:52,  4.92s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 25%|██▍       | 140/564 [14:18<29:25,  4.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 25%|██▌       | 141/564 [14:24<34:00,  4.82s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 25%|██▌       | 142/564 [14:29<32:52,  4.67s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 25%|██▌       | 143/564 [14:34<34:19,  4.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 26%|██▌       | 144/564 [14:41<39:04,  5.58s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 26%|██▌       | 145/564 [14:47<39:38,  5.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 26%|██▌       | 146/564 [14:57<47:35,  6.83s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 26%|██▌       | 147/564 [15:04<49:14,  7.09s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 26%|██▌       | 148/564 [15:11<47:49,  6.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 26%|██▋       | 149/564 [15:14<39:58,  5.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 27%|██▋       | 150/564 [15:24<48:04,  6.97s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 27%|██▋       | 151/564 [15:29<44:27,  6.46s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 27%|██▋       | 152/564 [15:36<46:07,  6.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 27%|██▋       | 153/564 [15:43<46:34,  6.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 27%|██▋       | 154/564 [15:51<47:32,  6.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 27%|██▋       | 155/564 [15:57<46:12,  6.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 28%|██▊       | 156/564 [16:01<40:32,  5.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 28%|██▊       | 157/564 [16:06<37:22,  5.51s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 28%|██▊       | 158/564 [16:12<39:30,  5.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 28%|██▊       | 159/564 [16:19<41:50,  6.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 28%|██▊       | 160/564 [16:24<39:42,  5.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 29%|██▊       | 161/564 [16:30<39:50,  5.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 29%|██▊       | 162/564 [16:37<40:34,  6.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 29%|██▉       | 163/564 [16:44<42:28,  6.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 29%|██▉       | 164/564 [16:49<40:02,  6.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 29%|██▉       | 165/564 [16:54<38:26,  5.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 29%|██▉       | 166/564 [17:00<37:50,  5.70s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 30%|██▉       | 167/564 [17:06<38:04,  5.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 30%|██▉       | 168/564 [17:13<41:51,  6.34s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 30%|██▉       | 169/564 [17:17<36:27,  5.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 30%|███       | 170/564 [17:21<33:53,  5.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 30%|███       | 171/564 [17:24<28:55,  4.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 30%|███       | 172/564 [17:27<26:52,  4.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 31%|███       | 173/564 [17:33<29:17,  4.49s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 31%|███       | 174/564 [17:36<26:56,  4.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 31%|███       | 175/564 [17:41<28:34,  4.41s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 31%|███       | 176/564 [17:57<49:59,  7.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 31%|███▏      | 177/564 [18:04<49:10,  7.62s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 32%|███▏      | 178/564 [18:09<43:31,  6.77s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 32%|███▏      | 179/564 [18:13<38:03,  5.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 32%|███▏      | 180/564 [18:19<38:25,  6.00s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 32%|███▏      | 181/564 [18:23<35:23,  5.55s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 32%|███▏      | 182/564 [18:26<29:52,  4.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 32%|███▏      | 183/564 [18:30<27:51,  4.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 33%|███▎      | 184/564 [18:32<23:40,  3.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 33%|███▎      | 185/564 [18:36<24:38,  3.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 33%|███▎      | 186/564 [18:41<25:58,  4.12s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 33%|███▎      | 187/564 [18:44<24:34,  3.91s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 33%|███▎      | 188/564 [18:49<25:31,  4.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 34%|███▎      | 189/564 [18:53<26:20,  4.21s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 34%|███▎      | 190/564 [18:59<29:32,  4.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 34%|███▍      | 191/564 [19:05<31:42,  5.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 34%|███▍      | 192/564 [19:10<30:35,  4.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 34%|███▍      | 193/564 [19:20<40:32,  6.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 34%|███▍      | 194/564 [19:32<50:35,  8.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 35%|███▍      | 195/564 [19:38<46:19,  7.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 35%|███▍      | 196/564 [19:43<41:16,  6.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 35%|███▍      | 197/564 [19:54<48:44,  7.97s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 35%|███▌      | 198/564 [19:58<42:36,  6.99s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 35%|███▌      | 199/564 [20:03<38:17,  6.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 35%|███▌      | 200/564 [20:07<34:00,  5.61s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 36%|███▌      | 201/564 [20:10<28:53,  4.77s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 36%|███▌      | 202/564 [20:14<28:13,  4.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 36%|███▌      | 203/564 [20:17<24:52,  4.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 36%|███▌      | 204/564 [20:22<25:21,  4.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 36%|███▋      | 205/564 [20:27<26:55,  4.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 37%|███▋      | 206/564 [20:32<27:38,  4.63s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 37%|███▋      | 207/564 [20:38<30:12,  5.08s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 37%|███▋      | 208/564 [20:43<30:04,  5.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 37%|███▋      | 209/564 [20:49<32:10,  5.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 37%|███▋      | 210/564 [20:55<31:57,  5.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 37%|███▋      | 211/564 [21:00<31:29,  5.35s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 38%|███▊      | 212/564 [21:07<33:49,  5.77s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 38%|███▊      | 213/564 [21:11<32:02,  5.48s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 38%|███▊      | 214/564 [21:17<31:33,  5.41s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 38%|███▊      | 215/564 [21:38<59:42, 10.26s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 38%|███▊      | 216/564 [21:45<53:12,  9.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 38%|███▊      | 217/564 [21:52<49:49,  8.61s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 39%|███▊      | 218/564 [21:59<46:16,  8.02s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 39%|███▉      | 219/564 [22:03<39:38,  6.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 39%|███▉      | 220/564 [22:08<36:03,  6.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 39%|███▉      | 221/564 [22:15<37:29,  6.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 39%|███▉      | 222/564 [22:23<39:38,  6.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 40%|███▉      | 223/564 [22:29<38:18,  6.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 40%|███▉      | 224/564 [22:36<37:47,  6.67s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 40%|███▉      | 225/564 [22:41<34:38,  6.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 40%|████      | 226/564 [22:47<34:35,  6.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 40%|████      | 227/564 [22:51<30:48,  5.48s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 40%|████      | 228/564 [22:54<27:43,  4.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 41%|████      | 229/564 [22:59<27:15,  4.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 41%|████      | 230/564 [23:03<24:44,  4.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 41%|████      | 231/564 [23:07<24:27,  4.41s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 41%|████      | 232/564 [23:15<29:47,  5.38s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 41%|████▏     | 233/564 [23:21<31:11,  5.65s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 41%|████▏     | 234/564 [23:27<32:38,  5.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 42%|████▏     | 235/564 [23:35<34:19,  6.26s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 42%|████▏     | 236/564 [23:42<36:24,  6.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 42%|████▏     | 237/564 [23:53<43:24,  7.97s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 42%|████▏     | 238/564 [24:05<48:56,  9.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 42%|████▏     | 239/564 [24:11<44:22,  8.19s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 43%|████▎     | 240/564 [24:20<45:15,  8.38s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 43%|████▎     | 241/564 [24:32<51:01,  9.48s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 43%|████▎     | 242/564 [24:43<53:49, 10.03s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 43%|████▎     | 243/564 [24:50<49:31,  9.26s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 43%|████▎     | 244/564 [24:56<43:10,  8.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 43%|████▎     | 245/564 [25:01<37:31,  7.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 44%|████▎     | 246/564 [25:05<32:45,  6.18s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 44%|████▍     | 247/564 [25:08<28:45,  5.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 44%|████▍     | 248/564 [25:12<25:20,  4.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 44%|████▍     | 249/564 [25:26<39:56,  7.61s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 44%|████▍     | 250/564 [25:31<35:31,  6.79s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 45%|████▍     | 251/564 [25:38<36:19,  6.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 45%|████▍     | 252/564 [25:45<36:16,  6.98s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 45%|████▍     | 253/564 [26:02<52:06, 10.05s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 45%|████▌     | 254/564 [26:17<59:06, 11.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 45%|████▌     | 255/564 [26:25<53:59, 10.48s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 45%|████▌     | 256/564 [26:34<51:24, 10.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 46%|████▌     | 257/564 [26:38<41:57,  8.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 46%|████▌     | 258/564 [26:42<35:24,  6.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 46%|████▌     | 259/564 [26:51<37:58,  7.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 46%|████▌     | 260/564 [26:56<33:39,  6.64s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 46%|████▋     | 261/564 [27:00<30:56,  6.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 46%|████▋     | 262/564 [27:04<26:52,  5.34s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 47%|████▋     | 263/564 [27:09<25:44,  5.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 47%|████▋     | 264/564 [27:14<25:45,  5.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 47%|████▋     | 265/564 [27:20<26:35,  5.34s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 47%|████▋     | 266/564 [27:25<25:52,  5.21s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 47%|████▋     | 267/564 [27:38<38:09,  7.71s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 48%|████▊     | 268/564 [27:45<37:14,  7.55s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 48%|████▊     | 269/564 [27:55<40:55,  8.32s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 48%|████▊     | 270/564 [28:00<35:24,  7.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 48%|████▊     | 271/564 [28:07<35:02,  7.18s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 48%|████▊     | 272/564 [28:11<30:46,  6.33s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 48%|████▊     | 273/564 [28:18<30:26,  6.28s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 49%|████▊     | 274/564 [28:23<29:48,  6.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 49%|████▉     | 275/564 [28:30<30:38,  6.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 49%|████▉     | 276/564 [28:36<29:28,  6.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 49%|████▉     | 277/564 [28:44<32:42,  6.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 49%|████▉     | 278/564 [28:50<31:19,  6.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 49%|████▉     | 279/564 [28:56<30:13,  6.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 50%|████▉     | 280/564 [29:03<30:31,  6.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 50%|████▉     | 281/564 [29:07<26:26,  5.61s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 50%|█████     | 282/564 [29:13<27:28,  5.85s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 50%|█████     | 283/564 [29:17<25:34,  5.46s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 50%|█████     | 284/564 [29:23<24:58,  5.35s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 51%|█████     | 285/564 [29:30<27:06,  5.83s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 51%|█████     | 286/564 [29:33<24:15,  5.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 51%|█████     | 287/564 [29:38<23:46,  5.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 51%|█████     | 288/564 [29:46<26:45,  5.82s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 51%|█████     | 289/564 [29:54<29:37,  6.46s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 51%|█████▏    | 290/564 [30:00<29:03,  6.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 52%|█████▏    | 291/564 [30:06<28:28,  6.26s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 52%|█████▏    | 292/564 [30:17<35:26,  7.82s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 52%|█████▏    | 293/564 [30:24<33:31,  7.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 52%|█████▏    | 294/564 [30:35<37:58,  8.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 52%|█████▏    | 295/564 [30:47<42:52,  9.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 52%|█████▏    | 296/564 [30:54<39:19,  8.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 53%|█████▎    | 297/564 [30:58<33:21,  7.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 53%|█████▎    | 298/564 [31:04<30:36,  6.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 53%|█████▎    | 299/564 [31:10<29:06,  6.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 53%|█████▎    | 300/564 [31:13<25:15,  5.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 53%|█████▎    | 301/564 [31:23<30:01,  6.85s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 54%|█████▎    | 302/564 [31:31<31:47,  7.28s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 54%|█████▎    | 303/564 [31:38<31:38,  7.27s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 54%|█████▍    | 304/564 [31:46<32:01,  7.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 54%|█████▍    | 305/564 [32:09<51:47, 12.00s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 54%|█████▍    | 306/564 [32:18<48:06, 11.19s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 54%|█████▍    | 307/564 [32:27<45:17, 10.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 55%|█████▍    | 308/564 [32:35<41:11,  9.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 55%|█████▍    | 309/564 [32:39<33:59,  8.00s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 55%|█████▍    | 310/564 [32:43<28:29,  6.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 55%|█████▌    | 311/564 [32:47<24:54,  5.91s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 55%|█████▌    | 312/564 [32:54<26:33,  6.33s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 55%|█████▌    | 313/564 [33:01<27:08,  6.49s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 56%|█████▌    | 314/564 [33:08<28:11,  6.77s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 56%|█████▌    | 315/564 [33:14<27:16,  6.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 56%|█████▌    | 316/564 [33:20<26:25,  6.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 56%|█████▌    | 317/564 [33:25<24:27,  5.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 56%|█████▋    | 318/564 [33:31<24:18,  5.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 57%|█████▋    | 319/564 [33:37<24:01,  5.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 57%|█████▋    | 320/564 [33:41<21:31,  5.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 57%|█████▋    | 321/564 [33:47<22:27,  5.55s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 57%|█████▋    | 322/564 [33:59<30:49,  7.64s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 57%|█████▋    | 323/564 [34:04<27:21,  6.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 57%|█████▋    | 324/564 [34:11<27:22,  6.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 58%|█████▊    | 325/564 [34:17<25:47,  6.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 58%|█████▊    | 326/564 [34:22<24:15,  6.12s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 58%|█████▊    | 327/564 [34:28<24:09,  6.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 58%|█████▊    | 328/564 [34:32<21:47,  5.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 58%|█████▊    | 329/564 [34:39<23:17,  5.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 59%|█████▊    | 330/564 [34:45<22:24,  5.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 59%|█████▊    | 331/564 [34:51<23:33,  6.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 59%|█████▉    | 332/564 [34:59<25:13,  6.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 59%|█████▉    | 333/564 [35:05<24:38,  6.40s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 59%|█████▉    | 334/564 [35:13<25:58,  6.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 59%|█████▉    | 335/564 [35:40<49:31, 12.98s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 60%|█████▉    | 336/564 [35:56<52:24, 13.79s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 60%|█████▉    | 337/564 [36:00<41:27, 10.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 60%|█████▉    | 338/564 [36:05<33:57,  9.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 60%|██████    | 339/564 [36:08<27:29,  7.33s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 60%|██████    | 340/564 [36:13<25:06,  6.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 60%|██████    | 341/564 [36:19<23:17,  6.27s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 61%|██████    | 342/564 [36:26<24:54,  6.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 61%|██████    | 343/564 [36:33<24:38,  6.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 61%|██████    | 344/564 [36:40<24:38,  6.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 61%|██████    | 345/564 [36:48<25:44,  7.05s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 61%|██████▏   | 346/564 [36:54<25:07,  6.91s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 62%|██████▏   | 347/564 [37:00<23:59,  6.63s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 62%|██████▏   | 348/564 [37:08<24:38,  6.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 62%|██████▏   | 349/564 [37:15<25:19,  7.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 62%|██████▏   | 350/564 [37:23<25:29,  7.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 62%|██████▏   | 351/564 [37:34<30:21,  8.55s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 62%|██████▏   | 352/564 [37:42<29:37,  8.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 63%|██████▎   | 353/564 [37:49<27:34,  7.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 63%|██████▎   | 354/564 [38:07<38:04, 10.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 63%|██████▎   | 355/564 [38:12<31:26,  9.02s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 63%|██████▎   | 356/564 [38:18<28:09,  8.12s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 63%|██████▎   | 357/564 [38:24<25:54,  7.51s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 63%|██████▎   | 358/564 [38:30<24:13,  7.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 64%|██████▎   | 359/564 [38:42<29:11,  8.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 64%|██████▍   | 360/564 [38:47<26:08,  7.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 64%|██████▍   | 361/564 [38:52<22:33,  6.67s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 64%|██████▍   | 362/564 [38:58<22:20,  6.64s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 64%|██████▍   | 363/564 [39:03<20:40,  6.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 65%|██████▍   | 364/564 [39:08<19:29,  5.85s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 65%|██████▍   | 365/564 [39:13<18:04,  5.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 65%|██████▍   | 366/564 [39:17<16:36,  5.03s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 65%|██████▌   | 367/564 [39:25<19:04,  5.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 65%|██████▌   | 368/564 [39:31<19:26,  5.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 65%|██████▌   | 369/564 [39:34<16:58,  5.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 66%|██████▌   | 370/564 [39:41<17:53,  5.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 66%|██████▌   | 371/564 [39:52<23:19,  7.25s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 66%|██████▌   | 372/564 [39:59<23:03,  7.21s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 66%|██████▌   | 373/564 [40:04<20:26,  6.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 66%|██████▋   | 374/564 [40:07<17:42,  5.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 66%|██████▋   | 375/564 [40:12<16:19,  5.18s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 67%|██████▋   | 376/564 [40:16<15:24,  4.92s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 67%|██████▋   | 377/564 [40:20<14:43,  4.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 67%|██████▋   | 378/564 [40:24<13:48,  4.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 67%|██████▋   | 379/564 [40:32<17:25,  5.65s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 67%|██████▋   | 380/564 [40:39<18:39,  6.08s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 68%|██████▊   | 381/564 [40:46<19:11,  6.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 68%|██████▊   | 382/564 [40:54<20:20,  6.71s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 68%|██████▊   | 383/564 [41:00<19:47,  6.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 68%|██████▊   | 384/564 [41:05<18:08,  6.05s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 68%|██████▊   | 385/564 [41:12<18:50,  6.32s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 68%|██████▊   | 386/564 [41:18<18:29,  6.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 69%|██████▊   | 387/564 [41:27<20:42,  7.02s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 69%|██████▉   | 388/564 [41:35<21:36,  7.37s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 69%|██████▉   | 389/564 [41:46<25:02,  8.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 69%|██████▉   | 390/564 [41:59<28:37,  9.87s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 69%|██████▉   | 391/564 [42:07<27:00,  9.37s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 70%|██████▉   | 392/564 [42:11<21:45,  7.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 70%|██████▉   | 393/564 [42:16<19:14,  6.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 70%|██████▉   | 394/564 [42:32<26:54,  9.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 70%|███████   | 395/564 [42:43<28:13, 10.02s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 70%|███████   | 396/564 [42:48<24:19,  8.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 70%|███████   | 397/564 [42:57<24:18,  8.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 71%|███████   | 398/564 [43:12<29:07, 10.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 71%|███████   | 399/564 [43:22<28:17, 10.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 71%|███████   | 400/564 [43:30<26:20,  9.64s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 71%|███████   | 401/564 [43:43<28:38, 10.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 71%|███████▏  | 402/564 [43:50<25:58,  9.62s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 71%|███████▏  | 403/564 [44:08<32:22, 12.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 72%|███████▏  | 404/564 [44:17<29:35, 11.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 72%|███████▏  | 405/564 [44:22<25:05,  9.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 72%|███████▏  | 406/564 [44:28<21:40,  8.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 72%|███████▏  | 407/564 [44:40<24:59,  9.55s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 72%|███████▏  | 408/564 [44:54<28:26, 10.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 73%|███████▎  | 409/564 [45:11<32:19, 12.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 73%|███████▎  | 410/564 [45:33<39:44, 15.48s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 73%|███████▎  | 411/564 [45:41<33:39, 13.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 73%|███████▎  | 412/564 [45:59<37:32, 14.82s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 73%|███████▎  | 413/564 [46:10<34:03, 13.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 73%|███████▎  | 414/564 [46:18<29:44, 11.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 74%|███████▎  | 415/564 [46:28<28:15, 11.38s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 74%|███████▍  | 416/564 [46:34<23:32,  9.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 74%|███████▍  | 417/564 [46:38<19:25,  7.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 74%|███████▍  | 418/564 [46:47<20:23,  8.38s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 74%|███████▍  | 419/564 [46:55<20:02,  8.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 74%|███████▍  | 420/564 [47:06<21:22,  8.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 75%|███████▍  | 421/564 [47:26<29:20, 12.31s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 75%|███████▍  | 422/564 [47:35<27:07, 11.46s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 75%|███████▌  | 423/564 [47:38<21:04,  8.97s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 75%|███████▌  | 424/564 [47:48<21:22,  9.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 75%|███████▌  | 425/564 [47:59<22:29,  9.71s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 76%|███████▌  | 426/564 [48:05<19:26,  8.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 76%|███████▌  | 427/564 [48:12<18:23,  8.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 76%|███████▌  | 428/564 [48:18<17:00,  7.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 76%|███████▌  | 429/564 [48:22<14:49,  6.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 76%|███████▌  | 430/564 [48:30<15:43,  7.04s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 76%|███████▋  | 431/564 [48:35<13:37,  6.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 77%|███████▋  | 432/564 [48:38<11:52,  5.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 77%|███████▋  | 433/564 [48:52<17:02,  7.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 77%|███████▋  | 434/564 [49:05<20:17,  9.37s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 77%|███████▋  | 435/564 [49:21<24:37, 11.46s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 77%|███████▋  | 436/564 [49:32<24:23, 11.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 77%|███████▋  | 437/564 [49:40<21:37, 10.22s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 78%|███████▊  | 438/564 [49:44<17:38,  8.40s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 78%|███████▊  | 439/564 [50:07<26:37, 12.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 78%|███████▊  | 440/564 [50:11<21:03, 10.19s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 78%|███████▊  | 441/564 [50:20<20:12,  9.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 78%|███████▊  | 442/564 [50:28<19:02,  9.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 79%|███████▊  | 443/564 [50:34<16:23,  8.12s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 79%|███████▊  | 444/564 [50:39<14:23,  7.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 79%|███████▉  | 445/564 [50:45<13:39,  6.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 79%|███████▉  | 446/564 [50:48<11:32,  5.87s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 79%|███████▉  | 447/564 [50:55<11:52,  6.09s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 79%|███████▉  | 448/564 [51:11<17:53,  9.25s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 80%|███████▉  | 449/564 [51:21<17:38,  9.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 80%|███████▉  | 450/564 [51:36<20:59, 11.05s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 80%|███████▉  | 451/564 [51:40<16:59,  9.02s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 80%|████████  | 452/564 [51:58<21:55, 11.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 80%|████████  | 453/564 [52:02<17:07,  9.26s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 80%|████████  | 454/564 [52:09<15:41,  8.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 81%|████████  | 455/564 [52:20<17:00,  9.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 81%|████████  | 456/564 [52:31<18:03, 10.04s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 81%|████████  | 457/564 [52:37<15:33,  8.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 81%|████████  | 458/564 [52:44<14:09,  8.02s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 81%|████████▏ | 459/564 [52:52<14:11,  8.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 82%|████████▏ | 460/564 [52:57<12:22,  7.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 82%|████████▏ | 461/564 [53:00<10:07,  5.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 82%|████████▏ | 462/564 [53:11<12:32,  7.38s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 82%|████████▏ | 463/564 [53:16<11:21,  6.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 82%|████████▏ | 464/564 [53:21<10:20,  6.21s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 82%|████████▏ | 465/564 [53:31<12:26,  7.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 83%|████████▎ | 466/564 [53:38<11:47,  7.22s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 83%|████████▎ | 467/564 [53:56<16:56, 10.48s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 83%|████████▎ | 468/564 [54:03<15:03,  9.41s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 83%|████████▎ | 469/564 [54:09<13:24,  8.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 83%|████████▎ | 470/564 [54:16<12:42,  8.12s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 84%|████████▎ | 471/564 [54:20<10:33,  6.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 84%|████████▎ | 472/564 [54:24<09:02,  5.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 84%|████████▍ | 473/564 [54:29<08:27,  5.58s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 84%|████████▍ | 474/564 [54:33<07:55,  5.28s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 84%|████████▍ | 475/564 [54:37<06:56,  4.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 84%|████████▍ | 476/564 [54:42<07:12,  4.91s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 85%|████████▍ | 477/564 [54:45<06:20,  4.38s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 85%|████████▍ | 478/564 [54:50<06:33,  4.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 85%|████████▍ | 479/564 [54:55<06:25,  4.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 85%|████████▌ | 480/564 [55:01<06:55,  4.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 85%|████████▌ | 481/564 [55:04<06:09,  4.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 85%|████████▌ | 482/564 [55:07<05:34,  4.08s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 86%|████████▌ | 483/564 [55:10<05:06,  3.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 86%|████████▌ | 484/564 [55:25<09:34,  7.18s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 86%|████████▌ | 485/564 [55:33<09:39,  7.33s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 86%|████████▌ | 486/564 [55:37<08:06,  6.24s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 86%|████████▋ | 487/564 [55:42<07:44,  6.03s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 87%|████████▋ | 488/564 [55:51<08:31,  6.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 87%|████████▋ | 489/564 [56:03<10:28,  8.38s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 87%|████████▋ | 490/564 [56:07<08:42,  7.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 87%|████████▋ | 491/564 [56:14<08:42,  7.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 87%|████████▋ | 492/564 [56:28<11:05,  9.25s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 87%|████████▋ | 493/564 [56:38<11:05,  9.37s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 88%|████████▊ | 494/564 [56:46<10:24,  8.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 88%|████████▊ | 495/564 [56:51<08:50,  7.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 88%|████████▊ | 496/564 [56:55<07:32,  6.65s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 88%|████████▊ | 497/564 [57:02<07:34,  6.79s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 88%|████████▊ | 498/564 [57:08<07:21,  6.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 88%|████████▊ | 499/564 [57:13<06:26,  5.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 89%|████████▊ | 500/564 [57:16<05:30,  5.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 89%|████████▉ | 501/564 [57:21<05:12,  4.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 89%|████████▉ | 502/564 [57:34<07:43,  7.48s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 89%|████████▉ | 503/564 [57:45<08:42,  8.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 89%|████████▉ | 504/564 [57:57<09:29,  9.48s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 90%|████████▉ | 505/564 [58:09<10:10, 10.35s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 90%|████████▉ | 506/564 [58:15<08:49,  9.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 90%|████████▉ | 507/564 [58:19<07:07,  7.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 90%|█████████ | 508/564 [58:27<07:04,  7.58s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 90%|█████████ | 509/564 [58:32<06:24,  6.99s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 90%|█████████ | 510/564 [58:36<05:15,  5.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 91%|█████████ | 511/564 [58:43<05:31,  6.26s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 91%|█████████ | 512/564 [58:49<05:26,  6.28s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 91%|█████████ | 513/564 [58:55<05:08,  6.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 91%|█████████ | 514/564 [58:58<04:24,  5.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 91%|█████████▏| 515/564 [59:05<04:41,  5.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 91%|█████████▏| 516/564 [59:14<05:17,  6.61s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 92%|█████████▏| 517/564 [59:18<04:37,  5.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 92%|█████████▏| 518/564 [59:21<03:59,  5.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 92%|█████████▏| 519/564 [59:32<05:05,  6.79s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 92%|█████████▏| 520/564 [59:42<05:47,  7.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 92%|█████████▏| 521/564 [59:50<05:33,  7.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 93%|█████████▎| 522/564 [1:00:03<06:36,  9.43s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 93%|█████████▎| 523/564 [1:00:12<06:23,  9.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 93%|█████████▎| 524/564 [1:00:23<06:28,  9.71s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 93%|█████████▎| 525/564 [1:00:27<05:16,  8.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 93%|█████████▎| 526/564 [1:00:31<04:23,  6.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 93%|█████████▎| 527/564 [1:00:37<04:00,  6.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 94%|█████████▎| 528/564 [1:00:44<04:00,  6.67s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 94%|█████████▍| 529/564 [1:00:49<03:37,  6.22s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 94%|█████████▍| 530/564 [1:00:57<03:51,  6.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 94%|█████████▍| 531/564 [1:01:02<03:25,  6.24s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 94%|█████████▍| 532/564 [1:01:06<02:58,  5.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 95%|█████████▍| 533/564 [1:01:15<03:23,  6.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 95%|█████████▍| 534/564 [1:01:20<03:03,  6.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 95%|█████████▍| 535/564 [1:01:25<02:45,  5.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 95%|█████████▌| 536/564 [1:01:28<02:19,  4.97s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 95%|█████████▌| 537/564 [1:01:38<02:55,  6.51s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 95%|█████████▌| 538/564 [1:01:44<02:39,  6.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 96%|█████████▌| 539/564 [1:01:47<02:13,  5.32s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 96%|█████████▌| 540/564 [1:02:01<03:09,  7.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 96%|█████████▌| 541/564 [1:02:10<03:10,  8.27s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 96%|█████████▌| 542/564 [1:02:17<02:55,  7.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 96%|█████████▋| 543/564 [1:02:23<02:31,  7.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 96%|█████████▋| 544/564 [1:02:27<02:08,  6.43s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 97%|█████████▋| 545/564 [1:02:44<02:58,  9.37s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 97%|█████████▋| 546/564 [1:02:54<02:55,  9.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 97%|█████████▋| 547/564 [1:02:58<02:16,  8.02s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 97%|█████████▋| 548/564 [1:03:02<01:47,  6.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 97%|█████████▋| 549/564 [1:03:08<01:37,  6.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 98%|█████████▊| 550/564 [1:03:18<01:44,  7.48s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 98%|█████████▊| 551/564 [1:03:37<02:23, 11.08s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 98%|█████████▊| 552/564 [1:03:49<02:17, 11.43s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 98%|█████████▊| 553/564 [1:04:00<02:03, 11.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 98%|█████████▊| 554/564 [1:04:08<01:41, 10.12s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 98%|█████████▊| 555/564 [1:04:16<01:26,  9.60s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 99%|█████████▊| 556/564 [1:04:20<01:02,  7.87s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 99%|█████████▉| 557/564 [1:04:25<00:48,  6.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 99%|█████████▉| 558/564 [1:04:28<00:35,  5.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 99%|█████████▉| 559/564 [1:04:32<00:25,  5.18s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 99%|█████████▉| 560/564 [1:04:36<00:20,  5.00s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+ 99%|█████████▉| 561/564 [1:04:40<00:13,  4.62s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+100%|█████████▉| 562/564 [1:04:47<00:10,  5.40s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+100%|█████████▉| 563/564 [1:04:57<00:06,  6.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+100%|██████████| 564/564 [1:05:00<00:00,  5.65s/it]100%|██████████| 564/564 [1:05:00<00:00,  6.92s/it]
+[root] Save results to results/gemini-2.0-flash-exp_Coding_CoT.json
+[root] End Generation......
+Generated Response: The code generates a scatter plot with two groups of points, colored blue and red, based on the `labels` array. It also includes histograms along the top and right edges of the scatter plot. Let's analyze the code step by step:
+
+1. **Import Libraries:** The code imports `matplotlib.pyplot` for plotting and `numpy` for numerical operations.
+2. **Generate Data:**
+   - `np.random.seed(0)`: Sets the random seed for reproducibility.
+   - `x = np.random.rand(1000)`: Generates 1000 random numbers between 0 and 1 for the x-coordinates.
+   - `y = np.random.rand(1000) * 2 - 1`: Generates 1000 random numbers between -1 and 1 for the y-coordinates.
+   - `labels = np.random.choice([0, 1], size=1000)`: Generates 1000 random labels, either 0 or 1.
+3. **Create Scatter Plot:**
+   - `plt.figure(figsize=(8, 8))`: Creates a figure with a size of 8x8 inches.
+   - `plt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)`: Plots the points where `labels` is 0 in blue with transparency 0.6.
+   - `plt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)`: Plots the points where `labels` is 1 in red with transparency 0.6.
+   - `plt.axhline(0.5, color='black', linestyle=':', linewidth=1)`: Draws a horizontal dotted line at y=0.5.
+   - `plt.axvline(0, color='black', linestyle=':', linewidth=1)`: Draws a vertical dotted line at x=0.
+   - `plt.xlabel(r'$P(F_{i+1} | F_i)$')`: Sets the x-axis label.
+   - `plt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')`: Sets the y-axis label.
+   - `plt.legend(title='Boundary')`: Adds a legend with the title "Boundary".
+4. **Create Histograms:**
+   - `plt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)`: Creates a vertical histogram of x-values where `labels` is 0, with 30 bins, blue color, transparency 0.3, and normalized to density.
+   - `plt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)`: Creates a vertical histogram of x-values where `labels` is 1, with 30 bins, red color, transparency 0.3, and normalized to density.
+   - `plt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)`: Creates a horizontal histogram of y-values where `labels` is 0, with 30 bins, blue color, transparency 0.3, and normalized to density.
+   - `plt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)`: Creates a horizontal histogram of y-values where `labels` is 1, with 30 bins, red color, transparency 0.3, and normalized to density.
+5. **Add Text Annotations:**
+   - `plt.text(-0.1, -1, r'$\alpha_1$', fontsize=12)`: Adds the text "α₁" at coordinates (-0.1, -1).
+   - `plt.text(1.02, 0.5, r'$\alpha_2$', fontsize=12)`: Adds the text "α₂" at coordinates (1.02, 0.5).
+6. **Set Axis Limits and Ticks:**
+   - `plt.xlim(-0.1, 1.1)`: Sets the x-axis limits.
+   - `plt.ylim(-1.1, 1.1)`: Sets the y-axis limits.
+   - `plt.tick_params(axis='both', direction='in')`: Sets the tick direction to be inside the plot.
+7. **Show Plot:**
+   - `plt.show()`: Displays the plot.
+
+Based on this analysis, the correct visualization is **A**. It shows a scatter plot with blue and red points, horizontal and vertical dotted lines, histograms along the top and right edges, and the text annotations.
+
+Final Answer: The final answer is $\boxed{A}$
+------ End  ------
+
+Error code: 429 - [{'error': {'code': 429, 'message': 'Resource has been exhausted (e.g. check quota).', 'status': 'RESOURCE_EXHAUSTED'}}]

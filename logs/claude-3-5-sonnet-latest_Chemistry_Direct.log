@@ -1,0 +1,806 @@
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Chemistry']
+[root] Loading config
+[root] Loading claude-3-5-sonnet-latest
+[root] Model loaded!
+[root] Results already exists.
+[root] Reading results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+[root] Found existing results file with 416 problems with valid responses. Skipping these problems...
+[root] Starting to generate.....
+  0%|          | 0/1176 [00:00<?, ?it/s]  3%|▎         | 34/1176 [00:00<00:03, 336.23it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+  6%|▌         | 68/1176 [00:04<01:24, 13.17it/s] [root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+  7%|▋         | 85/1176 [00:05<01:27, 12.46it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+  8%|▊         | 94/1176 [00:11<03:06,  5.79it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+  9%|▉         | 106/1176 [00:14<03:24,  5.23it/s]  9%|▉         | 110/1176 [00:14<03:24,  5.20it/s] 10%|▉         | 113/1176 [00:15<03:14,  5.48it/s] 10%|▉         | 115/1176 [00:15<03:07,  5.66it/s] 10%|▉         | 117/1176 [00:15<02:53,  6.11it/s] 10%|█         | 119/1176 [00:15<02:44,  6.42it/s] 10%|█         | 122/1176 [00:16<02:20,  7.52it/s] 11%|█         | 124/1176 [00:16<02:13,  7.90it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 11%|█         | 126/1176 [00:20<09:24,  1.86it/s] 11%|█         | 127/1176 [00:20<08:48,  1.98it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 11%|█         | 128/1176 [00:24<18:49,  1.08s/it] 11%|█         | 129/1176 [00:25<16:49,  1.04it/s] 11%|█         | 130/1176 [00:25<13:44,  1.27it/s] 11%|█         | 131/1176 [00:26<12:49,  1.36it/s] 11%|█         | 132/1176 [00:26<10:07,  1.72it/s] 11%|█▏        | 133/1176 [00:26<08:02,  2.16it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 11%|█▏        | 135/1176 [00:29<17:35,  1.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 12%|█▏        | 136/1176 [00:32<26:09,  1.51s/it] 12%|█▏        | 138/1176 [00:33<16:42,  1.04it/s] 12%|█▏        | 139/1176 [00:33<13:29,  1.28it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 12%|█▏        | 140/1176 [00:36<22:43,  1.32s/it] 12%|█▏        | 141/1176 [00:36<18:30,  1.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 12%|█▏        | 143/1176 [00:39<19:24,  1.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 12%|█▏        | 144/1176 [00:41<24:55,  1.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 12%|█▏        | 145/1176 [00:43<26:34,  1.55s/it] 12%|█▏        | 146/1176 [00:43<20:06,  1.17s/it] 12%|█▎        | 147/1176 [00:43<15:35,  1.10it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 13%|█▎        | 156/1176 [00:45<05:34,  3.05it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 14%|█▍        | 162/1176 [00:47<05:25,  3.12it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 15%|█▍        | 176/1176 [00:48<02:57,  5.64it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 15%|█▌        | 177/1176 [00:49<04:07,  4.04it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 15%|█▌        | 179/1176 [00:50<04:42,  3.53it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 15%|█▌        | 182/1176 [00:51<04:47,  3.46it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 16%|█▌        | 190/1176 [00:52<03:13,  5.10it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 16%|█▌        | 191/1176 [00:53<04:18,  3.81it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 17%|█▋        | 197/1176 [00:54<04:02,  4.04it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 17%|█▋        | 202/1176 [00:55<03:36,  4.49it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 17%|█▋        | 203/1176 [00:56<04:23,  3.70it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 17%|█▋        | 204/1176 [00:57<05:21,  3.02it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 18%|█▊        | 211/1176 [00:58<04:00,  4.02it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 19%|█▉        | 223/1176 [00:59<02:53,  5.48it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 24%|██▍       | 285/1176 [01:01<00:48, 18.46it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 28%|██▊       | 324/1176 [01:02<00:40, 20.80it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 28%|██▊       | 334/1176 [01:04<00:50, 16.64it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 29%|██▉       | 339/1176 [01:05<01:04, 13.05it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 29%|██▉       | 346/1176 [01:07<01:31,  9.06it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 30%|██▉       | 348/1176 [01:09<02:19,  5.94it/s][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 30%|██▉       | 352/1176 [01:16<05:03,  2.71it/s][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 30%|███       | 353/1176 [01:21<07:59,  1.72it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 31%|███       | 366/1176 [01:22<04:54,  2.75it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 31%|███▏      | 368/1176 [01:24<05:28,  2.46it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 31%|███▏      | 370/1176 [01:25<05:50,  2.30it/s][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 32%|███▏      | 379/1176 [01:34<08:39,  1.53it/s][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 33%|███▎      | 383/1176 [01:46<15:21,  1.16s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 34%|███▍      | 403/1176 [01:55<09:20,  1.38it/s][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 35%|███▍      | 411/1176 [02:00<09:18,  1.37it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 35%|███▌      | 412/1176 [02:02<09:46,  1.30it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 36%|███▌      | 421/1176 [02:04<07:00,  1.80it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 37%|███▋      | 435/1176 [02:06<04:32,  2.72it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 39%|███▊      | 455/1176 [02:07<02:43,  4.42it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 39%|███▉      | 462/1176 [02:09<02:42,  4.40it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 40%|███▉      | 465/1176 [02:10<03:09,  3.76it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 40%|███▉      | 466/1176 [02:12<04:03,  2.92it/s][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 40%|███▉      | 467/1176 [02:14<04:53,  2.42it/s][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 40%|███▉      | 468/1176 [02:23<13:10,  1.12s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 40%|███▉      | 469/1176 [02:35<27:10,  2.31s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 40%|███▉      | 470/1176 [02:41<32:41,  2.78s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 40%|████      | 471/1176 [02:51<46:04,  3.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 40%|████      | 472/1176 [02:52<40:55,  3.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 40%|████      | 473/1176 [02:53<34:14,  2.92s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 40%|████      | 474/1176 [02:58<40:27,  3.46s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 40%|████      | 475/1176 [03:06<52:35,  4.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████      | 477/1176 [03:07<34:23,  2.95s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████      | 478/1176 [03:15<46:34,  4.00s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████      | 479/1176 [03:19<47:50,  4.12s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████      | 480/1176 [03:23<47:10,  4.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████      | 481/1176 [03:25<40:17,  3.48s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████      | 482/1176 [03:39<1:12:57,  6.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████      | 483/1176 [03:41<58:23,  5.06s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████      | 484/1176 [03:43<47:10,  4.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████      | 485/1176 [03:44<38:01,  3.30s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████▏     | 486/1176 [03:50<46:56,  4.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████▏     | 487/1176 [03:51<35:45,  3.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 41%|████▏     | 488/1176 [03:52<29:53,  2.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 42%|████▏     | 489/1176 [03:53<24:11,  2.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 42%|████▏     | 490/1176 [03:55<22:38,  1.98s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 42%|████▏     | 491/1176 [04:00<35:07,  3.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 42%|████▏     | 492/1176 [04:02<29:57,  2.63s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 42%|████▏     | 493/1176 [04:10<48:38,  4.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 42%|████▏     | 494/1176 [04:11<38:26,  3.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 42%|████▏     | 495/1176 [04:13<33:12,  2.93s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 42%|████▏     | 496/1176 [04:17<37:44,  3.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 42%|████▏     | 497/1176 [04:20<33:37,  2.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 42%|████▏     | 498/1176 [04:21<27:01,  2.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 42%|████▏     | 499/1176 [04:22<24:10,  2.14s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 500/1176 [04:26<28:16,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 501/1176 [04:26<22:12,  1.97s/it][anthropic._base_client] Retrying request to /v1/messages in 0.437377 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 502/1176 [04:45<1:19:37,  7.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 503/1176 [04:47<1:01:15,  5.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 504/1176 [04:49<50:22,  4.50s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 505/1176 [04:51<40:21,  3.61s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 506/1176 [04:56<46:14,  4.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 507/1176 [04:58<39:00,  3.50s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 508/1176 [05:06<53:14,  4.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 509/1176 [05:07<40:04,  3.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 510/1176 [05:08<33:06,  2.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 43%|████▎     | 511/1176 [05:10<30:01,  2.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▎     | 512/1176 [05:12<26:32,  2.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▎     | 513/1176 [05:14<26:17,  2.38s/it][anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▎     | 514/1176 [05:22<43:55,  3.98s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▍     | 515/1176 [05:26<43:50,  3.98s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▍     | 516/1176 [05:33<51:44,  4.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▍     | 517/1176 [05:34<40:12,  3.66s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▍     | 518/1176 [05:37<39:59,  3.65s/it][anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▍     | 519/1176 [05:47<58:59,  5.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▍     | 520/1176 [05:48<45:32,  4.17s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▍     | 521/1176 [05:52<44:53,  4.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▍     | 522/1176 [05:53<33:57,  3.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 44%|████▍     | 523/1176 [05:54<26:30,  2.44s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▍     | 524/1176 [05:59<34:13,  3.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▍     | 525/1176 [06:00<29:59,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▍     | 526/1176 [06:02<27:14,  2.51s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▍     | 527/1176 [06:07<34:27,  3.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▍     | 528/1176 [06:09<29:54,  2.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▍     | 529/1176 [06:11<29:08,  2.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▌     | 530/1176 [06:13<25:01,  2.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▌     | 531/1176 [06:14<22:31,  2.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▌     | 532/1176 [06:17<22:54,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▌     | 533/1176 [06:18<19:52,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▌     | 534/1176 [06:19<18:35,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 45%|████▌     | 535/1176 [06:21<18:07,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 46%|████▌     | 536/1176 [06:22<15:07,  1.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 46%|████▌     | 537/1176 [06:23<16:15,  1.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 46%|████▌     | 538/1176 [06:25<16:30,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 46%|████▌     | 539/1176 [06:27<17:23,  1.64s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 46%|████▌     | 540/1176 [06:34<33:22,  3.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 46%|████▌     | 541/1176 [06:35<26:13,  2.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 46%|████▌     | 542/1176 [06:36<21:28,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 46%|████▌     | 543/1176 [06:37<19:42,  1.87s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 46%|████▋     | 544/1176 [06:41<25:54,  2.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 46%|████▋     | 545/1176 [06:42<20:30,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 46%|████▋     | 546/1176 [06:44<21:09,  2.01s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 547/1176 [06:53<44:58,  4.29s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 548/1176 [06:59<50:17,  4.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 549/1176 [07:01<40:03,  3.83s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 550/1176 [07:05<41:02,  3.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 551/1176 [07:07<33:50,  3.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 552/1176 [07:08<28:03,  2.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 553/1176 [07:10<24:39,  2.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 554/1176 [07:11<22:05,  2.13s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 555/1176 [07:18<35:48,  3.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 556/1176 [07:20<31:15,  3.02s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 557/1176 [07:26<41:08,  3.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 47%|████▋     | 558/1176 [07:27<31:09,  3.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 559/1176 [07:28<26:15,  2.55s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 560/1176 [07:32<28:20,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 561/1176 [07:33<24:09,  2.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 562/1176 [07:35<21:29,  2.10s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 563/1176 [07:48<57:30,  5.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 564/1176 [07:50<44:00,  4.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 565/1176 [07:51<34:29,  3.39s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 566/1176 [07:59<47:31,  4.67s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 567/1176 [08:08<1:02:29,  6.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 568/1176 [08:10<48:52,  4.82s/it]  [anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 569/1176 [08:18<1:00:10,  5.95s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 48%|████▊     | 570/1176 [08:24<57:29,  5.69s/it]  [anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▊     | 571/1176 [08:27<50:40,  5.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▊     | 572/1176 [08:29<41:33,  4.13s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▊     | 573/1176 [08:37<53:59,  5.37s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▉     | 574/1176 [08:45<59:36,  5.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▉     | 575/1176 [08:47<49:19,  4.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▉     | 576/1176 [08:48<37:12,  3.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▉     | 577/1176 [08:50<31:06,  3.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▉     | 578/1176 [08:51<24:19,  2.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▉     | 579/1176 [08:52<21:31,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▉     | 580/1176 [08:54<20:27,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▉     | 581/1176 [08:56<21:05,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 49%|████▉     | 582/1176 [08:58<20:47,  2.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 50%|████▉     | 583/1176 [09:00<18:14,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 50%|████▉     | 584/1176 [09:01<17:28,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 50%|████▉     | 585/1176 [09:03<17:36,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 50%|████▉     | 586/1176 [09:06<21:48,  2.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 50%|████▉     | 587/1176 [09:08<20:07,  2.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 50%|█████     | 588/1176 [09:10<19:22,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 50%|█████     | 589/1176 [09:12<19:17,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 50%|█████     | 590/1176 [09:13<16:55,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 50%|█████     | 591/1176 [09:14<14:19,  1.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 50%|█████     | 592/1176 [09:17<19:28,  2.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 50%|█████     | 593/1176 [09:19<18:59,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████     | 594/1176 [09:21<18:54,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████     | 595/1176 [09:22<17:59,  1.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████     | 596/1176 [09:24<17:04,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████     | 597/1176 [09:26<16:53,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████     | 598/1176 [09:27<15:06,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████     | 599/1176 [09:30<19:20,  2.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████     | 600/1176 [09:34<25:01,  2.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████     | 601/1176 [09:37<25:35,  2.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████     | 602/1176 [09:39<24:10,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████▏    | 603/1176 [09:40<21:48,  2.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████▏    | 604/1176 [09:42<20:40,  2.17s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 51%|█████▏    | 605/1176 [09:49<33:31,  3.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 606/1176 [09:51<27:48,  2.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 607/1176 [09:52<23:48,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 608/1176 [09:54<22:38,  2.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 609/1176 [09:57<22:09,  2.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 610/1176 [09:58<19:54,  2.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 611/1176 [10:00<20:29,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 612/1176 [10:03<20:43,  2.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 613/1176 [10:05<21:42,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 614/1176 [10:08<23:12,  2.48s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 615/1176 [10:16<39:43,  4.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 616/1176 [10:18<32:33,  3.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 52%|█████▏    | 617/1176 [10:20<28:17,  3.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 618/1176 [10:22<24:36,  2.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 619/1176 [10:24<22:04,  2.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 620/1176 [10:25<19:38,  2.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 621/1176 [10:26<16:02,  1.73s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 622/1176 [10:32<27:16,  2.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 623/1176 [10:33<22:57,  2.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 624/1176 [10:35<20:11,  2.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 625/1176 [10:36<18:26,  2.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 626/1176 [10:38<17:37,  1.92s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 627/1176 [10:45<30:50,  3.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 628/1176 [10:46<25:48,  2.83s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 53%|█████▎    | 629/1176 [10:50<29:00,  3.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 54%|█████▎    | 630/1176 [10:52<24:40,  2.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 54%|█████▎    | 631/1176 [10:53<19:39,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 54%|█████▎    | 632/1176 [10:54<17:47,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 54%|█████▍    | 633/1176 [10:56<16:13,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 54%|█████▍    | 634/1176 [10:57<13:58,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 54%|█████▍    | 635/1176 [10:58<12:03,  1.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 54%|█████▍    | 636/1176 [10:58<10:57,  1.22s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 54%|█████▍    | 637/1176 [11:06<27:23,  3.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 54%|█████▍    | 638/1176 [11:08<23:44,  2.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 54%|█████▍    | 639/1176 [11:10<24:12,  2.70s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 54%|█████▍    | 640/1176 [11:15<28:32,  3.19s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▍    | 641/1176 [11:19<30:10,  3.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▍    | 642/1176 [11:20<24:42,  2.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▍    | 643/1176 [11:21<21:04,  2.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▍    | 644/1176 [11:23<18:45,  2.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▍    | 645/1176 [11:25<18:44,  2.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▍    | 646/1176 [11:26<17:11,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▌    | 647/1176 [11:29<19:11,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▌    | 648/1176 [11:32<19:27,  2.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▌    | 649/1176 [11:34<19:18,  2.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▌    | 650/1176 [11:35<18:12,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▌    | 651/1176 [11:39<20:59,  2.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 55%|█████▌    | 652/1176 [11:40<19:25,  2.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▌    | 653/1176 [11:42<18:15,  2.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▌    | 654/1176 [11:44<17:01,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▌    | 655/1176 [11:45<15:13,  1.75s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▌    | 656/1176 [11:51<25:18,  2.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▌    | 657/1176 [11:52<21:57,  2.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▌    | 658/1176 [11:54<20:05,  2.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▌    | 659/1176 [11:57<21:15,  2.47s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▌    | 660/1176 [12:06<36:52,  4.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▌    | 661/1176 [12:07<28:17,  3.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▋    | 662/1176 [12:09<25:03,  2.92s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▋    | 663/1176 [12:13<28:39,  3.35s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 56%|█████▋    | 664/1176 [12:19<34:15,  4.01s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 665/1176 [12:23<35:36,  4.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 666/1176 [12:25<29:10,  3.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 667/1176 [12:26<24:36,  2.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 668/1176 [12:28<22:04,  2.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 669/1176 [12:30<19:26,  2.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 670/1176 [12:32<18:12,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 671/1176 [12:33<16:31,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 672/1176 [12:35<15:18,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 673/1176 [12:37<15:02,  1.80s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 674/1176 [12:41<22:31,  2.69s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 675/1176 [12:46<27:58,  3.35s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 57%|█████▋    | 676/1176 [12:50<30:07,  3.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 58%|█████▊    | 677/1176 [12:52<25:28,  3.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 58%|█████▊    | 678/1176 [12:54<22:24,  2.70s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 58%|█████▊    | 679/1176 [13:00<29:59,  3.62s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 58%|█████▊    | 680/1176 [13:08<40:08,  4.86s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 58%|█████▊    | 681/1176 [13:13<40:52,  4.96s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 58%|█████▊    | 682/1176 [13:19<45:02,  5.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 58%|█████▊    | 683/1176 [13:22<37:24,  4.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 58%|█████▊    | 684/1176 [13:24<30:36,  3.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 58%|█████▊    | 685/1176 [13:25<25:01,  3.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 58%|█████▊    | 686/1176 [13:27<21:26,  2.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 58%|█████▊    | 687/1176 [13:29<19:35,  2.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▊    | 688/1176 [13:30<17:35,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▊    | 689/1176 [13:32<16:49,  2.07s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▊    | 690/1176 [13:40<30:44,  3.80s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▉    | 691/1176 [13:46<35:33,  4.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▉    | 692/1176 [13:47<28:28,  3.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▉    | 693/1176 [13:49<23:49,  2.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▉    | 694/1176 [13:51<20:42,  2.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▉    | 695/1176 [13:52<18:31,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▉    | 696/1176 [13:54<16:29,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▉    | 697/1176 [13:55<14:58,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▉    | 698/1176 [13:57<14:14,  1.79s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 0.819078 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 59%|█████▉    | 699/1176 [14:19<1:02:22,  7.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|█████▉    | 700/1176 [14:22<50:33,  6.37s/it]  [anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|█████▉    | 701/1176 [14:28<51:05,  6.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|█████▉    | 702/1176 [14:30<39:27,  5.00s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|█████▉    | 703/1176 [14:36<42:07,  5.34s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|█████▉    | 704/1176 [14:40<39:06,  4.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|█████▉    | 705/1176 [14:42<31:27,  4.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|██████    | 706/1176 [14:43<25:32,  3.26s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|██████    | 707/1176 [14:48<27:42,  3.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|██████    | 708/1176 [14:49<22:37,  2.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|██████    | 709/1176 [14:51<19:55,  2.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|██████    | 710/1176 [14:53<17:57,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 60%|██████    | 711/1176 [14:53<14:32,  1.88s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████    | 712/1176 [15:00<25:10,  3.26s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████    | 713/1176 [15:05<29:15,  3.79s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████    | 714/1176 [15:09<29:23,  3.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████    | 715/1176 [15:10<24:19,  3.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████    | 716/1176 [15:12<20:32,  2.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████    | 717/1176 [15:14<17:52,  2.34s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████    | 718/1176 [15:22<32:06,  4.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████    | 719/1176 [15:24<25:45,  3.38s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████    | 720/1176 [15:30<32:10,  4.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████▏   | 721/1176 [15:31<26:01,  3.43s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████▏   | 722/1176 [15:36<28:20,  3.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 61%|██████▏   | 723/1176 [15:37<22:59,  3.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▏   | 724/1176 [15:39<20:32,  2.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▏   | 725/1176 [15:41<17:32,  2.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▏   | 726/1176 [15:42<15:58,  2.13s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▏   | 727/1176 [15:50<28:56,  3.87s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▏   | 728/1176 [15:58<37:21,  5.00s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▏   | 729/1176 [16:05<43:00,  5.77s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▏   | 730/1176 [16:10<39:48,  5.35s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▏   | 731/1176 [16:16<42:34,  5.74s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▏   | 732/1176 [16:20<38:45,  5.24s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▏   | 733/1176 [16:26<38:22,  5.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▏   | 734/1176 [16:28<31:23,  4.26s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 62%|██████▎   | 735/1176 [16:35<38:44,  5.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 63%|██████▎   | 736/1176 [16:37<30:56,  4.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 63%|██████▎   | 737/1176 [16:38<23:26,  3.20s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 63%|██████▎   | 738/1176 [16:43<27:04,  3.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 63%|██████▎   | 739/1176 [16:45<23:19,  3.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 63%|██████▎   | 740/1176 [16:46<19:29,  2.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 63%|██████▎   | 741/1176 [16:49<18:28,  2.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 63%|██████▎   | 742/1176 [16:50<16:45,  2.32s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 63%|██████▎   | 743/1176 [16:58<27:41,  3.84s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 63%|██████▎   | 744/1176 [17:03<29:55,  4.16s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 63%|██████▎   | 745/1176 [17:10<36:00,  5.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 63%|██████▎   | 746/1176 [17:12<29:52,  4.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▎   | 747/1176 [17:14<25:06,  3.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▎   | 748/1176 [17:15<20:56,  2.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▎   | 749/1176 [17:18<19:30,  2.74s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▍   | 750/1176 [17:22<23:18,  3.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▍   | 751/1176 [17:24<20:12,  2.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▍   | 752/1176 [17:26<17:50,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▍   | 753/1176 [17:27<15:34,  2.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▍   | 754/1176 [17:29<14:33,  2.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▍   | 755/1176 [17:31<13:23,  1.91s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▍   | 756/1176 [17:36<19:57,  2.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▍   | 757/1176 [17:37<16:54,  2.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 64%|██████▍   | 758/1176 [17:39<15:00,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▍   | 759/1176 [17:40<13:36,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▍   | 760/1176 [17:42<13:44,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▍   | 761/1176 [17:44<13:05,  1.89s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▍   | 762/1176 [17:48<18:30,  2.68s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▍   | 763/1176 [17:53<23:29,  3.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▍   | 764/1176 [17:55<19:41,  2.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▌   | 765/1176 [17:56<16:31,  2.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▌   | 766/1176 [17:58<14:42,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▌   | 767/1176 [17:59<12:49,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▌   | 768/1176 [18:01<13:15,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▌   | 769/1176 [18:03<12:15,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 65%|██████▌   | 770/1176 [18:05<13:02,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▌   | 771/1176 [18:07<12:16,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▌   | 772/1176 [18:08<11:29,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▌   | 773/1176 [18:10<11:40,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▌   | 774/1176 [18:12<11:40,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▌   | 775/1176 [18:13<10:54,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▌   | 776/1176 [18:14<10:40,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▌   | 777/1176 [18:17<11:46,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▌   | 778/1176 [18:18<11:30,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▌   | 779/1176 [18:20<11:53,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▋   | 780/1176 [18:22<11:19,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▋   | 781/1176 [18:24<12:40,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 66%|██████▋   | 782/1176 [18:26<11:36,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 67%|██████▋   | 783/1176 [18:27<11:11,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 67%|██████▋   | 784/1176 [18:29<10:45,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 67%|██████▋   | 785/1176 [18:30<10:27,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 67%|██████▋   | 786/1176 [18:32<10:38,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 67%|██████▋   | 787/1176 [18:33<10:37,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 67%|██████▋   | 788/1176 [18:35<10:40,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 67%|██████▋   | 789/1176 [18:38<12:01,  1.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 67%|██████▋   | 790/1176 [18:39<11:08,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 67%|██████▋   | 791/1176 [18:41<11:00,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 67%|██████▋   | 792/1176 [18:42<10:46,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 67%|██████▋   | 793/1176 [18:44<10:42,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 794/1176 [18:46<11:12,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 795/1176 [18:48<11:24,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 796/1176 [18:49<10:55,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 797/1176 [18:51<10:37,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 798/1176 [18:52<10:17,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 799/1176 [18:54<09:51,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 800/1176 [18:55<09:43,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 801/1176 [18:57<09:57,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 802/1176 [18:59<09:46,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 803/1176 [19:00<10:01,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 804/1176 [19:02<09:55,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 68%|██████▊   | 805/1176 [19:03<09:51,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▊   | 806/1176 [19:05<09:42,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▊   | 807/1176 [19:06<09:35,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▊   | 808/1176 [19:08<09:52,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▉   | 809/1176 [19:10<09:42,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▉   | 810/1176 [19:12<10:23,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▉   | 811/1176 [19:13<10:18,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▉   | 812/1176 [19:15<10:34,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▉   | 813/1176 [19:17<10:14,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▉   | 814/1176 [19:19<11:54,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▉   | 815/1176 [19:21<10:54,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▉   | 816/1176 [19:23<11:46,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 69%|██████▉   | 817/1176 [19:25<10:55,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|██████▉   | 818/1176 [19:26<10:31,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|██████▉   | 819/1176 [19:29<11:54,  2.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|██████▉   | 820/1176 [19:30<10:39,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|██████▉   | 821/1176 [19:32<10:39,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|██████▉   | 822/1176 [19:34<10:20,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|██████▉   | 823/1176 [19:35<09:33,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|███████   | 824/1176 [19:36<09:07,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|███████   | 825/1176 [19:38<09:28,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|███████   | 826/1176 [19:40<09:37,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|███████   | 827/1176 [19:42<09:55,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|███████   | 828/1176 [19:43<09:19,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 70%|███████   | 829/1176 [19:45<09:15,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 71%|███████   | 830/1176 [19:46<09:09,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 71%|███████   | 831/1176 [19:48<10:22,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 71%|███████   | 832/1176 [19:50<09:53,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 71%|███████   | 833/1176 [19:52<09:31,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 71%|███████   | 834/1176 [19:55<12:20,  2.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 71%|███████   | 835/1176 [19:57<11:43,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 71%|███████   | 836/1176 [19:58<10:42,  1.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 71%|███████   | 837/1176 [20:00<10:07,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 71%|███████▏  | 838/1176 [20:01<09:26,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 71%|███████▏  | 839/1176 [20:03<09:01,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 71%|███████▏  | 840/1176 [20:04<08:55,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 841/1176 [20:06<08:32,  1.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 842/1176 [20:07<09:01,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 843/1176 [20:09<08:37,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 844/1176 [20:11<08:55,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 845/1176 [20:12<09:13,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 846/1176 [20:15<10:03,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 847/1176 [20:16<09:29,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 848/1176 [20:18<09:09,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 849/1176 [20:20<10:15,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 850/1176 [20:22<10:24,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 851/1176 [20:23<09:42,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 72%|███████▏  | 852/1176 [20:25<09:09,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 853/1176 [20:27<08:59,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 854/1176 [20:28<08:53,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 855/1176 [20:30<08:37,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 856/1176 [20:32<09:25,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 857/1176 [20:33<08:29,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 858/1176 [20:34<08:05,  1.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 859/1176 [20:36<07:59,  1.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 860/1176 [20:38<08:15,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 861/1176 [20:39<08:12,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 862/1176 [20:41<08:18,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 863/1176 [20:42<08:14,  1.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 73%|███████▎  | 864/1176 [20:44<08:10,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▎  | 865/1176 [20:46<08:24,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▎  | 866/1176 [20:47<08:49,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▎  | 867/1176 [20:50<10:37,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▍  | 868/1176 [20:52<10:00,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▍  | 869/1176 [20:54<09:13,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▍  | 870/1176 [20:55<08:34,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▍  | 871/1176 [20:57<08:51,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▍  | 872/1176 [21:00<10:33,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▍  | 873/1176 [21:01<09:35,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▍  | 874/1176 [21:03<08:46,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▍  | 875/1176 [21:04<08:43,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 74%|███████▍  | 876/1176 [21:06<08:10,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 75%|███████▍  | 877/1176 [21:07<07:20,  1.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 75%|███████▍  | 878/1176 [21:09<07:55,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 75%|███████▍  | 879/1176 [21:11<08:26,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 75%|███████▍  | 880/1176 [21:12<08:36,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 75%|███████▍  | 881/1176 [21:14<08:36,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 75%|███████▌  | 882/1176 [21:16<08:03,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 75%|███████▌  | 883/1176 [21:19<09:57,  2.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 75%|███████▌  | 884/1176 [21:20<09:16,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 75%|███████▌  | 885/1176 [21:22<08:31,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 75%|███████▌  | 886/1176 [21:23<08:12,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 75%|███████▌  | 887/1176 [21:25<08:43,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▌  | 888/1176 [21:27<08:24,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▌  | 889/1176 [21:29<08:56,  1.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▌  | 890/1176 [21:30<08:13,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▌  | 891/1176 [21:32<07:54,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▌  | 892/1176 [21:33<07:47,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▌  | 893/1176 [21:36<08:36,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▌  | 894/1176 [21:38<08:41,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▌  | 895/1176 [21:40<08:43,  1.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▌  | 896/1176 [21:41<08:27,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▋  | 897/1176 [21:44<09:54,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▋  | 898/1176 [21:46<08:57,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 76%|███████▋  | 899/1176 [21:47<08:40,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 900/1176 [21:49<07:55,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 901/1176 [21:51<08:23,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 902/1176 [21:52<08:13,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 903/1176 [21:54<07:57,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 904/1176 [21:56<08:24,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 905/1176 [21:58<08:05,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 906/1176 [22:00<08:24,  1.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 907/1176 [22:01<08:00,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 908/1176 [22:04<09:28,  2.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 909/1176 [22:07<09:46,  2.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 910/1176 [22:09<09:11,  2.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 77%|███████▋  | 911/1176 [22:10<08:49,  2.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 912/1176 [22:12<08:36,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 913/1176 [22:14<07:53,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 914/1176 [22:15<07:22,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 915/1176 [22:17<07:06,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 916/1176 [22:18<07:13,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 917/1176 [22:20<06:50,  1.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 918/1176 [22:22<07:50,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 919/1176 [22:24<07:48,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 920/1176 [22:26<07:28,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 921/1176 [22:28<08:05,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 922/1176 [22:29<07:27,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 78%|███████▊  | 923/1176 [22:31<07:13,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 79%|███████▊  | 924/1176 [22:33<07:23,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 79%|███████▊  | 925/1176 [22:34<07:07,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 79%|███████▊  | 926/1176 [22:36<06:57,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 79%|███████▉  | 927/1176 [22:37<06:41,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 79%|███████▉  | 928/1176 [22:39<06:54,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 79%|███████▉  | 929/1176 [22:42<08:08,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 79%|███████▉  | 930/1176 [22:43<07:31,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 79%|███████▉  | 931/1176 [22:45<06:58,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 79%|███████▉  | 932/1176 [22:46<06:40,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 79%|███████▉  | 933/1176 [22:48<06:26,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 79%|███████▉  | 934/1176 [22:49<06:15,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|███████▉  | 935/1176 [22:51<06:12,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|███████▉  | 936/1176 [22:52<06:11,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|███████▉  | 937/1176 [22:54<05:56,  1.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|███████▉  | 938/1176 [22:55<06:15,  1.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|███████▉  | 939/1176 [22:57<06:14,  1.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|███████▉  | 940/1176 [22:59<06:28,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|████████  | 941/1176 [23:00<06:23,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|████████  | 942/1176 [23:02<06:26,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|████████  | 943/1176 [23:04<06:10,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|████████  | 944/1176 [23:05<05:59,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|████████  | 945/1176 [23:06<05:51,  1.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 80%|████████  | 946/1176 [23:08<05:43,  1.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████  | 947/1176 [23:10<06:01,  1.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████  | 948/1176 [23:12<06:21,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████  | 949/1176 [23:13<06:11,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████  | 950/1176 [23:17<08:40,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████  | 951/1176 [23:19<08:05,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████  | 952/1176 [23:20<07:16,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████  | 953/1176 [23:22<06:53,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████  | 954/1176 [23:23<06:26,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████  | 955/1176 [23:25<06:19,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████▏ | 956/1176 [23:27<06:33,  1.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████▏ | 957/1176 [23:28<06:10,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 81%|████████▏ | 958/1176 [23:30<06:06,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 959/1176 [23:31<05:45,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 960/1176 [23:33<05:49,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 961/1176 [23:35<05:51,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 962/1176 [23:37<06:36,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 963/1176 [23:40<07:22,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 964/1176 [23:42<07:23,  2.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 965/1176 [23:44<07:16,  2.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 966/1176 [23:46<07:02,  2.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 967/1176 [23:48<06:48,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 968/1176 [23:49<06:04,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 969/1176 [23:50<05:01,  1.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 82%|████████▏ | 970/1176 [23:51<05:11,  1.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 83%|████████▎ | 971/1176 [23:53<04:53,  1.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 83%|████████▎ | 972/1176 [23:54<05:00,  1.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 83%|████████▎ | 973/1176 [23:55<04:54,  1.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 83%|████████▎ | 974/1176 [23:57<04:54,  1.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 83%|████████▎ | 975/1176 [23:59<05:02,  1.51s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 83%|████████▎ | 976/1176 [24:06<11:24,  3.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 83%|████████▎ | 977/1176 [24:08<09:43,  2.93s/it][anthropic._base_client] Retrying request to /v1/messages in 0.393276 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 83%|████████▎ | 978/1176 [24:26<24:38,  7.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 83%|████████▎ | 979/1176 [24:28<18:35,  5.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 83%|████████▎ | 980/1176 [24:29<14:22,  4.40s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 83%|████████▎ | 981/1176 [24:33<14:05,  4.34s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▎ | 982/1176 [24:39<14:50,  4.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▎ | 983/1176 [24:41<12:16,  3.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▎ | 984/1176 [24:42<10:05,  3.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▍ | 985/1176 [24:44<08:27,  2.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▍ | 986/1176 [24:45<07:33,  2.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▍ | 987/1176 [24:47<07:00,  2.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▍ | 988/1176 [24:49<06:24,  2.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▍ | 989/1176 [24:51<06:08,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▍ | 990/1176 [24:52<05:50,  1.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▍ | 991/1176 [24:54<05:30,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▍ | 992/1176 [24:57<06:10,  2.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 84%|████████▍ | 993/1176 [24:58<05:41,  1.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▍ | 994/1176 [25:00<05:28,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▍ | 995/1176 [25:01<05:16,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▍ | 996/1176 [25:03<05:07,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▍ | 997/1176 [25:14<13:49,  4.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▍ | 998/1176 [25:16<11:05,  3.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▍ | 999/1176 [25:18<09:17,  3.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▌ | 1000/1176 [25:19<07:42,  2.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▌ | 1001/1176 [25:21<06:35,  2.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▌ | 1002/1176 [25:22<06:03,  2.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▌ | 1003/1176 [25:24<05:27,  1.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▌ | 1004/1176 [25:25<05:10,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 85%|████████▌ | 1005/1176 [25:27<04:56,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▌ | 1006/1176 [25:28<04:38,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▌ | 1007/1176 [25:30<04:39,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▌ | 1008/1176 [25:32<04:34,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▌ | 1009/1176 [25:33<04:33,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▌ | 1010/1176 [25:35<04:26,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▌ | 1011/1176 [25:36<04:20,  1.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▌ | 1012/1176 [25:39<05:11,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▌ | 1013/1176 [25:40<04:19,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▌ | 1014/1176 [25:41<04:12,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▋ | 1015/1176 [25:43<04:07,  1.54s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▋ | 1016/1176 [25:50<08:22,  3.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 86%|████████▋ | 1017/1176 [25:51<07:07,  2.69s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 87%|████████▋ | 1018/1176 [25:56<08:42,  3.31s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 87%|████████▋ | 1019/1176 [26:04<11:59,  4.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 87%|████████▋ | 1020/1176 [26:05<09:41,  3.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 87%|████████▋ | 1021/1176 [26:07<08:06,  3.14s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 87%|████████▋ | 1022/1176 [26:14<10:51,  4.23s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 87%|████████▋ | 1023/1176 [26:20<11:55,  4.67s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 87%|████████▋ | 1024/1176 [26:26<13:19,  5.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 87%|████████▋ | 1025/1176 [26:28<10:48,  4.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 87%|████████▋ | 1026/1176 [26:31<09:11,  3.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 87%|████████▋ | 1027/1176 [26:32<07:49,  3.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 87%|████████▋ | 1028/1176 [26:34<06:47,  2.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1029/1176 [26:35<05:18,  2.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1030/1176 [26:37<04:51,  2.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1031/1176 [26:39<04:46,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1032/1176 [26:41<04:56,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1033/1176 [26:42<04:33,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1034/1176 [26:45<04:48,  2.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1035/1176 [26:47<04:40,  1.99s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1036/1176 [26:52<06:45,  2.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1037/1176 [26:53<05:52,  2.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1038/1176 [26:56<05:41,  2.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1039/1176 [26:57<05:00,  2.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 88%|████████▊ | 1040/1176 [26:59<04:30,  1.99s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▊ | 1041/1176 [27:05<07:16,  3.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▊ | 1042/1176 [27:06<06:10,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▊ | 1043/1176 [27:08<05:22,  2.43s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
