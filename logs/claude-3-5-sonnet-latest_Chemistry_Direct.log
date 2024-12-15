@@ -804,3 +804,208 @@ Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'messa
  89%|████████▊ | 1041/1176 [27:05<07:16,  3.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
  89%|████████▊ | 1042/1176 [27:06<06:10,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
  89%|████████▊ | 1043/1176 [27:08<05:22,  2.43s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▉ | 1044/1176 [27:13<07:04,  3.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▉ | 1045/1176 [27:15<06:02,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▉ | 1046/1176 [27:17<05:20,  2.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▉ | 1047/1176 [27:18<04:39,  2.17s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▉ | 1048/1176 [27:24<06:42,  3.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▉ | 1049/1176 [27:25<05:34,  2.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▉ | 1050/1176 [27:26<04:46,  2.27s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▉ | 1051/1176 [27:31<05:55,  2.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 89%|████████▉ | 1052/1176 [27:32<04:57,  2.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|████████▉ | 1053/1176 [27:33<04:17,  2.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|████████▉ | 1054/1176 [27:35<03:58,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|████████▉ | 1055/1176 [27:37<03:42,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|████████▉ | 1056/1176 [27:38<03:32,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|████████▉ | 1057/1176 [27:40<03:23,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|████████▉ | 1058/1176 [27:42<03:29,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|█████████ | 1059/1176 [27:43<03:19,  1.71s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 0.783248 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|█████████ | 1060/1176 [28:05<14:53,  7.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|█████████ | 1061/1176 [28:06<11:06,  5.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|█████████ | 1062/1176 [28:09<09:02,  4.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|█████████ | 1063/1176 [28:10<06:48,  3.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 90%|█████████ | 1064/1176 [28:12<05:58,  3.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████ | 1065/1176 [28:13<04:57,  2.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████ | 1066/1176 [28:15<04:30,  2.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████ | 1067/1176 [28:17<03:54,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████ | 1068/1176 [28:18<03:24,  1.90s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████ | 1069/1176 [28:25<05:57,  3.34s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████ | 1070/1176 [28:30<06:46,  3.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████ | 1071/1176 [28:31<05:40,  3.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████ | 1072/1176 [28:34<04:59,  2.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████ | 1073/1176 [28:35<04:18,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████▏| 1074/1176 [28:37<03:57,  2.33s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████▏| 1075/1176 [28:47<07:46,  4.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 91%|█████████▏| 1076/1176 [28:49<06:10,  3.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 92%|█████████▏| 1077/1176 [28:50<05:01,  3.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 92%|█████████▏| 1078/1176 [28:52<04:23,  2.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 92%|█████████▏| 1079/1176 [28:54<03:52,  2.40s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 92%|█████████▏| 1080/1176 [28:59<05:18,  3.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 92%|█████████▏| 1081/1176 [29:01<04:23,  2.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 92%|█████████▏| 1082/1176 [29:02<03:53,  2.49s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 92%|█████████▏| 1083/1176 [29:08<05:14,  3.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 92%|█████████▏| 1084/1176 [29:09<04:18,  2.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 92%|█████████▏| 1085/1176 [29:11<03:40,  2.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 92%|█████████▏| 1086/1176 [29:13<03:18,  2.21s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 92%|█████████▏| 1087/1176 [29:18<04:37,  3.11s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1088/1176 [29:24<05:53,  4.02s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1089/1176 [29:31<06:59,  4.82s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1090/1176 [29:38<07:48,  5.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1091/1176 [29:39<06:09,  4.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1092/1176 [29:42<05:09,  3.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1093/1176 [29:43<04:14,  3.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1094/1176 [29:45<03:39,  2.68s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1095/1176 [29:54<06:23,  4.73s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1096/1176 [30:01<07:04,  5.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1097/1176 [30:03<05:38,  4.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1098/1176 [30:05<04:40,  3.60s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 93%|█████████▎| 1099/1176 [30:13<06:10,  4.81s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▎| 1100/1176 [30:17<05:51,  4.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▎| 1101/1176 [30:18<04:25,  3.55s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▎| 1102/1176 [30:24<05:24,  4.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▍| 1103/1176 [30:26<04:20,  3.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▍| 1104/1176 [30:28<03:35,  3.00s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▍| 1105/1176 [30:33<04:32,  3.84s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▍| 1106/1176 [30:37<04:34,  3.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▍| 1107/1176 [30:39<03:41,  3.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▍| 1108/1176 [30:41<03:06,  2.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▍| 1109/1176 [30:43<02:47,  2.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▍| 1110/1176 [30:44<02:26,  2.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 94%|█████████▍| 1111/1176 [30:46<02:08,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▍| 1112/1176 [30:47<01:56,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▍| 1113/1176 [30:49<01:50,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▍| 1114/1176 [30:51<02:10,  2.10s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▍| 1115/1176 [31:01<04:31,  4.44s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▍| 1116/1176 [31:08<05:10,  5.18s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▍| 1117/1176 [31:13<05:04,  5.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▌| 1118/1176 [31:15<03:54,  4.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▌| 1119/1176 [31:16<03:08,  3.31s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▌| 1120/1176 [31:26<04:48,  5.15s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▌| 1121/1176 [31:31<04:47,  5.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▌| 1122/1176 [31:33<03:40,  4.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 95%|█████████▌| 1123/1176 [31:34<02:55,  3.32s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 96%|█████████▌| 1124/1176 [31:39<03:19,  3.84s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 96%|█████████▌| 1125/1176 [31:44<03:26,  4.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 96%|█████████▌| 1126/1176 [31:46<02:49,  3.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 96%|█████████▌| 1127/1176 [31:47<02:18,  2.83s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 96%|█████████▌| 1128/1176 [31:56<03:37,  4.53s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 96%|█████████▌| 1129/1176 [32:02<03:57,  5.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 96%|█████████▌| 1130/1176 [32:04<03:07,  4.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 96%|█████████▌| 1131/1176 [32:06<02:33,  3.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 96%|█████████▋| 1132/1176 [32:07<02:03,  2.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 96%|█████████▋| 1133/1176 [32:09<01:48,  2.52s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 96%|█████████▋| 1134/1176 [32:18<03:05,  4.41s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1135/1176 [32:23<03:05,  4.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1136/1176 [32:24<02:24,  3.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1137/1176 [32:26<01:59,  3.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1138/1176 [32:28<01:43,  2.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1139/1176 [32:29<01:27,  2.35s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1140/1176 [32:37<02:22,  3.96s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1141/1176 [32:42<02:28,  4.26s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1142/1176 [32:49<02:57,  5.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1143/1176 [32:51<02:16,  4.13s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1144/1176 [32:56<02:23,  4.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1145/1176 [32:58<01:52,  3.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 97%|█████████▋| 1146/1176 [33:00<01:33,  3.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1147/1176 [33:02<01:23,  2.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1148/1176 [33:04<01:13,  2.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1149/1176 [33:06<01:05,  2.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1150/1176 [33:08<00:57,  2.20s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1151/1176 [33:17<01:46,  4.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1152/1176 [33:19<01:25,  3.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1153/1176 [33:20<01:08,  2.98s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1154/1176 [33:33<02:09,  5.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1155/1176 [33:35<01:38,  4.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1156/1176 [33:37<01:15,  3.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1157/1176 [33:38<00:56,  2.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 98%|█████████▊| 1158/1176 [33:38<00:41,  2.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▊| 1159/1176 [33:40<00:37,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▊| 1160/1176 [33:41<00:28,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▊| 1161/1176 [33:42<00:24,  1.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▉| 1162/1176 [33:44<00:22,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▉| 1163/1176 [33:45<00:19,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▉| 1164/1176 [33:46<00:15,  1.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▉| 1165/1176 [33:48<00:15,  1.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▉| 1166/1176 [33:49<00:14,  1.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▉| 1167/1176 [33:51<00:12,  1.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▉| 1168/1176 [34:12<00:59,  7.48s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▉| 1169/1176 [34:23<00:59,  8.44s/it][anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+ 99%|█████████▉| 1170/1176 [34:37<01:00, 10.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+100%|█████████▉| 1171/1176 [34:38<00:37,  7.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+100%|█████████▉| 1172/1176 [34:39<00:22,  5.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+100%|█████████▉| 1173/1176 [34:40<00:12,  4.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+100%|█████████▉| 1174/1176 [34:42<00:06,  3.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+100%|█████████▉| 1175/1176 [34:44<00:02,  2.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+100%|██████████| 1176/1176 [34:45<00:00,  2.29s/it]100%|██████████| 1176/1176 [34:45<00:00,  1.77s/it]
+[root] Save results to results/claude-3-5-sonnet-latest_Chemistry_Direct.json
+[root] End Generation......
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}

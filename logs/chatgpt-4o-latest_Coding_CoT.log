@@ -651,4 +651,320 @@ Problem: {
  62%|██████▏   | 349/564 [1:05:21<33:44,  9.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
  62%|██████▏   | 350/564 [1:05:32<35:28,  9.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
  62%|██████▏   | 351/564 [1:05:45<38:37, 10.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 62%|██████▏   | 352/564 [1:05:57<39:41, 11.24s/it]
+ 62%|██████▏   | 352/564 [1:05:57<39:41, 11.24s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 63%|██████▎   | 353/564 [1:06:07<37:23, 10.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 63%|██████▎   | 354/564 [1:06:15<34:22,  9.82s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 63%|██████▎   | 355/564 [1:06:22<31:55,  9.16s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 63%|██████▎   | 356/564 [1:06:31<31:37,  9.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 63%|██████▎   | 357/564 [1:06:38<29:27,  8.54s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 63%|██████▎   | 358/564 [1:06:46<28:54,  8.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 64%|██████▎   | 359/564 [1:06:57<30:33,  8.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 64%|██████▍   | 360/564 [1:07:07<31:53,  9.38s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 64%|██████▍   | 361/564 [1:07:14<29:40,  8.77s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 64%|██████▍   | 362/564 [1:07:22<28:48,  8.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 64%|██████▍   | 363/564 [1:07:31<28:29,  8.51s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 65%|██████▍   | 364/564 [1:07:38<26:43,  8.02s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 65%|██████▍   | 365/564 [1:07:45<25:38,  7.73s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 65%|██████▍   | 366/564 [1:07:51<23:40,  7.18s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 65%|██████▌   | 367/564 [1:08:01<27:05,  8.25s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 65%|██████▌   | 368/564 [1:08:21<38:17, 11.72s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 65%|██████▌   | 369/564 [1:08:29<34:34, 10.64s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 66%|██████▌   | 370/564 [1:08:38<32:25, 10.03s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 66%|██████▌   | 371/564 [1:08:49<33:30, 10.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 66%|██████▌   | 372/564 [1:09:01<35:02, 10.95s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 66%|██████▌   | 373/564 [1:09:09<31:46,  9.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 66%|██████▋   | 374/564 [1:09:16<28:13,  8.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 66%|██████▋   | 375/564 [1:09:23<26:22,  8.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 67%|██████▋   | 376/564 [1:09:28<23:13,  7.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 67%|██████▋   | 377/564 [1:09:39<26:08,  8.39s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 67%|██████▋   | 378/564 [1:09:46<25:02,  8.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 67%|██████▋   | 379/564 [1:09:55<25:54,  8.40s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 67%|██████▋   | 380/564 [1:10:04<26:34,  8.67s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 68%|██████▊   | 381/564 [1:10:14<27:10,  8.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 68%|██████▊   | 382/564 [1:10:23<26:53,  8.87s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 68%|██████▊   | 383/564 [1:10:34<28:47,  9.54s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 68%|██████▊   | 384/564 [1:10:42<27:16,  9.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 68%|██████▊   | 385/564 [1:10:52<28:30,  9.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 68%|██████▊   | 386/564 [1:11:01<27:48,  9.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 69%|██████▊   | 387/564 [1:11:11<27:45,  9.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 69%|██████▉   | 388/564 [1:11:23<29:55, 10.20s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 69%|██████▉   | 389/564 [1:11:33<29:19, 10.05s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 69%|██████▉   | 390/564 [1:11:50<35:53, 12.38s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 69%|██████▉   | 391/564 [1:11:59<32:34, 11.30s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 70%|██████▉   | 392/564 [1:12:07<29:48, 10.40s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 70%|██████▉   | 393/564 [1:12:19<30:11, 10.60s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 70%|██████▉   | 394/564 [1:12:27<27:51,  9.83s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 70%|███████   | 395/564 [1:12:34<25:35,  9.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 70%|███████   | 396/564 [1:12:43<25:18,  9.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 70%|███████   | 397/564 [1:12:52<25:05,  9.01s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 71%|███████   | 398/564 [1:13:01<25:28,  9.21s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 71%|███████   | 399/564 [1:13:10<24:40,  8.97s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 71%|███████   | 400/564 [1:13:19<24:51,  9.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 71%|███████   | 401/564 [1:13:28<24:21,  8.97s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 71%|███████▏  | 402/564 [1:13:34<22:00,  8.15s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 71%|███████▏  | 403/564 [1:13:42<21:47,  8.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 72%|███████▏  | 404/564 [1:13:56<26:09,  9.81s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 72%|███████▏  | 405/564 [1:14:05<25:18,  9.55s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 72%|███████▏  | 406/564 [1:14:13<23:50,  9.05s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 72%|███████▏  | 407/564 [1:14:22<23:52,  9.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 72%|███████▏  | 408/564 [1:14:31<23:41,  9.11s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 73%|███████▎  | 409/564 [1:14:41<24:18,  9.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 73%|███████▎  | 410/564 [1:14:50<23:39,  9.22s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 73%|███████▎  | 411/564 [1:14:58<22:50,  8.96s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 73%|███████▎  | 412/564 [1:15:05<20:40,  8.16s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 73%|███████▎  | 413/564 [1:15:13<20:34,  8.18s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 73%|███████▎  | 414/564 [1:15:22<20:59,  8.40s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 74%|███████▎  | 415/564 [1:15:28<19:24,  7.82s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 74%|███████▍  | 416/564 [1:15:37<19:40,  7.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 74%|███████▍  | 417/564 [1:15:42<17:33,  7.16s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 74%|███████▍  | 418/564 [1:15:48<16:25,  6.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 74%|███████▍  | 419/564 [1:15:56<17:10,  7.10s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 74%|███████▍  | 420/564 [1:16:05<18:41,  7.79s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 75%|███████▍  | 421/564 [1:16:16<20:54,  8.77s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 75%|███████▍  | 422/564 [1:16:25<20:33,  8.69s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 75%|███████▌  | 423/564 [1:16:31<18:38,  7.93s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 75%|███████▌  | 424/564 [1:16:37<17:40,  7.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 75%|███████▌  | 425/564 [1:16:46<18:27,  7.97s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 76%|███████▌  | 426/564 [1:16:53<17:24,  7.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 76%|███████▌  | 427/564 [1:17:03<19:12,  8.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 76%|███████▌  | 428/564 [1:17:14<20:40,  9.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 76%|███████▌  | 429/564 [1:17:23<20:00,  8.89s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 76%|███████▌  | 430/564 [1:17:30<19:02,  8.53s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 76%|███████▋  | 431/564 [1:17:35<16:39,  7.51s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 77%|███████▋  | 432/564 [1:17:42<15:49,  7.19s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 77%|███████▋  | 433/564 [1:18:00<22:47, 10.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 77%|███████▋  | 434/564 [1:18:07<20:26,  9.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 77%|███████▋  | 435/564 [1:18:16<19:51,  9.24s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 77%|███████▋  | 436/564 [1:18:27<21:03,  9.87s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 77%|███████▋  | 437/564 [1:18:35<19:59,  9.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 78%|███████▊  | 438/564 [1:18:45<19:47,  9.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 78%|███████▊  | 439/564 [1:18:53<19:00,  9.13s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 78%|███████▊  | 440/564 [1:19:03<18:58,  9.18s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 78%|███████▊  | 441/564 [1:19:11<18:04,  8.81s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 78%|███████▊  | 442/564 [1:19:18<16:52,  8.30s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 79%|███████▊  | 443/564 [1:19:24<15:20,  7.61s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 79%|███████▊  | 444/564 [1:19:30<14:30,  7.26s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 79%|███████▉  | 445/564 [1:19:38<15:02,  7.59s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 79%|███████▉  | 446/564 [1:19:46<15:01,  7.64s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 79%|███████▉  | 447/564 [1:19:52<13:49,  7.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 79%|███████▉  | 448/564 [1:20:01<14:44,  7.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 80%|███████▉  | 449/564 [1:20:09<14:56,  7.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 80%|███████▉  | 450/564 [1:20:22<17:45,  9.35s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 80%|███████▉  | 451/564 [1:20:32<17:53,  9.50s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 80%|████████  | 452/564 [1:20:43<18:44, 10.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 80%|████████  | 453/564 [1:20:51<17:03,  9.22s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 80%|████████  | 454/564 [1:20:56<15:05,  8.24s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 81%|████████  | 455/564 [1:21:06<15:54,  8.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 81%|████████  | 456/564 [1:21:16<16:24,  9.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 81%|████████  | 457/564 [1:21:26<16:34,  9.29s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 81%|████████  | 458/564 [1:21:37<17:19,  9.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 81%|████████▏ | 459/564 [1:21:48<17:34, 10.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 82%|████████▏ | 460/564 [1:21:56<16:33,  9.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 82%|████████▏ | 461/564 [1:22:06<16:32,  9.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 82%|████████▏ | 462/564 [1:22:17<17:12, 10.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 82%|████████▏ | 463/564 [1:22:30<18:14, 10.83s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 82%|████████▏ | 464/564 [1:22:39<17:12, 10.32s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 82%|████████▏ | 465/564 [1:22:47<15:56,  9.66s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 83%|████████▎ | 466/564 [1:22:54<14:17,  8.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 83%|████████▎ | 467/564 [1:23:02<13:46,  8.52s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 83%|████████▎ | 468/564 [1:23:18<17:14, 10.78s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 83%|████████▎ | 469/564 [1:23:25<15:35,  9.84s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 83%|████████▎ | 470/564 [1:23:31<13:27,  8.59s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 84%|████████▎ | 471/564 [1:23:40<13:43,  8.85s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 84%|████████▎ | 472/564 [1:23:51<14:20,  9.35s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 84%|████████▍ | 473/564 [1:24:02<15:05,  9.95s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 84%|████████▍ | 474/564 [1:24:11<14:34,  9.72s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 84%|████████▍ | 475/564 [1:24:21<14:10,  9.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 84%|████████▍ | 476/564 [1:24:31<14:17,  9.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 85%|████████▍ | 477/564 [1:24:39<13:25,  9.25s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 85%|████████▍ | 478/564 [1:24:47<12:44,  8.89s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 85%|████████▍ | 479/564 [1:24:57<13:08,  9.28s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 85%|████████▌ | 480/564 [1:25:10<14:23, 10.28s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 85%|████████▌ | 481/564 [1:25:16<12:27,  9.01s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 85%|████████▌ | 482/564 [1:25:23<11:29,  8.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 86%|████████▌ | 483/564 [1:25:30<10:57,  8.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 86%|████████▌ | 484/564 [1:25:38<10:41,  8.02s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 86%|████████▌ | 485/564 [1:25:47<11:01,  8.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 86%|████████▌ | 486/564 [1:25:57<11:35,  8.92s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 86%|████████▋ | 487/564 [1:26:07<11:39,  9.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 87%|████████▋ | 488/564 [1:26:14<10:55,  8.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 87%|████████▋ | 489/564 [1:26:24<11:00,  8.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 87%|████████▋ | 490/564 [1:26:39<13:11, 10.69s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 87%|████████▋ | 491/564 [1:26:48<12:38, 10.39s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 87%|████████▋ | 492/564 [1:27:02<13:37, 11.35s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 87%|████████▋ | 493/564 [1:27:10<12:06, 10.23s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 88%|████████▊ | 494/564 [1:27:19<11:38,  9.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 88%|████████▊ | 495/564 [1:27:27<10:42,  9.31s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 88%|████████▊ | 496/564 [1:27:33<09:37,  8.49s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 88%|████████▊ | 497/564 [1:27:44<10:06,  9.05s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 88%|████████▊ | 498/564 [1:27:54<10:17,  9.36s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 88%|████████▊ | 499/564 [1:28:02<09:39,  8.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 89%|████████▊ | 500/564 [1:28:11<09:32,  8.95s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 89%|████████▉ | 501/564 [1:28:20<09:31,  9.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 89%|████████▉ | 502/564 [1:28:28<09:10,  8.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 89%|████████▉ | 503/564 [1:28:36<08:41,  8.55s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 89%|████████▉ | 504/564 [1:28:44<08:22,  8.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 90%|████████▉ | 505/564 [1:28:51<07:44,  7.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 90%|████████▉ | 506/564 [1:28:57<07:09,  7.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 90%|████████▉ | 507/564 [1:29:08<08:07,  8.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 90%|█████████ | 508/564 [1:29:18<08:13,  8.82s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 90%|█████████ | 509/564 [1:29:27<08:13,  8.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 90%|█████████ | 510/564 [1:29:35<07:45,  8.61s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 91%|█████████ | 511/564 [1:29:42<07:16,  8.23s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 91%|█████████ | 512/564 [1:29:49<06:45,  7.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 91%|█████████ | 513/564 [1:29:57<06:43,  7.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 91%|█████████ | 514/564 [1:30:04<06:16,  7.53s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 91%|█████████▏| 515/564 [1:30:16<07:17,  8.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 91%|█████████▏| 516/564 [1:30:28<07:43,  9.66s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 92%|█████████▏| 517/564 [1:30:44<09:09, 11.69s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 92%|█████████▏| 518/564 [1:30:53<08:18, 10.83s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 92%|█████████▏| 519/564 [1:31:01<07:28,  9.97s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 92%|█████████▏| 520/564 [1:31:08<06:47,  9.26s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 92%|█████████▏| 521/564 [1:31:16<06:14,  8.71s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 93%|█████████▎| 522/564 [1:31:29<07:01, 10.03s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 93%|█████████▎| 523/564 [1:31:37<06:30,  9.52s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 93%|█████████▎| 524/564 [1:31:46<06:12,  9.31s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 93%|█████████▎| 525/564 [1:31:52<05:29,  8.45s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 93%|█████████▎| 526/564 [1:32:05<06:04,  9.60s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 93%|█████████▎| 527/564 [1:32:13<05:43,  9.28s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 94%|█████████▎| 528/564 [1:32:23<05:36,  9.34s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 94%|█████████▍| 529/564 [1:32:35<05:58, 10.25s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 94%|█████████▍| 530/564 [1:32:49<06:22, 11.25s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 94%|█████████▍| 531/564 [1:32:57<05:39, 10.30s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 94%|█████████▍| 532/564 [1:33:04<04:56,  9.26s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 95%|█████████▍| 533/564 [1:33:12<04:36,  8.93s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 95%|█████████▍| 534/564 [1:33:20<04:23,  8.77s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 95%|█████████▍| 535/564 [1:33:29<04:10,  8.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 95%|█████████▌| 536/564 [1:33:38<04:11,  8.99s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 95%|█████████▌| 537/564 [1:33:47<03:57,  8.81s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 95%|█████████▌| 538/564 [1:33:58<04:11,  9.66s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 96%|█████████▌| 539/564 [1:34:06<03:46,  9.07s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 96%|█████████▌| 540/564 [1:34:15<03:38,  9.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 96%|█████████▌| 541/564 [1:34:53<06:44, 17.60s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 96%|█████████▌| 542/564 [1:35:00<05:17, 14.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 96%|█████████▋| 543/564 [1:35:13<04:53, 13.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 96%|█████████▋| 544/564 [1:35:42<06:10, 18.54s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 97%|█████████▋| 545/564 [1:35:52<05:05, 16.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 97%|█████████▋| 546/564 [1:36:02<04:15, 14.19s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 97%|█████████▋| 547/564 [1:36:11<03:36, 12.71s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 97%|█████████▋| 548/564 [1:36:19<02:59, 11.20s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 97%|█████████▋| 549/564 [1:36:27<02:34, 10.33s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 98%|█████████▊| 550/564 [1:36:37<02:21, 10.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 98%|█████████▊| 551/564 [1:36:48<02:14, 10.32s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 98%|█████████▊| 552/564 [1:36:58<02:02, 10.22s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 98%|█████████▊| 553/564 [1:37:06<01:45,  9.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 98%|█████████▊| 554/564 [1:37:15<01:36,  9.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 98%|█████████▊| 555/564 [1:37:25<01:26,  9.66s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 99%|█████████▊| 556/564 [1:37:33<01:12,  9.10s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 99%|█████████▉| 557/564 [1:37:42<01:03,  9.10s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 99%|█████████▉| 558/564 [1:37:48<00:49,  8.27s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 99%|█████████▉| 559/564 [1:37:55<00:38,  7.72s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 99%|█████████▉| 560/564 [1:38:03<00:31,  7.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+ 99%|█████████▉| 561/564 [1:38:11<00:23,  7.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+100%|█████████▉| 562/564 [1:38:19<00:15,  8.00s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+100%|█████████▉| 563/564 [1:38:28<00:08,  8.17s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+100%|██████████| 564/564 [1:38:36<00:00,  8.05s/it]100%|██████████| 564/564 [1:38:36<00:00, 10.49s/it]
+[root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+[root] End Generation......
+Generated Response: To determine which visualization the given Python code generates, we will analyze the code step by step and match it with the provided options.
+
+---
+
+### **Step 1: Code Analysis**
+
+#### **1. Data Generation**
+```python
+np.random.seed(0)
+x = np.random.rand(1000)
+y = np.random.rand(1000) * 2 - 1 
+labels = np.random.choice([0, 1], size=1000)
+```
+- `x`: 1000 random values between 0 and 1.
+- `y`: 1000 random values between -1 and 1.
+- `labels`: 1000 random binary values (0 or 1).
+
+#### **2. Scatter Plot**
+```python
+plt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)
+plt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)
+```
+- Two scatter plots are created:
+  - Blue points for `labels == 0`.
+  - Red points for `labels == 1`.
+
+#### **3. Axes Lines**
+```python
+plt.axhline(0.5, color='black', linestyle=':', linewidth=1)
+plt.axvline(0, color='black', linestyle=':', linewidth=1)
+```
+- A horizontal dashed line at \( y = 0.5 \).
+- A vertical dashed line at \( x = 0 \).
+
+#### **4. Labels and Legends**
+```python
+plt.xlabel(r'$P(F_{i+1} | F_i)$')
+plt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')
+plt.legend(title='Boundary')
+```
+- X-axis and Y-axis are labeled with mathematical expressions.
+- A legend is added with the title "Boundary".
+
+#### **5. Histograms**
+```python
+plt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)
+plt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)
+plt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)
+plt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)
+```
+- Four histograms are added:
+  - Vertical histograms for `x` values (blue for `labels == 0`, red for `labels == 1`).
+  - Horizontal histograms for `y` values (blue for `labels == 0`, red for `labels == 1`).
+
+#### **6. Text Annotations**
+```python
+plt.text(-0.1, -1, r'$\alpha_1$', fontsize=12)
+plt.text(1.02, 0.5, r'$\alpha_2$', fontsize=12)
+```
+- Text annotations are added at specific positions:
+  - \(\alpha_1\) at \((-0.1, -1)\).
+  - \(\alpha_2\) at \((1.02, 0.5)\).
+
+#### **7. Plot Limits and Ticks**
+```python
+plt.xlim(-0.1, 1.1)
+plt.ylim(-1.1, 1.1)
+plt.tick_params(axis='both', direction='in')
+```
+- X-axis limits: \([-0.1, 1.1]\).
+- Y-axis limits: \([-1.1, 1.1]\).
+- Tick marks are set to point inward.
+
+---
+
+### **Step 2: Matching with Options**
+
+#### **Option A**
+- This plot has a scatter plot in the center and histograms on the top and right.
+- The histograms are **separate** from the scatter plot.
+
+#### **Option B**
+- This plot has a scatter plot in the center, but the histograms **overlap** the scatter plot.
+
+#### **Option C**
+- This plot is identical to Option B, with overlapping histograms.
+
+#### **Option D**
+- This plot is identical to Option A, with separate histograms.
+
+---
+
+### **Step 3: Correct Answer**
+The code generates a plot where the histograms overlap the scatter plot. This matches **Option B** and **Option C**. Since both are identical, either is correct.
+
+\[
+\boxed{B}
+\]
+------ End  ------
+
+Error code: 429 - {'error': {'message': 'Rate limit reached for chatgpt-4o-latest in organization org-djnVnX5AfciLN29tg5qRU5q2 on requests per min (RPM): Limit 200, Used 200, Requested 1. Please try again in 300ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
+Error code: 429 - {'error': {'message': 'Rate limit reached for chatgpt-4o-latest in organization org-djnVnX5AfciLN29tg5qRU5q2 on requests per min (RPM): Limit 200, Used 200, Requested 1. Please try again in 300ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}

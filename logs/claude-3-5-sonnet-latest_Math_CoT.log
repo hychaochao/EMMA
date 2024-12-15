@@ -260,4 +260,387 @@
  43%|████▎     | 383/892 [27:46<54:04,  6.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
  43%|████▎     | 384/892 [27:54<58:37,  6.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
  43%|████▎     | 385/892 [28:01<57:46,  6.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
- 43%|████▎     | 386/892 [28:08<57:42,  6.84s/it]
+ 43%|████▎     | 386/892 [28:08<57:42,  6.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 43%|████▎     | 387/892 [28:15<58:22,  6.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 43%|████▎     | 388/892 [28:23<1:00:04,  7.15s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 44%|████▎     | 389/892 [28:35<1:13:39,  8.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 44%|████▎     | 390/892 [28:40<1:03:42,  7.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 44%|████▍     | 391/892 [28:45<57:38,  6.90s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 44%|████▍     | 392/892 [28:51<54:06,  6.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 44%|████▍     | 393/892 [28:58<55:46,  6.71s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 44%|████▍     | 394/892 [29:05<57:13,  6.89s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 44%|████▍     | 395/892 [29:14<1:00:20,  7.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 44%|████▍     | 396/892 [29:19<55:18,  6.69s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 45%|████▍     | 397/892 [29:26<57:18,  6.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 45%|████▍     | 398/892 [29:33<55:50,  6.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 45%|████▍     | 399/892 [29:38<50:40,  6.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 45%|████▍     | 400/892 [29:42<46:32,  5.68s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 45%|████▍     | 401/892 [29:57<1:08:31,  8.37s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 45%|████▌     | 402/892 [30:04<1:04:47,  7.93s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 45%|████▌     | 403/892 [30:13<1:07:22,  8.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 45%|████▌     | 404/892 [30:17<58:01,  7.13s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 45%|████▌     | 405/892 [30:26<1:01:37,  7.59s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 46%|████▌     | 406/892 [30:35<1:04:19,  7.94s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 46%|████▌     | 407/892 [30:43<1:05:03,  8.05s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 46%|████▌     | 408/892 [30:58<1:21:10, 10.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 46%|████▌     | 409/892 [31:04<1:11:18,  8.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 46%|████▌     | 410/892 [31:08<59:23,  7.39s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 46%|████▌     | 411/892 [31:16<1:00:41,  7.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 46%|████▌     | 412/892 [31:21<55:32,  6.94s/it]  [anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 46%|████▋     | 413/892 [31:37<1:16:51,  9.63s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 46%|████▋     | 414/892 [31:46<1:14:04,  9.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 47%|████▋     | 415/892 [31:53<1:08:46,  8.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 47%|████▋     | 416/892 [31:59<1:03:27,  8.00s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 47%|████▋     | 417/892 [32:11<1:12:43,  9.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 47%|████▋     | 418/892 [32:18<1:06:03,  8.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 47%|████▋     | 419/892 [32:24<1:00:20,  7.66s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 47%|████▋     | 420/892 [32:35<1:08:57,  8.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 47%|████▋     | 421/892 [32:40<1:00:59,  7.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 47%|████▋     | 422/892 [32:46<55:05,  7.03s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 47%|████▋     | 423/892 [32:52<53:03,  6.79s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 48%|████▊     | 424/892 [33:07<1:11:16,  9.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 48%|████▊     | 425/892 [33:13<1:03:43,  8.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 48%|████▊     | 426/892 [33:18<56:57,  7.33s/it]  [anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+
+--- Sample Generation Debug ---
+PID: Math_3
+Problem: {
+  "query": "\nWhich part of the house is missing?\n<image_1>\nA: A\nB: B\nC: C\nD: D\nE: E\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
+  "gt_content": "E",
+  "pid": "Math_3",
+  "question": "Which part of the house is missing?\n<image_1>",
+  "options": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "answer": "E",
+  "solution": null,
+  "subject": "Math",
+  "task": "",
+  "category": "2D Transformation",
+  "source": "MathVision",
+  "type": "Multiple Choice",
+  "context": "",
+  "response": "Let me help you solve this step by step.\n\n1) The image shows a house puzzle with one missing piece.\n\n2) The house has a windmill-like structure on top and appears to be made up of puzzle pieces.\n\n3) Looking at the empty space in the puzzle, we need to find a piece that would fit perfectly.\n\n4) The missing piece should:\n   * Connect with the surrounding pieces smoothly\n   * Complete the outline of the house\n   * Have appropriate curves and angles\n\n5) Looking at the options (A through E):\n   * Option A has a simple L shape\n   * Option B has an irregular shape\n   * Option C has a step-like shape\n   * Option D has a notch in the middle\n   * Option E has an L shape with an extension\n\n6) When examining the empty space in the puzzle and comparing it with the given options, option D appears to be the perfect fit because:\n   * It has the right shape to complete the house outline\n   * The notch in the middle would connect properly with adjacent pieces\n   * It matches the puzzle's overall style\n\nTherefore, \\boxed{D} is the correct answer."
+}
+Generated Response: Let me help you solve this step by step.
+
+1) The image shows a house puzzle with one missing piece.
+
+2) The house has a windmill-like structure on top and appears to be made up of puzzle pieces.
+
+3) Looking at the empty space in the puzzle, we need to find a piece that would fit perfectly.
+
+4) The missing piece should:
+   * Connect with the surrounding pieces smoothly
+   * Complete the outline of the house
+   * Have appropriate curves and angles
+
+5) Looking at the options (A through E):
+   * Option A has a simple L shape
+   * Option B has an irregular shape
+   * Option C has a step-like shape
+   * Option D has a notch in the middle
+   * Option E has an L shape with an extension
+
+6) When examining the empty space in the puzzle and comparing it with the given options, option D appears to be the perfect fit because:
+   * It has the right shape to complete the house outline
+   * The notch in the middle would connect properly with adjacent pieces
+   * It matches the puzzle's overall style
+
+Therefore, \boxed{D} is the correct answer.
+------ End  ------
+
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'Internal server error'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'Internal server error'}}
+Error code: 500 - {'type': 'error', 'error': {'type': 'api_error', 'message': 'Internal server error'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 48%|████▊     | 427/892 [33:27<1:01:37,  7.95s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 48%|████▊     | 428/892 [33:36<1:03:18,  8.19s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 6.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 48%|████▊     | 429/892 [33:53<1:23:00, 10.76s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 48%|████▊     | 430/892 [34:06<1:28:07, 11.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 48%|████▊     | 431/892 [34:11<1:13:47,  9.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 48%|████▊     | 432/892 [34:16<1:03:29,  8.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 49%|████▊     | 433/892 [34:23<58:53,  7.70s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 49%|████▊     | 434/892 [34:29<55:06,  7.22s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 49%|████▉     | 435/892 [34:40<1:05:06,  8.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 49%|████▉     | 436/892 [34:47<1:00:25,  7.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 49%|████▉     | 437/892 [34:53<55:55,  7.38s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 49%|████▉     | 438/892 [34:59<52:13,  6.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 49%|████▉     | 439/892 [35:05<50:58,  6.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 49%|████▉     | 440/892 [35:12<50:51,  6.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 49%|████▉     | 441/892 [35:18<49:15,  6.55s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 50%|████▉     | 442/892 [35:31<1:04:37,  8.62s/it][anthropic._base_client] Retrying request to /v1/messages in 0.389248 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 50%|████▉     | 443/892 [36:38<3:14:34, 26.00s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 50%|████▉     | 444/892 [36:49<2:40:54, 21.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 50%|████▉     | 445/892 [36:56<2:07:33, 17.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 50%|█████     | 446/892 [37:01<1:39:11, 13.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 50%|█████     | 447/892 [37:07<1:23:43, 11.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 50%|█████     | 448/892 [37:12<1:08:52,  9.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 50%|█████     | 449/892 [37:16<56:51,  7.70s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 50%|█████     | 450/892 [37:21<51:45,  7.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 51%|█████     | 451/892 [37:26<47:36,  6.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 51%|█████     | 452/892 [37:33<46:52,  6.39s/it][anthropic._base_client] Retrying request to /v1/messages in 0.447227 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 51%|█████     | 453/892 [37:53<1:18:15, 10.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 51%|█████     | 454/892 [37:58<1:04:40,  8.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 51%|█████     | 455/892 [38:04<59:35,  8.18s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 51%|█████     | 456/892 [38:11<56:46,  7.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 51%|█████     | 457/892 [38:18<53:23,  7.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 51%|█████▏    | 458/892 [38:24<51:12,  7.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 51%|█████▏    | 459/892 [38:29<45:48,  6.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 52%|█████▏    | 460/892 [38:35<46:26,  6.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 52%|█████▏    | 461/892 [38:42<46:07,  6.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 52%|█████▏    | 462/892 [38:47<42:33,  5.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 52%|█████▏    | 463/892 [38:53<43:48,  6.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 52%|█████▏    | 464/892 [39:00<44:28,  6.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 52%|█████▏    | 465/892 [39:06<45:09,  6.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 52%|█████▏    | 466/892 [39:11<41:08,  5.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 52%|█████▏    | 467/892 [39:15<37:33,  5.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 52%|█████▏    | 468/892 [39:21<40:04,  5.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 53%|█████▎    | 469/892 [39:30<45:43,  6.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 53%|█████▎    | 470/892 [39:38<49:22,  7.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 53%|█████▎    | 471/892 [39:43<44:50,  6.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 53%|█████▎    | 472/892 [39:50<45:27,  6.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 53%|█████▎    | 473/892 [39:54<40:45,  5.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 53%|█████▎    | 474/892 [40:02<44:40,  6.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 53%|█████▎    | 475/892 [40:07<42:43,  6.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 53%|█████▎    | 476/892 [40:11<38:27,  5.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 53%|█████▎    | 477/892 [40:16<36:19,  5.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 54%|█████▎    | 478/892 [40:23<39:37,  5.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 54%|█████▎    | 479/892 [40:30<43:06,  6.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 54%|█████▍    | 480/892 [40:37<44:13,  6.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 54%|█████▍    | 481/892 [40:44<45:35,  6.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 54%|█████▍    | 482/892 [40:51<44:38,  6.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 54%|█████▍    | 483/892 [40:56<41:57,  6.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 54%|█████▍    | 484/892 [41:02<42:32,  6.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 54%|█████▍    | 485/892 [41:11<47:23,  6.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 54%|█████▍    | 486/892 [41:18<46:41,  6.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 55%|█████▍    | 487/892 [41:24<45:43,  6.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 55%|█████▍    | 488/892 [41:31<46:22,  6.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 55%|█████▍    | 489/892 [41:36<42:22,  6.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 55%|█████▍    | 490/892 [41:43<42:21,  6.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 55%|█████▌    | 491/892 [41:51<46:57,  7.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 55%|█████▌    | 492/892 [41:59<47:21,  7.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 55%|█████▌    | 493/892 [42:05<45:17,  6.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 55%|█████▌    | 494/892 [42:12<46:43,  7.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 55%|█████▌    | 495/892 [42:17<42:07,  6.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 56%|█████▌    | 496/892 [42:24<43:44,  6.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 56%|█████▌    | 497/892 [42:33<48:12,  7.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 56%|█████▌    | 498/892 [42:41<48:09,  7.33s/it][anthropic._base_client] Retrying request to /v1/messages in 0.410441 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 56%|█████▌    | 499/892 [44:07<3:22:22, 30.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 56%|█████▌    | 500/892 [44:14<2:35:27, 23.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 56%|█████▌    | 501/892 [44:21<2:03:07, 18.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 56%|█████▋    | 502/892 [44:29<1:40:47, 15.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 56%|█████▋    | 503/892 [44:34<1:20:37, 12.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 57%|█████▋    | 504/892 [44:41<1:09:15, 10.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 57%|█████▋    | 505/892 [44:48<1:02:32,  9.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 57%|█████▋    | 506/892 [44:56<58:39,  9.12s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 57%|█████▋    | 507/892 [45:03<55:06,  8.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 57%|█████▋    | 508/892 [45:08<47:55,  7.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 57%|█████▋    | 509/892 [45:15<46:26,  7.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 57%|█████▋    | 510/892 [45:22<44:47,  7.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 57%|█████▋    | 511/892 [45:28<44:02,  6.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 57%|█████▋    | 512/892 [45:34<41:06,  6.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 58%|█████▊    | 513/892 [45:43<45:36,  7.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 58%|█████▊    | 514/892 [45:49<43:10,  6.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 58%|█████▊    | 515/892 [45:55<41:20,  6.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 58%|█████▊    | 516/892 [46:00<39:10,  6.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 58%|█████▊    | 517/892 [46:06<37:39,  6.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 58%|█████▊    | 518/892 [46:11<37:27,  6.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 58%|█████▊    | 519/892 [46:17<36:25,  5.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 58%|█████▊    | 520/892 [46:23<36:05,  5.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 58%|█████▊    | 521/892 [46:28<35:30,  5.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 59%|█████▊    | 522/892 [46:34<34:41,  5.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 59%|█████▊    | 523/892 [46:40<36:02,  5.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 59%|█████▊    | 524/892 [46:46<35:33,  5.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 59%|█████▉    | 525/892 [46:53<37:26,  6.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 59%|█████▉    | 526/892 [46:58<35:46,  5.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 59%|█████▉    | 527/892 [47:02<33:06,  5.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 59%|█████▉    | 528/892 [47:07<32:11,  5.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 59%|█████▉    | 529/892 [47:14<35:01,  5.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 59%|█████▉    | 530/892 [47:20<34:15,  5.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 60%|█████▉    | 531/892 [47:29<40:41,  6.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 60%|█████▉    | 532/892 [47:35<39:18,  6.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 60%|█████▉    | 533/892 [47:40<37:06,  6.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 60%|█████▉    | 534/892 [47:47<37:29,  6.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 60%|█████▉    | 535/892 [47:52<35:58,  6.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 60%|██████    | 536/892 [47:59<36:35,  6.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 60%|██████    | 537/892 [48:04<35:01,  5.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 60%|██████    | 538/892 [48:09<33:25,  5.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 60%|██████    | 539/892 [48:14<32:13,  5.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 61%|██████    | 540/892 [48:20<32:47,  5.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 61%|██████    | 541/892 [48:29<39:12,  6.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 61%|██████    | 542/892 [48:36<38:14,  6.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 61%|██████    | 543/892 [48:41<35:29,  6.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 61%|██████    | 544/892 [48:47<35:27,  6.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 61%|██████    | 545/892 [48:51<31:33,  5.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 61%|██████    | 546/892 [48:56<30:41,  5.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 61%|██████▏   | 547/892 [49:01<30:32,  5.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 61%|██████▏   | 548/892 [49:06<30:28,  5.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 62%|██████▏   | 549/892 [49:10<27:55,  4.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 62%|██████▏   | 550/892 [49:16<29:59,  5.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 62%|██████▏   | 551/892 [49:21<29:04,  5.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 62%|██████▏   | 552/892 [49:28<32:10,  5.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 62%|██████▏   | 553/892 [49:34<32:13,  5.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 62%|██████▏   | 554/892 [49:38<29:04,  5.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 62%|██████▏   | 555/892 [49:44<31:16,  5.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 62%|██████▏   | 556/892 [49:50<32:00,  5.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 62%|██████▏   | 557/892 [49:56<32:01,  5.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 63%|██████▎   | 558/892 [50:03<33:24,  6.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 63%|██████▎   | 559/892 [50:08<31:54,  5.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 63%|██████▎   | 560/892 [50:16<36:27,  6.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 63%|██████▎   | 561/892 [50:21<33:23,  6.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 63%|██████▎   | 562/892 [50:29<36:41,  6.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 63%|██████▎   | 563/892 [50:36<36:04,  6.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 63%|██████▎   | 564/892 [50:42<36:14,  6.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 63%|██████▎   | 565/892 [50:49<35:10,  6.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 63%|██████▎   | 566/892 [50:56<36:01,  6.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 64%|██████▎   | 567/892 [51:02<34:46,  6.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 64%|██████▎   | 568/892 [51:06<31:42,  5.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 64%|██████▍   | 569/892 [51:10<29:06,  5.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 64%|██████▍   | 570/892 [51:16<29:40,  5.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 64%|██████▍   | 571/892 [51:23<31:28,  5.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 64%|██████▍   | 572/892 [51:29<31:42,  5.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 64%|██████▍   | 573/892 [51:34<29:23,  5.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 64%|██████▍   | 574/892 [51:40<29:55,  5.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 64%|██████▍   | 575/892 [51:45<29:02,  5.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 65%|██████▍   | 576/892 [51:49<27:42,  5.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 65%|██████▍   | 577/892 [51:58<32:34,  6.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 65%|██████▍   | 578/892 [52:03<30:50,  5.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 65%|██████▍   | 579/892 [52:07<27:25,  5.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 65%|██████▌   | 580/892 [52:12<27:41,  5.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 65%|██████▌   | 581/892 [52:18<28:11,  5.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 65%|██████▌   | 582/892 [52:24<29:07,  5.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 65%|██████▌   | 583/892 [52:29<27:42,  5.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 65%|██████▌   | 584/892 [52:35<29:25,  5.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 66%|██████▌   | 585/892 [52:41<28:40,  5.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 66%|██████▌   | 586/892 [52:47<29:01,  5.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 66%|██████▌   | 587/892 [52:53<29:24,  5.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 66%|██████▌   | 588/892 [52:57<27:12,  5.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 66%|██████▌   | 589/892 [53:40<1:24:56, 16.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 66%|██████▌   | 590/892 [53:49<1:11:30, 14.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 66%|██████▋   | 591/892 [53:54<58:05, 11.58s/it]  [root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 66%|██████▋   | 592/892 [53:59<48:27,  9.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 66%|██████▋   | 593/892 [54:06<43:07,  8.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 67%|██████▋   | 594/892 [54:09<35:37,  7.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 67%|██████▋   | 595/892 [54:15<33:51,  6.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 67%|██████▋   | 596/892 [54:20<30:50,  6.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 67%|██████▋   | 597/892 [54:27<30:52,  6.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 67%|██████▋   | 598/892 [54:33<30:56,  6.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 67%|██████▋   | 599/892 [54:39<31:05,  6.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 67%|██████▋   | 600/892 [54:44<28:39,  5.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 67%|██████▋   | 601/892 [54:50<27:44,  5.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 67%|██████▋   | 602/892 [54:54<25:30,  5.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 68%|██████▊   | 603/892 [55:00<26:06,  5.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 68%|██████▊   | 604/892 [55:05<26:30,  5.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 68%|██████▊   | 605/892 [55:12<28:46,  6.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 68%|██████▊   | 606/892 [55:19<30:02,  6.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 68%|██████▊   | 607/892 [55:26<30:30,  6.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 68%|██████▊   | 608/892 [55:30<27:14,  5.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 68%|██████▊   | 609/892 [55:37<27:48,  5.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 68%|██████▊   | 610/892 [55:43<28:18,  6.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 68%|██████▊   | 611/892 [55:50<29:22,  6.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 69%|██████▊   | 612/892 [55:56<28:40,  6.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 69%|██████▊   | 613/892 [56:01<28:12,  6.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 69%|██████▉   | 614/892 [56:08<28:12,  6.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 69%|██████▉   | 615/892 [56:14<28:20,  6.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 69%|██████▉   | 616/892 [56:19<27:02,  5.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 69%|██████▉   | 617/892 [56:25<26:40,  5.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 69%|██████▉   | 618/892 [56:32<27:56,  6.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 69%|██████▉   | 619/892 [56:38<28:13,  6.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 70%|██████▉   | 620/892 [56:43<26:14,  5.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 70%|██████▉   | 621/892 [56:49<26:52,  5.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 70%|██████▉   | 622/892 [56:57<29:03,  6.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 70%|██████▉   | 623/892 [57:02<26:36,  5.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 70%|██████▉   | 624/892 [57:08<27:26,  6.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 70%|███████   | 625/892 [57:14<27:14,  6.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 70%|███████   | 626/892 [57:23<30:40,  6.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 70%|███████   | 627/892 [57:30<30:37,  6.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 70%|███████   | 628/892 [57:36<28:51,  6.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 71%|███████   | 629/892 [57:42<28:04,  6.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 71%|███████   | 630/892 [57:47<27:01,  6.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 71%|███████   | 631/892 [57:53<25:52,  5.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 71%|███████   | 632/892 [58:00<27:13,  6.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 71%|███████   | 633/892 [58:05<25:57,  6.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 71%|███████   | 634/892 [58:11<25:32,  5.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 71%|███████   | 635/892 [58:17<25:14,  5.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 71%|███████▏  | 636/892 [58:22<24:37,  5.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 71%|███████▏  | 637/892 [58:30<26:32,  6.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 72%|███████▏  | 638/892 [58:35<25:53,  6.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 72%|███████▏  | 639/892 [58:41<25:04,  5.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 72%|███████▏  | 640/892 [58:48<26:40,  6.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 72%|███████▏  | 641/892 [58:55<27:23,  6.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 72%|███████▏  | 642/892 [59:03<28:16,  6.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 72%|███████▏  | 643/892 [59:08<26:33,  6.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 72%|███████▏  | 644/892 [59:14<25:39,  6.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 72%|███████▏  | 645/892 [59:20<25:20,  6.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 72%|███████▏  | 646/892 [59:27<26:01,  6.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 73%|███████▎  | 647/892 [59:34<27:19,  6.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 73%|███████▎  | 648/892 [59:41<27:35,  6.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 73%|███████▎  | 649/892 [59:50<30:24,  7.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 73%|███████▎  | 650/892 [59:57<29:27,  7.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 73%|███████▎  | 651/892 [1:00:04<29:07,  7.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 73%|███████▎  | 652/892 [1:00:08<24:50,  6.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 73%|███████▎  | 653/892 [1:00:15<25:50,  6.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 73%|███████▎  | 654/892 [1:00:23<27:02,  6.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 73%|███████▎  | 655/892 [1:00:30<27:03,  6.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 74%|███████▎  | 656/892 [1:00:36<25:50,  6.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 74%|███████▎  | 657/892 [1:00:42<25:31,  6.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 74%|███████▍  | 658/892 [1:00:48<25:01,  6.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 74%|███████▍  | 659/892 [1:00:53<23:15,  5.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 74%|███████▍  | 660/892 [1:00:59<22:51,  5.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 74%|███████▍  | 661/892 [1:01:04<21:29,  5.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 74%|███████▍  | 662/892 [1:01:10<21:33,  5.62s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_CoT.json
+ 74%|███████▍  | 663/892 [1:01:16<22:13,  5.82s/it]
