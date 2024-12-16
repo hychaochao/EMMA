@@ -1,268 +1,0 @@
-phoenix-srun: job 3863484 queued and waiting for resources
-phoenix-srun: job 3863484 has been allocated resources
-phoenix-srun: Job 3863484 scheduled successfully!
-Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
-Current PHX_PRIORITY is normal
-
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Chemistry', 'Math']
-Using the latest cached version of the dataset since mm-reasoning/EMMA couldn't be found on the Hugging Face Hub
-[datasets.load] Using the latest cached version of the dataset since mm-reasoning/EMMA couldn't be found on the Hugging Face Hub
-Found the latest cached dataset configuration 'Chemistry' at /mnt/petrelfs/haoyunzhuo/.cache/huggingface/datasets/mm-reasoning___emma/Chemistry/0.0.0/d93db4aad82c6b39075b27b9e1d4e01ff9f7e94e (last modified on Thu Dec 12 19:24:45 2024).
-[datasets.packaged_modules.cache.cache] Found the latest cached dataset configuration 'Chemistry' at /mnt/petrelfs/haoyunzhuo/.cache/huggingface/datasets/mm-reasoning___emma/Chemistry/0.0.0/d93db4aad82c6b39075b27b9e1d4e01ff9f7e94e (last modified on Thu Dec 12 19:24:45 2024).
-Using the latest cached version of the dataset since mm-reasoning/EMMA couldn't be found on the Hugging Face Hub
-[datasets.load] Using the latest cached version of the dataset since mm-reasoning/EMMA couldn't be found on the Hugging Face Hub
-Found the latest cached dataset configuration 'Math' at /mnt/petrelfs/haoyunzhuo/.cache/huggingface/datasets/mm-reasoning___emma/Math/0.0.0/d93db4aad82c6b39075b27b9e1d4e01ff9f7e94e (last modified on Thu Dec 12 19:29:32 2024).
-[datasets.packaged_modules.cache.cache] Found the latest cached dataset configuration 'Math' at /mnt/petrelfs/haoyunzhuo/.cache/huggingface/datasets/mm-reasoning___emma/Math/0.0.0/d93db4aad82c6b39075b27b9e1d4e01ff9f7e94e (last modified on Thu Dec 12 19:29:32 2024).
-[root] Loading config
-[root] Loading local model /mnt/petrelfs/share_data/quxiaoye/models/llava-onevision-qwen2-72b-ov-hf
-The model was loaded with use_flash_attention_2=True, which is deprecated and may be removed in a future release. Please use `attn_implementation="flash_attention_2"` instead.
-Loading checkpoint shards:   0%|          | 0/31 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/31 [00:06<03:18,  6.61s/it]Loading checkpoint shards:   6%|▋         | 2/31 [00:12<02:59,  6.17s/it]Loading checkpoint shards:  10%|▉         | 3/31 [00:18<02:50,  6.09s/it]Loading checkpoint shards:  13%|█▎        | 4/31 [00:24<02:45,  6.13s/it]Loading checkpoint shards:  16%|█▌        | 5/31 [00:31<02:43,  6.30s/it]Loading checkpoint shards:  19%|█▉        | 6/31 [00:37<02:41,  6.45s/it]Loading checkpoint shards:  23%|██▎       | 7/31 [00:44<02:37,  6.57s/it]Loading checkpoint shards:  26%|██▌       | 8/31 [00:52<02:36,  6.82s/it]Loading checkpoint shards:  29%|██▉       | 9/31 [00:58<02:27,  6.69s/it]Loading checkpoint shards:  32%|███▏      | 10/31 [01:04<02:15,  6.44s/it]Loading checkpoint shards:  35%|███▌      | 11/31 [01:10<02:06,  6.32s/it]Loading checkpoint shards:  39%|███▊      | 12/31 [01:16<01:59,  6.26s/it]Loading checkpoint shards:  42%|████▏     | 13/31 [01:22<01:50,  6.16s/it]Loading checkpoint shards:  45%|████▌     | 14/31 [01:29<01:47,  6.29s/it]Loading checkpoint shards:  48%|████▊     | 15/31 [01:35<01:38,  6.18s/it]Loading checkpoint shards:  52%|█████▏    | 16/31 [01:41<01:32,  6.17s/it]Loading checkpoint shards:  55%|█████▍    | 17/31 [01:47<01:26,  6.15s/it]Loading checkpoint shards:  58%|█████▊    | 18/31 [01:53<01:19,  6.09s/it]Loading checkpoint shards:  61%|██████▏   | 19/31 [01:59<01:14,  6.24s/it]Loading checkpoint shards:  65%|██████▍   | 20/31 [02:06<01:09,  6.32s/it]Loading checkpoint shards:  68%|██████▊   | 21/31 [02:13<01:04,  6.45s/it]Loading checkpoint shards:  71%|███████   | 22/31 [02:19<00:57,  6.36s/it]Loading checkpoint shards:  74%|███████▍  | 23/31 [02:25<00:50,  6.28s/it]Loading checkpoint shards:  77%|███████▋  | 24/31 [02:32<00:44,  6.41s/it]Loading checkpoint shards:  81%|████████  | 25/31 [02:37<00:37,  6.21s/it]Loading checkpoint shards:  84%|████████▍ | 26/31 [02:44<00:31,  6.39s/it]Loading checkpoint shards:  87%|████████▋ | 27/31 [02:50<00:25,  6.28s/it]Loading checkpoint shards:  90%|█████████ | 28/31 [02:56<00:18,  6.23s/it]Loading checkpoint shards:  94%|█████████▎| 29/31 [03:02<00:12,  6.19s/it]Loading checkpoint shards:  97%|█████████▋| 30/31 [03:07<00:05,  5.86s/it]Loading checkpoint shards: 100%|██████████| 31/31 [03:11<00:00,  5.06s/it]Loading checkpoint shards: 100%|██████████| 31/31 [03:11<00:00,  6.17s/it]
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/Llava_Math_Chemistry_CoT.json
-[root] Found existing results file with 1841 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/2068 [00:00<?, ?it/s]  1%|          | 23/2068 [00:00<00:08, 229.28it/s]  3%|▎         | 68/2068 [00:00<00:05, 356.68it/s]  5%|▌         | 104/2068 [00:00<00:05, 339.78it/s]  7%|▋         | 139/2068 [00:03<01:03, 30.15it/s]   8%|▊         | 161/2068 [00:03<01:04, 29.59it/s] 13%|█▎        | 276/2068 [00:04<00:21, 82.60it/s] 18%|█▊        | 375/2068 [00:04<00:12, 140.00it/s] 23%|██▎       | 481/2068 [00:04<00:07, 216.27it/s] 29%|██▉       | 596/2068 [00:04<00:04, 314.78it/s] 33%|███▎      | 687/2068 [00:04<00:03, 392.33it/s] 39%|███▊      | 799/2068 [00:04<00:02, 506.60it/s] 44%|████▎     | 900/2068 [00:04<00:01, 598.66it/s] 49%|████▉     | 1012/2068 [00:04<00:01, 706.48it/s] 55%|█████▍    | 1132/2068 [00:04<00:01, 818.71it/s] 60%|█████▉    | 1240/2068 [00:05<00:01, 670.05it/s] 64%|██████▍   | 1330/2068 [00:05<00:01, 680.80it/s] 68%|██████▊   | 1414/2068 [00:05<00:00, 704.36it/s] 72%|███████▏  | 1497/2068 [00:05<00:00, 701.55it/s] 76%|███████▌  | 1576/2068 [00:05<00:00, 688.65it/s] 81%|████████  | 1668/2068 [00:05<00:00, 740.08it/s] 84%|████████▍ | 1747/2068 [00:05<00:00, 642.10it/s]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 88%|████████▊ | 1817/2068 [00:10<00:04, 53.76it/s] Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 88%|████████▊ | 1817/2068 [00:27<00:04, 53.76it/s] 89%|████████▉ | 1849/2068 [00:29<00:22,  9.85it/s]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 89%|████████▉ | 1850/2068 [00:31<00:25,  8.63it/s]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 89%|████████▉ | 1850/2068 [00:47<00:25,  8.63it/s][root] Save results to results/Llava_Math_Chemistry_CoT.json
- 90%|████████▉ | 1861/2068 [00:47<00:49,  4.20it/s]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 90%|█████████ | 1862/2068 [00:48<00:51,  4.04it/s]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 90%|█████████ | 1862/2068 [01:00<00:51,  4.04it/s] 90%|█████████ | 1869/2068 [01:01<01:22,  2.42it/s]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 90%|█████████ | 1870/2068 [01:04<01:29,  2.21it/s]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 90%|█████████ | 1870/2068 [01:17<01:29,  2.21it/s] 91%|█████████ | 1876/2068 [01:18<02:23,  1.34it/s]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 91%|█████████ | 1877/2068 [01:20<02:32,  1.25it/s]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 91%|█████████ | 1877/2068 [01:37<02:32,  1.25it/s] 91%|█████████ | 1884/2068 [01:41<04:10,  1.36s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 91%|█████████ | 1885/2068 [01:42<04:07,  1.35s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 91%|█████████ | 1885/2068 [01:57<04:07,  1.35s/it] 92%|█████████▏| 1894/2068 [01:58<04:22,  1.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 92%|█████████▏| 1895/2068 [01:59<04:21,  1.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
- 92%|█████████▏| 1901/2068 [02:09<04:21,  1.57s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 92%|█████████▏| 1902/2068 [02:12<04:31,  1.64s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 92%|█████████▏| 1907/2068 [02:21<04:33,  1.70s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 92%|█████████▏| 1910/2068 [02:31<05:25,  2.06s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1913/2068 [02:38<05:31,  2.14s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1915/2068 [02:43<05:36,  2.20s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1917/2068 [02:45<04:56,  1.96s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1918/2068 [02:46<04:37,  1.85s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1919/2068 [02:49<04:57,  1.99s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1920/2068 [02:50<04:31,  1.83s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
- 93%|█████████▎| 1921/2068 [02:51<04:07,  1.69s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1922/2068 [02:53<04:01,  1.66s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1923/2068 [02:54<03:56,  1.63s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1924/2068 [02:57<04:24,  1.84s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1925/2068 [02:58<03:54,  1.64s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1926/2068 [03:00<04:17,  1.81s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1927/2068 [03:02<04:34,  1.94s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1928/2068 [03:04<03:57,  1.70s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1929/2068 [03:06<04:19,  1.87s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1930/2068 [03:08<04:35,  2.00s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1931/2068 [03:11<04:55,  2.16s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1932/2068 [03:13<05:00,  2.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 93%|█████████▎| 1933/2068 [03:15<05:03,  2.25s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▎| 1934/2068 [03:18<05:02,  2.26s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▎| 1935/2068 [03:20<05:01,  2.26s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▎| 1936/2068 [03:21<04:13,  1.92s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▎| 1937/2068 [03:27<07:09,  3.28s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▎| 1938/2068 [03:30<06:29,  3.00s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1939/2068 [03:32<05:59,  2.78s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1940/2068 [03:33<04:51,  2.28s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
- 94%|█████████▍| 1941/2068 [03:34<04:05,  1.93s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1942/2068 [03:37<04:15,  2.03s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1943/2068 [03:39<04:22,  2.10s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1944/2068 [03:50<10:14,  4.95s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1945/2068 [03:52<07:48,  3.81s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1946/2068 [03:53<06:05,  2.99s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1947/2068 [03:55<05:36,  2.78s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1948/2068 [03:57<04:49,  2.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1949/2068 [03:58<04:00,  2.02s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1950/2068 [03:59<03:25,  1.74s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1951/2068 [04:01<03:42,  1.90s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1952/2068 [04:02<03:12,  1.66s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1953/2068 [04:04<03:31,  1.84s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 94%|█████████▍| 1954/2068 [04:05<03:04,  1.61s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▍| 1955/2068 [04:06<02:44,  1.46s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▍| 1956/2068 [04:08<02:30,  1.35s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▍| 1957/2068 [04:09<02:21,  1.27s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▍| 1958/2068 [04:11<02:52,  1.57s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▍| 1959/2068 [04:12<02:35,  1.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▍| 1960/2068 [04:14<03:01,  1.68s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
- 95%|█████████▍| 1961/2068 [04:17<03:21,  1.88s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▍| 1962/2068 [04:18<02:54,  1.64s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▍| 1963/2068 [04:20<03:11,  1.83s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▍| 1964/2068 [04:22<03:23,  1.96s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▌| 1965/2068 [04:25<03:41,  2.15s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▌| 1966/2068 [04:26<03:10,  1.87s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▌| 1967/2068 [04:27<02:45,  1.64s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▌| 1968/2068 [04:28<02:27,  1.47s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▌| 1969/2068 [04:30<02:30,  1.52s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▌| 1970/2068 [04:32<02:43,  1.67s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▌| 1971/2068 [04:34<03:03,  1.89s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▌| 1972/2068 [04:37<03:23,  2.12s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▌| 1973/2068 [04:41<04:17,  2.71s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 95%|█████████▌| 1974/2068 [05:05<14:16,  9.11s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1975/2068 [05:09<11:49,  7.63s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1976/2068 [05:16<11:03,  7.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1977/2068 [05:18<08:38,  5.69s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1978/2068 [05:21<07:27,  4.97s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1979/2068 [05:24<06:20,  4.27s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1980/2068 [06:11<25:23, 17.31s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
- 96%|█████████▌| 1981/2068 [06:17<20:02, 13.83s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1982/2068 [06:23<16:19, 11.39s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1983/2068 [06:25<12:15,  8.65s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1985/2068 [06:28<07:19,  5.29s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1986/2068 [06:30<06:20,  4.64s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1987/2068 [06:35<06:09,  4.56s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1988/2068 [06:38<05:37,  4.22s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1989/2068 [07:24<20:50, 15.82s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▌| 1990/2068 [07:55<26:26, 20.34s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▋| 1991/2068 [07:57<19:11, 14.96s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▋| 1992/2068 [08:00<14:37, 11.55s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▋| 1993/2068 [08:03<11:02,  8.84s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▋| 1994/2068 [08:05<08:19,  6.75s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 96%|█████████▋| 1995/2068 [08:24<12:37, 10.38s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 1996/2068 [08:28<10:26,  8.70s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 1997/2068 [08:54<16:27, 13.91s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 1998/2068 [08:58<12:34, 10.79s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 1999/2068 [09:01<09:54,  8.62s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2000/2068 [09:04<07:41,  6.78s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
- 97%|█████████▋| 2001/2068 [09:06<06:05,  5.46s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2002/2068 [09:10<05:19,  4.83s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2003/2068 [09:11<04:12,  3.89s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2004/2068 [09:16<04:31,  4.24s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2005/2068 [09:20<04:19,  4.13s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2006/2068 [09:24<04:10,  4.04s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2007/2068 [09:28<04:02,  3.98s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2008/2068 [09:43<07:14,  7.24s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2009/2068 [09:47<06:06,  6.22s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2010/2068 [09:50<05:19,  5.50s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2011/2068 [09:54<04:45,  5.00s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2012/2068 [09:58<04:21,  4.66s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2013/2068 [10:02<04:02,  4.42s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2014/2068 [10:06<03:49,  4.25s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2015/2068 [10:10<03:38,  4.13s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 97%|█████████▋| 2016/2068 [10:14<03:30,  4.05s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2017/2068 [10:17<03:23,  3.99s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2018/2068 [10:21<03:17,  3.95s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2019/2068 [10:25<03:11,  3.91s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2020/2068 [10:29<03:07,  3.90s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
- 98%|█████████▊| 2021/2068 [11:02<09:48, 12.53s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2022/2068 [11:06<07:36,  9.93s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2023/2068 [11:09<06:04,  8.11s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2024/2068 [11:13<05:00,  6.83s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2025/2068 [11:17<04:15,  5.93s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2026/2068 [11:21<03:43,  5.31s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2027/2068 [11:25<03:19,  4.87s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2028/2068 [11:29<03:02,  4.57s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2029/2068 [11:32<02:49,  4.35s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2030/2068 [11:36<02:39,  4.20s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2031/2068 [11:40<02:31,  4.10s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2032/2068 [11:44<02:24,  4.03s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2033/2068 [11:48<02:19,  3.98s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2034/2068 [11:52<02:13,  3.93s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2035/2068 [11:56<02:09,  3.91s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 98%|█████████▊| 2036/2068 [11:59<02:04,  3.90s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▊| 2037/2068 [12:03<02:00,  3.88s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▊| 2038/2068 [12:07<01:56,  3.87s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▊| 2039/2068 [12:11<01:52,  3.87s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▊| 2040/2068 [12:14<01:44,  3.74s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
- 99%|█████████▊| 2041/2068 [12:18<01:42,  3.79s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▊| 2042/2068 [12:22<01:39,  3.81s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2043/2068 [12:26<01:36,  3.87s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2044/2068 [12:30<01:32,  3.87s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2045/2068 [12:34<01:28,  3.86s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2046/2068 [12:37<01:22,  3.73s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2047/2068 [12:41<01:19,  3.77s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2048/2068 [12:45<01:15,  3.79s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2049/2068 [12:49<01:12,  3.82s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2050/2068 [12:53<01:08,  3.83s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2051/2068 [13:35<04:18, 15.19s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2052/2068 [13:38<03:08, 11.79s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2053/2068 [13:42<02:19,  9.28s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2054/2068 [13:46<01:47,  7.65s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2055/2068 [13:49<01:24,  6.51s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2056/2068 [13:53<01:08,  5.72s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
- 99%|█████████▉| 2057/2068 [13:57<00:56,  5.16s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-100%|█████████▉| 2058/2068 [14:01<00:47,  4.77s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-100%|█████████▉| 2059/2068 [14:04<00:39,  4.36s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-100%|█████████▉| 2060/2068 [14:08<00:33,  4.21s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
-100%|█████████▉| 2061/2068 [14:12<00:28,  4.12s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-100%|█████████▉| 2062/2068 [14:16<00:24,  4.04s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-100%|█████████▉| 2063/2068 [14:20<00:19,  3.98s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-100%|█████████▉| 2064/2068 [14:24<00:15,  3.94s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-100%|█████████▉| 2065/2068 [14:28<00:11,  3.92s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-100%|█████████▉| 2066/2068 [14:31<00:07,  3.89s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-100%|█████████▉| 2067/2068 [14:35<00:03,  3.88s/it]Setting `pad_token_id` to `eos_token_id`:None for open-end generation.
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
-100%|██████████| 2068/2068 [14:39<00:00,  3.89s/it]100%|██████████| 2068/2068 [14:39<00:00,  2.35it/s]
-[root] Save results to results/Llava_Math_Chemistry_CoT.json
-[root] End Generation......
-list index out of range
-Image features and image tokens do not match: tokens: 4293, features 4347
-Image features and image tokens do not match: tokens: 2403, features 2457
