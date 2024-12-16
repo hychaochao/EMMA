@@ -1,0 +1,39 @@
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Physics']
+[root] Loading config
+[root] Loading claude-3-5-sonnet-latest
+[root] Model loaded!
+[root] Results already exists.
+[root] Reading results/claude-3-5-sonnet-latest_Physics_Direct.json
+[root] Found existing results file with 129 problems with valid responses. Skipping these problems...
+[root] Starting to generate.....
+  0%|          | 0/156 [00:00<?, ?it/s]  7%|▋         | 11/156 [00:00<00:01, 105.45it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 14%|█▍        | 22/156 [00:02<00:19,  6.81it/s] [root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 17%|█▋        | 27/156 [00:04<00:25,  5.01it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 23%|██▎       | 36/156 [00:07<00:28,  4.19it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 27%|██▋       | 42/156 [00:08<00:29,  3.91it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 35%|███▌      | 55/156 [00:10<00:19,  5.08it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 37%|███▋      | 57/156 [00:12<00:25,  3.96it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 37%|███▋      | 58/156 [00:13<00:34,  2.86it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 46%|████▌     | 72/156 [00:16<00:21,  3.86it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 47%|████▋     | 73/156 [00:17<00:26,  3.15it/s] 49%|████▊     | 76/156 [00:18<00:21,  3.70it/s] 51%|█████     | 79/156 [00:18<00:16,  4.53it/s] 52%|█████▏    | 81/156 [00:18<00:15,  4.81it/s] 53%|█████▎    | 83/156 [00:18<00:13,  5.40it/s] 53%|█████▎    | 83/156 [00:30<00:13,  5.40it/s][anthropic._base_client] Retrying request to /v1/messages in 0.402334 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 54%|█████▍    | 84/156 [00:37<02:52,  2.39s/it] 54%|█████▍    | 85/156 [00:37<02:27,  2.08s/it] 55%|█████▌    | 86/156 [00:37<02:02,  1.74s/it] 56%|█████▋    | 88/156 [00:37<01:20,  1.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 58%|█████▊    | 90/156 [00:40<01:24,  1.29s/it] 59%|█████▉    | 92/156 [00:40<00:58,  1.09it/s] 60%|██████    | 94/156 [00:41<00:40,  1.54it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 62%|██████▏   | 96/156 [00:42<00:44,  1.34it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 62%|██████▏   | 97/156 [00:45<00:57,  1.02it/s] 63%|██████▎   | 98/156 [00:45<00:47,  1.22it/s] 64%|██████▍   | 100/156 [00:45<00:30,  1.86it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 65%|██████▌   | 102/156 [00:48<00:47,  1.14it/s] 67%|██████▋   | 104/156 [00:48<00:32,  1.59it/s] 67%|██████▋   | 105/156 [00:48<00:28,  1.82it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 68%|██████▊   | 106/156 [00:52<01:01,  1.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 69%|██████▉   | 108/156 [00:55<01:01,  1.27s/it] 71%|███████   | 110/156 [00:55<00:41,  1.10it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 72%|███████▏  | 113/156 [00:57<00:32,  1.34it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 76%|███████▌  | 118/156 [00:58<00:19,  1.95it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 78%|███████▊  | 122/156 [00:59<00:14,  2.31it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 83%|████████▎ | 130/156 [01:01<00:08,  3.15it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 84%|████████▍ | 131/156 [01:03<00:10,  2.36it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 85%|████████▍ | 132/156 [01:04<00:13,  1.84it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 85%|████████▌ | 133/156 [01:06<00:15,  1.49it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 92%|█████████▏| 144/156 [01:07<00:03,  3.13it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 96%|█████████▌| 149/156 [01:08<00:01,  3.67it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 97%|█████████▋| 151/156 [01:09<00:01,  3.09it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+ 99%|█████████▊| 154/156 [01:11<00:00,  2.74it/s]100%|██████████| 156/156 [01:11<00:00,  2.18it/s]
+[root] Save results to results/claude-3-5-sonnet-latest_Physics_Direct.json
+[root] End Generation......

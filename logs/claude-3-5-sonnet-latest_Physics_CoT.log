@@ -1,0 +1,55 @@
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Physics']
+[root] Loading config
+[root] Loading claude-3-5-sonnet-latest
+[root] Model loaded!
+[root] Results already exists.
+[root] Reading results/claude-3-5-sonnet-latest_Physics_CoT.json
+[root] Found existing results file with 127 problems with valid responses. Skipping these problems...
+[root] Starting to generate.....
+  0%|          | 0/156 [00:00<?, ?it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+  8%|▊         | 13/156 [00:11<02:08,  1.12it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 12%|█▏        | 18/156 [00:18<02:30,  1.09s/it][anthropic._base_client] Retrying request to /v1/messages in 0.405228 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 17%|█▋        | 26/156 [00:42<04:08,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 20%|█▉        | 31/156 [00:49<03:40,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 22%|██▏       | 35/156 [00:56<03:37,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 23%|██▎       | 36/156 [01:07<04:57,  2.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 30%|███       | 47/156 [01:15<02:45,  1.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 31%|███       | 48/156 [01:23<03:29,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 34%|███▍      | 53/156 [01:31<03:09,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 37%|███▋      | 57/156 [01:40<03:15,  1.97s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 38%|███▊      | 59/156 [01:48<03:44,  2.31s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 38%|███▊      | 60/156 [02:01<05:29,  3.44s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 40%|████      | 63/156 [02:12<05:25,  3.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 42%|████▏     | 65/156 [02:21<05:37,  3.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 42%|████▏     | 66/156 [02:28<06:14,  4.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 43%|████▎     | 67/156 [02:37<07:24,  4.99s/it] 49%|████▊     | 76/156 [02:37<02:08,  1.61s/it] 51%|█████▏    | 80/156 [02:38<01:26,  1.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 53%|█████▎    | 82/156 [02:49<02:26,  1.98s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 54%|█████▍    | 84/156 [02:58<02:57,  2.46s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 54%|█████▍    | 85/156 [03:07<03:54,  3.30s/it] 55%|█████▌    | 86/156 [03:07<03:17,  2.82s/it] 56%|█████▋    | 88/156 [03:08<02:15,  1.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 57%|█████▋    | 89/156 [03:17<03:46,  3.37s/it] 58%|█████▊    | 90/156 [03:18<03:00,  2.73s/it] 59%|█████▉    | 92/156 [03:18<01:54,  1.79s/it] 60%|██████    | 94/156 [03:18<01:13,  1.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 61%|██████    | 95/156 [03:27<02:44,  2.69s/it] 62%|██████▏   | 96/156 [03:27<02:08,  2.13s/it] 63%|██████▎   | 98/156 [03:27<01:20,  1.39s/it] 63%|██████▎   | 99/156 [03:28<01:03,  1.12s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 64%|██████▍   | 100/156 [03:41<03:52,  4.15s/it] 65%|██████▌   | 102/156 [03:42<02:16,  2.52s/it] 67%|██████▋   | 104/156 [03:42<01:25,  1.64s/it] 67%|██████▋   | 105/156 [03:42<01:08,  1.34s/it] 68%|██████▊   | 106/156 [03:42<00:52,  1.06s/it] 70%|██████▉   | 109/156 [03:42<00:25,  1.81it/s] 71%|███████   | 111/156 [03:42<00:17,  2.54it/s] 84%|████████▍ | 131/156 [03:43<00:01, 13.36it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+[root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 88%|████████▊ | 138/156 [03:55<00:09,  1.80it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 89%|████████▉ | 139/156 [04:02<00:16,  1.05it/s][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 92%|█████████▏| 144/156 [04:08<00:12,  1.03s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 92%|█████████▏| 144/156 [04:20<00:12,  1.03s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 95%|█████████▍| 148/156 [04:24<00:13,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+ 97%|█████████▋| 151/156 [04:29<00:08,  1.71s/it]100%|██████████| 156/156 [04:29<00:00,  1.73s/it]
+[root] Save results to results/claude-3-5-sonnet-latest_Physics_CoT.json
+[root] End Generation......
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}

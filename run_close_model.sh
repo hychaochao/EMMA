@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # Subjects and strategy
-SUBJECT="Chemistry" # You can use multiple subjects separated by spaces
-STRATEGY="Direct" # CoT or Directly
+SUBJECT="Coding" # You can use multiple subjects separated by spaces
+STRATEGY="CoT" # CoT or Direct
 
 # Remote proprietary model selection
-MODEL="chatgpt-4o-latest" # Remote model name
-API_KEY= # Your OpenAI API key
+MODEL="claude-3-5-sonnet-latest" # Remote model name
+API_KEY=
 
 # Default additional parameters
-MAX_TOKENS=1024
-TEMPERATURE=0.7
+MAX_TOKENS=2048
+TEMPERATURE=0
 SAVE_EVERY=1
 DATASET_NAME="mm-reasoning/EMMA"
 SPLIT="test"
@@ -53,6 +53,4 @@ python generate_response.py  \
 
 # Completion message
 echo "✅ Script launched successfully!"
-echo "   Logs will be saved to: ${LOG_FILE}"
-echo "   Output will be saved to: ${OUTPUT_FILE}"
 echo "==============================================="

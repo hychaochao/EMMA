@@ -1,0 +1,722 @@
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Math']
+[root] Loading config
+[root] Loading claude-3-5-sonnet-latest
+[root] Model loaded!
+[root] Results already exists.
+[root] Reading results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Found existing results file with 346 problems with valid responses. Skipping these problems...
+[root] Starting to generate.....
+  0%|          | 0/892 [00:00<?, ?it/s]  1%|          | 10/892 [00:00<00:08, 99.31it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  2%|▏         | 20/892 [00:02<02:15,  6.45it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  3%|▎         | 25/892 [00:07<05:41,  2.54it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  3%|▎         | 28/892 [00:09<06:02,  2.38it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  4%|▍         | 34/892 [00:10<05:03,  2.83it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  4%|▍         | 39/892 [00:13<06:00,  2.37it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  5%|▌         | 46/892 [00:15<04:59,  2.83it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  6%|▌         | 53/892 [00:16<04:31,  3.09it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  6%|▌         | 55/892 [00:18<05:43,  2.44it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  6%|▋         | 56/892 [00:21<08:09,  1.71it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  6%|▋         | 57/892 [00:46<44:02,  3.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  8%|▊         | 69/892 [00:48<17:06,  1.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  8%|▊         | 70/892 [00:51<18:27,  1.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+  8%|▊         | 73/892 [00:54<16:46,  1.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 10%|█         | 92/892 [00:55<05:59,  2.22it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 11%|█         | 94/892 [00:57<06:18,  2.11it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 12%|█▏        | 106/892 [00:58<04:17,  3.06it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 12%|█▏        | 108/892 [01:00<04:46,  2.74it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 13%|█▎        | 112/892 [01:02<05:03,  2.57it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 13%|█▎        | 117/892 [01:03<05:00,  2.58it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 14%|█▍        | 123/892 [01:05<04:19,  2.97it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 14%|█▍        | 124/892 [01:07<05:34,  2.29it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 14%|█▍        | 125/892 [01:08<06:39,  1.92it/s][anthropic._base_client] Retrying request to /v1/messages in 0.423517 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 14%|█▍        | 129/892 [01:26<24:32,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 15%|█▌        | 135/892 [01:28<15:33,  1.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 15%|█▌        | 137/892 [01:30<14:38,  1.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 16%|█▌        | 142/892 [01:31<10:34,  1.18it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 18%|█▊        | 159/892 [01:33<04:36,  2.65it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 18%|█▊        | 160/892 [01:36<05:44,  2.13it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 18%|█▊        | 161/892 [01:37<06:52,  1.77it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 18%|█▊        | 162/892 [01:39<07:51,  1.55it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 19%|█▊        | 167/892 [01:40<06:10,  1.96it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 19%|█▉        | 168/892 [01:42<07:22,  1.63it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 19%|█▉        | 169/892 [01:43<08:32,  1.41it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 19%|█▉        | 173/892 [01:45<07:12,  1.66it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 20%|█▉        | 174/892 [01:47<09:23,  1.27it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 20%|██        | 182/892 [01:48<04:54,  2.41it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 21%|██        | 183/892 [01:50<06:12,  1.90it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 24%|██▍       | 215/892 [01:53<01:53,  5.97it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 25%|██▍       | 221/892 [01:54<02:06,  5.30it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 25%|██▌       | 226/892 [01:56<02:18,  4.82it/s] 28%|██▊       | 252/892 [01:56<00:59, 10.85it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 29%|██▉       | 260/892 [01:58<01:20,  7.90it/s] 33%|███▎      | 290/892 [01:58<00:37, 15.87it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 34%|███▍      | 303/892 [02:09<02:22,  4.14it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 35%|███▍      | 309/892 [02:11<02:26,  3.97it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 36%|███▌      | 318/892 [02:22<04:36,  2.08it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 36%|███▌      | 320/892 [02:24<04:50,  1.97it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 38%|███▊      | 339/892 [02:25<02:49,  3.26it/s][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 39%|███▊      | 344/892 [02:34<04:50,  1.89it/s][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 40%|███▉      | 356/892 [02:45<05:51,  1.52it/s] 42%|████▏     | 375/892 [02:45<03:12,  2.69it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 43%|████▎     | 385/892 [02:47<02:43,  3.11it/s][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 44%|████▍     | 392/892 [02:52<03:23,  2.46it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 45%|████▌     | 404/892 [02:53<02:32,  3.20it/s][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 46%|████▌     | 408/892 [03:05<05:20,  1.51it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 46%|████▌     | 409/892 [03:07<05:40,  1.42it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 46%|████▌     | 412/892 [03:12<07:10,  1.12it/s][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 46%|████▋     | 414/892 [03:23<12:02,  1.51s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 47%|████▋     | 415/892 [03:33<17:46,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 47%|████▋     | 417/892 [03:38<17:54,  2.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 47%|████▋     | 418/892 [03:39<16:53,  2.14s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 47%|████▋     | 419/892 [03:46<23:03,  2.93s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 47%|████▋     | 420/892 [03:54<29:57,  3.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 47%|████▋     | 421/892 [03:56<26:54,  3.43s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 47%|████▋     | 422/892 [03:58<23:29,  3.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 47%|████▋     | 423/892 [03:59<20:54,  2.68s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 48%|████▊     | 424/892 [04:04<25:59,  3.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 48%|████▊     | 425/892 [04:07<24:43,  3.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 48%|████▊     | 426/892 [04:09<21:53,  2.82s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 48%|████▊     | 427/892 [04:19<36:26,  4.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 48%|████▊     | 428/892 [04:21<30:32,  3.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 48%|████▊     | 429/892 [04:22<25:08,  3.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 48%|████▊     | 430/892 [04:23<20:38,  2.68s/it][anthropic._base_client] Retrying request to /v1/messages in 0.442075 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 48%|████▊     | 431/892 [04:42<56:58,  7.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 48%|████▊     | 432/892 [04:43<42:52,  5.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 49%|████▊     | 433/892 [04:45<33:08,  4.33s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 49%|████▊     | 434/892 [04:50<34:34,  4.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 49%|████▉     | 435/892 [04:52<28:14,  3.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 49%|████▉     | 436/892 [04:53<23:54,  3.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 49%|████▉     | 437/892 [04:55<20:18,  2.68s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 49%|████▉     | 438/892 [05:00<26:03,  3.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 49%|████▉     | 439/892 [05:02<21:18,  2.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 49%|████▉     | 440/892 [05:04<19:25,  2.58s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 49%|████▉     | 441/892 [05:14<36:00,  4.79s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 50%|████▉     | 442/892 [05:17<33:01,  4.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 50%|████▉     | 443/892 [05:19<27:00,  3.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 50%|████▉     | 444/892 [05:20<22:00,  2.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 50%|████▉     | 445/892 [05:22<19:19,  2.59s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 50%|█████     | 446/892 [05:26<22:25,  3.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 50%|█████     | 447/892 [05:27<18:47,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 50%|█████     | 448/892 [05:30<18:35,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 50%|█████     | 449/892 [05:31<16:19,  2.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 50%|█████     | 450/892 [05:33<14:08,  1.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 51%|█████     | 451/892 [05:34<13:01,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 51%|█████     | 452/892 [05:36<13:47,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 51%|█████     | 453/892 [05:38<12:39,  1.73s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 51%|█████     | 454/892 [05:39<11:51,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 51%|█████     | 455/892 [05:40<11:22,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 51%|█████     | 456/892 [05:43<12:44,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 51%|█████     | 457/892 [05:45<13:27,  1.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 51%|█████▏    | 458/892 [05:46<13:08,  1.82s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 7.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 51%|█████▏    | 459/892 [06:00<37:47,  5.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 52%|█████▏    | 460/892 [06:01<30:25,  4.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 52%|█████▏    | 461/892 [06:03<24:22,  3.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 52%|█████▏    | 462/892 [06:04<19:55,  2.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 52%|█████▏    | 463/892 [06:06<17:36,  2.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 52%|█████▏    | 464/892 [06:08<16:30,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 52%|█████▏    | 465/892 [06:10<16:00,  2.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 52%|█████▏    | 466/892 [06:12<14:23,  2.03s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 52%|█████▏    | 467/892 [06:22<33:16,  4.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 52%|█████▏    | 468/892 [06:24<26:17,  3.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 53%|█████▎    | 469/892 [06:26<23:50,  3.38s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 53%|█████▎    | 470/892 [06:34<31:31,  4.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 53%|█████▎    | 471/892 [06:35<24:58,  3.56s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 53%|█████▎    | 472/892 [06:44<36:02,  5.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 53%|█████▎    | 473/892 [06:45<28:15,  4.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 53%|█████▎    | 474/892 [06:47<23:36,  3.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 53%|█████▎    | 475/892 [06:49<20:04,  2.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 53%|█████▎    | 476/892 [06:50<16:00,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 53%|█████▎    | 477/892 [06:52<15:21,  2.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 54%|█████▎    | 478/892 [06:53<14:04,  2.04s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 54%|█████▎    | 479/892 [07:00<23:45,  3.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 54%|█████▍    | 480/892 [07:03<22:38,  3.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 54%|█████▍    | 481/892 [07:05<19:18,  2.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 54%|█████▍    | 482/892 [07:07<17:42,  2.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 54%|█████▍    | 483/892 [07:09<15:44,  2.31s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 54%|█████▍    | 484/892 [07:14<22:02,  3.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 54%|█████▍    | 485/892 [07:16<19:22,  2.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 54%|█████▍    | 486/892 [07:18<17:55,  2.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 55%|█████▍    | 487/892 [07:20<16:16,  2.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 55%|█████▍    | 488/892 [07:22<14:44,  2.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 55%|█████▍    | 489/892 [07:23<13:56,  2.08s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 55%|█████▍    | 490/892 [07:25<13:38,  2.04s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 55%|█████▌    | 491/892 [07:29<17:14,  2.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 55%|█████▌    | 492/892 [07:32<17:34,  2.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 55%|█████▌    | 493/892 [07:34<15:21,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 55%|█████▌    | 494/892 [07:35<14:15,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 55%|█████▌    | 495/892 [07:37<13:54,  2.10s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 56%|█████▌    | 496/892 [07:42<18:14,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 56%|█████▌    | 497/892 [07:44<17:34,  2.67s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 56%|█████▌    | 498/892 [07:52<27:09,  4.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 56%|█████▌    | 499/892 [07:54<22:49,  3.49s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 56%|█████▌    | 500/892 [08:00<27:42,  4.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 56%|█████▌    | 501/892 [08:01<23:05,  3.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 56%|█████▋    | 502/892 [08:03<18:50,  2.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 56%|█████▋    | 503/892 [08:04<16:11,  2.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 57%|█████▋    | 504/892 [08:06<13:56,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 57%|█████▋    | 505/892 [08:08<13:19,  2.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 57%|█████▋    | 506/892 [08:09<12:15,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 57%|█████▋    | 507/892 [08:11<12:46,  1.99s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 57%|█████▋    | 508/892 [08:19<23:05,  3.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 57%|█████▋    | 509/892 [08:20<19:11,  3.01s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 57%|█████▋    | 510/892 [08:26<24:10,  3.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 57%|█████▋    | 511/892 [08:28<19:45,  3.11s/it][anthropic._base_client] Retrying request to /v1/messages in 5.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 57%|█████▋    | 512/892 [08:39<36:10,  5.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 58%|█████▊    | 513/892 [08:41<28:45,  4.55s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 58%|█████▊    | 514/892 [08:45<27:17,  4.33s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 58%|█████▊    | 515/892 [08:50<29:01,  4.62s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 58%|█████▊    | 516/892 [08:59<36:03,  5.75s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 58%|█████▊    | 517/892 [09:08<43:04,  6.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 58%|█████▊    | 518/892 [09:10<33:12,  5.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 58%|█████▊    | 519/892 [09:11<25:54,  4.17s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 58%|█████▊    | 520/892 [09:19<32:08,  5.18s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 58%|█████▊    | 521/892 [09:26<36:16,  5.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 59%|█████▊    | 522/892 [09:28<27:49,  4.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 59%|█████▊    | 523/892 [09:29<22:11,  3.61s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 59%|█████▊    | 524/892 [09:35<26:05,  4.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 59%|█████▉    | 525/892 [09:37<22:23,  3.66s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 59%|█████▉    | 526/892 [09:43<25:41,  4.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 59%|█████▉    | 527/892 [09:45<22:29,  3.70s/it][anthropic._base_client] Retrying request to /v1/messages in 0.408783 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 59%|█████▉    | 528/892 [10:06<53:39,  8.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 59%|█████▉    | 529/892 [10:08<41:34,  6.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 59%|█████▉    | 530/892 [10:11<33:24,  5.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 60%|█████▉    | 531/892 [10:15<30:05,  5.00s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 60%|█████▉    | 532/892 [10:17<24:49,  4.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 60%|█████▉    | 533/892 [10:18<20:25,  3.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 60%|█████▉    | 534/892 [10:20<17:49,  2.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 60%|█████▉    | 535/892 [10:23<16:30,  2.77s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 60%|██████    | 536/892 [10:27<18:43,  3.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 60%|██████    | 537/892 [10:29<16:31,  2.79s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 60%|██████    | 538/892 [10:30<13:19,  2.26s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 60%|██████    | 539/892 [10:36<19:40,  3.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 61%|██████    | 540/892 [10:40<21:50,  3.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 61%|██████    | 541/892 [10:45<23:08,  3.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 61%|██████    | 542/892 [10:49<23:14,  3.99s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 61%|██████    | 543/892 [10:55<27:09,  4.67s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 61%|██████    | 544/892 [11:11<46:04,  7.94s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 61%|██████    | 545/892 [11:15<40:21,  6.98s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 61%|██████    | 546/892 [11:23<41:47,  7.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 61%|██████▏   | 547/892 [11:25<31:52,  5.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 61%|██████▏   | 548/892 [11:27<26:12,  4.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 62%|██████▏   | 549/892 [11:29<21:52,  3.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 62%|██████▏   | 550/892 [11:32<19:49,  3.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 62%|██████▏   | 551/892 [11:34<17:40,  3.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 62%|██████▏   | 552/892 [11:38<19:13,  3.39s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 62%|██████▏   | 553/892 [11:45<24:53,  4.41s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 62%|██████▏   | 554/892 [11:50<26:49,  4.76s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 62%|██████▏   | 555/892 [11:56<27:37,  4.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 62%|██████▏   | 556/892 [11:58<23:13,  4.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 62%|██████▏   | 557/892 [12:00<18:54,  3.39s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 63%|██████▎   | 558/892 [12:05<21:37,  3.88s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 63%|██████▎   | 559/892 [12:10<24:35,  4.43s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 63%|██████▎   | 560/892 [12:19<31:25,  5.68s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 63%|██████▎   | 561/892 [12:24<29:23,  5.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 63%|██████▎   | 562/892 [12:25<22:58,  4.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 63%|██████▎   | 563/892 [12:31<25:58,  4.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 63%|██████▎   | 564/892 [12:34<23:43,  4.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 63%|██████▎   | 565/892 [12:40<25:17,  4.64s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 63%|██████▎   | 566/892 [12:46<28:06,  5.17s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 64%|██████▎   | 567/892 [12:52<29:22,  5.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 64%|██████▎   | 568/892 [12:55<24:23,  4.52s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 64%|██████▍   | 569/892 [13:03<30:32,  5.67s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 64%|██████▍   | 570/892 [13:14<39:31,  7.37s/it][anthropic._base_client] Retrying request to /v1/messages in 0.425930 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 64%|██████▍   | 571/892 [13:33<58:19, 10.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 64%|██████▍   | 572/892 [13:38<48:17,  9.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 64%|██████▍   | 573/892 [13:41<37:18,  7.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 64%|██████▍   | 574/892 [13:43<30:11,  5.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 64%|██████▍   | 575/892 [13:45<23:54,  4.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 65%|██████▍   | 576/892 [13:47<20:35,  3.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 65%|██████▍   | 577/892 [13:49<17:14,  3.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 65%|██████▍   | 578/892 [13:51<14:34,  2.78s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 65%|██████▍   | 579/892 [14:00<24:59,  4.79s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 65%|██████▌   | 580/892 [14:08<30:12,  5.81s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 65%|██████▌   | 581/892 [14:16<32:59,  6.37s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 65%|██████▌   | 582/892 [14:20<28:58,  5.61s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 65%|██████▌   | 583/892 [14:25<28:27,  5.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 65%|██████▌   | 584/892 [14:27<22:09,  4.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 66%|██████▌   | 585/892 [14:29<19:11,  3.75s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 66%|██████▌   | 586/892 [14:33<19:53,  3.90s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 66%|██████▌   | 587/892 [14:41<25:22,  4.99s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 66%|██████▌   | 588/892 [14:48<28:31,  5.63s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 66%|██████▌   | 589/892 [14:56<31:13,  6.18s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 66%|██████▌   | 590/892 [15:03<33:25,  6.64s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 66%|██████▋   | 591/892 [15:08<30:37,  6.11s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 66%|██████▋   | 592/892 [15:19<37:12,  7.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 66%|██████▋   | 593/892 [15:20<28:28,  5.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 67%|██████▋   | 594/892 [15:22<22:17,  4.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 67%|██████▋   | 595/892 [15:24<18:23,  3.72s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 67%|██████▋   | 596/892 [15:29<20:07,  4.08s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 67%|██████▋   | 597/892 [15:38<26:47,  5.45s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 67%|██████▋   | 598/892 [15:44<28:30,  5.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 67%|██████▋   | 599/892 [15:47<23:45,  4.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 67%|██████▋   | 600/892 [15:48<18:28,  3.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 67%|██████▋   | 601/892 [15:50<14:52,  3.07s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 67%|██████▋   | 602/892 [15:56<19:35,  4.05s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 68%|██████▊   | 603/892 [15:58<16:02,  3.33s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 68%|██████▊   | 604/892 [16:02<17:06,  3.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 68%|██████▊   | 605/892 [16:03<14:08,  2.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 68%|██████▊   | 606/892 [16:05<11:48,  2.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 68%|██████▊   | 607/892 [16:06<09:55,  2.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 68%|██████▊   | 608/892 [16:07<08:48,  1.86s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 68%|██████▊   | 609/892 [16:09<08:13,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 68%|██████▊   | 610/892 [16:10<07:27,  1.59s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 68%|██████▊   | 611/892 [16:15<12:36,  2.69s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 69%|██████▊   | 612/892 [16:24<21:30,  4.61s/it][anthropic._base_client] Retrying request to /v1/messages in 4.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 69%|██████▊   | 613/892 [16:31<23:59,  5.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 69%|██████▉   | 614/892 [16:32<18:48,  4.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 69%|██████▉   | 615/892 [16:34<15:13,  3.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 69%|██████▉   | 616/892 [16:35<12:34,  2.73s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 0.957569 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 69%|██████▉   | 617/892 [16:52<32:08,  7.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 69%|██████▉   | 618/892 [16:53<24:28,  5.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 69%|██████▉   | 619/892 [16:55<19:10,  4.22s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 70%|██████▉   | 620/892 [16:56<15:19,  3.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 70%|██████▉   | 621/892 [16:58<13:06,  2.90s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 70%|██████▉   | 622/892 [17:07<20:31,  4.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 70%|██████▉   | 623/892 [17:08<16:22,  3.65s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 70%|██████▉   | 624/892 [17:14<19:50,  4.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 70%|███████   | 625/892 [17:16<15:53,  3.57s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 70%|███████   | 626/892 [17:21<18:13,  4.11s/it][anthropic._base_client] Retrying request to /v1/messages in 0.377381 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 70%|███████   | 627/892 [17:43<41:19,  9.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 70%|███████   | 628/892 [17:44<30:32,  6.94s/it][anthropic._base_client] Retrying request to /v1/messages in 0.378955 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 71%|███████   | 629/892 [18:13<59:20, 13.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 71%|███████   | 630/892 [18:15<43:23,  9.94s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 71%|███████   | 631/892 [18:19<36:10,  8.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 71%|███████   | 632/892 [18:21<27:06,  6.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 71%|███████   | 633/892 [18:22<20:52,  4.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 71%|███████   | 634/892 [18:24<16:32,  3.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 71%|███████   | 635/892 [18:26<14:48,  3.46s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 71%|███████▏  | 636/892 [18:30<14:55,  3.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 71%|███████▏  | 637/892 [18:31<12:21,  2.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 72%|███████▏  | 638/892 [18:33<10:30,  2.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 72%|███████▏  | 639/892 [18:34<09:14,  2.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 72%|███████▏  | 640/892 [18:36<08:00,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 72%|███████▏  | 641/892 [18:37<07:16,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 72%|███████▏  | 642/892 [18:39<07:03,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 72%|███████▏  | 643/892 [18:40<06:01,  1.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 72%|███████▏  | 644/892 [18:41<06:22,  1.54s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 72%|███████▏  | 645/892 [18:45<09:14,  2.25s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 72%|███████▏  | 646/892 [18:49<11:19,  2.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 73%|███████▎  | 647/892 [18:51<10:14,  2.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 73%|███████▎  | 648/892 [18:53<09:04,  2.23s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 73%|███████▎  | 649/892 [18:57<12:10,  3.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 73%|███████▎  | 650/892 [18:59<10:14,  2.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 73%|███████▎  | 651/892 [19:00<09:01,  2.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 73%|███████▎  | 652/892 [19:02<07:58,  1.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 73%|███████▎  | 653/892 [19:03<07:15,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 73%|███████▎  | 654/892 [19:05<07:18,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 73%|███████▎  | 655/892 [19:07<06:57,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 74%|███████▎  | 656/892 [19:08<06:33,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 74%|███████▎  | 657/892 [19:09<06:00,  1.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 74%|███████▍  | 658/892 [19:11<05:47,  1.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 74%|███████▍  | 659/892 [19:12<05:50,  1.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 74%|███████▍  | 660/892 [19:14<06:11,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 74%|███████▍  | 661/892 [19:16<05:50,  1.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 74%|███████▍  | 662/892 [19:17<05:52,  1.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 74%|███████▍  | 663/892 [19:22<10:16,  2.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 74%|███████▍  | 664/892 [19:24<08:46,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 75%|███████▍  | 665/892 [19:25<07:06,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 75%|███████▍  | 666/892 [19:26<06:28,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 75%|███████▍  | 667/892 [19:28<06:09,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 75%|███████▍  | 668/892 [19:28<05:14,  1.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 75%|███████▌  | 669/892 [19:29<04:33,  1.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 75%|███████▌  | 670/892 [19:31<05:11,  1.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 75%|███████▌  | 671/892 [19:32<04:35,  1.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 75%|███████▌  | 672/892 [19:34<05:04,  1.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 75%|███████▌  | 673/892 [19:36<05:44,  1.58s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 76%|███████▌  | 674/892 [19:37<05:54,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 76%|███████▌  | 675/892 [19:38<05:07,  1.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 76%|███████▌  | 676/892 [19:39<04:34,  1.27s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 76%|███████▌  | 677/892 [19:42<06:23,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 76%|███████▌  | 678/892 [19:43<05:25,  1.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 76%|███████▌  | 679/892 [19:44<05:06,  1.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 76%|███████▌  | 680/892 [19:45<04:36,  1.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 76%|███████▋  | 681/892 [19:47<04:32,  1.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 76%|███████▋  | 682/892 [19:49<05:24,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 77%|███████▋  | 683/892 [19:56<11:29,  3.30s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 77%|███████▋  | 684/892 [19:59<10:25,  3.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 77%|███████▋  | 685/892 [19:59<08:11,  2.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 77%|███████▋  | 686/892 [20:00<06:39,  1.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 77%|███████▋  | 687/892 [20:01<05:30,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 77%|███████▋  | 688/892 [20:04<06:15,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 77%|███████▋  | 689/892 [20:06<06:26,  1.91s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 77%|███████▋  | 690/892 [20:06<05:22,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 77%|███████▋  | 691/892 [20:09<05:53,  1.76s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 78%|███████▊  | 692/892 [20:10<05:00,  1.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 78%|███████▊  | 693/892 [20:12<05:34,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 78%|███████▊  | 694/892 [20:14<05:58,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 78%|███████▊  | 695/892 [20:16<06:26,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 78%|███████▊  | 696/892 [20:17<05:18,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 78%|███████▊  | 697/892 [20:18<04:53,  1.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 78%|███████▊  | 698/892 [20:19<04:14,  1.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 78%|███████▊  | 699/892 [20:20<04:01,  1.25s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 78%|███████▊  | 700/892 [20:21<03:33,  1.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 79%|███████▊  | 701/892 [20:23<04:41,  1.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 79%|███████▊  | 702/892 [20:24<04:14,  1.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 79%|███████▉  | 703/892 [20:25<03:41,  1.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 79%|███████▉  | 704/892 [20:27<04:25,  1.41s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 79%|███████▉  | 705/892 [20:28<03:49,  1.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 79%|███████▉  | 706/892 [20:29<04:07,  1.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 79%|███████▉  | 707/892 [20:30<03:56,  1.28s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 79%|███████▉  | 708/892 [20:32<04:24,  1.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 79%|███████▉  | 709/892 [20:33<03:55,  1.29s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 80%|███████▉  | 710/892 [20:34<03:32,  1.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 80%|███████▉  | 711/892 [20:36<04:07,  1.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 80%|███████▉  | 712/892 [20:38<04:26,  1.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 80%|███████▉  | 713/892 [20:40<04:58,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 80%|████████  | 714/892 [20:42<05:10,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 80%|████████  | 715/892 [20:43<04:22,  1.48s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 80%|████████  | 716/892 [20:44<03:59,  1.36s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 80%|████████  | 717/892 [20:45<03:39,  1.25s/it][anthropic._base_client] Retrying request to /v1/messages in 0.472485 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 80%|████████  | 718/892 [21:15<28:31,  9.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 81%|████████  | 719/892 [21:17<21:59,  7.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 81%|████████  | 720/892 [21:18<16:20,  5.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 81%|████████  | 721/892 [21:20<13:13,  4.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 81%|████████  | 722/892 [21:23<11:50,  4.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 81%|████████  | 723/892 [21:27<11:27,  4.07s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 81%|████████  | 724/892 [21:29<08:59,  3.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 81%|████████▏ | 725/892 [21:29<07:02,  2.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 81%|████████▏ | 726/892 [21:31<06:25,  2.32s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 82%|████████▏ | 727/892 [21:33<05:55,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 82%|████████▏ | 728/892 [21:34<04:55,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 82%|████████▏ | 729/892 [21:36<05:02,  1.85s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 82%|████████▏ | 730/892 [21:37<04:09,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 82%|████████▏ | 731/892 [21:39<04:22,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 82%|████████▏ | 732/892 [21:41<04:35,  1.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 82%|████████▏ | 733/892 [21:42<04:36,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 82%|████████▏ | 734/892 [21:43<03:50,  1.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 82%|████████▏ | 735/892 [21:45<04:06,  1.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 83%|████████▎ | 736/892 [21:47<04:14,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 83%|████████▎ | 737/892 [21:49<04:50,  1.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 83%|████████▎ | 738/892 [21:51<05:05,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 83%|████████▎ | 739/892 [21:54<05:29,  2.15s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 83%|████████▎ | 740/892 [21:55<04:28,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 83%|████████▎ | 741/892 [21:56<03:55,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 83%|████████▎ | 742/892 [21:57<03:25,  1.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 83%|████████▎ | 743/892 [21:59<03:50,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 83%|████████▎ | 744/892 [22:00<03:17,  1.33s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 84%|████████▎ | 745/892 [22:01<03:00,  1.23s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 84%|████████▎ | 746/892 [22:02<03:03,  1.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 84%|████████▎ | 747/892 [22:03<03:02,  1.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 84%|████████▍ | 748/892 [22:05<03:40,  1.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 84%|████████▍ | 749/892 [22:06<03:16,  1.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 84%|████████▍ | 750/892 [22:08<03:35,  1.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 84%|████████▍ | 751/892 [22:10<03:39,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 84%|████████▍ | 752/892 [22:11<03:11,  1.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 84%|████████▍ | 753/892 [22:13<03:35,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 85%|████████▍ | 754/892 [22:17<05:23,  2.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 85%|████████▍ | 755/892 [22:19<04:56,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 85%|████████▍ | 756/892 [22:21<04:44,  2.09s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 85%|████████▍ | 757/892 [22:23<04:38,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 85%|████████▍ | 758/892 [22:25<04:52,  2.19s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 85%|████████▌ | 759/892 [22:27<04:39,  2.10s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 85%|████████▌ | 760/892 [22:28<03:58,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 85%|████████▌ | 761/892 [22:30<04:08,  1.90s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 85%|████████▌ | 762/892 [22:32<03:56,  1.82s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 86%|████████▌ | 763/892 [22:35<04:41,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 86%|████████▌ | 764/892 [22:36<04:10,  1.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 86%|████████▌ | 765/892 [22:38<04:09,  1.97s/it][anthropic._base_client] Retrying request to /v1/messages in 0.471466 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 86%|████████▌ | 766/892 [23:08<21:15, 10.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 86%|████████▌ | 767/892 [23:10<16:03,  7.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 86%|████████▌ | 768/892 [23:12<12:38,  6.12s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 86%|████████▌ | 769/892 [23:13<09:34,  4.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 86%|████████▋ | 770/892 [23:15<07:36,  3.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 86%|████████▋ | 771/892 [23:17<06:50,  3.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 87%|████████▋ | 772/892 [23:19<05:26,  2.72s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 87%|████████▋ | 773/892 [23:20<04:19,  2.18s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 87%|████████▋ | 774/892 [23:20<03:30,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 87%|████████▋ | 775/892 [23:22<03:28,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 87%|████████▋ | 776/892 [23:23<02:58,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 87%|████████▋ | 777/892 [23:25<03:09,  1.65s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 87%|████████▋ | 778/892 [23:26<02:47,  1.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 87%|████████▋ | 779/892 [23:27<02:31,  1.34s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 87%|████████▋ | 780/892 [23:28<02:20,  1.26s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 88%|████████▊ | 781/892 [23:29<02:13,  1.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 88%|████████▊ | 782/892 [23:32<02:54,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 88%|████████▊ | 783/892 [23:33<02:32,  1.40s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 88%|████████▊ | 784/892 [23:35<02:46,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 88%|████████▊ | 785/892 [23:37<03:00,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 88%|████████▊ | 786/892 [23:38<02:33,  1.45s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 88%|████████▊ | 787/892 [23:39<02:48,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 88%|████████▊ | 788/892 [23:41<02:58,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 88%|████████▊ | 789/892 [23:43<02:55,  1.71s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 89%|████████▊ | 790/892 [23:44<02:37,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 89%|████████▊ | 791/892 [23:45<02:20,  1.39s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 89%|████████▉ | 792/892 [23:46<02:03,  1.24s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 89%|████████▉ | 793/892 [23:48<02:25,  1.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 89%|████████▉ | 794/892 [23:50<02:35,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 89%|████████▉ | 795/892 [23:52<02:38,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 89%|████████▉ | 796/892 [23:53<02:36,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 89%|████████▉ | 797/892 [23:55<02:41,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 89%|████████▉ | 798/892 [23:57<02:33,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 90%|████████▉ | 799/892 [23:59<02:51,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 90%|████████▉ | 800/892 [24:01<02:43,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 90%|████████▉ | 801/892 [24:02<02:39,  1.75s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 90%|████████▉ | 802/892 [24:04<02:36,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 90%|█████████ | 803/892 [24:06<02:37,  1.77s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 90%|█████████ | 804/892 [24:08<02:30,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 90%|█████████ | 805/892 [24:10<02:43,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 90%|█████████ | 806/892 [24:12<02:38,  1.84s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 90%|█████████ | 807/892 [24:14<02:50,  2.01s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 91%|█████████ | 808/892 [24:16<02:41,  1.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 91%|█████████ | 809/892 [24:17<02:29,  1.80s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 91%|█████████ | 810/892 [24:19<02:17,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 91%|█████████ | 811/892 [24:20<02:17,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 91%|█████████ | 812/892 [24:22<02:07,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 91%|█████████ | 813/892 [24:23<02:01,  1.53s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 91%|█████████▏| 814/892 [24:25<02:09,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 91%|█████████▏| 815/892 [24:27<02:02,  1.59s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 91%|█████████▏| 816/892 [24:28<02:06,  1.67s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 92%|█████████▏| 817/892 [24:30<02:06,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 92%|█████████▏| 818/892 [24:31<01:55,  1.56s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 92%|█████████▏| 819/892 [24:33<01:49,  1.50s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 92%|█████████▏| 820/892 [24:34<01:51,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 92%|█████████▏| 821/892 [24:36<01:53,  1.60s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 92%|█████████▏| 822/892 [24:38<01:58,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 92%|█████████▏| 823/892 [24:40<01:54,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 92%|█████████▏| 824/892 [24:41<01:51,  1.64s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 92%|█████████▏| 825/892 [24:42<01:32,  1.38s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 93%|█████████▎| 826/892 [24:44<01:52,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 93%|█████████▎| 827/892 [24:45<01:35,  1.47s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 93%|█████████▎| 828/892 [24:47<01:36,  1.51s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 93%|█████████▎| 829/892 [24:48<01:35,  1.52s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 93%|█████████▎| 830/892 [24:50<01:35,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 93%|█████████▎| 831/892 [24:51<01:29,  1.46s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 93%|█████████▎| 832/892 [24:53<01:26,  1.44s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 93%|█████████▎| 833/892 [24:54<01:28,  1.49s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 93%|█████████▎| 834/892 [24:56<01:28,  1.53s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 94%|█████████▎| 835/892 [25:00<02:12,  2.32s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 94%|█████████▎| 836/892 [25:09<04:04,  4.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 94%|█████████▍| 837/892 [25:11<03:16,  3.57s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 94%|█████████▍| 838/892 [25:16<03:35,  3.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 94%|█████████▍| 839/892 [25:17<02:49,  3.20s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 94%|█████████▍| 840/892 [25:22<03:10,  3.67s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 94%|█████████▍| 841/892 [25:27<03:29,  4.11s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 94%|█████████▍| 842/892 [25:29<02:48,  3.37s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 95%|█████████▍| 843/892 [25:31<02:20,  2.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 95%|█████████▍| 844/892 [25:32<02:00,  2.51s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 95%|█████████▍| 845/892 [25:38<02:50,  3.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 95%|█████████▍| 846/892 [25:40<02:15,  2.94s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 95%|█████████▍| 847/892 [25:41<01:50,  2.46s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 95%|█████████▌| 848/892 [25:46<02:19,  3.17s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 95%|█████████▌| 849/892 [25:48<01:57,  2.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 95%|█████████▌| 850/892 [25:50<01:47,  2.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 95%|█████████▌| 851/892 [25:52<01:36,  2.35s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 96%|█████████▌| 852/892 [25:53<01:26,  2.16s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 96%|█████████▌| 853/892 [25:55<01:20,  2.06s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 96%|█████████▌| 854/892 [25:57<01:15,  1.99s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 96%|█████████▌| 855/892 [25:59<01:14,  2.02s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 96%|█████████▌| 856/892 [26:02<01:23,  2.31s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 96%|█████████▌| 857/892 [26:04<01:14,  2.14s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 96%|█████████▌| 858/892 [26:06<01:12,  2.13s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 96%|█████████▋| 859/892 [26:08<01:05,  1.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 96%|█████████▋| 860/892 [26:09<01:00,  1.88s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 97%|█████████▋| 861/892 [26:11<00:56,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 97%|█████████▋| 862/892 [26:13<00:54,  1.83s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 97%|█████████▋| 863/892 [26:15<00:52,  1.81s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 97%|█████████▋| 864/892 [26:16<00:49,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 97%|█████████▋| 865/892 [26:18<00:46,  1.74s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 97%|█████████▋| 866/892 [26:19<00:43,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 97%|█████████▋| 867/892 [26:21<00:42,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 97%|█████████▋| 868/892 [26:23<00:40,  1.68s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 97%|█████████▋| 869/892 [26:24<00:37,  1.63s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 98%|█████████▊| 870/892 [26:26<00:37,  1.69s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 98%|█████████▊| 871/892 [26:28<00:34,  1.66s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 98%|█████████▊| 872/892 [26:29<00:32,  1.61s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 98%|█████████▊| 873/892 [26:31<00:29,  1.54s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 98%|█████████▊| 874/892 [26:32<00:27,  1.55s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 98%|█████████▊| 875/892 [26:35<00:32,  1.92s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 98%|█████████▊| 876/892 [26:37<00:31,  1.95s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 98%|█████████▊| 877/892 [26:39<00:28,  1.93s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 98%|█████████▊| 878/892 [26:41<00:26,  1.89s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 99%|█████████▊| 879/892 [26:42<00:23,  1.78s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 99%|█████████▊| 880/892 [26:44<00:20,  1.70s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 99%|█████████▉| 881/892 [26:46<00:18,  1.72s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 99%|█████████▉| 882/892 [26:52<00:31,  3.12s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 99%|█████████▉| 883/892 [26:59<00:37,  4.20s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 99%|█████████▉| 884/892 [27:00<00:27,  3.42s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 99%|█████████▉| 885/892 [27:02<00:20,  2.96s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 99%|█████████▉| 886/892 [27:04<00:15,  2.54s/it][anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[anthropic._base_client] Retrying request to /v1/messages in 2.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+ 99%|█████████▉| 887/892 [27:11<00:19,  3.87s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+100%|█████████▉| 888/892 [27:12<00:12,  3.21s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+100%|█████████▉| 889/892 [27:14<00:08,  2.74s/it][anthropic._base_client] Retrying request to /v1/messages in 3.000000 seconds
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+100%|█████████▉| 890/892 [27:19<00:07,  3.57s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+100%|█████████▉| 891/892 [27:21<00:02,  2.98s/it][root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+100%|██████████| 892/892 [27:23<00:00,  2.69s/it]100%|██████████| 892/892 [27:23<00:00,  1.84s/it]
+[root] Save results to results/claude-3-5-sonnet-latest_Math_Direct.json
+[root] End Generation......
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}
+Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'This request would exceed your organization’s rate limit of 80,000 input tokens per minute. For details, refer to: https://docs.anthropic.com/en/api/rate-limits; see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://www.anthropic.com/contact-sales to discuss your options for a rate limit increase.'}}

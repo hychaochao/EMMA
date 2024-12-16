@@ -1,0 +1,53 @@
+{
+  "average": {
+    "accuracy": 0.2623318385650224,
+    "correct": 234,
+    "total": 892
+  },
+  "subject": {
+    "Math": {
+      "accuracy": 0.2623318385650224,
+      "correct": 234,
+      "total": 892
+    }
+  },
+  "type": {
+    "multiple choice": {
+      "accuracy": 0.29359430604982206,
+      "correct": 165,
+      "total": 562
+    },
+    "open-ended": {
+      "accuracy": 0.20909090909090908,
+      "correct": 69,
+      "total": 330
+    }
+  },
+  "category": {
+    "Math_2D Transformation": {
+      "accuracy": 0.2556390977443609,
+      "correct": 68,
+      "total": 266
+    },
+    "Math_3D Spatial Simulation": {
+      "accuracy": 0.21818181818181817,
+      "correct": 60,
+      "total": 275
+    },
+    "Math_Path Tracing": {
+      "accuracy": 0.14960629921259844,
+      "correct": 19,
+      "total": 127
+    },
+    "Math_Multi-hop Visual Object Counting": {
+      "accuracy": 0.5483870967741935,
+      "correct": 68,
+      "total": 124
+    },
+    "Math_Pattern Inference": {
+      "accuracy": 0.19,
+      "correct": 19,
+      "total": 100
+    }
+  }
+}
