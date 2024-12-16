@@ -1,0 +1,84 @@
+{
+  "average": {
+    "accuracy": 0.1387814313346228,
+    "correct": 287,
+    "total": 2068
+  },
+  "subject": {
+    "Chemistry": {
+      "accuracy": 0.034013605442176874,
+      "correct": 40,
+      "total": 1176
+    },
+    "Math": {
+      "accuracy": 0.2769058295964126,
+      "correct": 247,
+      "total": 892
+    }
+  },
+  "type": {
+    "multiple choice": {
+      "accuracy": 0.30248618784530384,
+      "correct": 219,
+      "total": 724
+    },
+    "open-ended": {
+      "accuracy": 0.050595238095238096,
+      "correct": 68,
+      "total": 1344
+    }
+  },
+  "category": {
+    "Chemistry_Reaction Simulation Pro": {
+      "accuracy": 0.2761904761904762,
+      "correct": 29,
+      "total": 105
+    },
+    "Chemistry_Structure Recognition": {
+      "accuracy": 0.010548523206751054,
+      "correct": 5,
+      "total": 474
+    },
+    "Chemistry_Graph Reasoning": {
+      "accuracy": 0.3333333333333333,
+      "correct": 3,
+      "total": 9
+    },
+    "Chemistry_Reaction Simulation": {
+      "accuracy": 0.022727272727272728,
+      "correct": 3,
+      "total": 132
+    },
+    "Chemistry_Knowledge-based counting": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 456
+    },
+    "Math_2D Transformation": {
+      "accuracy": 0.24812030075187969,
+      "correct": 66,
+      "total": 266
+    },
+    "Math_3D Spatial Simulation": {
+      "accuracy": 0.22181818181818183,
+      "correct": 61,
+      "total": 275
+    },
+    "Math_Path Tracing": {
+      "accuracy": 0.2047244094488189,
+      "correct": 26,
+      "total": 127
+    },
+    "Math_Multi-hop Visual Object Counting": {
+      "accuracy": 0.6935483870967742,
+      "correct": 86,
+      "total": 124
+    },
+    "Math_Pattern Inference": {
+      "accuracy": 0.08,
+      "correct": 8,
+      "total": 100
+    }
+  },
+  "task": {}
+}

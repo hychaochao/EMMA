@@ -1,0 +1,295 @@
+{
+  "average": {
+    "accuracy": 0.11930091185410334,
+    "correct": 314,
+    "total": 2632
+  },
+  "subject": {
+    "Chemistry": {
+      "accuracy": 0.047619047619047616,
+      "correct": 56,
+      "total": 1176
+    },
+    "Math": {
+      "accuracy": 0.13004484304932734,
+      "correct": 116,
+      "total": 892
+    },
+    "Coding": {
+      "accuracy": 0.25177304964539005,
+      "correct": 142,
+      "total": 564
+    }
+  },
+  "type": {
+    "multiple choice": {
+      "accuracy": 0.22903726708074534,
+      "correct": 295,
+      "total": 1288
+    },
+    "open-ended": {
+      "accuracy": 0.014136904761904762,
+      "correct": 19,
+      "total": 1344
+    }
+  },
+  "category": {
+    "Chemistry_Reaction Simulation Pro": {
+      "accuracy": 0.3619047619047619,
+      "correct": 38,
+      "total": 105
+    },
+    "Chemistry_Structure Recognition": {
+      "accuracy": 0.0189873417721519,
+      "correct": 9,
+      "total": 474
+    },
+    "Chemistry_Graph Reasoning": {
+      "accuracy": 0.2222222222222222,
+      "correct": 2,
+      "total": 9
+    },
+    "Chemistry_Reaction Simulation": {
+      "accuracy": 0.045454545454545456,
+      "correct": 6,
+      "total": 132
+    },
+    "Chemistry_Knowledge-based counting": {
+      "accuracy": 0.0021929824561403508,
+      "correct": 1,
+      "total": 456
+    },
+    "Math_2D Transformation": {
+      "accuracy": 0.22180451127819548,
+      "correct": 59,
+      "total": 266
+    },
+    "Math_3D Spatial Simulation": {
+      "accuracy": 0.13090909090909092,
+      "correct": 36,
+      "total": 275
+    },
+    "Math_Path Tracing": {
+      "accuracy": 0.16535433070866143,
+      "correct": 21,
+      "total": 127
+    },
+    "Math_Multi-hop Visual Object Counting": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 124
+    },
+    "Math_Pattern Inference": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 100
+    },
+    "Coding_Advanced Chart Type;Axis & Scale": {
+      "accuracy": 0.20833333333333334,
+      "correct": 5,
+      "total": 24
+    },
+    "Coding_Advanced Chart Type;Legend;Alignment, Orientation, & Position": {
+      "accuracy": 0.16666666666666666,
+      "correct": 4,
+      "total": 24
+    },
+    "Coding_Gridline": {
+      "accuracy": 0.3333333333333333,
+      "correct": 8,
+      "total": 24
+    },
+    "Coding_3D;Color & Texture": {
+      "accuracy": 0.16666666666666666,
+      "correct": 4,
+      "total": 24
+    },
+    "Coding_Alignment, Orientation, & Position;Legend": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "total": 12
+    },
+    "Coding_Marker, Line, & Cap": {
+      "accuracy": 0.2916666666666667,
+      "correct": 7,
+      "total": 24
+    },
+    "Coding_Legend;Marker, Line, & Cap": {
+      "accuracy": 0.3333333333333333,
+      "correct": 4,
+      "total": 12
+    },
+    "Coding_Advanced Chart Type;Alignment, Orientation, & Position": {
+      "accuracy": 0.22916666666666666,
+      "correct": 11,
+      "total": 48
+    },
+    "Coding_Axis & Scale;Polar;Data Reasoning": {
+      "accuracy": 0.4166666666666667,
+      "correct": 5,
+      "total": 12
+    },
+    "Coding_3D;Data Reasoning;Color & Texture": {
+      "accuracy": 0.16666666666666666,
+      "correct": 2,
+      "total": 12
+    },
+    "Coding_Gridline;Axis & Scale": {
+      "accuracy": 0.16666666666666666,
+      "correct": 2,
+      "total": 12
+    },
+    "Coding_Advanced Chart Type;Color & Texture": {
+      "accuracy": 0.4166666666666667,
+      "correct": 10,
+      "total": 24
+    },
+    "Coding_Data Reasoning;Alignment, Orientation, & Position;Advanced Chart Type": {
+      "accuracy": 0.25,
+      "correct": 3,
+      "total": 12
+    },
+    "Coding_Data Reasoning;Color & Texture;Advanced Chart Type": {
+      "accuracy": 0.3333333333333333,
+      "correct": 4,
+      "total": 12
+    },
+    "Coding_Alignment, Orientation, & Position": {
+      "accuracy": 0.5833333333333334,
+      "correct": 7,
+      "total": 12
+    },
+    "Coding_Advanced Chart Type;Legend": {
+      "accuracy": 0.16666666666666666,
+      "correct": 2,
+      "total": 12
+    },
+    "Coding_Color & Texture;Marker, Line, & Cap": {
+      "accuracy": 0.3333333333333333,
+      "correct": 4,
+      "total": 12
+    },
+    "Coding_3D;Alignment, Orientation, & Position;Axis & Scale": {
+      "accuracy": 0.08333333333333333,
+      "correct": 1,
+      "total": 12
+    },
+    "Coding_Axis & Scale;3D;Color & Texture": {
+      "accuracy": 0.5,
+      "correct": 6,
+      "total": 12
+    },
+    "Coding_Alignment, Orientation, & Position;Axis & Scale": {
+      "accuracy": 0.16666666666666666,
+      "correct": 2,
+      "total": 12
+    },
+    "Coding_Color & Texture;Advanced Chart Type": {
+      "accuracy": 0.16666666666666666,
+      "correct": 2,
+      "total": 12
+    },
+    "Coding_Gridline;Color & Texture": {
+      "accuracy": 0.16666666666666666,
+      "correct": 2,
+      "total": 12
+    },
+    "Coding_Advanced Chart Type;Polar;Alignment, Orientation, & Position": {
+      "accuracy": 0.3333333333333333,
+      "correct": 4,
+      "total": 12
+    },
+    "Coding_Color & Texture;Data Reasoning": {
+      "accuracy": 0.25,
+      "correct": 3,
+      "total": 12
+    },
+    "Coding_3D;Data Reasoning;Gridline": {
+      "accuracy": 0.3333333333333333,
+      "correct": 4,
+      "total": 12
+    },
+    "Coding_Legend;Advanced Chart Type": {
+      "accuracy": 0.16666666666666666,
+      "correct": 2,
+      "total": 12
+    },
+    "Coding_3D;Data Reasoning": {
+      "accuracy": 0.25,
+      "correct": 6,
+      "total": 24
+    },
+    "Coding_Color & Texture;Advanced Chart Type;Alignment, Orientation, & Position": {
+      "accuracy": 0.4166666666666667,
+      "correct": 5,
+      "total": 12
+    },
+    "Coding_Axis & Scale": {
+      "accuracy": 0.08333333333333333,
+      "correct": 1,
+      "total": 12
+    },
+    "Coding_Advanced Chart Type;Alignment, Orientation, & Position;Polar": {
+      "accuracy": 0.25,
+      "correct": 3,
+      "total": 12
+    },
+    "Coding_Polar;Advanced Chart Type": {
+      "accuracy": 0.25,
+      "correct": 3,
+      "total": 12
+    },
+    "Coding_Axis & Scale;Advanced Chart Type": {
+      "accuracy": 0.25,
+      "correct": 3,
+      "total": 12
+    },
+    "Coding_Advanced Chart Type": {
+      "accuracy": 0.25,
+      "correct": 3,
+      "total": 12
+    },
+    "Coding_Alignment, Orientation, & Position;Advanced Chart Type": {
+      "accuracy": 0.16666666666666666,
+      "correct": 2,
+      "total": 12
+    },
+    "Coding_Advanced Chart Type;3D;Data Reasoning": {
+      "accuracy": 0.3333333333333333,
+      "correct": 4,
+      "total": 12
+    },
+    "Coding_Legend;Color & Texture": {
+      "accuracy": 0.16666666666666666,
+      "correct": 2,
+      "total": 12
+    },
+    "Coding_Legend": {
+      "accuracy": 0.16666666666666666,
+      "correct": 2,
+      "total": 12
+    }
+  },
+  "task": {
+    "Coding_Code Choose Vis": {
+      "accuracy": 0.2553191489361702,
+      "correct": 48,
+      "total": 188
+    },
+    "Coding_Vis Choose Code": {
+      "accuracy": 0.25,
+      "correct": 47,
+      "total": 188
+    },
+    "Coding_Modify Without Image": {
+      "accuracy": 0.2553191489361702,
+      "correct": 24,
+      "total": 94
+    },
+    "Coding_Modify With Image": {
+      "accuracy": 0.24468085106382978,
+      "correct": 23,
+      "total": 94
+    }
+  }
+}
