@@ -3,968 +3,11 @@
 [root] Loading chatgpt-4o-latest
 [root] Model loaded!
 [root] Results already exists.
-[root] Reading results/chatgpt-4o-latest_Coding_CoT.json
+[root] Reading results/close-source/gpt/CoT/chatgpt-4o-latest_Coding_CoT.json
+[root] Found existing results file with 562 problems with valid responses. Skipping these problems...
 [root] Starting to generate.....
-  0%|          | 0/564 [00:00<?, ?it/s]
---- Sample Generation Debug ---
-PID: coding_1
-Problem: {
-  "query": "\nWhich visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.show()\nA: <image_1>\nB: <image_2>\nC: <image_3>\nD: <image_4>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
-  "gt_content": "<image_2>",
-  "pid": "coding_1",
-  "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.show()",
-  "options": [
-    "<image_1>",
-    "<image_2>",
-    "<image_3>",
-    "<image_4>"
-  ],
-  "answer": "B",
-  "solution": "",
-  "subject": "Coding",
-  "task": "Code Choose Vis",
-  "category": "Advanced Chart Type;Axis & Scale",
-  "source": "new_annotated",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "To determine which visualization the given Python code generates, let's analyze the code step by step:\n\n---\n\n### **Step 1: Importing Libraries and Setting Up Data**\n```python\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\n```\n- **`x`**: 1000 random values between 0 and 1.\n- **`y`**: 1000 random values between -1 and 1 (scaled and shifted).\n- **`labels`**: Random binary labels (0 or 1) for each data point.\n\n---\n\n### **Step 2: Creating the Scatter Plot**\n```python\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\n```\n- A scatter plot is created with:\n  - Blue points for `labels == 0`.\n  - Red points for `labels == 1`.\n  - Transparency (`alpha=0.6`) is applied.\n\n---\n\n### **Step 3: Adding Axes and Labels**\n```python\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\n```\n- A horizontal dashed line is added at `y=0.5`.\n- A vertical dashed line is added at `x=0`.\n- Labels for the x-axis and y-axis are added using LaTeX-style formatting.\n\n---\n\n### **Step 4: Adding Histograms**\n```python\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\n```\n- Histograms are added:\n  - For `x` values (vertical orientation).\n  - For `y` values (horizontal orientation).\n  - Blue for `labels == 0` and red for `labels == 1`.\n  - Transparency (`alpha=0.3`) is applied.\n\n---\n\n### **Step 5: Adding Text and Adjusting Limits**\n```python\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\n```\n- Text annotations (`$\\alpha_1$` and `$\\alpha_2$`) are added at specific positions.\n- The x-axis and y-axis limits are set to `[-0.1, 1.1]` and `[-1.1, 1.1]`, respectively.\n\n---\n\n### **Step 6: Displaying the Plot**\n```python\nplt.legend(title='Boundary')\nplt.show()\n```\n- A legend is added with the title \"Boundary\".\n- The plot is displayed.\n\n---\n\n### **Step 7: Matching the Output**\nThe code generates a scatter plot with overlaid histograms for both `x` and `y` values. The histograms are directly overlaid on the scatter plot, not placed in separate subplots. This matches **Option A** or **Option B**.\n\n#### **Key Difference Between A and B**\n- In **Option A**, the vertical dashed line is at `x=0`, and the horizontal dashed line is at `y=0.5`. This matches the code.\n- In **Option B**, the dashed lines are misplaced.\n\nThus, the correct answer is:\n\n\\[\n\\boxed{A}\n\\]"
-}
-  0%|          | 1/564 [00:19<3:03:45, 19.58s/it]Generated Response: To determine which visualization the given Python code generates, let's analyze the code step by step:
-
----
-
-### **Step 1: Importing Libraries and Setting Up Data**
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-np.random.seed(0)
-x = np.random.rand(1000)
-y = np.random.rand(1000) * 2 - 1 
-labels = np.random.choice([0, 1], size=1000)
-```
-- **`x`**: 1000 random values between 0 and 1.
-- **`y`**: 1000 random values between -1 and 1 (scaled and shifted).
-- **`labels`**: Random binary labels (0 or 1) for each data point.
-
----
-
-### **Step 2: Creating the Scatter Plot**
-```python
-plt.figure(figsize=(8, 8))
-plt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)
-plt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)
-```
-- A scatter plot is created with:
-  - Blue points for `labels == 0`.
-  - Red points for `labels == 1`.
-  - Transparency (`alpha=0.6`) is applied.
-
----
-
-### **Step 3: Adding Axes and Labels**
-```python
-plt.axhline(0.5, color='black', linestyle=':', linewidth=1)
-plt.axvline(0, color='black', linestyle=':', linewidth=1)
-plt.xlabel(r'$P(F_{i+1} | F_i)$')
-plt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')
-```
-- A horizontal dashed line is added at `y=0.5`.
-- A vertical dashed line is added at `x=0`.
-- Labels for the x-axis and y-axis are added using LaTeX-style formatting.
-
----
-
-### **Step 4: Adding Histograms**
-```python
-plt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)
-plt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)
-plt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)
-plt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)
-```
-- Histograms are added:
-  - For `x` values (vertical orientation).
-  - For `y` values (horizontal orientation).
-  - Blue for `labels == 0` and red for `labels == 1`.
-  - Transparency (`alpha=0.3`) is applied.
-
----
-
-### **Step 5: Adding Text and Adjusting Limits**
-```python
-plt.text(-0.1, -1, r'$\alpha_1$', fontsize=12)
-plt.text(1.02, 0.5, r'$\alpha_2$', fontsize=12)
-plt.xlim(-0.1, 1.1)
-plt.ylim(-1.1, 1.1)
-```
-- Text annotations (`$\alpha_1$` and `$\alpha_2$`) are added at specific positions.
-- The x-axis and y-axis limits are set to `[-0.1, 1.1]` and `[-1.1, 1.1]`, respectively.
-
----
-
-### **Step 6: Displaying the Plot**
-```python
-plt.legend(title='Boundary')
-plt.show()
-```
-- A legend is added with the title "Boundary".
-- The plot is displayed.
-
----
-
-### **Step 7: Matching the Output**
-The code generates a scatter plot with overlaid histograms for both `x` and `y` values. The histograms are directly overlaid on the scatter plot, not placed in separate subplots. This matches **Option A** or **Option B**.
-
-#### **Key Difference Between A and B**
-- In **Option A**, the vertical dashed line is at `x=0`, and the horizontal dashed line is at `y=0.5`. This matches the code.
-- In **Option B**, the dashed lines are misplaced.
-
-Thus, the correct answer is:
-
-\[
-\boxed{A}
-\]
------- End  ------
-
-
---- Sample Generation Debug ---
-PID: coding_2
-Problem: {
-  "query": "\nWhich visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nfrom matplotlib.gridspec import GridSpec\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1  \nlabels = np.random.choice([0, 1], size=1000)\nfig = plt.figure(figsize=(8, 8))\ngs = GridSpec(4, 4, figure=fig)\nax_main = fig.add_subplot(gs[1:4, 0:3])\nax_main.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nax_main.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nax_main.axhline(0.5, color='black', linestyle=':', linewidth=1)\nax_main.axvline(0, color='black', linestyle=':', linewidth=1)\nax_main.set_xlabel(r'$P(F_{i+1} | F_i)$')\nax_main.set_ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nax_main.legend(title='Boundary')\nax_main.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nax_main.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nax_main.set_xlim(-0.1, 1.1)\nax_main.set_ylim(-1.1, 1.1)\nax_histx = fig.add_subplot(gs[0, 0:3], sharex=ax_main)\nax_histy = fig.add_subplot(gs[1:4, 3], sharey=ax_main)\nax_histx.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, density=True)\nax_histx.hist(x[labels == 1], bins=30, color='red', alpha=0.3, density=True)\nax_histy.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nax_histy.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nax_histx.label_outer()\nax_histy.label_outer()\nax_histy.tick_params(axis='both', direction='in')\nplt.show()\nA: <image_1>\nB: <image_2>\nC: <image_3>\nD: <image_4>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
-  "gt_content": "<image_1>",
-  "pid": "coding_2",
-  "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nfrom matplotlib.gridspec import GridSpec\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1  \nlabels = np.random.choice([0, 1], size=1000)\nfig = plt.figure(figsize=(8, 8))\ngs = GridSpec(4, 4, figure=fig)\nax_main = fig.add_subplot(gs[1:4, 0:3])\nax_main.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nax_main.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nax_main.axhline(0.5, color='black', linestyle=':', linewidth=1)\nax_main.axvline(0, color='black', linestyle=':', linewidth=1)\nax_main.set_xlabel(r'$P(F_{i+1} | F_i)$')\nax_main.set_ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nax_main.legend(title='Boundary')\nax_main.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nax_main.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nax_main.set_xlim(-0.1, 1.1)\nax_main.set_ylim(-1.1, 1.1)\nax_histx = fig.add_subplot(gs[0, 0:3], sharex=ax_main)\nax_histy = fig.add_subplot(gs[1:4, 3], sharey=ax_main)\nax_histx.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, density=True)\nax_histx.hist(x[labels == 1], bins=30, color='red', alpha=0.3, density=True)\nax_histy.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nax_histy.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nax_histx.label_outer()\nax_histy.label_outer()\nax_histy.tick_params(axis='both', direction='in')\nplt.show()",
-  "options": [
-    "<image_1>",
-    "<image_2>",
-    "<image_3>",
-    "<image_4>"
-  ],
-  "answer": "A",
-  "solution": "",
-  "subject": "Coding",
-  "task": "Code Choose Vis",
-  "category": "Advanced Chart Type;Axis & Scale",
-  "source": "new_annotated",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "To determine which visualization the given Python code generates, let's analyze the code step by step:\n\n---\n\n### **Step 1: Importing Libraries and Setting Up Data**\n```python\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nfrom matplotlib.gridspec import GridSpec\n```\n- **`matplotlib.pyplot`** is used for plotting.\n- **`numpy`** is used for generating random data.\n- **`GridSpec`** is used to create a grid layout for subplots.\n\n```python\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1  \nlabels = np.random.choice([0, 1], size=1000)\n```\n- `x` is an array of 1000 random values between 0 and 1.\n- `y` is an array of 1000 random values between -1 and 1.\n- `labels` is an array of 1000 random binary values (0 or 1).\n\n---\n\n### **Step 2: Creating the Figure and Grid Layout**\n```python\nfig = plt.figure(figsize=(8, 8))\ngs = GridSpec(4, 4, figure=fig)\n```\n- A figure of size 8x8 is created.\n- A 4x4 grid layout is defined using `GridSpec`.\n\n---\n\n### **Step 3: Main Scatter Plot**\n```python\nax_main = fig.add_subplot(gs[1:4, 0:3])\nax_main.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nax_main.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\n```\n- A scatter plot is created in the main subplot (`ax_main`).\n- Points with `labels == 0` are plotted in blue, and points with `labels == 1` are plotted in red.\n\n```python\nax_main.axhline(0.5, color='black', linestyle=':', linewidth=1)\nax_main.axvline(0, color='black', linestyle=':', linewidth=1)\n```\n- A horizontal dashed line is drawn at `y = 0.5`.\n- A vertical dashed line is drawn at `x = 0`.\n\n```python\nax_main.set_xlabel(r'$P(F_{i+1} | F_i)$')\nax_main.set_ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nax_main.legend(title='Boundary')\n```\n- Labels for the x-axis and y-axis are set using LaTeX-style formatting.\n- A legend is added with the title \"Boundary.\"\n\n```python\nax_main.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nax_main.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nax_main.set_xlim(-0.1, 1.1)\nax_main.set_ylim(-1.1, 1.1)\n```\n- Text annotations (`$\\alpha_1$` and `$\\alpha_2$`) are added at specific positions.\n- The x-axis and y-axis limits are set.\n\n---\n\n### **Step 4: Marginal Histograms**\n```python\nax_histx = fig.add_subplot(gs[0, 0:3], sharex=ax_main)\nax_histy = fig.add_subplot(gs[1:4, 3], sharey=ax_main)\n```\n- Two additional subplots are created for histograms:\n  - `ax_histx` (top subplot) shares the x-axis with `ax_main`.\n  - `ax_histy` (right subplot) shares the y-axis with `ax_main`.\n\n```python\nax_histx.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, density=True)\nax_histx.hist(x[labels == 1], bins=30, color='red', alpha=0.3, density=True)\n```\n- A histogram of `x` values is plotted in `ax_histx`:\n  - Blue bars for `labels == 0`.\n  - Red bars for `labels == 1`.\n\n```python\nax_histy.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nax_histy.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\n```\n- A histogram of `y` values is plotted in `ax_histy`:\n  - Blue bars for `labels == 0`.\n  - Red bars for `labels == 1`.\n\n```python\nax_histx.label_outer()\nax_histy.label_outer()\nax_histy.tick_params(axis='both', direction='in')\n```\n- Outer labels are hidden for cleaner visualization.\n- Tick marks for `ax_histy` are set to point inward.\n\n---\n\n### **Step 5: Displaying the Plot**\n```python\nplt.show()\n```\n- The plot is displayed.\n\n---\n\n### **Step 6: Matching the Output**\n- The main scatter plot shows red and blue points with dashed lines at `x = 0` and `y = 0.5`.\n- Marginal histograms are displayed above and to the right of the scatter plot.\n- The layout matches **Option A** and **Option D**.\n\n#### **Key Difference Between A and D**\n- Both A and D are identical. Therefore, the correct answer is:\n\n\\[\n\\boxed{A}\n\\]"
-}
-[root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  0%|          | 2/564 [00:34<2:37:35, 16.82s/it]Generated Response: To determine which visualization the given Python code generates, let's analyze the code step by step:
-
----
-
-### **Step 1: Importing Libraries and Setting Up Data**
-```python
-import matplotlib.pyplot as plt
-import numpy as np
-np.random.seed(0)
-from matplotlib.gridspec import GridSpec
-```
-- **`matplotlib.pyplot`** is used for plotting.
-- **`numpy`** is used for generating random data.
-- **`GridSpec`** is used to create a grid layout for subplots.
-
-```python
-x = np.random.rand(1000)
-y = np.random.rand(1000) * 2 - 1  
-labels = np.random.choice([0, 1], size=1000)
-```
-- `x` is an array of 1000 random values between 0 and 1.
-- `y` is an array of 1000 random values between -1 and 1.
-- `labels` is an array of 1000 random binary values (0 or 1).
-
----
-
-### **Step 2: Creating the Figure and Grid Layout**
-```python
-fig = plt.figure(figsize=(8, 8))
-gs = GridSpec(4, 4, figure=fig)
-```
-- A figure of size 8x8 is created.
-- A 4x4 grid layout is defined using `GridSpec`.
-
----
-
-### **Step 3: Main Scatter Plot**
-```python
-ax_main = fig.add_subplot(gs[1:4, 0:3])
-ax_main.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)
-ax_main.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)
-```
-- A scatter plot is created in the main subplot (`ax_main`).
-- Points with `labels == 0` are plotted in blue, and points with `labels == 1` are plotted in red.
-
-```python
-ax_main.axhline(0.5, color='black', linestyle=':', linewidth=1)
-ax_main.axvline(0, color='black', linestyle=':', linewidth=1)
-```
-- A horizontal dashed line is drawn at `y = 0.5`.
-- A vertical dashed line is drawn at `x = 0`.
-
-```python
-ax_main.set_xlabel(r'$P(F_{i+1} | F_i)$')
-ax_main.set_ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')
-ax_main.legend(title='Boundary')
-```
-- Labels for the x-axis and y-axis are set using LaTeX-style formatting.
-- A legend is added with the title "Boundary."
-
-```python
-ax_main.text(-0.1, -1, r'$\alpha_1$', fontsize=12)
-ax_main.text(1.02, 0.5, r'$\alpha_2$', fontsize=12)
-ax_main.set_xlim(-0.1, 1.1)
-ax_main.set_ylim(-1.1, 1.1)
-```
-- Text annotations (`$\alpha_1$` and `$\alpha_2$`) are added at specific positions.
-- The x-axis and y-axis limits are set.
-
----
-
-### **Step 4: Marginal Histograms**
-```python
-ax_histx = fig.add_subplot(gs[0, 0:3], sharex=ax_main)
-ax_histy = fig.add_subplot(gs[1:4, 3], sharey=ax_main)
-```
-- Two additional subplots are created for histograms:
-  - `ax_histx` (top subplot) shares the x-axis with `ax_main`.
-  - `ax_histy` (right subplot) shares the y-axis with `ax_main`.
-
-```python
-ax_histx.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, density=True)
-ax_histx.hist(x[labels == 1], bins=30, color='red', alpha=0.3, density=True)
-```
-- A histogram of `x` values is plotted in `ax_histx`:
-  - Blue bars for `labels == 0`.
-  - Red bars for `labels == 1`.
-
-```python
-ax_histy.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)
-ax_histy.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)
-```
-- A histogram of `y` values is plotted in `ax_histy`:
-  - Blue bars for `labels == 0`.
-  - Red bars for `labels == 1`.
-
-```python
-ax_histx.label_outer()
-ax_histy.label_outer()
-ax_histy.tick_params(axis='both', direction='in')
-```
-- Outer labels are hidden for cleaner visualization.
-- Tick marks for `ax_histy` are set to point inward.
-
----
-
-### **Step 5: Displaying the Plot**
-```python
-plt.show()
-```
-- The plot is displayed.
-
----
-
-### **Step 6: Matching the Output**
-- The main scatter plot shows red and blue points with dashed lines at `x = 0` and `y = 0.5`.
-- Marginal histograms are displayed above and to the right of the scatter plot.
-- The layout matches **Option A** and **Option D**.
-
-#### **Key Difference Between A and D**
-- Both A and D are identical. Therefore, the correct answer is:
-
-\[
-\boxed{A}
-\]
------- End  ------
-
-
---- Sample Generation Debug ---
-PID: coding_3
-Problem: {
-  "query": "\nWhich visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.tick_params(axis='both', direction='in')\nplt.show()\nA: <image_1>\nB: <image_2>\nC: <image_3>\nD: <image_4>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
-  "gt_content": "<image_3>",
-  "pid": "coding_3",
-  "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.tick_params(axis='both', direction='in')\nplt.show()",
-  "options": [
-    "<image_1>",
-    "<image_2>",
-    "<image_3>",
-    "<image_4>"
-  ],
-  "answer": "C",
-  "solution": "",
-  "subject": "Coding",
-  "task": "Code Choose Vis",
-  "category": "Advanced Chart Type;Axis & Scale",
-  "source": "new_annotated",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "To determine which visualization the given Python code generates, we will analyze the code step by step and match it with the provided options.\n\n---\n\n### **Step 1: Code Analysis**\n\n#### **1. Data Generation**\n```python\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\n```\n- `x`: 1000 random values between 0 and 1.\n- `y`: 1000 random values between -1 and 1.\n- `labels`: 1000 random binary values (0 or 1).\n\n#### **2. Scatter Plot**\n```python\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\n```\n- Two scatter plots are created:\n  - Blue points for `labels == 0`.\n  - Red points for `labels == 1`.\n\n#### **3. Axes Lines**\n```python\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\n```\n- A horizontal dashed line at \\( y = 0.5 \\).\n- A vertical dashed line at \\( x = 0 \\).\n\n#### **4. Labels and Legends**\n```python\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\n```\n- X-axis and Y-axis are labeled with mathematical expressions.\n- A legend is added with the title \"Boundary\".\n\n#### **5. Histograms**\n```python\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\n```\n- Four histograms are added:\n  - Vertical histograms for `x` values (blue for `labels == 0`, red for `labels == 1`).\n  - Horizontal histograms for `y` values (blue for `labels == 0`, red for `labels == 1`).\n\n#### **6. Text Annotations**\n```python\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\n```\n- Text annotations are added at specific positions:\n  - \\(\\alpha_1\\) at \\((-0.1, -1)\\).\n  - \\(\\alpha_2\\) at \\((1.02, 0.5)\\).\n\n#### **7. Plot Limits and Ticks**\n```python\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.tick_params(axis='both', direction='in')\n```\n- X-axis limits: \\([-0.1, 1.1]\\).\n- Y-axis limits: \\([-1.1, 1.1]\\).\n- Tick marks are set to point inward.\n\n---\n\n### **Step 2: Matching with Options**\n\n#### **Option A**\n- This plot has a scatter plot in the center and histograms on the top and right.\n- The histograms are **separate** from the scatter plot.\n\n#### **Option B**\n- This plot has a scatter plot in the center, but the histograms **overlap** the scatter plot.\n\n#### **Option C**\n- This plot is identical to Option B, with overlapping histograms.\n\n#### **Option D**\n- This plot is identical to Option A, with separate histograms.\n\n---\n\n### **Step 3: Correct Answer**\nThe code generates a plot where the histograms overlap the scatter plot. This matches **Option B** and **Option C**. Since both are identical, either is correct.\n\n\\[\n\\boxed{B}\n\\]"
-}
-[root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  1%|          | 3/564 [00:49<2:31:12, 16.17s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  1%|          | 4/564 [01:03<2:20:09, 15.02s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  1%|          | 5/564 [01:13<2:05:52, 13.51s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  1%|          | 6/564 [01:24<1:56:24, 12.52s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  1%|          | 7/564 [01:39<2:04:45, 13.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  1%|▏         | 8/564 [01:51<1:59:32, 12.90s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  2%|▏         | 9/564 [02:04<2:00:34, 13.03s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  2%|▏         | 10/564 [02:19<2:04:48, 13.52s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  2%|▏         | 11/564 [02:31<1:59:40, 12.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  2%|▏         | 12/564 [02:48<2:11:57, 14.34s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  2%|▏         | 13/564 [03:00<2:05:08, 13.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  2%|▏         | 14/564 [03:13<2:01:32, 13.26s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  3%|▎         | 15/564 [03:21<1:47:58, 11.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  3%|▎         | 16/564 [03:30<1:39:42, 10.92s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  3%|▎         | 17/564 [03:48<1:59:27, 13.10s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  3%|▎         | 18/564 [04:07<2:13:41, 14.69s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  3%|▎         | 19/564 [04:22<2:14:28, 14.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  4%|▎         | 20/564 [04:42<2:30:47, 16.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  4%|▎         | 21/564 [04:51<2:09:07, 14.27s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  4%|▍         | 22/564 [05:02<1:58:35, 13.13s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  4%|▍         | 23/564 [05:13<1:52:00, 12.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  4%|▍         | 24/564 [05:23<1:45:42, 11.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  4%|▍         | 25/564 [05:32<1:38:41, 10.99s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  5%|▍         | 26/564 [05:41<1:34:10, 10.50s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  5%|▍         | 27/564 [05:51<1:32:38, 10.35s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  5%|▍         | 28/564 [06:00<1:27:56,  9.84s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  5%|▌         | 29/564 [06:17<1:47:21, 12.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  5%|▌         | 30/564 [06:30<1:50:43, 12.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  5%|▌         | 31/564 [06:50<2:09:45, 14.61s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  6%|▌         | 32/564 [07:08<2:19:28, 15.73s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  6%|▌         | 33/564 [07:28<2:29:30, 16.89s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  6%|▌         | 34/564 [07:40<2:14:50, 15.26s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  6%|▌         | 35/564 [07:51<2:04:43, 14.15s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  6%|▋         | 36/564 [08:08<2:10:40, 14.85s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  7%|▋         | 37/564 [08:20<2:04:07, 14.13s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  7%|▋         | 38/564 [08:34<2:03:45, 14.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  7%|▋         | 39/564 [08:45<1:55:15, 13.17s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  7%|▋         | 40/564 [08:54<1:44:01, 11.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  7%|▋         | 41/564 [09:07<1:46:20, 12.20s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  7%|▋         | 42/564 [09:23<1:55:22, 13.26s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  8%|▊         | 43/564 [09:39<2:02:20, 14.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  8%|▊         | 44/564 [09:53<2:03:42, 14.27s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  8%|▊         | 45/564 [10:07<2:00:35, 13.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  8%|▊         | 46/564 [10:20<1:58:34, 13.73s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  8%|▊         | 47/564 [10:31<1:51:31, 12.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  9%|▊         | 48/564 [10:44<1:52:09, 13.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  9%|▊         | 49/564 [10:56<1:49:02, 12.70s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  9%|▉         | 50/564 [11:07<1:44:54, 12.25s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  9%|▉         | 51/564 [11:22<1:50:22, 12.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  9%|▉         | 52/564 [11:39<2:00:31, 14.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-  9%|▉         | 53/564 [11:50<1:51:51, 13.13s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 10%|▉         | 54/564 [11:59<1:42:42, 12.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 10%|▉         | 55/564 [12:10<1:39:13, 11.70s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 10%|▉         | 56/564 [12:25<1:46:35, 12.59s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 10%|█         | 57/564 [12:35<1:40:09, 11.85s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 10%|█         | 58/564 [12:45<1:36:01, 11.39s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 10%|█         | 59/564 [12:55<1:32:24, 10.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 11%|█         | 60/564 [13:07<1:34:17, 11.23s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 11%|█         | 61/564 [13:21<1:40:56, 12.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 11%|█         | 62/564 [13:31<1:37:16, 11.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 11%|█         | 63/564 [13:48<1:49:58, 13.17s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 11%|█▏        | 64/564 [13:59<1:44:21, 12.52s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 12%|█▏        | 65/564 [14:10<1:39:51, 12.01s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 12%|█▏        | 66/564 [14:22<1:40:23, 12.10s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 12%|█▏        | 67/564 [14:35<1:40:36, 12.15s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 12%|█▏        | 68/564 [14:49<1:46:16, 12.86s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 12%|█▏        | 69/564 [14:58<1:35:28, 11.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 12%|█▏        | 70/564 [15:08<1:32:57, 11.29s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 13%|█▎        | 71/564 [15:20<1:33:30, 11.38s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 13%|█▎        | 72/564 [15:30<1:29:16, 10.89s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 13%|█▎        | 73/564 [15:45<1:40:04, 12.23s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 13%|█▎        | 74/564 [15:58<1:41:56, 12.48s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 13%|█▎        | 75/564 [16:12<1:45:09, 12.90s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 13%|█▎        | 76/564 [16:28<1:53:06, 13.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 14%|█▎        | 77/564 [16:38<1:43:29, 12.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 14%|█▍        | 78/564 [16:47<1:34:19, 11.64s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 14%|█▍        | 79/564 [16:59<1:33:07, 11.52s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 14%|█▍        | 80/564 [17:09<1:30:54, 11.27s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 14%|█▍        | 81/564 [17:23<1:35:39, 11.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 15%|█▍        | 82/564 [17:32<1:29:11, 11.10s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 15%|█▍        | 83/564 [17:42<1:27:46, 10.95s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 15%|█▍        | 84/564 [17:54<1:28:05, 11.01s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 15%|█▌        | 85/564 [18:10<1:41:29, 12.71s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 15%|█▌        | 86/564 [18:21<1:37:08, 12.19s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 15%|█▌        | 87/564 [18:32<1:33:40, 11.78s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 16%|█▌        | 88/564 [18:51<1:50:54, 13.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 16%|█▌        | 89/564 [19:05<1:49:03, 13.78s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 16%|█▌        | 90/564 [19:18<1:47:31, 13.61s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 16%|█▌        | 91/564 [19:24<1:30:29, 11.48s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 16%|█▋        | 92/564 [19:43<1:47:10, 13.62s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 16%|█▋        | 93/564 [20:03<2:03:14, 15.70s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 17%|█▋        | 94/564 [20:17<1:57:52, 15.05s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 17%|█▋        | 95/564 [20:31<1:55:32, 14.78s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 17%|█▋        | 96/564 [20:46<1:55:11, 14.77s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 17%|█▋        | 97/564 [20:59<1:51:39, 14.34s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 17%|█▋        | 98/564 [21:12<1:48:37, 13.99s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 18%|█▊        | 99/564 [21:24<1:43:06, 13.30s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 18%|█▊        | 100/564 [21:35<1:37:35, 12.62s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 18%|█▊        | 101/564 [21:37<1:13:39,  9.55s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 18%|█▊        | 102/564 [21:50<1:21:05, 10.53s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 18%|█▊        | 103/564 [22:05<1:30:55, 11.83s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 18%|█▊        | 104/564 [22:21<1:40:52, 13.16s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 19%|█▊        | 105/564 [22:41<1:55:45, 15.13s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 19%|█▉        | 106/564 [22:53<1:48:41, 14.24s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 19%|█▉        | 107/564 [23:13<2:00:34, 15.83s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 19%|█▉        | 108/564 [23:27<1:55:39, 15.22s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 19%|█▉        | 109/564 [23:38<1:47:24, 14.16s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 20%|█▉        | 110/564 [23:51<1:44:12, 13.77s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 20%|█▉        | 111/564 [24:01<1:34:58, 12.58s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 20%|█▉        | 112/564 [24:12<1:30:22, 12.00s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 20%|██        | 113/564 [24:24<1:30:48, 12.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 20%|██        | 114/564 [24:38<1:34:49, 12.64s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 20%|██        | 115/564 [24:50<1:33:19, 12.47s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 21%|██        | 116/564 [25:02<1:31:25, 12.24s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 21%|██        | 117/564 [25:17<1:37:06, 13.03s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 21%|██        | 118/564 [25:36<1:50:36, 14.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 21%|██        | 119/564 [25:53<1:56:29, 15.71s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 21%|██▏       | 120/564 [26:11<2:01:24, 16.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 21%|██▏       | 121/564 [26:24<1:53:05, 15.32s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 22%|██▏       | 122/564 [26:34<1:40:33, 13.65s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 22%|██▏       | 123/564 [26:44<1:32:10, 12.54s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 22%|██▏       | 124/564 [26:56<1:30:57, 12.40s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 22%|██▏       | 125/564 [27:13<1:41:29, 13.87s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 22%|██▏       | 126/564 [27:27<1:40:17, 13.74s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 23%|██▎       | 127/564 [27:43<1:45:58, 14.55s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 23%|██▎       | 128/564 [27:55<1:40:00, 13.76s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 23%|██▎       | 129/564 [28:12<1:47:05, 14.77s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 23%|██▎       | 130/564 [28:25<1:42:15, 14.14s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 23%|██▎       | 131/564 [28:36<1:35:06, 13.18s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 23%|██▎       | 132/564 [28:48<1:33:45, 13.02s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 24%|██▎       | 133/564 [28:58<1:26:26, 12.03s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 24%|██▍       | 134/564 [29:09<1:23:34, 11.66s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 24%|██▍       | 135/564 [29:25<1:33:35, 13.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 24%|██▍       | 136/564 [29:39<1:34:31, 13.25s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 24%|██▍       | 137/564 [29:53<1:36:40, 13.58s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 24%|██▍       | 138/564 [30:03<1:27:27, 12.32s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 25%|██▍       | 139/564 [30:18<1:33:50, 13.25s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 25%|██▍       | 140/564 [30:28<1:26:21, 12.22s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 25%|██▌       | 141/564 [30:39<1:23:57, 11.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 25%|██▌       | 142/564 [30:50<1:21:18, 11.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 25%|██▌       | 143/564 [31:00<1:18:38, 11.21s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 26%|██▌       | 144/564 [31:14<1:23:26, 11.92s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 26%|██▌       | 145/564 [31:25<1:21:20, 11.65s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 26%|██▌       | 146/564 [31:37<1:21:09, 11.65s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 26%|██▌       | 147/564 [31:48<1:20:14, 11.55s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 26%|██▌       | 148/564 [32:02<1:24:38, 12.21s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 26%|██▋       | 149/564 [32:12<1:21:05, 11.72s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 27%|██▋       | 150/564 [32:26<1:24:37, 12.26s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 27%|██▋       | 151/564 [32:36<1:19:39, 11.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 27%|██▋       | 152/564 [32:48<1:20:26, 11.71s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 27%|██▋       | 153/564 [33:00<1:21:00, 11.83s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 27%|██▋       | 154/564 [33:11<1:20:13, 11.74s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 27%|██▋       | 155/564 [33:18<1:10:19, 10.32s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 28%|██▊       | 156/564 [33:28<1:09:15, 10.18s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 28%|██▊       | 157/564 [33:37<1:06:24,  9.79s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 28%|██▊       | 158/564 [33:50<1:11:45, 10.60s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 28%|██▊       | 159/564 [34:09<1:29:24, 13.24s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 28%|██▊       | 160/564 [34:18<1:19:48, 11.85s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 29%|██▊       | 161/564 [34:31<1:22:44, 12.32s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 29%|██▊       | 162/564 [34:43<1:22:18, 12.28s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 29%|██▉       | 163/564 [34:57<1:25:13, 12.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 29%|██▉       | 164/564 [35:10<1:26:23, 12.96s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 29%|██▉       | 165/564 [35:28<1:35:33, 14.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 29%|██▉       | 166/564 [35:44<1:37:25, 14.69s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 30%|██▉       | 167/564 [35:59<1:38:34, 14.90s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 30%|██▉       | 168/564 [36:16<1:42:34, 15.54s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 30%|██▉       | 169/564 [36:29<1:36:30, 14.66s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 30%|███       | 170/564 [36:40<1:30:49, 13.83s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 30%|███       | 171/564 [36:53<1:27:34, 13.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 30%|███       | 172/564 [37:04<1:23:01, 12.71s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 31%|███       | 173/564 [37:17<1:24:21, 12.95s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 31%|███       | 174/564 [37:30<1:22:27, 12.69s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 31%|███       | 175/564 [37:39<1:16:26, 11.79s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 31%|███       | 176/564 [37:50<1:14:03, 11.45s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 31%|███▏      | 177/564 [38:02<1:15:39, 11.73s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 32%|███▏      | 178/564 [38:13<1:13:41, 11.45s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 32%|███▏      | 179/564 [38:25<1:13:31, 11.46s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 32%|███▏      | 180/564 [38:34<1:09:56, 10.93s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 32%|███▏      | 181/564 [38:46<1:10:58, 11.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 32%|███▏      | 182/564 [38:58<1:13:20, 11.52s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 32%|███▏      | 183/564 [39:11<1:15:27, 11.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 33%|███▎      | 184/564 [39:25<1:19:00, 12.48s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 33%|███▎      | 185/564 [39:37<1:18:10, 12.38s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 33%|███▎      | 186/564 [39:48<1:14:49, 11.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 33%|███▎      | 187/564 [40:00<1:16:19, 12.15s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 33%|███▎      | 188/564 [40:11<1:12:36, 11.59s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 34%|███▎      | 189/564 [40:21<1:10:37, 11.30s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 34%|███▎      | 190/564 [40:33<1:10:53, 11.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 34%|███▍      | 191/564 [40:43<1:07:44, 10.90s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 34%|███▍      | 192/564 [40:51<1:02:37, 10.10s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 34%|███▍      | 193/564 [41:03<1:05:20, 10.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 34%|███▍      | 194/564 [41:15<1:08:03, 11.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 35%|███▍      | 195/564 [41:25<1:05:35, 10.66s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 35%|███▍      | 196/564 [41:34<1:04:03, 10.45s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 35%|███▍      | 197/564 [41:43<59:55,  9.80s/it]  [root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 35%|███▌      | 198/564 [41:50<55:09,  9.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 35%|███▌      | 199/564 [41:59<53:58,  8.87s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 35%|███▌      | 200/564 [42:06<51:31,  8.49s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 36%|███▌      | 201/564 [42:16<53:36,  8.86s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 36%|███▌      | 202/564 [42:26<55:01,  9.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 36%|███▌      | 203/564 [42:38<1:00:56, 10.13s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 36%|███▌      | 204/564 [42:45<55:28,  9.25s/it]  [root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 36%|███▋      | 205/564 [42:58<1:01:21, 10.26s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 37%|███▋      | 206/564 [43:07<59:39, 10.00s/it]  [root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 37%|███▋      | 207/564 [43:16<57:16,  9.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 37%|███▋      | 208/564 [43:24<54:15,  9.14s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 37%|███▋      | 209/564 [43:31<50:45,  8.58s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 37%|███▋      | 210/564 [43:38<47:53,  8.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 37%|███▋      | 211/564 [43:46<46:44,  7.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 38%|███▊      | 212/564 [43:57<51:38,  8.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 38%|███▊      | 213/564 [44:05<50:07,  8.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 38%|███▊      | 214/564 [44:15<52:08,  8.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 38%|███▊      | 215/564 [44:22<49:18,  8.48s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 38%|███▊      | 216/564 [44:30<49:01,  8.45s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 38%|███▊      | 217/564 [44:41<52:17,  9.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 39%|███▊      | 218/564 [44:53<56:56,  9.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 39%|███▉      | 219/564 [45:01<55:06,  9.59s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 39%|███▉      | 220/564 [45:10<53:35,  9.35s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 39%|███▉      | 221/564 [45:19<51:51,  9.07s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 39%|███▉      | 222/564 [45:29<54:02,  9.48s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 40%|███▉      | 223/564 [45:37<51:57,  9.14s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 40%|███▉      | 224/564 [45:47<51:51,  9.15s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 40%|███▉      | 225/564 [45:53<47:33,  8.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 40%|████      | 226/564 [46:00<45:15,  8.03s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 40%|████      | 227/564 [46:09<45:20,  8.07s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 40%|████      | 228/564 [46:17<45:42,  8.16s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 41%|████      | 229/564 [46:27<48:43,  8.73s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 41%|████      | 230/564 [46:35<47:50,  8.59s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 41%|████      | 231/564 [46:43<46:20,  8.35s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 41%|████      | 232/564 [46:51<45:02,  8.14s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 41%|████▏     | 233/564 [47:04<53:25,  9.68s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 41%|████▏     | 234/564 [47:16<57:40, 10.49s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 42%|████▏     | 235/564 [47:28<58:53, 10.74s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 42%|████▏     | 236/564 [47:37<56:56, 10.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 42%|████▏     | 237/564 [47:45<51:44,  9.49s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 42%|████▏     | 238/564 [47:54<50:39,  9.32s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 42%|████▏     | 239/564 [48:07<56:42, 10.47s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 43%|████▎     | 240/564 [48:16<54:51, 10.16s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 43%|████▎     | 241/564 [48:27<55:27, 10.30s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 43%|████▎     | 242/564 [48:42<1:03:45, 11.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 43%|████▎     | 243/564 [48:52<59:47, 11.17s/it]  [root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 43%|████▎     | 244/564 [49:01<55:56, 10.49s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 43%|████▎     | 245/564 [49:09<51:33,  9.70s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 44%|████▎     | 246/564 [49:18<50:00,  9.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 44%|████▍     | 247/564 [49:24<44:51,  8.49s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 44%|████▍     | 248/564 [49:34<47:28,  9.01s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 44%|████▍     | 249/564 [49:46<51:11,  9.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 44%|████▍     | 250/564 [49:54<49:11,  9.40s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 45%|████▍     | 251/564 [50:07<54:03, 10.36s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 45%|████▍     | 252/564 [50:19<56:51, 10.93s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 45%|████▍     | 253/564 [50:28<54:09, 10.45s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 45%|████▌     | 254/564 [50:39<54:12, 10.49s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 45%|████▌     | 255/564 [50:50<54:19, 10.55s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 45%|████▌     | 256/564 [50:59<51:45, 10.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 46%|████▌     | 257/564 [51:06<47:43,  9.33s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 46%|████▌     | 258/564 [51:16<48:02,  9.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 46%|████▌     | 259/564 [51:24<45:34,  8.97s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 46%|████▌     | 260/564 [51:32<44:04,  8.70s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 46%|████▋     | 261/564 [51:41<44:36,  8.83s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 46%|████▋     | 262/564 [51:52<47:31,  9.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 47%|████▋     | 263/564 [52:04<51:56, 10.36s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 47%|████▋     | 264/564 [52:13<48:49,  9.76s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 47%|████▋     | 265/564 [52:24<51:27, 10.33s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 47%|████▋     | 266/564 [52:32<46:47,  9.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 47%|████▋     | 267/564 [52:41<47:22,  9.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 48%|████▊     | 268/564 [52:53<50:30, 10.24s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 48%|████▊     | 269/564 [53:01<46:49,  9.52s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 48%|████▊     | 270/564 [53:08<43:20,  8.85s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 48%|████▊     | 271/564 [53:15<39:55,  8.17s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 48%|████▊     | 272/564 [53:23<39:28,  8.11s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 48%|████▊     | 273/564 [53:35<44:20,  9.14s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 49%|████▊     | 274/564 [53:43<43:42,  9.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 49%|████▉     | 275/564 [53:52<43:28,  9.03s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 49%|████▉     | 276/564 [54:02<44:53,  9.35s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 49%|████▉     | 277/564 [54:12<44:42,  9.35s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 49%|████▉     | 278/564 [54:23<47:11,  9.90s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 49%|████▉     | 279/564 [54:33<47:37, 10.03s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 50%|████▉     | 280/564 [54:43<47:13,  9.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 50%|████▉     | 281/564 [54:52<45:28,  9.64s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 50%|█████     | 282/564 [55:02<45:14,  9.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 50%|█████     | 283/564 [55:12<46:05,  9.84s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 50%|█████     | 284/564 [55:25<49:58, 10.71s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 51%|█████     | 285/564 [55:32<45:18,  9.74s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 51%|█████     | 286/564 [55:41<43:32,  9.40s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 51%|█████     | 287/564 [55:52<45:17,  9.81s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 51%|█████     | 288/564 [56:00<43:34,  9.47s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 51%|█████     | 289/564 [56:10<43:17,  9.45s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 51%|█████▏    | 290/564 [56:19<42:29,  9.31s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 52%|█████▏    | 291/564 [56:30<44:54,  9.87s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 52%|█████▏    | 292/564 [56:39<43:23,  9.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 52%|█████▏    | 293/564 [56:49<44:15,  9.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 52%|█████▏    | 294/564 [56:57<41:26,  9.21s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 52%|█████▏    | 295/564 [57:06<41:42,  9.30s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 52%|█████▏    | 296/564 [57:18<44:51, 10.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 53%|█████▎    | 297/564 [57:25<40:59,  9.21s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 53%|█████▎    | 298/564 [57:33<38:39,  8.72s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 53%|█████▎    | 299/564 [57:40<35:40,  8.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 53%|█████▎    | 300/564 [57:45<32:10,  7.31s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 53%|█████▎    | 301/564 [57:55<35:01,  7.99s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 54%|█████▎    | 302/564 [58:03<35:37,  8.16s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 54%|█████▎    | 303/564 [58:12<35:44,  8.22s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 54%|█████▍    | 304/564 [58:22<37:55,  8.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 54%|█████▍    | 305/564 [58:32<40:17,  9.33s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 54%|█████▍    | 306/564 [58:43<42:37,  9.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 54%|█████▍    | 307/564 [59:00<51:19, 11.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 55%|█████▍    | 308/564 [59:10<48:49, 11.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 55%|█████▍    | 309/564 [59:19<45:24, 10.69s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 55%|█████▍    | 310/564 [59:27<41:56,  9.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 55%|█████▌    | 311/564 [59:35<38:45,  9.19s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 55%|█████▌    | 312/564 [59:43<37:03,  8.82s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 55%|█████▌    | 313/564 [59:52<37:42,  9.01s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 56%|█████▌    | 314/564 [1:00:01<36:54,  8.86s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 56%|█████▌    | 315/564 [1:00:10<37:11,  8.96s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 56%|█████▌    | 316/564 [1:00:18<35:10,  8.51s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 56%|█████▌    | 317/564 [1:00:29<38:27,  9.34s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 56%|█████▋    | 318/564 [1:00:41<41:48, 10.20s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 57%|█████▋    | 319/564 [1:00:54<44:45, 10.96s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 57%|█████▋    | 320/564 [1:01:05<44:20, 10.90s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 57%|█████▋    | 321/564 [1:01:15<43:56, 10.85s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 57%|█████▋    | 322/564 [1:01:28<46:32, 11.54s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 57%|█████▋    | 323/564 [1:01:36<41:56, 10.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 57%|█████▋    | 324/564 [1:01:45<39:30,  9.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 58%|█████▊    | 325/564 [1:01:55<39:16,  9.86s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 58%|█████▊    | 326/564 [1:02:04<38:43,  9.76s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 58%|█████▊    | 327/564 [1:02:12<35:50,  9.07s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 58%|█████▊    | 328/564 [1:02:22<36:32,  9.29s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 58%|█████▊    | 329/564 [1:02:32<38:01,  9.71s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 59%|█████▊    | 330/564 [1:02:41<37:12,  9.54s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 59%|█████▊    | 331/564 [1:02:50<35:39,  9.18s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 59%|█████▉    | 332/564 [1:02:58<34:35,  8.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 59%|█████▉    | 333/564 [1:03:07<34:56,  9.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 59%|█████▉    | 334/564 [1:03:15<32:49,  8.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 59%|█████▉    | 335/564 [1:03:25<34:14,  8.97s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 60%|█████▉    | 336/564 [1:03:35<35:18,  9.29s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 60%|█████▉    | 337/564 [1:03:40<31:03,  8.21s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 60%|█████▉    | 338/564 [1:03:48<30:40,  8.15s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 60%|██████    | 339/564 [1:03:57<30:31,  8.14s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 60%|██████    | 340/564 [1:04:06<32:04,  8.59s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 60%|██████    | 341/564 [1:04:14<31:06,  8.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 61%|██████    | 342/564 [1:04:20<28:08,  7.60s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 61%|██████    | 343/564 [1:04:28<28:34,  7.76s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 61%|██████    | 344/564 [1:04:34<26:06,  7.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 61%|██████    | 345/564 [1:04:41<25:49,  7.07s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 61%|██████▏   | 346/564 [1:04:52<30:47,  8.48s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 62%|██████▏   | 347/564 [1:05:03<32:37,  9.02s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 62%|██████▏   | 348/564 [1:05:08<28:55,  8.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 62%|██████▏   | 349/564 [1:05:21<33:44,  9.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 62%|██████▏   | 350/564 [1:05:32<35:28,  9.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 62%|██████▏   | 351/564 [1:05:45<38:37, 10.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 62%|██████▏   | 352/564 [1:05:57<39:41, 11.24s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 63%|██████▎   | 353/564 [1:06:07<37:23, 10.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 63%|██████▎   | 354/564 [1:06:15<34:22,  9.82s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 63%|██████▎   | 355/564 [1:06:22<31:55,  9.16s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 63%|██████▎   | 356/564 [1:06:31<31:37,  9.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 63%|██████▎   | 357/564 [1:06:38<29:27,  8.54s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 63%|██████▎   | 358/564 [1:06:46<28:54,  8.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 64%|██████▎   | 359/564 [1:06:57<30:33,  8.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 64%|██████▍   | 360/564 [1:07:07<31:53,  9.38s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 64%|██████▍   | 361/564 [1:07:14<29:40,  8.77s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 64%|██████▍   | 362/564 [1:07:22<28:48,  8.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 64%|██████▍   | 363/564 [1:07:31<28:29,  8.51s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 65%|██████▍   | 364/564 [1:07:38<26:43,  8.02s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 65%|██████▍   | 365/564 [1:07:45<25:38,  7.73s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 65%|██████▍   | 366/564 [1:07:51<23:40,  7.18s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 65%|██████▌   | 367/564 [1:08:01<27:05,  8.25s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 65%|██████▌   | 368/564 [1:08:21<38:17, 11.72s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 65%|██████▌   | 369/564 [1:08:29<34:34, 10.64s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 66%|██████▌   | 370/564 [1:08:38<32:25, 10.03s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 66%|██████▌   | 371/564 [1:08:49<33:30, 10.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 66%|██████▌   | 372/564 [1:09:01<35:02, 10.95s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 66%|██████▌   | 373/564 [1:09:09<31:46,  9.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 66%|██████▋   | 374/564 [1:09:16<28:13,  8.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 66%|██████▋   | 375/564 [1:09:23<26:22,  8.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 67%|██████▋   | 376/564 [1:09:28<23:13,  7.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 67%|██████▋   | 377/564 [1:09:39<26:08,  8.39s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 67%|██████▋   | 378/564 [1:09:46<25:02,  8.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 67%|██████▋   | 379/564 [1:09:55<25:54,  8.40s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 67%|██████▋   | 380/564 [1:10:04<26:34,  8.67s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 68%|██████▊   | 381/564 [1:10:14<27:10,  8.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 68%|██████▊   | 382/564 [1:10:23<26:53,  8.87s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 68%|██████▊   | 383/564 [1:10:34<28:47,  9.54s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 68%|██████▊   | 384/564 [1:10:42<27:16,  9.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 68%|██████▊   | 385/564 [1:10:52<28:30,  9.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 68%|██████▊   | 386/564 [1:11:01<27:48,  9.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 69%|██████▊   | 387/564 [1:11:11<27:45,  9.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 69%|██████▉   | 388/564 [1:11:23<29:55, 10.20s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 69%|██████▉   | 389/564 [1:11:33<29:19, 10.05s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 69%|██████▉   | 390/564 [1:11:50<35:53, 12.38s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 69%|██████▉   | 391/564 [1:11:59<32:34, 11.30s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 70%|██████▉   | 392/564 [1:12:07<29:48, 10.40s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 70%|██████▉   | 393/564 [1:12:19<30:11, 10.60s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 70%|██████▉   | 394/564 [1:12:27<27:51,  9.83s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 70%|███████   | 395/564 [1:12:34<25:35,  9.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 70%|███████   | 396/564 [1:12:43<25:18,  9.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 70%|███████   | 397/564 [1:12:52<25:05,  9.01s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 71%|███████   | 398/564 [1:13:01<25:28,  9.21s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 71%|███████   | 399/564 [1:13:10<24:40,  8.97s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 71%|███████   | 400/564 [1:13:19<24:51,  9.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 71%|███████   | 401/564 [1:13:28<24:21,  8.97s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 71%|███████▏  | 402/564 [1:13:34<22:00,  8.15s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 71%|███████▏  | 403/564 [1:13:42<21:47,  8.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 72%|███████▏  | 404/564 [1:13:56<26:09,  9.81s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 72%|███████▏  | 405/564 [1:14:05<25:18,  9.55s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 72%|███████▏  | 406/564 [1:14:13<23:50,  9.05s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 72%|███████▏  | 407/564 [1:14:22<23:52,  9.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 72%|███████▏  | 408/564 [1:14:31<23:41,  9.11s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 73%|███████▎  | 409/564 [1:14:41<24:18,  9.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 73%|███████▎  | 410/564 [1:14:50<23:39,  9.22s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 73%|███████▎  | 411/564 [1:14:58<22:50,  8.96s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 73%|███████▎  | 412/564 [1:15:05<20:40,  8.16s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 73%|███████▎  | 413/564 [1:15:13<20:34,  8.18s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 73%|███████▎  | 414/564 [1:15:22<20:59,  8.40s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 74%|███████▎  | 415/564 [1:15:28<19:24,  7.82s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 74%|███████▍  | 416/564 [1:15:37<19:40,  7.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 74%|███████▍  | 417/564 [1:15:42<17:33,  7.16s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 74%|███████▍  | 418/564 [1:15:48<16:25,  6.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 74%|███████▍  | 419/564 [1:15:56<17:10,  7.10s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 74%|███████▍  | 420/564 [1:16:05<18:41,  7.79s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 75%|███████▍  | 421/564 [1:16:16<20:54,  8.77s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 75%|███████▍  | 422/564 [1:16:25<20:33,  8.69s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 75%|███████▌  | 423/564 [1:16:31<18:38,  7.93s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 75%|███████▌  | 424/564 [1:16:37<17:40,  7.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 75%|███████▌  | 425/564 [1:16:46<18:27,  7.97s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 76%|███████▌  | 426/564 [1:16:53<17:24,  7.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 76%|███████▌  | 427/564 [1:17:03<19:12,  8.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 76%|███████▌  | 428/564 [1:17:14<20:40,  9.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 76%|███████▌  | 429/564 [1:17:23<20:00,  8.89s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 76%|███████▌  | 430/564 [1:17:30<19:02,  8.53s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 76%|███████▋  | 431/564 [1:17:35<16:39,  7.51s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 77%|███████▋  | 432/564 [1:17:42<15:49,  7.19s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 77%|███████▋  | 433/564 [1:18:00<22:47, 10.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 77%|███████▋  | 434/564 [1:18:07<20:26,  9.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 77%|███████▋  | 435/564 [1:18:16<19:51,  9.24s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 77%|███████▋  | 436/564 [1:18:27<21:03,  9.87s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 77%|███████▋  | 437/564 [1:18:35<19:59,  9.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 78%|███████▊  | 438/564 [1:18:45<19:47,  9.42s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 78%|███████▊  | 439/564 [1:18:53<19:00,  9.13s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 78%|███████▊  | 440/564 [1:19:03<18:58,  9.18s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 78%|███████▊  | 441/564 [1:19:11<18:04,  8.81s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 78%|███████▊  | 442/564 [1:19:18<16:52,  8.30s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 79%|███████▊  | 443/564 [1:19:24<15:20,  7.61s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 79%|███████▊  | 444/564 [1:19:30<14:30,  7.26s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 79%|███████▉  | 445/564 [1:19:38<15:02,  7.59s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 79%|███████▉  | 446/564 [1:19:46<15:01,  7.64s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 79%|███████▉  | 447/564 [1:19:52<13:49,  7.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 79%|███████▉  | 448/564 [1:20:01<14:44,  7.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 80%|███████▉  | 449/564 [1:20:09<14:56,  7.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 80%|███████▉  | 450/564 [1:20:22<17:45,  9.35s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 80%|███████▉  | 451/564 [1:20:32<17:53,  9.50s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 80%|████████  | 452/564 [1:20:43<18:44, 10.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 80%|████████  | 453/564 [1:20:51<17:03,  9.22s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 80%|████████  | 454/564 [1:20:56<15:05,  8.24s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 81%|████████  | 455/564 [1:21:06<15:54,  8.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 81%|████████  | 456/564 [1:21:16<16:24,  9.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 81%|████████  | 457/564 [1:21:26<16:34,  9.29s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 81%|████████  | 458/564 [1:21:37<17:19,  9.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 81%|████████▏ | 459/564 [1:21:48<17:34, 10.04s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 82%|████████▏ | 460/564 [1:21:56<16:33,  9.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 82%|████████▏ | 461/564 [1:22:06<16:32,  9.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 82%|████████▏ | 462/564 [1:22:17<17:12, 10.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 82%|████████▏ | 463/564 [1:22:30<18:14, 10.83s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 82%|████████▏ | 464/564 [1:22:39<17:12, 10.32s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 82%|████████▏ | 465/564 [1:22:47<15:56,  9.66s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 83%|████████▎ | 466/564 [1:22:54<14:17,  8.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 83%|████████▎ | 467/564 [1:23:02<13:46,  8.52s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 83%|████████▎ | 468/564 [1:23:18<17:14, 10.78s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 83%|████████▎ | 469/564 [1:23:25<15:35,  9.84s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 83%|████████▎ | 470/564 [1:23:31<13:27,  8.59s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 84%|████████▎ | 471/564 [1:23:40<13:43,  8.85s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 84%|████████▎ | 472/564 [1:23:51<14:20,  9.35s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 84%|████████▍ | 473/564 [1:24:02<15:05,  9.95s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 84%|████████▍ | 474/564 [1:24:11<14:34,  9.72s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 84%|████████▍ | 475/564 [1:24:21<14:10,  9.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 84%|████████▍ | 476/564 [1:24:31<14:17,  9.75s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 85%|████████▍ | 477/564 [1:24:39<13:25,  9.25s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 85%|████████▍ | 478/564 [1:24:47<12:44,  8.89s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 85%|████████▍ | 479/564 [1:24:57<13:08,  9.28s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 85%|████████▌ | 480/564 [1:25:10<14:23, 10.28s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 85%|████████▌ | 481/564 [1:25:16<12:27,  9.01s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 85%|████████▌ | 482/564 [1:25:23<11:29,  8.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 86%|████████▌ | 483/564 [1:25:30<10:57,  8.12s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 86%|████████▌ | 484/564 [1:25:38<10:41,  8.02s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 86%|████████▌ | 485/564 [1:25:47<11:01,  8.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 86%|████████▌ | 486/564 [1:25:57<11:35,  8.92s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 86%|████████▋ | 487/564 [1:26:07<11:39,  9.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 87%|████████▋ | 488/564 [1:26:14<10:55,  8.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 87%|████████▋ | 489/564 [1:26:24<11:00,  8.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 87%|████████▋ | 490/564 [1:26:39<13:11, 10.69s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 87%|████████▋ | 491/564 [1:26:48<12:38, 10.39s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 87%|████████▋ | 492/564 [1:27:02<13:37, 11.35s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 87%|████████▋ | 493/564 [1:27:10<12:06, 10.23s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 88%|████████▊ | 494/564 [1:27:19<11:38,  9.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 88%|████████▊ | 495/564 [1:27:27<10:42,  9.31s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 88%|████████▊ | 496/564 [1:27:33<09:37,  8.49s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 88%|████████▊ | 497/564 [1:27:44<10:06,  9.05s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 88%|████████▊ | 498/564 [1:27:54<10:17,  9.36s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 88%|████████▊ | 499/564 [1:28:02<09:39,  8.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 89%|████████▊ | 500/564 [1:28:11<09:32,  8.95s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 89%|████████▉ | 501/564 [1:28:20<09:31,  9.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 89%|████████▉ | 502/564 [1:28:28<09:10,  8.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 89%|████████▉ | 503/564 [1:28:36<08:41,  8.55s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 89%|████████▉ | 504/564 [1:28:44<08:22,  8.37s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 90%|████████▉ | 505/564 [1:28:51<07:44,  7.88s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 90%|████████▉ | 506/564 [1:28:57<07:09,  7.41s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 90%|████████▉ | 507/564 [1:29:08<08:07,  8.56s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 90%|█████████ | 508/564 [1:29:18<08:13,  8.82s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 90%|█████████ | 509/564 [1:29:27<08:13,  8.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 90%|█████████ | 510/564 [1:29:35<07:45,  8.61s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 91%|█████████ | 511/564 [1:29:42<07:16,  8.23s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 91%|█████████ | 512/564 [1:29:49<06:45,  7.80s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 91%|█████████ | 513/564 [1:29:57<06:43,  7.91s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 91%|█████████ | 514/564 [1:30:04<06:16,  7.53s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 91%|█████████▏| 515/564 [1:30:16<07:17,  8.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 91%|█████████▏| 516/564 [1:30:28<07:43,  9.66s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 92%|█████████▏| 517/564 [1:30:44<09:09, 11.69s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 92%|█████████▏| 518/564 [1:30:53<08:18, 10.83s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 92%|█████████▏| 519/564 [1:31:01<07:28,  9.97s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 92%|█████████▏| 520/564 [1:31:08<06:47,  9.26s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 92%|█████████▏| 521/564 [1:31:16<06:14,  8.71s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 93%|█████████▎| 522/564 [1:31:29<07:01, 10.03s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 93%|█████████▎| 523/564 [1:31:37<06:30,  9.52s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 93%|█████████▎| 524/564 [1:31:46<06:12,  9.31s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 93%|█████████▎| 525/564 [1:31:52<05:29,  8.45s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 93%|█████████▎| 526/564 [1:32:05<06:04,  9.60s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 93%|█████████▎| 527/564 [1:32:13<05:43,  9.28s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 94%|█████████▎| 528/564 [1:32:23<05:36,  9.34s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 94%|█████████▍| 529/564 [1:32:35<05:58, 10.25s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 94%|█████████▍| 530/564 [1:32:49<06:22, 11.25s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 94%|█████████▍| 531/564 [1:32:57<05:39, 10.30s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 94%|█████████▍| 532/564 [1:33:04<04:56,  9.26s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 95%|█████████▍| 533/564 [1:33:12<04:36,  8.93s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 95%|█████████▍| 534/564 [1:33:20<04:23,  8.77s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 95%|█████████▍| 535/564 [1:33:29<04:10,  8.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 95%|█████████▌| 536/564 [1:33:38<04:11,  8.99s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 95%|█████████▌| 537/564 [1:33:47<03:57,  8.81s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 95%|█████████▌| 538/564 [1:33:58<04:11,  9.66s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 96%|█████████▌| 539/564 [1:34:06<03:46,  9.07s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 96%|█████████▌| 540/564 [1:34:15<03:38,  9.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 96%|█████████▌| 541/564 [1:34:53<06:44, 17.60s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 96%|█████████▌| 542/564 [1:35:00<05:17, 14.44s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 96%|█████████▋| 543/564 [1:35:13<04:53, 13.98s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 96%|█████████▋| 544/564 [1:35:42<06:10, 18.54s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 97%|█████████▋| 545/564 [1:35:52<05:05, 16.09s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 97%|█████████▋| 546/564 [1:36:02<04:15, 14.19s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 97%|█████████▋| 547/564 [1:36:11<03:36, 12.71s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 97%|█████████▋| 548/564 [1:36:19<02:59, 11.20s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 97%|█████████▋| 549/564 [1:36:27<02:34, 10.33s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 98%|█████████▊| 550/564 [1:36:37<02:21, 10.08s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 98%|█████████▊| 551/564 [1:36:48<02:14, 10.32s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 98%|█████████▊| 552/564 [1:36:58<02:02, 10.22s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 98%|█████████▊| 553/564 [1:37:06<01:45,  9.57s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 98%|█████████▊| 554/564 [1:37:15<01:36,  9.63s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 98%|█████████▊| 555/564 [1:37:25<01:26,  9.66s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 99%|█████████▊| 556/564 [1:37:33<01:12,  9.10s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 99%|█████████▉| 557/564 [1:37:42<01:03,  9.10s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 99%|█████████▉| 558/564 [1:37:48<00:49,  8.27s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 99%|█████████▉| 559/564 [1:37:55<00:38,  7.72s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 99%|█████████▉| 560/564 [1:38:03<00:31,  7.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
- 99%|█████████▉| 561/564 [1:38:11<00:23,  7.94s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-100%|█████████▉| 562/564 [1:38:19<00:15,  8.00s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-100%|█████████▉| 563/564 [1:38:28<00:08,  8.17s/it][root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
-100%|██████████| 564/564 [1:38:36<00:00,  8.05s/it]100%|██████████| 564/564 [1:38:36<00:00, 10.49s/it]
-[root] Save results to results/chatgpt-4o-latest_Coding_CoT.json
+  0%|          | 0/564 [00:00<?, ?it/s]  0%|          | 1/564 [00:00<01:45,  5.35it/s]  0%|          | 2/564 [00:00<01:24,  6.67it/s]  1%|          | 3/564 [00:00<01:18,  7.17it/s]  1%|          | 4/564 [00:00<01:14,  7.54it/s]  1%|          | 5/564 [00:00<01:32,  6.07it/s]  1%|          | 6/564 [00:01<01:42,  5.46it/s]  1%|          | 7/564 [00:01<01:47,  5.17it/s]  1%|▏         | 8/564 [00:01<01:50,  5.05it/s]  2%|▏         | 9/564 [00:01<01:33,  5.93it/s]  2%|▏         | 10/564 [00:01<01:22,  6.75it/s]  2%|▏         | 11/564 [00:01<01:14,  7.38it/s]  2%|▏         | 12/564 [00:01<01:10,  7.82it/s]  3%|▎         | 15/564 [00:01<00:41, 13.30it/s]  3%|▎         | 17/564 [00:02<01:02,  8.81it/s]  3%|▎         | 19/564 [00:02<01:29,  6.08it/s]  4%|▎         | 20/564 [00:03<01:39,  5.48it/s]  4%|▍         | 22/564 [00:03<01:14,  7.32it/s]  4%|▍         | 24/564 [00:03<00:58,  9.19it/s]  5%|▍         | 26/564 [00:03<00:51, 10.53it/s]  5%|▍         | 28/564 [00:03<00:47, 11.30it/s]  5%|▌         | 30/564 [00:03<00:55,  9.66it/s]  6%|▌         | 32/564 [00:04<01:00,  8.74it/s]  6%|▌         | 34/564 [00:04<01:00,  8.80it/s]  6%|▌         | 35/564 [00:04<00:58,  8.97it/s]  7%|▋         | 37/564 [00:04<00:52, 10.10it/s]  7%|▋         | 40/564 [00:04<00:40, 12.92it/s]  8%|▊         | 43/564 [00:04<00:33, 15.69it/s]  8%|▊         | 45/564 [00:05<00:31, 16.23it/s]  8%|▊         | 47/564 [00:05<00:31, 16.28it/s]  9%|▊         | 49/564 [00:05<00:36, 14.14it/s]  9%|▉         | 51/564 [00:05<00:44, 11.47it/s]  9%|▉         | 53/564 [00:05<00:45, 11.19it/s] 10%|▉         | 55/564 [00:05<00:41, 12.33it/s] 10%|█         | 57/564 [00:06<00:38, 13.10it/s] 10%|█         | 59/564 [00:06<00:36, 13.79it/s] 11%|█         | 61/564 [00:06<00:38, 13.05it/s] 11%|█         | 63/564 [00:06<00:44, 11.36it/s] 12%|█▏        | 65/564 [00:06<00:48, 10.37it/s] 12%|█▏        | 67/564 [00:06<00:47, 10.50it/s] 12%|█▏        | 69/564 [00:07<00:43, 11.48it/s] 13%|█▎        | 72/564 [00:07<00:35, 14.02it/s] 13%|█▎        | 74/564 [00:07<00:38, 12.65it/s] 13%|█▎        | 76/564 [00:07<00:41, 11.73it/s] 14%|█▍        | 78/564 [00:07<00:41, 11.75it/s] 14%|█▍        | 80/564 [00:07<00:41, 11.59it/s] 15%|█▍        | 84/564 [00:08<00:29, 16.31it/s] 15%|█▌        | 86/564 [00:08<00:28, 16.86it/s] 16%|█▌        | 89/564 [00:08<00:27, 17.10it/s] 16%|█▌        | 89/564 [00:20<00:27, 17.10it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Coding_CoT.json
+ 16%|█▌        | 91/564 [00:41<32:57,  4.18s/it] 16%|█▋        | 93/564 [00:42<24:23,  3.11s/it] 17%|█▋        | 96/564 [00:42<15:38,  2.01s/it] 18%|█▊        | 99/564 [00:42<10:25,  1.34s/it] 18%|█▊        | 99/564 [00:56<10:25,  1.34s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Coding_CoT.json
+ 18%|█▊        | 101/564 [00:58<23:15,  3.01s/it] 18%|█▊        | 103/564 [00:58<17:18,  2.25s/it] 19%|█▊        | 105/564 [00:58<12:42,  1.66s/it] 19%|█▉        | 107/564 [00:59<09:14,  1.21s/it] 20%|█▉        | 110/564 [00:59<05:52,  1.29it/s] 20%|██        | 113/564 [00:59<03:54,  1.92it/s] 21%|██        | 117/564 [00:59<02:27,  3.04it/s] 21%|██▏       | 120/564 [00:59<01:52,  3.96it/s] 22%|██▏       | 123/564 [00:59<01:24,  5.21it/s] 22%|██▏       | 126/564 [00:59<01:04,  6.82it/s] 23%|██▎       | 129/564 [01:00<00:49,  8.80it/s] 23%|██▎       | 132/564 [01:00<00:39, 10.81it/s] 24%|██▍       | 135/564 [01:00<00:36, 11.65it/s] 24%|██▍       | 138/564 [01:00<00:32, 13.08it/s] 25%|██▌       | 141/564 [01:00<00:28, 14.70it/s] 26%|██▌       | 144/564 [01:00<00:26, 15.97it/s] 26%|██▌       | 147/564 [01:00<00:23, 18.04it/s] 27%|██▋       | 150/564 [01:01<00:20, 20.05it/s] 27%|██▋       | 153/564 [01:01<00:19, 21.43it/s] 28%|██▊       | 156/564 [01:01<00:18, 21.56it/s] 28%|██▊       | 159/564 [01:01<00:25, 16.11it/s] 29%|██▊       | 161/564 [01:01<00:28, 13.96it/s] 29%|██▉       | 163/564 [01:02<00:33, 11.86it/s] 29%|██▉       | 165/564 [01:02<00:35, 11.20it/s] 30%|██▉       | 167/564 [01:02<00:35, 11.28it/s] 30%|██▉       | 169/564 [01:02<00:34, 11.60it/s] 30%|███       | 171/564 [01:02<00:32, 12.22it/s] 31%|███       | 174/564 [01:02<00:26, 14.86it/s] 31%|███▏      | 177/564 [01:03<00:24, 15.98it/s] 32%|███▏      | 179/564 [01:03<00:27, 14.22it/s] 32%|███▏      | 181/564 [01:03<00:27, 13.94it/s] 32%|███▏      | 183/564 [01:03<00:26, 14.39it/s] 33%|███▎      | 185/564 [01:03<00:26, 14.33it/s] 33%|███▎      | 187/564 [01:03<00:27, 13.77it/s] 34%|███▎      | 189/564 [01:03<00:25, 14.89it/s] 34%|███▍      | 193/564 [01:04<00:19, 19.33it/s] 35%|███▍      | 196/564 [01:04<00:18, 19.61it/s] 35%|███▌      | 200/564 [01:04<00:15, 24.19it/s] 37%|███▋      | 206/564 [01:04<00:12, 29.13it/s] 37%|███▋      | 209/564 [01:04<00:13, 27.04it/s] 38%|███▊      | 216/564 [01:04<00:09, 36.78it/s] 39%|███▉      | 220/564 [01:04<00:09, 36.60it/s] 40%|███▉      | 225/564 [01:04<00:08, 39.70it/s] 42%|████▏     | 235/564 [01:05<00:06, 54.64it/s] 43%|████▎     | 241/564 [01:05<00:06, 50.08it/s] 44%|████▍     | 248/564 [01:05<00:05, 53.65it/s] 45%|████▌     | 254/564 [01:05<00:06, 50.00it/s] 46%|████▋     | 261/564 [01:05<00:05, 54.41it/s] 47%|████▋     | 267/564 [01:05<00:05, 52.66it/s] 49%|████▉     | 277/564 [01:05<00:04, 64.77it/s] 51%|█████     | 286/564 [01:05<00:03, 69.99it/s] 52%|█████▏    | 294/564 [01:05<00:03, 71.24it/s] 54%|█████▍    | 305/564 [01:06<00:03, 80.67it/s] 56%|█████▌    | 314/564 [01:06<00:03, 78.08it/s] 57%|█████▋    | 323/564 [01:06<00:03, 77.89it/s] 59%|█████▉    | 332/564 [01:06<00:02, 79.35it/s] 61%|██████    | 343/564 [01:06<00:02, 85.61it/s] 62%|██████▏   | 352/564 [01:06<00:03, 65.49it/s] 64%|██████▍   | 360/564 [01:06<00:03, 62.30it/s] 65%|██████▌   | 367/564 [01:07<00:03, 62.55it/s] 66%|██████▋   | 374/564 [01:07<00:03, 59.64it/s] 68%|██████▊   | 381/564 [01:07<00:03, 48.56it/s] 69%|██████▊   | 387/564 [01:07<00:04, 43.85it/s] 70%|██████▉   | 392/564 [01:07<00:04, 42.73it/s] 71%|███████   | 398/564 [01:07<00:03, 46.07it/s] 71%|███████▏  | 403/564 [01:07<00:03, 43.26it/s] 72%|███████▏  | 408/564 [01:08<00:03, 43.20it/s] 73%|███████▎  | 413/564 [01:08<00:03, 43.73it/s] 74%|███████▍  | 419/564 [01:08<00:03, 47.00it/s] 76%|███████▌  | 426/564 [01:08<00:02, 51.36it/s] 77%|███████▋  | 434/564 [01:08<00:02, 58.05it/s] 79%|███████▊  | 443/564 [01:08<00:01, 64.79it/s] 80%|████████  | 453/564 [01:08<00:01, 73.24it/s] 82%|████████▏ | 461/564 [01:08<00:01, 62.94it/s] 83%|████████▎ | 468/564 [01:08<00:01, 61.98it/s] 84%|████████▍ | 475/564 [01:09<00:02, 36.70it/s] 85%|████████▌ | 481/564 [01:09<00:02, 28.42it/s] 86%|████████▌ | 486/564 [01:09<00:02, 27.55it/s] 87%|████████▋ | 490/564 [01:10<00:02, 27.64it/s] 88%|████████▊ | 494/564 [01:10<00:02, 29.69it/s] 88%|████████▊ | 498/564 [01:10<00:02, 27.46it/s] 89%|████████▉ | 502/564 [01:10<00:02, 27.06it/s] 90%|████████▉ | 505/564 [01:10<00:02, 27.36it/s] 90%|█████████ | 508/564 [01:10<00:02, 27.37it/s] 91%|█████████ | 512/564 [01:10<00:01, 29.72it/s] 91%|█████████▏| 516/564 [01:10<00:01, 30.86it/s] 92%|█████████▏| 521/564 [01:11<00:01, 34.11it/s] 93%|█████████▎| 525/564 [01:11<00:01, 35.52it/s] 94%|█████████▍| 530/564 [01:11<00:00, 36.34it/s] 95%|█████████▍| 535/564 [01:11<00:00, 38.77it/s] 96%|█████████▌| 539/564 [01:11<00:00, 36.44it/s] 96%|█████████▋| 544/564 [01:11<00:00, 38.63it/s] 97%|█████████▋| 549/564 [01:11<00:00, 37.93it/s] 98%|█████████▊| 553/564 [01:11<00:00, 32.88it/s] 99%|█████████▉| 557/564 [01:12<00:00, 31.45it/s] 99%|█████████▉| 561/564 [01:12<00:00, 30.81it/s]100%|██████████| 564/564 [01:12<00:00,  7.80it/s]
+[root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Coding_CoT.json
 [root] End Generation......
-Generated Response: To determine which visualization the given Python code generates, we will analyze the code step by step and match it with the provided options.
-
----
-
-### **Step 1: Code Analysis**
-
-#### **1. Data Generation**
-```python
-np.random.seed(0)
-x = np.random.rand(1000)
-y = np.random.rand(1000) * 2 - 1 
-labels = np.random.choice([0, 1], size=1000)
-```
-- `x`: 1000 random values between 0 and 1.
-- `y`: 1000 random values between -1 and 1.
-- `labels`: 1000 random binary values (0 or 1).
-
-#### **2. Scatter Plot**
-```python
-plt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)
-plt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)
-```
-- Two scatter plots are created:
-  - Blue points for `labels == 0`.
-  - Red points for `labels == 1`.
-
-#### **3. Axes Lines**
-```python
-plt.axhline(0.5, color='black', linestyle=':', linewidth=1)
-plt.axvline(0, color='black', linestyle=':', linewidth=1)
-```
-- A horizontal dashed line at \( y = 0.5 \).
-- A vertical dashed line at \( x = 0 \).
-
-#### **4. Labels and Legends**
-```python
-plt.xlabel(r'$P(F_{i+1} | F_i)$')
-plt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')
-plt.legend(title='Boundary')
-```
-- X-axis and Y-axis are labeled with mathematical expressions.
-- A legend is added with the title "Boundary".
-
-#### **5. Histograms**
-```python
-plt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)
-plt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)
-plt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)
-plt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)
-```
-- Four histograms are added:
-  - Vertical histograms for `x` values (blue for `labels == 0`, red for `labels == 1`).
-  - Horizontal histograms for `y` values (blue for `labels == 0`, red for `labels == 1`).
-
-#### **6. Text Annotations**
-```python
-plt.text(-0.1, -1, r'$\alpha_1$', fontsize=12)
-plt.text(1.02, 0.5, r'$\alpha_2$', fontsize=12)
-```
-- Text annotations are added at specific positions:
-  - \(\alpha_1\) at \((-0.1, -1)\).
-  - \(\alpha_2\) at \((1.02, 0.5)\).
-
-#### **7. Plot Limits and Ticks**
-```python
-plt.xlim(-0.1, 1.1)
-plt.ylim(-1.1, 1.1)
-plt.tick_params(axis='both', direction='in')
-```
-- X-axis limits: \([-0.1, 1.1]\).
-- Y-axis limits: \([-1.1, 1.1]\).
-- Tick marks are set to point inward.
-
----
-
-### **Step 2: Matching with Options**
-
-#### **Option A**
-- This plot has a scatter plot in the center and histograms on the top and right.
-- The histograms are **separate** from the scatter plot.
-
-#### **Option B**
-- This plot has a scatter plot in the center, but the histograms **overlap** the scatter plot.
-
-#### **Option C**
-- This plot is identical to Option B, with overlapping histograms.
-
-#### **Option D**
-- This plot is identical to Option A, with separate histograms.
-
----
-
-### **Step 3: Correct Answer**
-The code generates a plot where the histograms overlap the scatter plot. This matches **Option B** and **Option C**. Since both are identical, either is correct.
-
-\[
-\boxed{B}
-\]
------- End  ------
-
-Error code: 429 - {'error': {'message': 'Rate limit reached for chatgpt-4o-latest in organization org-djnVnX5AfciLN29tg5qRU5q2 on requests per min (RPM): Limit 200, Used 200, Requested 1. Please try again in 300ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}
-Error code: 429 - {'error': {'message': 'Rate limit reached for chatgpt-4o-latest in organization org-djnVnX5AfciLN29tg5qRU5q2 on requests per min (RPM): Limit 200, Used 200, Requested 1. Please try again in 300ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'requests', 'param': None, 'code': 'rate_limit_exceeded'}}

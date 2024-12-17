@@ -10355,7 +10355,7 @@
     "source": "MathVision",
     "type": "Multiple Choice",
     "context": "",
-    "response": null
+    "response": "\\boxed{B}"
   },
   "Math_522": {
     "query": "\nA plastic snap-together cube has a protruding snap on one side and receptacle holes on the other five sides as shown.  What is the smallest number of these cubes that can be snapped together so that only receptacle holes are showing?\n\n<image_1>\nAnswer the question using a single word or phrase and put the answer in one \"\\boxed{}\". Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps).",
@@ -12845,7 +12845,7 @@
     "source": "MathVision",
     "type": "Multiple Choice",
     "context": "",
-    "response": null
+    "response": "\\boxed{B}"
   },
   "Math_651": {
     "query": "\n\ufeffA lampshade is made in the form of the lateral surface of the frustum of a right circular cone. The height of the frustum is $3\\sqrt{3}$ inches, its top diameter is 6 inches, and its bottom diameter is 12 inches. A bug is at the bottom of the lampshade and there is a glob of honey on the top edge of the lampshade at the spot farthest from the bug. The bug wants to crawl to the honey, but it must stay on the surface of the lampshade. What is the length in inches of its shortest path to the honey?\n\n<image_1>\nA: $6 + 3\\pi$\nB: $6 + 6\\pi$\nC: $6\\sqrt{3}$\nD: $6\\sqrt{5}$\nE: $6\\sqrt{3} + \\pi$\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps).",
