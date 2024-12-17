@@ -2,272 +2,10 @@
 [root] Loading config
 [root] Loading gemini-2.0-flash-exp
 [root] Model loaded!
+[root] Results already exists.
+[root] Reading results/close-source/gemini/CoT/gemini-2.0-flash-exp_Physics_CoT.json
+[root] Found existing results file with 156 problems with valid responses. Skipping these problems...
 [root] Starting to generate.....
-  0%|          | 0/156 [00:00<?, ?it/s]  1%|          | 1/156 [00:03<08:32,  3.30s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  1%|▏         | 2/156 [00:06<07:39,  2.98s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  2%|▏         | 3/156 [00:08<06:55,  2.72s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  3%|▎         | 4/156 [00:11<06:53,  2.72s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  3%|▎         | 5/156 [00:16<08:52,  3.53s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  4%|▍         | 6/156 [00:19<08:18,  3.32s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  4%|▍         | 7/156 [00:22<08:07,  3.27s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  5%|▌         | 8/156 [00:28<10:09,  4.11s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  6%|▌         | 9/156 [00:31<09:39,  3.95s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  6%|▋         | 10/156 [00:35<09:36,  3.95s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  7%|▋         | 11/156 [00:40<10:09,  4.20s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  8%|▊         | 12/156 [00:45<10:24,  4.34s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  8%|▊         | 13/156 [00:54<13:39,  5.73s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-  9%|▉         | 14/156 [01:07<18:54,  7.99s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 10%|▉         | 15/156 [01:20<22:50,  9.72s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 10%|█         | 16/156 [01:51<37:30, 16.08s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 11%|█         | 17/156 [01:57<29:46, 12.85s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 12%|█▏        | 18/156 [02:28<42:09, 18.33s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 12%|█▏        | 19/156 [02:59<50:35, 22.16s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 13%|█▎        | 20/156 [03:11<43:44, 19.30s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 13%|█▎        | 21/156 [03:42<50:49, 22.59s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 14%|█▍        | 22/156 [03:51<41:45, 18.70s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 15%|█▍        | 23/156 [04:21<49:00, 22.11s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 15%|█▌        | 24/156 [04:52<54:03, 24.57s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 16%|█▌        | 25/156 [05:23<57:47, 26.47s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 17%|█▋        | 26/156 [05:29<44:03, 20.33s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 17%|█▋        | 27/156 [06:05<53:55, 25.08s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 18%|█▊        | 28/156 [06:57<1:10:51, 33.22s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 19%|█▊        | 29/156 [07:28<1:08:51, 32.53s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 19%|█▉        | 30/156 [07:50<1:01:57, 29.51s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 20%|█▉        | 31/156 [07:58<47:45, 22.92s/it]  [root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 21%|██        | 32/156 [08:08<39:34, 19.15s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 21%|██        | 33/156 [08:24<37:11, 18.14s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 22%|██▏       | 34/156 [08:34<31:41, 15.59s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 22%|██▏       | 35/156 [09:03<39:59, 19.83s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 23%|██▎       | 36/156 [09:37<47:46, 23.89s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 24%|██▎       | 37/156 [10:09<52:11, 26.31s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 24%|██▍       | 38/156 [10:21<43:20, 22.04s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 25%|██▌       | 39/156 [10:51<47:39, 24.44s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 26%|██▌       | 40/156 [10:57<36:29, 18.88s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 26%|██▋       | 41/156 [11:08<32:01, 16.71s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 27%|██▋       | 42/156 [11:22<30:12, 15.90s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 28%|██▊       | 43/156 [11:28<23:59, 12.74s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 28%|██▊       | 44/156 [12:06<37:54, 20.30s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 29%|██▉       | 45/156 [12:37<43:24, 23.46s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 29%|██▉       | 46/156 [12:47<36:03, 19.66s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 30%|███       | 47/156 [13:18<41:40, 22.94s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 31%|███       | 48/156 [13:31<35:42, 19.84s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 31%|███▏      | 49/156 [14:12<47:09, 26.44s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 32%|███▏      | 50/156 [14:45<49:52, 28.23s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 33%|███▎      | 51/156 [14:56<40:15, 23.00s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 33%|███▎      | 52/156 [15:04<32:11, 18.57s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 34%|███▍      | 53/156 [15:11<25:57, 15.12s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 35%|███▍      | 54/156 [15:41<33:23, 19.64s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 35%|███▌      | 55/156 [16:11<38:18, 22.76s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 36%|███▌      | 56/156 [16:21<31:24, 18.85s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 37%|███▋      | 57/156 [16:52<37:11, 22.54s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 37%|███▋      | 58/156 [17:24<41:20, 25.31s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 38%|███▊      | 59/156 [17:43<37:51, 23.42s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 38%|███▊      | 60/156 [17:51<30:11, 18.87s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 39%|███▉      | 61/156 [18:02<26:18, 16.61s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 40%|███▉      | 62/156 [18:05<19:36, 12.52s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 40%|████      | 63/156 [18:18<19:15, 12.43s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 41%|████      | 64/156 [18:47<27:04, 17.65s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 42%|████▏     | 65/156 [18:57<23:02, 15.19s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 42%|████▏     | 66/156 [19:04<19:07, 12.75s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 43%|████▎     | 67/156 [19:21<20:46, 14.01s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 44%|████▎     | 68/156 [19:54<29:01, 19.79s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 44%|████▍     | 69/156 [20:01<23:07, 15.95s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 45%|████▍     | 70/156 [20:26<26:51, 18.74s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 46%|████▌     | 71/156 [20:56<31:22, 22.15s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 46%|████▌     | 72/156 [21:11<27:50, 19.89s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 47%|████▋     | 73/156 [21:42<31:52, 23.05s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 47%|████▋     | 74/156 [21:51<25:59, 19.02s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 48%|████▊     | 75/156 [22:23<30:43, 22.76s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 49%|████▊     | 76/156 [22:33<25:15, 18.94s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 49%|████▉     | 77/156 [22:40<20:26, 15.53s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 50%|█████     | 78/156 [23:15<27:33, 21.20s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 51%|█████     | 79/156 [23:21<21:20, 16.63s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 51%|█████▏    | 80/156 [23:38<21:27, 16.94s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 52%|█████▏    | 81/156 [23:57<21:58, 17.58s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 53%|█████▎    | 82/156 [24:09<19:25, 15.75s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 53%|█████▎    | 83/156 [24:15<15:32, 12.77s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 54%|█████▍    | 84/156 [24:18<11:49,  9.86s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 54%|█████▍    | 85/156 [24:26<11:06,  9.38s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 55%|█████▌    | 86/156 [24:36<11:10,  9.57s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 56%|█████▌    | 87/156 [24:45<10:50,  9.42s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 56%|█████▋    | 88/156 [24:53<10:18,  9.09s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 57%|█████▋    | 89/156 [24:58<08:36,  7.70s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 58%|█████▊    | 90/156 [25:06<08:42,  7.92s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 58%|█████▊    | 91/156 [25:11<07:24,  6.84s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 59%|█████▉    | 92/156 [25:16<06:58,  6.54s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 60%|█████▉    | 93/156 [25:25<07:33,  7.20s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 60%|██████    | 94/156 [26:04<17:21, 16.80s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 61%|██████    | 95/156 [26:19<16:22, 16.11s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 62%|██████▏   | 96/156 [26:27<13:35, 13.60s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 62%|██████▏   | 97/156 [26:35<11:41, 11.89s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 63%|██████▎   | 98/156 [26:42<10:14, 10.60s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 63%|██████▎   | 99/156 [27:14<16:12, 17.06s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 64%|██████▍   | 100/156 [27:21<13:10, 14.11s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 65%|██████▍   | 101/156 [27:33<12:13, 13.33s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 65%|██████▌   | 102/156 [28:05<17:08, 19.05s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 66%|██████▌   | 103/156 [28:37<20:17, 22.97s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 67%|██████▋   | 104/156 [28:44<15:42, 18.13s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 67%|██████▋   | 105/156 [28:53<12:57, 15.25s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 68%|██████▊   | 106/156 [28:56<09:40, 11.61s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 69%|██████▊   | 107/156 [29:02<08:09,  9.98s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 69%|██████▉   | 108/156 [29:10<07:21,  9.21s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 70%|██████▉   | 109/156 [29:18<06:56,  8.86s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 71%|███████   | 110/156 [29:25<06:32,  8.54s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 71%|███████   | 111/156 [29:28<05:08,  6.86s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 72%|███████▏  | 112/156 [29:38<05:45,  7.84s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 72%|███████▏  | 113/156 [29:45<05:21,  7.48s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 73%|███████▎  | 114/156 [29:50<04:39,  6.65s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 74%|███████▎  | 115/156 [29:53<03:49,  5.59s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 74%|███████▍  | 116/156 [29:57<03:23,  5.08s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 75%|███████▌  | 117/156 [29:59<02:43,  4.19s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 76%|███████▌  | 118/156 [30:05<03:04,  4.86s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 76%|███████▋  | 119/156 [30:35<07:39, 12.42s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 77%|███████▋  | 120/156 [30:39<05:46,  9.64s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 78%|███████▊  | 121/156 [30:45<05:06,  8.76s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 78%|███████▊  | 122/156 [30:49<04:08,  7.32s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 79%|███████▉  | 123/156 [30:53<03:24,  6.18s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 79%|███████▉  | 124/156 [30:58<03:04,  5.75s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 80%|████████  | 125/156 [31:07<03:36,  6.99s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 81%|████████  | 126/156 [31:30<05:51, 11.72s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 81%|████████▏ | 127/156 [32:05<08:57, 18.53s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 82%|████████▏ | 128/156 [32:07<06:23, 13.70s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 83%|████████▎ | 129/156 [32:11<04:50, 10.75s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 83%|████████▎ | 130/156 [32:15<03:44,  8.64s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 84%|████████▍ | 131/156 [32:19<03:03,  7.34s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 85%|████████▍ | 132/156 [32:25<02:47,  6.98s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 85%|████████▌ | 133/156 [32:29<02:21,  6.17s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 86%|████████▌ | 134/156 [32:35<02:13,  6.05s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 87%|████████▋ | 135/156 [32:41<02:05,  5.97s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 87%|████████▋ | 136/156 [32:43<01:33,  4.67s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 88%|████████▊ | 137/156 [32:47<01:26,  4.57s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 88%|████████▊ | 138/156 [32:50<01:16,  4.23s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 89%|████████▉ | 139/156 [32:56<01:17,  4.56s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 90%|████████▉ | 140/156 [33:04<01:33,  5.83s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 90%|█████████ | 141/156 [33:07<01:14,  4.97s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 91%|█████████ | 142/156 [33:11<01:05,  4.68s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 92%|█████████▏| 143/156 [33:17<01:03,  4.89s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 92%|█████████▏| 144/156 [33:18<00:45,  3.80s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 93%|█████████▎| 145/156 [33:25<00:51,  4.65s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 94%|█████████▎| 146/156 [33:31<00:50,  5.08s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 94%|█████████▍| 147/156 [33:34<00:42,  4.68s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 95%|█████████▍| 148/156 [33:43<00:46,  5.83s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 96%|█████████▌| 149/156 [33:46<00:34,  4.87s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 96%|█████████▌| 150/156 [33:49<00:26,  4.39s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 97%|█████████▋| 151/156 [33:51<00:18,  3.74s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 97%|█████████▋| 152/156 [33:53<00:12,  3.21s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 98%|█████████▊| 153/156 [33:55<00:08,  2.72s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 99%|█████████▊| 154/156 [33:56<00:04,  2.32s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
- 99%|█████████▉| 155/156 [34:02<00:03,  3.42s/it][root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
-100%|██████████| 156/156 [34:03<00:00,  2.80s/it]100%|██████████| 156/156 [34:03<00:00, 13.10s/it]
-[root] Save results to results/gemini-2.0-flash-exp_Physics_CoT.json
+  0%|          | 0/156 [00:00<?, ?it/s]  4%|▍         | 6/156 [00:00<00:02, 59.61it/s] 15%|█▍        | 23/156 [00:00<00:01, 121.58it/s] 30%|███       | 47/156 [00:00<00:00, 174.47it/s] 49%|████▊     | 76/156 [00:00<00:00, 132.29it/s] 58%|█████▊    | 91/156 [00:01<00:01, 35.03it/s]  65%|██████▍   | 101/156 [00:02<00:02, 27.26it/s] 70%|██████▉   | 109/156 [00:03<00:02, 22.02it/s] 74%|███████▎  | 115/156 [00:03<00:01, 23.66it/s] 99%|█████████▊| 154/156 [00:03<00:00, 55.57it/s]100%|██████████| 156/156 [00:03<00:00, 45.46it/s]
+[root] Save results to results/close-source/gemini/CoT/gemini-2.0-flash-exp_Physics_CoT.json
 [root] End Generation......
-
---- Sample Generation Debug ---
-PID: phy_1
-Problem: {
-  "query": "\nA ray of light is incident on a spherical mirror after passing through its focus \\( F \\).\n\nWhich of the following diagrams shows the reflected ray correctly?\n\nNote: The smooth side is the reflecting part of the mirror, and the dotted side is the back.\n\n<image_1>\nA: <image_2>\nB: <image_3>\nC: <image_4>\nD: <image_5>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
-  "gt_content": "<image_2>",
-  "pid": "phy_1",
-  "question": "A ray of light is incident on a spherical mirror after passing through its focus \\( F \\).\n\nWhich of the following diagrams shows the reflected ray correctly?\n\nNote: The smooth side is the reflecting part of the mirror, and the dotted side is the back.\n\n<image_1>",
-  "options": [
-    "<image_2>",
-    "<image_3>",
-    "<image_4>",
-    "<image_5>"
-  ],
-  "answer": "A",
-  "solution": "",
-  "subject": "Physics",
-  "task": "",
-  "category": "Path Tracing",
-  "source": "khanacademy",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "When a ray of light passes through the focus of a spherical mirror, the reflected ray will be parallel to the principal axis.\n\nIn the given options, only option A shows the reflected ray parallel to the principal axis.\n\nTherefore, the correct answer is \\boxed{A}."
-}
-Generated Response: When a ray of light passes through the focus of a spherical mirror, the reflected ray will be parallel to the principal axis.
-
-In the given options, only option A shows the reflected ray parallel to the principal axis.
-
-Therefore, the correct answer is \boxed{A}.
------- End  ------
-
-
---- Sample Generation Debug ---
-PID: phy_2
-Problem: {
-  "query": "\nA ray of light is incident on a spherical mirror parallel to its principal axis.\nWhich of the following diagrams shows the reflected ray correctly?\nNote: The smooth side is the reflecting part of the mirror, and the dotted side is the back.\n<image_1>\nA: <image_2>\nB: <image_3>\nC: <image_4>\nD: <image_5>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
-  "gt_content": "<image_2>",
-  "pid": "phy_2",
-  "question": "A ray of light is incident on a spherical mirror parallel to its principal axis.\nWhich of the following diagrams shows the reflected ray correctly?\nNote: The smooth side is the reflecting part of the mirror, and the dotted side is the back.\n<image_1>",
-  "options": [
-    "<image_2>",
-    "<image_3>",
-    "<image_4>",
-    "<image_5>"
-  ],
-  "answer": "A",
-  "solution": "",
-  "subject": "Physics",
-  "task": "",
-  "category": "Path Tracing",
-  "source": "khanacademy",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "The question asks which diagram correctly shows the reflected ray when a ray of light is incident on a spherical mirror parallel to its principal axis.\n\nAccording to the laws of reflection, a ray of light parallel to the principal axis of a spherical mirror will be reflected through the focal point (F).\n\nIn the given diagrams, the incident ray is parallel to the principal axis.\n\n*   **Option A** shows the reflected ray passing through the focal point (F).\n*   **Option B** shows the reflected ray going back parallel to the principal axis.\n*   **Option C** shows the reflected ray going through the pole (P).\n*   **Option D** shows the reflected ray going through the center of curvature (C).\n\nTherefore, the correct diagram is **Option A**.\n\n\\boxed{A}"
-}
-Generated Response: The question asks which diagram correctly shows the reflected ray when a ray of light is incident on a spherical mirror parallel to its principal axis.
-
-According to the laws of reflection, a ray of light parallel to the principal axis of a spherical mirror will be reflected through the focal point (F).
-
-In the given diagrams, the incident ray is parallel to the principal axis.
-
-*   **Option A** shows the reflected ray passing through the focal point (F).
-*   **Option B** shows the reflected ray going back parallel to the principal axis.
-*   **Option C** shows the reflected ray going through the pole (P).
-*   **Option D** shows the reflected ray going through the center of curvature (C).
-
-Therefore, the correct diagram is **Option A**.
-
-\boxed{A}
------- End  ------
-
-
---- Sample Generation Debug ---
-PID: phy_3
-Problem: {
-  "query": "\nA ray of light emerges in the direction away from the optical center, \n\\[\\text O\\], after refraction through a concave lens, as shown below.What is the path of the incident ray?\n\n<image_1>\nA: <image_2>\nB: <image_3>\nC: <image_4>\nD: <image_5>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
-  "gt_content": "<image_3>",
-  "pid": "phy_3",
-  "question": "A ray of light emerges in the direction away from the optical center, \n\\[\\text O\\], after refraction through a concave lens, as shown below.What is the path of the incident ray?\n\n<image_1>",
-  "options": [
-    "<image_2>",
-    "<image_3>",
-    "<image_4>",
-    "<image_5>"
-  ],
-  "answer": "B",
-  "solution": "",
-  "subject": "Physics",
-  "task": "",
-  "category": "Path Tracing",
-  "source": "khanacademy",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "The problem asks for the path of the incident ray given the path of the refracted ray through a concave lens.\n\nThe given refracted ray emerges from the optical center, O, and is directed away from the lens.\n\nFor a concave lens, a ray of light passing through the optical center, O, will continue in a straight line without any deviation.\n\nTherefore, the incident ray must have been directed towards the optical center, O.\n\nLooking at the options, only option C shows an incident ray directed towards the optical center, O.\n\nTherefore, the correct answer is C.\n\n\\boxed{C}"
-}
-Generated Response: The problem asks for the path of the incident ray given the path of the refracted ray through a concave lens.
-
-The given refracted ray emerges from the optical center, O, and is directed away from the lens.
-
-For a concave lens, a ray of light passing through the optical center, O, will continue in a straight line without any deviation.
-
-Therefore, the incident ray must have been directed towards the optical center, O.
-
-Looking at the options, only option C shows an incident ray directed towards the optical center, O.
-
-Therefore, the correct answer is C.
-
-\boxed{C}
------- End  ------
-
