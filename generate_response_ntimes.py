@@ -1,7 +1,7 @@
 import argparse
 import json
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = "4,5,6,7"
+
 import logging
 from tqdm import tqdm
 
@@ -12,13 +12,14 @@ from data_utils import load_yaml, verify_response, build_query
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--dataset_name', type=str, default='mm-reasoning/EMMA')
+    parser.add_argument('--dataset_name', type=str, default='mm-reasoning/EMMA-test100')
     parser.add_argument('--subject', nargs='+', type=str, required=True)
     parser.add_argument('--split', type=str, default='test')
     parser.add_argument('--strategy', type=str, default='CoT', choices=['CoT', 'Direct'])
     parser.add_argument('--config_path', type=str, default="configs/gpt.yaml")
-    parser.add_argument('--output_path', type=str, default='results/test-gemini.json')
-    parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
+    parser.add_argument('--output_path', type=str, default='results/test-time-compute/GPT_Math_16.json')
+    parser.add_argument('--save_every', type=int, default=1, help='save every n problems')
+    parser.add_argument('--n_times', type=int, default=4, help='generate n answers to the same question')
     parser.add_argument('--rerun', action='store_true', help='rerun the answer generation')
     # Remote model
     parser.add_argument('--model', type=str, default="gemini-2.0-flash-exp", help='llm engine',
@@ -30,7 +31,7 @@ def main():
     parser.add_argument('--temperature', type=float, default=0.7)
 
     args = parser.parse_args()
-
+    assert args.n_times > 0, "The number of times must be greater than zero"
     # Load Dataset
     logging.info(f"Loading dataset {args.dataset_name}, subject: {args.subject}")
     sub_dataset_list = []
@@ -38,7 +39,6 @@ def main():
         sub_dataset = load_dataset(args.dataset_name, subj, split=args.split)
         sub_dataset_list.append(sub_dataset)
     dataset = concatenate_datasets(sub_dataset_list)
-
 
     # Load Config
     logging.info(f"Loading config")
@@ -97,11 +97,10 @@ def main():
         results = {}
 
     skip_pids = []
-    if not args.rerun:
-        if results:
-            for pid, data in results.items():
-                if 'response' in data and verify_response(data['response']):
-                    skip_pids.append(pid)
+    if not args.rerun and results:
+        for pid, data in results.items():
+            if all(f'response_{i}' in data and verify_response(data[f'response_{i}']) for i in range(args.n_times)):
+                skip_pids.append(pid)
 
         if len(skip_pids) > 0:
             logging.info(
@@ -117,24 +116,23 @@ def main():
         problem: dict = sample.copy()
         for i in range(1, 6):
             problem.pop('image_' + str(i))
-
-        try:
-            response = model.get_response(sample)
+        if pid not in results:
             results[pid] = problem
-            results[pid]['response'] = response
-            if idx < 3:  # test the first 3 samples
-                print("\n--- Sample Generation Debug ---")
-                print(f"PID: {pid}")
-                print(f"Problem: {json.dumps(problem, indent=2)}")
-                print(f"Generated Response: {response}")
-                print("------ End  ------\n")
-        except Exception as e:
-            logging.error(f"Error in generating answer for {pid}")
-            logging.error(e)
-            results[pid] = problem
-            results[pid]['error'] = str(e)
 
-        if (idx % args.save_every == 0 and idx > 0) or idx == len(dataset) - 1:
+        for time in range(args.n_times):
+            if not args.rerun and f'response_{time}' in results[pid] and verify_response(results[pid][f'response_{time}']):
+                logging.info(f"response_{time} already exists. Skipping...")
+                continue
+            try:
+                response = model.get_response(sample)
+                results[pid][f'response_{time}'] = response
+            except Exception as e:
+                logging.error(f"Error in generating answer for {pid} for the {time}th time")
+                logging.error(e)
+                results[pid] = problem
+                results[pid]['error'] = str(e)
+
+        if idx == 2 or (idx % args.save_every == 0 and idx > 0) or idx == len(dataset) - 1:
             try:
                 with open(args.output_path, 'w') as f:
                     f.write(json.dumps(results, indent=2))
@@ -142,7 +140,7 @@ def main():
             except Exception as e:
                 logging.info(f"Error in saving {args.output_path}")
                 logging.info(e)
-    
+
     with open(args.output_path, 'w') as f:
         f.write(json.dumps(results, indent=2))
     logging.info(f"Save results to {args.output_path}")

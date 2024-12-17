@@ -2,6 +2,7 @@ import logging
 import re
 import base64
 from io import BytesIO
+import time
 
 from openai import OpenAI
 
@@ -54,25 +55,45 @@ class GPT_Model:
             client: OpenAI,
             model="chatgpt-4o-latest",
             temperature=0,
-            max_tokens=1024
+            max_tokens=1024,
+            retry_attempts = 5
     ):
         self.client = client
         self.model = model
         self.temperature = temperature
         self.max_tokens = max_tokens
+        self.retry_attempts = retry_attempts
 
     def get_response(self, sample):
-
+        attempt = 0
         messages = create_message(sample)
-        try:
-            response = self.client.chat.completions.create(
-                model=self.model,
-                messages=messages,
-                temperature=self.temperature,
-                max_tokens=self.max_tokens,
-            )
 
-            return response.choices[0].message.content.strip()
-        except Exception as e:
-            print(e)
-            return None
+        while attempt < self.retry_attempts:
+            try:
+                response = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=messages,
+                    temperature=self.temperature,
+                    max_tokens=self.max_tokens,
+                )
+
+                return response.choices[0].message.content.strip()
+            except Exception as e:
+                logging.error(f"Attempt {attempt + 1} failed: {e}")
+
+                if 'error' in str(e) and 'message' in str(e):
+                    error_message = str(e)
+                    if 'The server had an error processing your request.' in error_message:
+                        sleep_time = 30
+                        logging.error(f"Server error, retrying in {sleep_time}s...")
+                        time.sleep(sleep_time)
+                    elif 'Please try again in ' in error_message:
+                        sleep_time = float(error_message.split('Please try again in ')[1].split('s.')[0])
+                        logging.error(f"Rate limit exceeded, retrying in {sleep_time * 2}s...")
+                        time.sleep(sleep_time * 2)
+                    else:
+                        print("Unknown error, skipping this request.")
+                        break
+                attempt += 1
+
+        return None

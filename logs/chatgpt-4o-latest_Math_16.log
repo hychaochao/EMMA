@@ -1,0 +1,23 @@
+[root] Loading dataset mm-reasoning/EMMA-test100, subject: ['Math']
+[root] Loading config
+[root] Loading chatgpt-4o-latest
+[root] Model loaded!
+[root] Results already exists.
+[root] Reading results/test-time-compute/GPT_Math_16.json
+[root] Found existing results file with 4 problems with valid responses. Skipping these problems...
+[root] Starting to generate.....
+  0%|          | 0/100 [00:00<?, ?it/s][root] response_0 already exists. Skipping...
+[root] response_1 already exists. Skipping...
+[root] Save results to results/test-time-compute/GPT_Math_16.json
+  5%|▌         | 5/100 [00:14<04:33,  2.87s/it][root] response_0 already exists. Skipping...
+[root] response_1 already exists. Skipping...
+[root] Save results to results/test-time-compute/GPT_Math_16.json
+  6%|▌         | 6/100 [00:35<10:52,  6.95s/it][root] response_0 already exists. Skipping...
+[root] response_1 already exists. Skipping...
+[root] Save results to results/test-time-compute/GPT_Math_16.json
+  7%|▋         | 7/100 [00:49<13:19,  8.60s/it][root] Save results to results/test-time-compute/GPT_Math_16.json
+  8%|▊         | 8/100 [01:29<25:28, 16.61s/it][root] Save results to results/test-time-compute/GPT_Math_16.json
+  9%|▉         | 9/100 [01:57<29:54, 19.72s/it][root] Save results to results/test-time-compute/GPT_Math_16.json
+ 10%|█         | 10/100 [02:21<31:27, 20.97s/it][root] Save results to results/test-time-compute/GPT_Math_16.json
+ 11%|█         | 11/100 [02:59<38:07, 25.71s/it]/opt/anaconda3/envs/qwen/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
