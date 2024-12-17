@@ -14,7 +14,7 @@ def gen_score(input_file, output_file):
 
     subject_stats = defaultdict(lambda: {"correct": 0, "total": 0})
     type_stats = defaultdict(lambda: {"correct": 0, "total": 0})
-    category_stats = defaultdict(lambda: {"correct": 0, "total": 0})
+    category_stats = defaultdict(lambda: defaultdict(lambda: {"correct": 0, "total": 0}))
     task_stats = defaultdict(lambda: {"correct": 0, "total": 0})
 
     for key, entry in data.items():
@@ -25,9 +25,16 @@ def gen_score(input_file, output_file):
         subject = entry["subject"]
         question_type = entry["type"].lower()
         if entry["category"]:
-            category = subject + '_' + entry["category"]
-            category_stats[category]["total"] += 1
-            category_stats[category]["correct"] += is_correct
+            if subject == "Coding":
+                category_list = entry["category"].split(';')
+                for category in category_list:
+                    category = category.strip()
+                    category_stats[subject][category]["total"] += 1
+                    category_stats[subject][category]["correct"] += is_correct
+            else:
+                category = entry["category"]
+                category_stats[subject][category]["total"] += 1
+                category_stats[subject][category]["correct"] += is_correct
         if entry["task"]:
             task = subject + '_' + entry["task"]
             task_stats[task]["total"] += 1
@@ -57,7 +64,7 @@ def gen_score(input_file, output_file):
                 "total": stats["total"]
             } for subject, stats in subject_stats.items()
         },
-        "type": {
+        "question_type": {
             question_type: {
                 "accuracy": stats["correct"] / stats["total"] if stats["total"] > 0 else 0,
                 "correct": stats["correct"],
@@ -65,11 +72,13 @@ def gen_score(input_file, output_file):
             } for question_type, stats in type_stats.items()
         },
         "category": {
-            category: {
-                "accuracy": stats["correct"] / stats["total"] if stats["total"] > 0 else 0,
-                "correct": stats["correct"],
-                "total": stats["total"]
-            } for category, stats in category_stats.items()
+            subject:{
+                category: {
+                    "accuracy": stats["correct"] / stats["total"] if stats["total"] > 0 else 0,
+                    "correct": stats["correct"],
+                    "total": stats["total"]
+                } for category, stats in categories.items()
+            }for subject, categories in category_stats.items()
         },
         "task": {
             task: {
@@ -86,11 +95,11 @@ def gen_score(input_file, output_file):
 def main():
     parser = argparse.ArgumentParser()
     # output
-    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/qwen')
+    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/close-source')
     args = parser.parse_args()
     for root, dirs, files in os.walk(args.results_dir):
         for file in files:
-            if file.endswith(".json"):
+            if file.endswith(".json") and not file.endswith("_result.json"):
                 gen_score(os.path.join(root, file), os.path.join(root, file).replace('.json', '_result.json'))
 
 
