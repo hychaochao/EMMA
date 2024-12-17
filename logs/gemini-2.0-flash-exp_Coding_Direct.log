@@ -2,651 +2,10 @@
 [root] Loading config
 [root] Loading gemini-2.0-flash-exp
 [root] Model loaded!
+[root] Results already exists.
+[root] Reading results/close-source/gemini/Direct/gemini-2.0-flash-exp_Coding_Direct.json
+[root] Found existing results file with 564 problems with valid responses. Skipping these problems...
 [root] Starting to generate.....
-  0%|          | 0/564 [00:00<?, ?it/s]  0%|          | 1/564 [00:05<53:15,  5.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  0%|          | 2/564 [00:08<36:10,  3.86s/it]
---- Sample Generation Debug ---
-PID: coding_1
-Problem: {
-  "query": "\nWhich visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.show()\nA: <image_1>\nB: <image_2>\nC: <image_3>\nD: <image_4>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps).",
-  "gt_content": "<image_2>",
-  "pid": "coding_1",
-  "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.show()",
-  "options": [
-    "<image_1>",
-    "<image_2>",
-    "<image_3>",
-    "<image_4>"
-  ],
-  "answer": "B",
-  "solution": "",
-  "subject": "Coding",
-  "task": "Code Choose Vis",
-  "category": "Advanced Chart Type;Axis & Scale",
-  "source": "new_annotated",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "\\boxed{A}"
-}
-Generated Response: \boxed{A}
------- End  ------
-
-
---- Sample Generation Debug ---
-PID: coding_2
-Problem: {
-  "query": "\nWhich visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nfrom matplotlib.gridspec import GridSpec\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1  \nlabels = np.random.choice([0, 1], size=1000)\nfig = plt.figure(figsize=(8, 8))\ngs = GridSpec(4, 4, figure=fig)\nax_main = fig.add_subplot(gs[1:4, 0:3])\nax_main.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nax_main.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nax_main.axhline(0.5, color='black', linestyle=':', linewidth=1)\nax_main.axvline(0, color='black', linestyle=':', linewidth=1)\nax_main.set_xlabel(r'$P(F_{i+1} | F_i)$')\nax_main.set_ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nax_main.legend(title='Boundary')\nax_main.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nax_main.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nax_main.set_xlim(-0.1, 1.1)\nax_main.set_ylim(-1.1, 1.1)\nax_histx = fig.add_subplot(gs[0, 0:3], sharex=ax_main)\nax_histy = fig.add_subplot(gs[1:4, 3], sharey=ax_main)\nax_histx.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, density=True)\nax_histx.hist(x[labels == 1], bins=30, color='red', alpha=0.3, density=True)\nax_histy.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nax_histy.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nax_histx.label_outer()\nax_histy.label_outer()\nax_histy.tick_params(axis='both', direction='in')\nplt.show()\nA: <image_1>\nB: <image_2>\nC: <image_3>\nD: <image_4>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps).",
-  "gt_content": "<image_1>",
-  "pid": "coding_2",
-  "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nfrom matplotlib.gridspec import GridSpec\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1  \nlabels = np.random.choice([0, 1], size=1000)\nfig = plt.figure(figsize=(8, 8))\ngs = GridSpec(4, 4, figure=fig)\nax_main = fig.add_subplot(gs[1:4, 0:3])\nax_main.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nax_main.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nax_main.axhline(0.5, color='black', linestyle=':', linewidth=1)\nax_main.axvline(0, color='black', linestyle=':', linewidth=1)\nax_main.set_xlabel(r'$P(F_{i+1} | F_i)$')\nax_main.set_ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nax_main.legend(title='Boundary')\nax_main.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nax_main.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nax_main.set_xlim(-0.1, 1.1)\nax_main.set_ylim(-1.1, 1.1)\nax_histx = fig.add_subplot(gs[0, 0:3], sharex=ax_main)\nax_histy = fig.add_subplot(gs[1:4, 3], sharey=ax_main)\nax_histx.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, density=True)\nax_histx.hist(x[labels == 1], bins=30, color='red', alpha=0.3, density=True)\nax_histy.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nax_histy.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nax_histx.label_outer()\nax_histy.label_outer()\nax_histy.tick_params(axis='both', direction='in')\nplt.show()",
-  "options": [
-    "<image_1>",
-    "<image_2>",
-    "<image_3>",
-    "<image_4>"
-  ],
-  "answer": "A",
-  "solution": "",
-  "subject": "Coding",
-  "task": "Code Choose Vis",
-  "category": "Advanced Chart Type;Axis & Scale",
-  "source": "new_annotated",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "\\boxed{A}"
-}
-Generated Response: \boxed{A}
------- End  ------
-
-
---- Sample Generation Debug ---
-PID: coding_3
-[root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  1%|          | 3/564 [00:10<30:59,  3.31s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  1%|          | 4/564 [00:17<43:27,  4.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  1%|          | 5/564 [00:21<39:22,  4.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  1%|          | 6/564 [00:23<34:22,  3.70s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  1%|          | 7/564 [00:26<30:59,  3.34s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  1%|▏         | 8/564 [00:28<28:46,  3.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  2%|▏         | 9/564 [00:31<28:04,  3.04s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  2%|▏         | 10/564 [00:34<26:15,  2.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  2%|▏         | 11/564 [00:36<25:25,  2.76s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  2%|▏         | 12/564 [00:39<24:03,  2.62s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  2%|▏         | 13/564 [00:41<23:29,  2.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  2%|▏         | 14/564 [00:43<22:29,  2.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  3%|▎         | 15/564 [00:45<21:09,  2.31s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  3%|▎         | 16/564 [00:46<18:03,  1.98s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  3%|▎         | 17/564 [00:50<23:20,  2.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  3%|▎         | 18/564 [00:53<24:35,  2.70s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  3%|▎         | 19/564 [00:57<25:48,  2.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  4%|▎         | 20/564 [01:00<26:34,  2.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  4%|▎         | 21/564 [01:02<23:36,  2.61s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  4%|▍         | 22/564 [01:03<20:34,  2.28s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  4%|▍         | 23/564 [01:05<19:13,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  4%|▍         | 24/564 [01:07<18:53,  2.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  4%|▍         | 25/564 [01:09<18:32,  2.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  5%|▍         | 26/564 [01:11<17:27,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  5%|▍         | 27/564 [01:12<16:38,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  5%|▍         | 28/564 [01:14<15:39,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  5%|▌         | 29/564 [01:16<17:35,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  5%|▌         | 30/564 [01:18<16:35,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  5%|▌         | 31/564 [01:20<16:32,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  6%|▌         | 32/564 [01:22<17:00,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  6%|▌         | 33/564 [01:27<25:06,  2.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  6%|▌         | 34/564 [01:37<45:16,  5.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  6%|▌         | 35/564 [01:39<35:22,  4.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  6%|▋         | 36/564 [01:40<28:54,  3.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  7%|▋         | 37/564 [01:43<26:53,  3.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  7%|▋         | 38/564 [01:55<51:07,  5.83s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  7%|▋         | 39/564 [02:07<1:07:45,  7.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  7%|▋         | 40/564 [02:09<51:40,  5.92s/it]  [root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  7%|▋         | 41/564 [02:30<1:31:25, 10.49s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  7%|▋         | 42/564 [02:32<1:08:42,  7.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  8%|▊         | 43/564 [02:33<51:43,  5.96s/it]  [root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  8%|▊         | 44/564 [02:35<40:59,  4.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  8%|▊         | 45/564 [02:37<34:09,  3.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  8%|▊         | 46/564 [02:39<28:21,  3.28s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  8%|▊         | 47/564 [02:41<24:25,  2.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  9%|▊         | 48/564 [07:42<13:13:23, 92.26s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  9%|▊         | 49/564 [07:46<9:24:19, 65.75s/it] [root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  9%|▉         | 50/564 [08:02<7:15:51, 50.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  9%|▉         | 51/564 [08:09<5:22:11, 37.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  9%|▉         | 52/564 [08:13<3:55:17, 27.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-  9%|▉         | 53/564 [08:15<2:50:33, 20.03s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 10%|▉         | 54/564 [08:17<2:03:33, 14.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 10%|▉         | 55/564 [08:19<1:30:56, 10.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 10%|▉         | 56/564 [08:20<1:07:51,  8.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 10%|█         | 57/564 [08:22<52:03,  6.16s/it]  [root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 10%|█         | 58/564 [08:24<41:10,  4.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 10%|█         | 59/564 [08:26<33:38,  4.00s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 11%|█         | 60/564 [08:28<28:08,  3.35s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 11%|█         | 61/564 [08:30<25:18,  3.02s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 11%|█         | 62/564 [08:32<23:27,  2.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 11%|█         | 63/564 [08:35<21:48,  2.61s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 11%|█▏        | 64/564 [08:37<20:49,  2.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 12%|█▏        | 65/564 [08:38<18:50,  2.27s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 12%|█▏        | 66/564 [08:41<18:35,  2.24s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 12%|█▏        | 67/564 [08:43<18:07,  2.19s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 12%|█▏        | 68/564 [08:45<18:15,  2.21s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 12%|█▏        | 69/564 [08:47<16:32,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 12%|█▏        | 70/564 [08:48<15:31,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 13%|█▎        | 71/564 [08:50<14:23,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 13%|█▎        | 72/564 [08:51<14:27,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 13%|█▎        | 73/564 [08:54<15:42,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 13%|█▎        | 74/564 [08:56<16:54,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 13%|█▎        | 75/564 [08:59<17:59,  2.21s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 13%|█▎        | 76/564 [09:01<19:00,  2.34s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 14%|█▎        | 77/564 [09:03<17:33,  2.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 14%|█▍        | 78/564 [09:04<15:39,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 14%|█▍        | 79/564 [09:06<14:40,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 14%|█▍        | 80/564 [09:08<14:02,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 14%|█▍        | 81/564 [09:09<12:49,  1.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 15%|█▍        | 82/564 [09:10<12:20,  1.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 15%|█▍        | 83/564 [09:11<11:45,  1.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 15%|█▍        | 84/564 [09:13<11:18,  1.41s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 15%|█▌        | 85/564 [09:14<11:56,  1.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 15%|█▌        | 86/564 [09:16<13:04,  1.64s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 15%|█▌        | 87/564 [09:19<14:09,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 16%|█▌        | 88/564 [09:20<13:23,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 16%|█▌        | 89/564 [09:22<14:48,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 16%|█▌        | 90/564 [09:24<15:29,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 16%|█▌        | 91/564 [09:32<29:36,  3.76s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 16%|█▋        | 92/564 [09:36<28:55,  3.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 16%|█▋        | 93/564 [09:38<24:07,  3.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 17%|█▋        | 94/564 [09:39<20:51,  2.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 17%|█▋        | 95/564 [09:46<29:51,  3.82s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 17%|█▋        | 96/564 [09:48<25:52,  3.32s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 17%|█▋        | 97/564 [09:53<30:29,  3.92s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 17%|█▋        | 98/564 [10:10<59:34,  7.67s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 18%|█▊        | 99/564 [10:12<46:09,  5.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 18%|█▊        | 100/564 [10:13<35:32,  4.60s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 18%|█▊        | 101/564 [10:15<29:08,  3.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 18%|█▊        | 102/564 [10:17<24:33,  3.19s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 18%|█▊        | 103/564 [10:18<20:26,  2.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 18%|█▊        | 104/564 [10:20<18:31,  2.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 19%|█▊        | 105/564 [10:22<16:50,  2.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 19%|█▉        | 106/564 [10:26<20:50,  2.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 19%|█▉        | 107/564 [10:27<18:02,  2.37s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 19%|█▉        | 108/564 [10:29<15:47,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 19%|█▉        | 109/564 [10:31<15:32,  2.05s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 20%|█▉        | 110/564 [10:32<14:04,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 20%|█▉        | 111/564 [10:34<14:03,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 20%|█▉        | 112/564 [10:36<13:42,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 20%|██        | 113/564 [10:38<14:22,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 20%|██        | 114/564 [10:39<13:31,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 20%|██        | 115/564 [10:41<13:23,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 21%|██        | 116/564 [10:43<12:41,  1.70s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 21%|██        | 117/564 [10:46<15:41,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 21%|██        | 118/564 [10:48<16:13,  2.18s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 21%|██        | 119/564 [10:50<16:57,  2.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 21%|██▏       | 120/564 [10:53<17:13,  2.33s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 21%|██▏       | 121/564 [10:55<15:45,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 22%|██▏       | 122/564 [10:56<13:59,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 22%|██▏       | 123/564 [10:57<12:45,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 22%|██▏       | 124/564 [10:59<12:07,  1.65s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 22%|██▏       | 125/564 [11:01<13:35,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 22%|██▏       | 126/564 [11:03<12:56,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 23%|██▎       | 127/564 [11:04<11:53,  1.63s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 23%|██▎       | 128/564 [11:05<11:03,  1.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 23%|██▎       | 129/564 [11:07<11:50,  1.63s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 23%|██▎       | 130/564 [11:08<10:56,  1.51s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 23%|██▎       | 131/564 [11:10<10:48,  1.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 23%|██▎       | 132/564 [11:11<10:26,  1.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 24%|██▎       | 133/564 [11:13<11:10,  1.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 24%|██▍       | 134/564 [11:15<11:14,  1.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 24%|██▍       | 135/564 [11:16<11:13,  1.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 24%|██▍       | 136/564 [11:18<11:24,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 24%|██▍       | 137/564 [11:20<11:55,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 24%|██▍       | 138/564 [11:21<11:09,  1.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 25%|██▍       | 139/564 [11:22<10:48,  1.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 25%|██▍       | 140/564 [11:24<10:50,  1.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 25%|██▌       | 141/564 [11:26<12:22,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 25%|██▌       | 142/564 [11:28<12:37,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 25%|██▌       | 143/564 [11:30<12:08,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 26%|██▌       | 144/564 [11:31<12:18,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 26%|██▌       | 145/564 [11:33<12:24,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 26%|██▌       | 146/564 [11:35<12:32,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 26%|██▌       | 147/564 [11:37<13:30,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 26%|██▌       | 148/564 [11:39<12:30,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 26%|██▋       | 149/564 [11:41<12:33,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 27%|██▋       | 150/564 [11:42<12:04,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 27%|██▋       | 151/564 [11:44<11:37,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 27%|██▋       | 152/564 [11:45<10:43,  1.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 27%|██▋       | 153/564 [11:47<11:00,  1.61s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 27%|██▋       | 154/564 [11:48<10:54,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 27%|██▋       | 155/564 [11:51<12:34,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 28%|██▊       | 156/564 [11:55<16:53,  2.48s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 28%|██▊       | 157/564 [12:08<37:51,  5.58s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 28%|██▊       | 158/564 [12:11<33:53,  5.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 28%|██▊       | 159/564 [12:13<27:02,  4.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 28%|██▊       | 160/564 [12:16<24:28,  3.64s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 29%|██▊       | 161/564 [12:18<21:47,  3.24s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 29%|██▊       | 162/564 [12:20<19:01,  2.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 29%|██▉       | 163/564 [12:22<17:05,  2.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 29%|██▉       | 164/564 [12:23<15:05,  2.26s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 29%|██▉       | 165/564 [12:27<18:18,  2.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 29%|██▉       | 166/564 [12:29<16:10,  2.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 30%|██▉       | 167/564 [12:31<14:46,  2.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 30%|██▉       | 168/564 [12:33<14:03,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 30%|██▉       | 169/564 [12:35<13:57,  2.12s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 30%|███       | 170/564 [12:36<12:51,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 30%|███       | 171/564 [12:38<11:49,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 30%|███       | 172/564 [12:39<11:27,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 31%|███       | 173/564 [12:43<14:05,  2.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 31%|███       | 174/564 [12:44<12:00,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 31%|███       | 175/564 [12:45<11:50,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 31%|███       | 176/564 [12:47<11:59,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 31%|███▏      | 177/564 [12:50<12:48,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 32%|███▏      | 178/564 [12:52<12:43,  1.98s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 32%|███▏      | 179/564 [12:53<11:44,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 32%|███▏      | 180/564 [12:58<16:38,  2.60s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 32%|███▏      | 181/564 [13:04<23:57,  3.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 32%|███▏      | 182/564 [13:08<24:44,  3.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 32%|███▏      | 183/564 [13:11<22:46,  3.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 33%|███▎      | 184/564 [13:14<21:39,  3.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 33%|███▎      | 185/564 [13:16<19:19,  3.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 33%|███▎      | 186/564 [13:19<18:51,  2.99s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 33%|███▎      | 187/564 [13:21<16:03,  2.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 33%|███▎      | 188/564 [13:22<14:30,  2.32s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 34%|███▎      | 189/564 [13:25<15:13,  2.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 34%|███▎      | 190/564 [13:32<22:51,  3.67s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 34%|███▍      | 191/564 [13:42<34:42,  5.58s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 34%|███▍      | 192/564 [13:50<39:36,  6.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 34%|███▍      | 193/564 [13:53<33:34,  5.43s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 34%|███▍      | 194/564 [13:57<31:03,  5.04s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 35%|███▍      | 195/564 [14:00<27:09,  4.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 35%|███▍      | 196/564 [14:12<40:03,  6.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 35%|███▍      | 197/564 [14:15<33:26,  5.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 35%|███▌      | 198/564 [14:17<27:13,  4.46s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 35%|███▌      | 199/564 [14:19<23:42,  3.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 35%|███▌      | 200/564 [14:22<20:39,  3.41s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 36%|███▌      | 201/564 [14:24<18:58,  3.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 36%|███▌      | 202/564 [14:26<16:46,  2.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 36%|███▌      | 203/564 [14:28<15:12,  2.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 36%|███▌      | 204/564 [14:30<14:07,  2.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 36%|███▋      | 205/564 [14:33<15:31,  2.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 37%|███▋      | 206/564 [14:36<16:13,  2.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 37%|███▋      | 207/564 [14:39<17:06,  2.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 37%|███▋      | 208/564 [14:43<17:25,  2.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 37%|███▋      | 209/564 [14:44<15:26,  2.61s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 37%|███▋      | 210/564 [14:46<13:57,  2.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 37%|███▋      | 211/564 [14:48<12:47,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 38%|███▊      | 212/564 [14:50<12:17,  2.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 38%|███▊      | 213/564 [14:52<11:53,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 38%|███▊      | 214/564 [14:54<12:11,  2.09s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 38%|███▊      | 215/564 [15:01<20:12,  3.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 38%|███▊      | 216/564 [15:03<17:38,  3.04s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 38%|███▊      | 217/564 [15:05<16:33,  2.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 39%|███▊      | 218/564 [15:07<15:25,  2.67s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 39%|███▉      | 219/564 [15:10<14:58,  2.60s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 39%|███▉      | 220/564 [15:12<14:05,  2.46s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 39%|███▉      | 221/564 [15:14<13:11,  2.31s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 39%|███▉      | 222/564 [15:16<12:49,  2.25s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 40%|███▉      | 223/564 [15:18<12:47,  2.25s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 40%|███▉      | 224/564 [15:21<13:04,  2.31s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 40%|███▉      | 225/564 [15:27<19:55,  3.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 40%|████      | 226/564 [15:31<21:19,  3.79s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 40%|████      | 227/564 [15:43<34:03,  6.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 40%|████      | 228/564 [15:45<27:05,  4.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 41%|████      | 229/564 [15:47<22:43,  4.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 41%|████      | 230/564 [15:51<21:42,  3.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 41%|████      | 231/564 [15:53<18:39,  3.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 41%|████      | 232/564 [15:55<17:30,  3.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 41%|████▏     | 233/564 [16:12<40:14,  7.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 41%|████▏     | 234/564 [16:14<31:14,  5.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 42%|████▏     | 235/564 [16:16<24:58,  4.55s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 42%|████▏     | 236/564 [16:18<20:35,  3.77s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 42%|████▏     | 237/564 [16:20<18:15,  3.35s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 42%|████▏     | 238/564 [16:24<18:14,  3.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 42%|████▏     | 239/564 [16:26<16:55,  3.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 43%|████▎     | 240/564 [16:29<15:34,  2.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 43%|████▎     | 241/564 [16:31<14:10,  2.63s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 43%|████▎     | 242/564 [16:33<13:04,  2.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 43%|████▎     | 243/564 [16:35<12:20,  2.31s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 43%|████▎     | 244/564 [16:36<11:22,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 43%|████▎     | 245/564 [16:38<10:47,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 44%|████▎     | 246/564 [16:40<10:19,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 44%|████▍     | 247/564 [16:43<11:53,  2.25s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 44%|████▍     | 248/564 [16:45<11:23,  2.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 44%|████▍     | 249/564 [16:47<11:30,  2.19s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 44%|████▍     | 250/564 [16:49<11:16,  2.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 45%|████▍     | 251/564 [16:51<11:18,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 45%|████▍     | 252/564 [16:54<11:23,  2.19s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 45%|████▍     | 253/564 [16:56<12:11,  2.35s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 45%|████▌     | 254/564 [16:59<11:48,  2.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 45%|████▌     | 255/564 [17:01<11:40,  2.27s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 45%|████▌     | 256/564 [17:03<11:30,  2.24s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 46%|████▌     | 257/564 [17:05<10:54,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 46%|████▌     | 258/564 [17:07<10:34,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 46%|████▌     | 259/564 [17:08<09:57,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 46%|████▌     | 260/564 [17:10<09:44,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 46%|████▋     | 261/564 [17:13<10:14,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 46%|████▋     | 262/564 [17:15<10:44,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 47%|████▋     | 263/564 [17:17<10:57,  2.19s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 47%|████▋     | 264/564 [17:20<11:15,  2.25s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 47%|████▋     | 265/564 [17:22<10:47,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 47%|████▋     | 266/564 [17:24<10:57,  2.21s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 47%|████▋     | 267/564 [17:26<10:44,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 48%|████▊     | 268/564 [17:28<10:50,  2.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 48%|████▊     | 269/564 [17:30<09:50,  2.00s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 48%|████▊     | 270/564 [17:57<46:38,  9.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 48%|████▊     | 271/564 [18:06<46:07,  9.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 48%|████▊     | 272/564 [18:08<34:43,  7.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 48%|████▊     | 273/564 [18:10<27:02,  5.57s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 49%|████▊     | 274/564 [18:12<21:50,  4.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 49%|████▉     | 275/564 [18:14<18:10,  3.77s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 49%|████▉     | 276/564 [18:16<15:31,  3.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 49%|████▉     | 277/564 [18:18<13:49,  2.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 49%|████▉     | 278/564 [18:20<12:33,  2.64s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 49%|████▉     | 279/564 [18:23<12:49,  2.70s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 50%|████▉     | 280/564 [18:25<12:15,  2.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 50%|████▉     | 281/564 [18:27<11:08,  2.36s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 50%|█████     | 282/564 [18:29<10:11,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 50%|█████     | 283/564 [18:31<09:50,  2.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 50%|█████     | 284/564 [18:33<09:43,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 51%|█████     | 285/564 [18:34<08:53,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 51%|█████     | 286/564 [18:36<08:55,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 51%|█████     | 287/564 [18:38<08:35,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 51%|█████     | 288/564 [18:40<08:25,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 51%|█████     | 289/564 [18:42<08:29,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 51%|█████▏    | 290/564 [18:44<08:35,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 52%|█████▏    | 291/564 [18:46<08:42,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 52%|█████▏    | 292/564 [18:48<08:54,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 52%|█████▏    | 293/564 [18:50<08:47,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 52%|█████▏    | 294/564 [18:51<08:42,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 52%|█████▏    | 295/564 [18:54<09:01,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 52%|█████▏    | 296/564 [18:56<08:57,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 53%|█████▎    | 297/564 [18:58<08:44,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 53%|█████▎    | 298/564 [18:59<08:32,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 53%|█████▎    | 299/564 [19:01<08:28,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 53%|█████▎    | 300/564 [19:03<08:23,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 53%|█████▎    | 301/564 [19:07<11:10,  2.55s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 54%|█████▎    | 302/564 [19:09<10:14,  2.35s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 54%|█████▎    | 303/564 [19:11<09:45,  2.24s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 54%|█████▍    | 304/564 [19:13<09:17,  2.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 54%|█████▍    | 305/564 [19:15<09:10,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 54%|█████▍    | 306/564 [19:17<09:13,  2.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 54%|█████▍    | 307/564 [19:21<11:40,  2.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 55%|█████▍    | 308/564 [19:28<17:04,  4.00s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 55%|█████▍    | 309/564 [19:30<14:22,  3.38s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 55%|█████▍    | 310/564 [19:32<12:41,  3.00s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 55%|█████▌    | 311/564 [19:39<17:43,  4.20s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 55%|█████▌    | 312/564 [19:41<14:29,  3.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 55%|█████▌    | 313/564 [19:43<13:00,  3.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 56%|█████▌    | 314/564 [19:45<11:41,  2.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 56%|█████▌    | 315/564 [19:48<10:48,  2.60s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 56%|█████▌    | 316/564 [19:50<09:54,  2.40s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 56%|█████▌    | 317/564 [20:03<23:59,  5.83s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 56%|█████▋    | 318/564 [20:06<19:29,  4.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 57%|█████▋    | 319/564 [20:18<28:21,  6.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 57%|█████▋    | 320/564 [20:20<22:03,  5.43s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 57%|█████▋    | 321/564 [20:21<17:43,  4.38s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 57%|█████▋    | 322/564 [20:23<14:43,  3.65s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 57%|█████▋    | 323/564 [20:25<12:45,  3.18s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 57%|█████▋    | 324/564 [20:27<11:14,  2.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 58%|█████▊    | 325/564 [20:29<10:02,  2.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 58%|█████▊    | 326/564 [20:31<09:16,  2.34s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 58%|█████▊    | 327/564 [20:33<08:47,  2.22s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 58%|█████▊    | 328/564 [20:35<08:28,  2.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 58%|█████▊    | 329/564 [20:37<08:16,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 59%|█████▊    | 330/564 [20:39<08:25,  2.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 59%|█████▊    | 331/564 [20:42<08:23,  2.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 59%|█████▉    | 332/564 [20:43<07:54,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 59%|█████▉    | 333/564 [20:45<07:17,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 59%|█████▉    | 334/564 [20:47<07:13,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 59%|█████▉    | 335/564 [20:48<06:56,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 60%|█████▉    | 336/564 [20:50<07:07,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 60%|█████▉    | 337/564 [20:53<07:26,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 60%|█████▉    | 338/564 [20:56<08:57,  2.38s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 60%|██████    | 339/564 [20:58<08:20,  2.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 60%|██████    | 340/564 [21:00<07:41,  2.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 60%|██████    | 341/564 [21:01<07:33,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 61%|██████    | 342/564 [21:03<07:09,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 61%|██████    | 343/564 [21:05<07:07,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 61%|██████    | 344/564 [21:07<07:02,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 61%|██████    | 345/564 [21:09<06:41,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 61%|██████▏   | 346/564 [21:11<07:07,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 62%|██████▏   | 347/564 [21:13<07:15,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 62%|██████▏   | 348/564 [21:15<07:32,  2.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 62%|██████▏   | 349/564 [21:17<07:17,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 62%|██████▏   | 350/564 [21:20<07:56,  2.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 62%|██████▏   | 351/564 [21:23<08:49,  2.49s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 62%|██████▏   | 352/564 [21:31<14:29,  4.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 63%|██████▎   | 353/564 [21:48<27:45,  7.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 63%|██████▎   | 354/564 [21:49<21:18,  6.09s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 63%|██████▎   | 355/564 [21:51<16:52,  4.85s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 63%|██████▎   | 356/564 [22:03<24:12,  6.98s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 63%|██████▎   | 357/564 [22:14<28:13,  8.18s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 63%|██████▎   | 358/564 [22:16<21:36,  6.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 64%|██████▎   | 359/564 [22:19<17:24,  5.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 64%|██████▍   | 360/564 [22:20<13:56,  4.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 64%|██████▍   | 361/564 [22:22<11:28,  3.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 64%|██████▍   | 362/564 [22:25<11:02,  3.28s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 64%|██████▍   | 363/564 [22:27<09:24,  2.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 65%|██████▍   | 364/564 [22:30<09:18,  2.79s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 65%|██████▍   | 365/564 [22:32<08:33,  2.58s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 65%|██████▍   | 366/564 [22:33<07:42,  2.34s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 65%|██████▌   | 367/564 [22:37<08:25,  2.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 65%|██████▌   | 368/564 [22:39<07:58,  2.44s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 65%|██████▌   | 369/564 [22:41<07:27,  2.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 66%|██████▌   | 370/564 [22:43<07:10,  2.22s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 66%|██████▌   | 371/564 [22:45<07:00,  2.18s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 66%|██████▌   | 372/564 [22:47<06:46,  2.12s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 66%|██████▌   | 373/564 [22:49<06:53,  2.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 66%|██████▋   | 374/564 [22:52<07:15,  2.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 66%|██████▋   | 375/564 [23:08<20:18,  6.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 67%|██████▋   | 376/564 [23:10<16:00,  5.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 67%|██████▋   | 377/564 [23:11<12:48,  4.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 67%|██████▋   | 378/564 [23:13<10:30,  3.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 67%|██████▋   | 379/564 [23:16<10:13,  3.32s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 67%|██████▋   | 380/564 [23:21<11:36,  3.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 68%|██████▊   | 381/564 [23:39<24:35,  8.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 68%|██████▊   | 382/564 [23:41<19:05,  6.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 68%|██████▊   | 383/564 [23:43<14:28,  4.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 68%|██████▊   | 384/564 [23:44<11:14,  3.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 68%|██████▊   | 385/564 [23:47<10:47,  3.62s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 68%|██████▊   | 386/564 [23:51<11:02,  3.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 69%|██████▊   | 387/564 [23:53<08:54,  3.02s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 69%|██████▉   | 388/564 [23:58<10:32,  3.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 69%|██████▉   | 389/564 [23:59<08:43,  2.99s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 69%|██████▉   | 390/564 [24:09<14:37,  5.04s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 69%|██████▉   | 391/564 [24:11<12:13,  4.24s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 70%|██████▉   | 392/564 [24:14<10:31,  3.67s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 70%|██████▉   | 393/564 [24:16<09:05,  3.19s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 70%|██████▉   | 394/564 [24:18<07:55,  2.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 70%|███████   | 395/564 [24:19<06:56,  2.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 70%|███████   | 396/564 [24:21<06:02,  2.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 70%|███████   | 397/564 [24:22<05:22,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 71%|███████   | 398/564 [24:24<05:03,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 71%|███████   | 399/564 [24:25<04:39,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 71%|███████   | 400/564 [24:27<04:31,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 71%|███████   | 401/564 [24:29<05:18,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 71%|███████▏  | 402/564 [24:32<05:44,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 71%|███████▏  | 403/564 [24:34<05:38,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 72%|███████▏  | 404/564 [24:36<05:09,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 72%|███████▏  | 405/564 [24:37<05:01,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 72%|███████▏  | 406/564 [24:39<05:06,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 72%|███████▏  | 407/564 [24:41<04:55,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 72%|███████▏  | 408/564 [24:43<04:41,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 73%|███████▎  | 409/564 [24:44<04:21,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 73%|███████▎  | 410/564 [24:51<08:30,  3.31s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 73%|███████▎  | 411/564 [24:55<08:42,  3.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 73%|███████▎  | 412/564 [24:56<07:01,  2.77s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 73%|███████▎  | 413/564 [24:58<06:18,  2.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 73%|███████▎  | 414/564 [25:00<06:00,  2.40s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 74%|███████▎  | 415/564 [25:02<05:40,  2.28s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 74%|███████▍  | 416/564 [25:04<05:30,  2.23s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 74%|███████▍  | 417/564 [25:06<04:53,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 74%|███████▍  | 418/564 [25:07<04:19,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 74%|███████▍  | 419/564 [25:09<04:03,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 74%|███████▍  | 420/564 [25:10<03:55,  1.63s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 75%|███████▍  | 421/564 [25:12<04:09,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 75%|███████▍  | 422/564 [25:15<04:37,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 75%|███████▌  | 423/564 [25:16<04:06,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 75%|███████▌  | 424/564 [25:17<03:56,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 75%|███████▌  | 425/564 [25:19<03:34,  1.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 76%|███████▌  | 426/564 [25:20<03:22,  1.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 76%|███████▌  | 427/564 [25:21<03:18,  1.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 76%|███████▌  | 428/564 [25:23<03:11,  1.41s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 76%|███████▌  | 429/564 [25:24<03:17,  1.46s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 76%|███████▌  | 430/564 [25:26<03:20,  1.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 76%|███████▋  | 431/564 [25:27<03:14,  1.46s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 77%|███████▋  | 432/564 [25:29<03:24,  1.55s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 77%|███████▋  | 433/564 [25:31<03:58,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 77%|███████▋  | 434/564 [25:33<03:44,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 77%|███████▋  | 435/564 [25:34<03:41,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 77%|███████▋  | 436/564 [25:37<03:51,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 77%|███████▋  | 437/564 [25:38<03:54,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 78%|███████▊  | 438/564 [25:40<03:55,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 78%|███████▊  | 439/564 [25:42<03:44,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 78%|███████▊  | 440/564 [25:44<03:32,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 78%|███████▊  | 441/564 [25:45<03:17,  1.61s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 78%|███████▊  | 442/564 [25:46<03:03,  1.51s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 79%|███████▊  | 443/564 [25:48<03:06,  1.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 79%|███████▊  | 444/564 [25:49<03:04,  1.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 79%|███████▉  | 445/564 [25:51<03:16,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 79%|███████▉  | 446/564 [25:55<04:27,  2.27s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 79%|███████▉  | 447/564 [25:59<05:39,  2.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 79%|███████▉  | 448/564 [26:01<04:44,  2.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 80%|███████▉  | 449/564 [26:03<04:36,  2.40s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 80%|███████▉  | 450/564 [26:04<03:56,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 80%|███████▉  | 451/564 [26:07<04:30,  2.40s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 80%|████████  | 452/564 [26:09<03:52,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 80%|████████  | 453/564 [26:14<05:25,  2.93s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 80%|████████  | 454/564 [26:23<08:57,  4.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 81%|████████  | 455/564 [26:25<07:10,  3.95s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 81%|████████  | 456/564 [26:27<05:54,  3.28s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 81%|████████  | 457/564 [26:28<04:48,  2.70s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 81%|████████  | 458/564 [26:39<09:00,  5.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 81%|████████▏ | 459/564 [26:40<07:06,  4.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 82%|████████▏ | 460/564 [26:43<06:03,  3.49s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 82%|████████▏ | 461/564 [26:44<04:58,  2.90s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 82%|████████▏ | 462/564 [26:45<04:09,  2.45s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 82%|████████▏ | 463/564 [26:47<03:35,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 82%|████████▏ | 464/564 [26:49<03:20,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 82%|████████▏ | 465/564 [26:50<03:07,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 83%|████████▎ | 466/564 [26:52<02:50,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 83%|████████▎ | 467/564 [26:53<02:40,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 83%|████████▎ | 468/564 [26:55<02:39,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 83%|████████▎ | 469/564 [26:57<02:58,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 83%|████████▎ | 470/564 [26:59<02:59,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 84%|████████▎ | 471/564 [27:01<02:51,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 84%|████████▎ | 472/564 [27:02<02:45,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 84%|████████▍ | 473/564 [27:05<03:01,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 84%|████████▍ | 474/564 [27:07<03:15,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 84%|████████▍ | 475/564 [27:10<03:10,  2.14s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 84%|████████▍ | 476/564 [27:11<02:50,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 85%|████████▍ | 477/564 [27:12<02:33,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 85%|████████▍ | 478/564 [27:14<02:17,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 85%|████████▍ | 479/564 [27:16<02:47,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 85%|████████▌ | 480/564 [27:19<03:00,  2.15s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 85%|████████▌ | 481/564 [27:20<02:33,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 85%|████████▌ | 482/564 [27:21<02:15,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 86%|████████▌ | 483/564 [27:26<03:19,  2.46s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 86%|████████▌ | 484/564 [27:28<03:21,  2.51s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 86%|████████▌ | 485/564 [27:33<04:01,  3.06s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 86%|████████▌ | 486/564 [27:35<03:36,  2.78s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 86%|████████▋ | 487/564 [27:37<03:13,  2.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 87%|████████▋ | 488/564 [27:39<03:01,  2.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 87%|████████▋ | 489/564 [27:40<02:32,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 87%|████████▋ | 490/564 [27:41<02:13,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 87%|████████▋ | 491/564 [27:43<02:03,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 87%|████████▋ | 492/564 [27:44<01:58,  1.65s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 87%|████████▋ | 493/564 [27:45<01:49,  1.55s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 88%|████████▊ | 494/564 [27:47<01:44,  1.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 88%|████████▊ | 495/564 [27:49<01:49,  1.58s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 88%|████████▊ | 496/564 [27:54<02:58,  2.63s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 88%|████████▊ | 497/564 [27:56<02:42,  2.43s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 88%|████████▊ | 498/564 [28:08<05:57,  5.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 88%|████████▊ | 499/564 [28:12<05:16,  4.86s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 89%|████████▊ | 500/564 [28:13<04:03,  3.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 89%|████████▉ | 501/564 [28:15<03:20,  3.18s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 89%|████████▉ | 502/564 [28:16<02:46,  2.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 89%|████████▉ | 503/564 [28:18<02:19,  2.28s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 89%|████████▉ | 504/564 [28:19<02:00,  2.00s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 90%|████████▉ | 505/564 [28:20<01:50,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 90%|████████▉ | 506/564 [28:22<01:36,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 90%|████████▉ | 507/564 [28:23<01:37,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 90%|█████████ | 508/564 [28:25<01:34,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 90%|█████████ | 509/564 [28:26<01:24,  1.53s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 90%|█████████ | 510/564 [28:28<01:29,  1.65s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 91%|█████████ | 511/564 [28:29<01:20,  1.51s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 91%|█████████ | 512/564 [28:31<01:13,  1.40s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 91%|█████████ | 513/564 [28:32<01:07,  1.33s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 91%|█████████ | 514/564 [28:33<01:06,  1.34s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 91%|█████████▏| 515/564 [28:35<01:14,  1.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 91%|█████████▏| 516/564 [28:37<01:18,  1.64s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 92%|█████████▏| 517/564 [28:38<01:11,  1.52s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 92%|█████████▏| 518/564 [28:40<01:14,  1.62s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 92%|█████████▏| 519/564 [28:41<01:06,  1.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 92%|█████████▏| 520/564 [28:42<01:01,  1.39s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 92%|█████████▏| 521/564 [28:44<00:58,  1.35s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 93%|█████████▎| 522/564 [28:45<00:54,  1.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 93%|█████████▎| 523/564 [28:46<00:52,  1.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 93%|█████████▎| 524/564 [28:47<00:51,  1.29s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 93%|█████████▎| 525/564 [28:49<00:51,  1.33s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 93%|█████████▎| 526/564 [28:50<00:48,  1.27s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 93%|█████████▎| 527/564 [28:51<00:46,  1.26s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 94%|█████████▎| 528/564 [28:52<00:45,  1.27s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 94%|█████████▍| 529/564 [28:54<00:48,  1.40s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 94%|█████████▍| 530/564 [28:57<01:01,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 94%|█████████▍| 531/564 [28:58<00:57,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 94%|█████████▍| 532/564 [29:00<00:56,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 95%|█████████▍| 533/564 [29:02<00:52,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 95%|█████████▍| 534/564 [29:04<00:51,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 95%|█████████▍| 535/564 [29:05<00:45,  1.56s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 95%|█████████▌| 536/564 [29:06<00:45,  1.62s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 95%|█████████▌| 537/564 [29:08<00:41,  1.54s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 95%|█████████▌| 538/564 [29:09<00:39,  1.50s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 96%|█████████▌| 539/564 [29:10<00:35,  1.41s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 96%|█████████▌| 540/564 [29:12<00:36,  1.51s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 96%|█████████▌| 541/564 [29:14<00:33,  1.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 96%|█████████▌| 542/564 [29:15<00:31,  1.43s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 96%|█████████▋| 543/564 [29:16<00:30,  1.47s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 96%|█████████▋| 544/564 [29:18<00:32,  1.64s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 97%|█████████▋| 545/564 [29:22<00:41,  2.16s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 97%|█████████▋| 546/564 [29:23<00:35,  1.98s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 97%|█████████▋| 547/564 [29:25<00:32,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 97%|█████████▋| 548/564 [29:26<00:26,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 97%|█████████▋| 549/564 [29:28<00:24,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 98%|█████████▊| 550/564 [29:30<00:23,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 98%|█████████▊| 551/564 [29:34<00:33,  2.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 98%|█████████▊| 552/564 [29:36<00:28,  2.42s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 98%|█████████▊| 553/564 [29:38<00:22,  2.09s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 98%|█████████▊| 554/564 [29:40<00:20,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 98%|█████████▊| 555/564 [29:41<00:17,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 99%|█████████▊| 556/564 [29:43<00:13,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 99%|█████████▉| 557/564 [29:44<00:11,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 99%|█████████▉| 558/564 [29:46<00:09,  1.62s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 99%|█████████▉| 559/564 [29:47<00:07,  1.59s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 99%|█████████▉| 560/564 [29:49<00:06,  1.65s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
- 99%|█████████▉| 561/564 [29:54<00:07,  2.63s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-100%|█████████▉| 562/564 [30:05<00:10,  5.10s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-100%|█████████▉| 563/564 [30:07<00:04,  4.11s/it][root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
-100%|██████████| 564/564 [30:11<00:00,  4.26s/it]100%|██████████| 564/564 [30:11<00:00,  3.21s/it]
-[root] Save results to results/gemini-2.0-flash-exp_Coding_Direct.json
+  0%|          | 0/564 [00:00<?, ?it/s]  0%|          | 1/564 [00:00<01:44,  5.38it/s]  0%|          | 2/564 [00:00<01:21,  6.86it/s]  1%|          | 3/564 [00:00<01:14,  7.48it/s]  1%|          | 4/564 [00:00<01:09,  8.09it/s]  1%|          | 5/564 [00:00<01:25,  6.54it/s]  1%|          | 6/564 [00:00<01:36,  5.79it/s]  1%|          | 7/564 [00:01<01:43,  5.40it/s]  1%|▏         | 8/564 [00:01<01:46,  5.23it/s]  2%|▏         | 9/564 [00:01<01:31,  6.08it/s]  2%|▏         | 11/564 [00:01<01:14,  7.41it/s]  2%|▏         | 13/564 [00:01<00:58,  9.34it/s]  3%|▎         | 16/564 [00:01<00:39, 13.70it/s]  3%|▎         | 18/564 [00:02<01:07,  8.08it/s]  4%|▎         | 20/564 [00:02<01:27,  6.19it/s]  4%|▍         | 23/564 [00:03<01:03,  8.55it/s]  4%|▍         | 25/564 [00:03<00:54,  9.94it/s]  5%|▍         | 27/564 [00:03<00:48, 11.13it/s]  5%|▌         | 29/564 [00:03<00:47, 11.34it/s]  5%|▌         | 31/564 [00:03<00:50, 10.64it/s]  6%|▌         | 33/564 [00:03<00:51, 10.36it/s]  6%|▌         | 35/564 [00:04<00:50, 10.57it/s]  7%|▋         | 37/564 [00:04<00:45, 11.56it/s]  7%|▋         | 40/564 [00:04<00:36, 14.28it/s]  8%|▊         | 43/564 [00:04<00:30, 16.92it/s]  8%|▊         | 46/564 [00:04<00:28, 17.87it/s]  9%|▊         | 48/564 [00:04<00:29, 17.71it/s]  9%|▉         | 50/564 [00:04<00:37, 13.78it/s]  9%|▉         | 52/564 [00:05<00:44, 11.56it/s] 10%|▉         | 54/564 [00:05<00:39, 12.80it/s] 10%|▉         | 56/564 [00:05<00:36, 13.79it/s] 10%|█         | 58/564 [00:05<00:34, 14.51it/s] 11%|█         | 60/564 [00:05<00:33, 15.14it/s] 11%|█         | 62/564 [00:05<00:38, 12.97it/s] 11%|█▏        | 64/564 [00:06<00:42, 11.87it/s] 12%|█▏        | 66/564 [00:06<00:42, 11.83it/s] 12%|█▏        | 68/564 [00:06<00:42, 11.70it/s] 13%|█▎        | 71/564 [00:06<00:33, 14.51it/s] 13%|█▎        | 73/564 [00:06<00:34, 14.15it/s] 13%|█▎        | 75/564 [00:06<00:40, 11.94it/s] 14%|█▎        | 77/564 [00:07<00:44, 10.97it/s] 14%|█▍        | 79/564 [00:07<00:45, 10.58it/s] 14%|█▍        | 81/564 [00:07<00:41, 11.65it/s] 15%|█▌        | 85/564 [00:07<00:29, 16.42it/s] 16%|█▌        | 88/564 [00:07<00:26, 18.30it/s] 16%|█▌        | 91/564 [00:07<00:29, 15.80it/s] 16%|█▋        | 93/564 [00:08<00:29, 16.17it/s] 17%|█▋        | 96/564 [00:08<00:24, 19.06it/s] 18%|█▊        | 99/564 [00:08<00:23, 19.98it/s] 18%|█▊        | 102/564 [00:08<00:23, 19.32it/s] 19%|█▊        | 105/564 [00:08<00:24, 18.49it/s] 19%|█▉        | 107/564 [00:08<00:24, 18.50it/s] 20%|█▉        | 110/564 [00:08<00:23, 19.39it/s] 20%|██        | 113/564 [00:09<00:21, 21.08it/s] 21%|██        | 117/564 [00:09<00:20, 21.84it/s] 21%|██▏       | 120/564 [00:09<00:24, 18.24it/s] 22%|██▏       | 123/564 [00:09<00:23, 18.95it/s] 22%|██▏       | 126/564 [00:09<00:21, 20.40it/s] 23%|██▎       | 129/564 [00:09<00:20, 21.65it/s] 23%|██▎       | 132/564 [00:09<00:19, 21.93it/s] 24%|██▍       | 135/564 [00:10<00:22, 18.74it/s] 24%|██▍       | 137/564 [00:10<00:23, 18.31it/s] 25%|██▍       | 140/564 [00:10<00:21, 19.53it/s] 25%|██▌       | 143/564 [00:10<00:21, 19.61it/s] 26%|██▌       | 146/564 [00:10<00:20, 20.62it/s] 26%|██▋       | 149/564 [00:10<00:18, 22.17it/s] 27%|██▋       | 152/564 [00:10<00:17, 23.32it/s] 27%|██▋       | 155/564 [00:11<00:18, 22.51it/s] 28%|██▊       | 158/564 [00:11<00:21, 18.53it/s] 29%|██▊       | 161/564 [00:11<00:26, 14.96it/s] 29%|██▉       | 163/564 [00:11<00:30, 12.99it/s] 29%|██▉       | 165/564 [00:11<00:32, 12.21it/s] 30%|██▉       | 167/564 [00:12<00:32, 12.13it/s] 30%|██▉       | 169/564 [00:12<00:32, 12.27it/s] 30%|███       | 171/564 [00:12<00:30, 12.86it/s] 31%|███       | 174/564 [00:12<00:25, 15.35it/s] 31%|███▏      | 177/564 [00:12<00:23, 16.54it/s] 32%|███▏      | 179/564 [00:12<00:26, 14.64it/s] 32%|███▏      | 181/564 [00:13<00:27, 13.99it/s] 32%|███▏      | 183/564 [00:13<00:27, 13.91it/s] 33%|███▎      | 185/564 [00:13<00:27, 13.88it/s] 33%|███▎      | 187/564 [00:13<00:28, 13.42it/s] 34%|███▎      | 189/564 [00:13<00:25, 14.64it/s] 34%|███▍      | 193/564 [00:13<00:19, 19.22it/s] 35%|███▍      | 196/564 [00:13<00:18, 19.57it/s] 35%|███▌      | 200/564 [00:14<00:15, 22.93it/s] 37%|███▋      | 206/564 [00:14<00:12, 27.86it/s] 37%|███▋      | 209/564 [00:14<00:13, 26.56it/s] 38%|███▊      | 217/564 [00:14<00:09, 37.07it/s] 39%|███▉      | 221/564 [00:14<00:09, 37.64it/s] 40%|████      | 227/564 [00:14<00:07, 42.75it/s] 42%|████▏     | 236/564 [00:14<00:06, 54.15it/s] 43%|████▎     | 242/564 [00:14<00:06, 48.85it/s] 44%|████▍     | 249/564 [00:15<00:06, 51.95it/s] 45%|████▌     | 255/564 [00:15<00:06, 49.18it/s] 46%|████▋     | 262/564 [00:15<00:05, 53.23it/s] 48%|████▊     | 268/564 [00:15<00:05, 52.04it/s] 49%|████▉     | 278/564 [00:15<00:04, 63.89it/s] 51%|█████     | 287/564 [00:15<00:03, 69.79it/s] 52%|█████▏    | 295/564 [00:15<00:03, 70.48it/s] 54%|█████▍    | 306/564 [00:15<00:03, 80.32it/s] 56%|█████▌    | 315/564 [00:15<00:03, 74.93it/s] 57%|█████▋    | 323/564 [00:16<00:03, 72.72it/s] 59%|█████▊    | 331/564 [00:16<00:03, 73.02it/s] 60%|██████    | 341/564 [00:16<00:02, 80.26it/s] 62%|██████▏   | 350/564 [00:16<00:03, 70.37it/s] 63%|██████▎   | 358/564 [00:16<00:03, 59.22it/s] 65%|██████▍   | 366/564 [00:16<00:03, 62.43it/s] 66%|██████▌   | 373/564 [00:16<00:03, 59.91it/s] 67%|██████▋   | 380/564 [00:17<00:03, 49.03it/s] 68%|██████▊   | 386/564 [00:17<00:04, 42.73it/s] 70%|██████▉   | 392/564 [00:17<00:03, 44.88it/s] 71%|███████   | 400/564 [00:17<00:03, 51.64it/s] 72%|███████▏  | 406/564 [00:17<00:03, 51.11it/s] 73%|███████▎  | 412/564 [00:17<00:02, 51.35it/s] 74%|███████▍  | 419/564 [00:17<00:02, 54.72it/s] 76%|███████▌  | 427/564 [00:17<00:02, 60.08it/s] 77%|███████▋  | 436/564 [00:18<00:01, 64.57it/s] 79%|███████▉  | 445/564 [00:18<00:01, 69.81it/s] 81%|████████  | 455/564 [00:18<00:01, 73.07it/s] 82%|████████▏ | 463/564 [00:18<00:01, 64.31it/s] 83%|████████▎ | 470/564 [00:18<00:01, 62.26it/s] 85%|████████▍ | 477/564 [00:19<00:02, 35.73it/s] 85%|████████▌ | 482/564 [00:19<00:02, 28.47it/s] 86%|████████▌ | 486/564 [00:19<00:03, 24.79it/s] 87%|████████▋ | 490/564 [00:19<00:02, 25.57it/s] 88%|████████▊ | 495/564 [00:19<00:02, 27.41it/s] 88%|████████▊ | 499/564 [00:20<00:02, 27.27it/s] 89%|████████▉ | 503/564 [00:20<00:02, 26.20it/s] 90%|████████▉ | 507/564 [00:20<00:02, 27.19it/s] 90%|█████████ | 510/564 [00:20<00:02, 26.49it/s] 91%|█████████▏| 515/564 [00:20<00:01, 31.25it/s] 92%|█████████▏| 519/564 [00:20<00:01, 32.66it/s] 93%|█████████▎| 523/564 [00:20<00:01, 33.55it/s] 94%|█████████▎| 528/564 [00:20<00:00, 36.09it/s] 94%|█████████▍| 532/564 [00:21<00:00, 34.46it/s] 95%|█████████▌| 537/564 [00:21<00:00, 36.42it/s] 96%|█████████▌| 541/564 [00:21<00:00, 37.12it/s] 97%|█████████▋| 546/564 [00:21<00:00, 40.28it/s] 98%|█████████▊| 551/564 [00:21<00:00, 33.76it/s] 98%|█████████▊| 555/564 [00:21<00:00, 31.83it/s] 99%|█████████▉| 559/564 [00:21<00:00, 32.88it/s]100%|█████████▉| 563/564 [00:21<00:00, 30.97it/s]100%|██████████| 564/564 [00:21<00:00, 25.65it/s]
+[root] Save results to results/close-source/gemini/Direct/gemini-2.0-flash-exp_Coding_Direct.json
 [root] End Generation......
-Problem: {
-  "query": "\nWhich visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.tick_params(axis='both', direction='in')\nplt.show()\nA: <image_1>\nB: <image_2>\nC: <image_3>\nD: <image_4>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps).",
-  "gt_content": "<image_3>",
-  "pid": "coding_3",
-  "question": "Which visualization can this code possibly generate? We are using Python version 3.11.0, matplotlib version 3.6.3, and seaborn version 0.12.2 (if applicable).\n\nimport matplotlib.pyplot as plt\nimport numpy as np\nnp.random.seed(0)\nx = np.random.rand(1000)\ny = np.random.rand(1000) * 2 - 1 \nlabels = np.random.choice([0, 1], size=1000)\nplt.figure(figsize=(8, 8))\nplt.scatter(x[labels == 0], y[labels == 0], c='blue', label='False', alpha=0.6)\nplt.scatter(x[labels == 1], y[labels == 1], c='red', label='True', alpha=0.6)\nplt.axhline(0.5, color='black', linestyle=':', linewidth=1)\nplt.axvline(0, color='black', linestyle=':', linewidth=1)\nplt.xlabel(r'$P(F_{i+1} | F_i)$')\nplt.ylabel(r'$P(F_{i+2} | F_{i+1}) - P(F_{i+1} | F_i)$')\nplt.legend(title='Boundary')\nplt.hist(x[labels == 0], bins=30, color='blue', alpha=0.3, orientation='vertical', density=True)\nplt.hist(x[labels == 1], bins=30, color='red', alpha=0.3, orientation='vertical', density=True)\nplt.hist(y[labels == 0], bins=30, color='blue', alpha=0.3, orientation='horizontal', density=True)\nplt.hist(y[labels == 1], bins=30, color='red', alpha=0.3, orientation='horizontal', density=True)\nplt.text(-0.1, -1, r'$\\alpha_1$', fontsize=12)\nplt.text(1.02, 0.5, r'$\\alpha_2$', fontsize=12)\nplt.xlim(-0.1, 1.1)\nplt.ylim(-1.1, 1.1)\nplt.tick_params(axis='both', direction='in')\nplt.show()",
-  "options": [
-    "<image_1>",
-    "<image_2>",
-    "<image_3>",
-    "<image_4>"
-  ],
-  "answer": "C",
-  "solution": "",
-  "subject": "Coding",
-  "task": "Code Choose Vis",
-  "category": "Advanced Chart Type;Axis & Scale",
-  "source": "new_annotated",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "\\boxed{A}"
-}
-Generated Response: \boxed{A}
------- End  ------
-

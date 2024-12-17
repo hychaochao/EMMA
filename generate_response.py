@@ -27,7 +27,7 @@ def main():
     parser.add_argument('--api_key', type=str, default='')
     # Local model
     parser.add_argument('--model_path', type=str, default='')
-    parser.add_argument('--max_tokens', type=int, default=1024)
+    parser.add_argument('--max_tokens', type=int, default=2048)
     parser.add_argument('--temperature', type=float, default=0.7)
 
     args = parser.parse_args()

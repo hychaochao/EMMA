@@ -1,983 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Math']
-[root] Loading config
-[root] Loading gemini-2.0-flash-exp
-[root] Model loaded!
-[root] Starting to generate.....
-  0%|          | 0/892 [00:00<?, ?it/s]  0%|          | 1/892 [00:03<51:14,  3.45s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  0%|          | 2/892 [00:05<42:23,  2.86s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  0%|          | 3/892 [00:08<40:31,  2.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  0%|          | 4/892 [00:11<41:35,  2.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  1%|          | 5/892 [00:13<39:01,  2.64s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  1%|          | 6/892 [00:16<39:41,  2.69s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  1%|          | 7/892 [00:18<37:49,  2.56s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  1%|          | 8/892 [00:21<39:30,  2.68s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  1%|          | 9/892 [00:23<35:12,  2.39s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  1%|          | 10/892 [00:25<34:32,  2.35s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  1%|          | 11/892 [00:28<33:58,  2.31s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  1%|▏         | 12/892 [00:30<35:47,  2.44s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  1%|▏         | 13/892 [00:32<33:56,  2.32s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  2%|▏         | 14/892 [00:35<36:44,  2.51s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  2%|▏         | 15/892 [00:39<42:43,  2.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  2%|▏         | 16/892 [00:41<36:52,  2.53s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  2%|▏         | 17/892 [00:43<36:13,  2.48s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  2%|▏         | 18/892 [00:46<36:01,  2.47s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  2%|▏         | 19/892 [00:48<35:05,  2.41s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  2%|▏         | 20/892 [00:50<33:39,  2.32s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  2%|▏         | 21/892 [00:52<33:12,  2.29s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  2%|▏         | 22/892 [00:55<33:36,  2.32s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  3%|▎         | 23/892 [00:57<35:36,  2.46s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  3%|▎         | 24/892 [00:59<34:12,  2.36s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  3%|▎         | 25/892 [01:03<37:42,  2.61s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  3%|▎         | 26/892 [01:05<36:11,  2.51s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  3%|▎         | 27/892 [01:07<35:28,  2.46s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  3%|▎         | 28/892 [01:10<34:42,  2.41s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  3%|▎         | 29/892 [01:12<32:48,  2.28s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  3%|▎         | 30/892 [01:14<31:29,  2.19s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  3%|▎         | 31/892 [01:15<30:22,  2.12s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  4%|▎         | 32/892 [01:17<28:09,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  4%|▎         | 33/892 [01:20<30:42,  2.14s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  4%|▍         | 34/892 [01:22<29:48,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  4%|▍         | 35/892 [01:23<28:57,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  4%|▍         | 36/892 [01:25<26:18,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  4%|▍         | 37/892 [01:27<25:47,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  4%|▍         | 38/892 [01:29<29:17,  2.06s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  4%|▍         | 39/892 [01:31<29:22,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  4%|▍         | 40/892 [01:33<29:37,  2.09s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  5%|▍         | 41/892 [01:35<28:26,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  5%|▍         | 42/892 [01:37<28:52,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  5%|▍         | 43/892 [01:40<29:24,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  5%|▍         | 44/892 [01:41<28:30,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  5%|▌         | 45/892 [01:44<28:40,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  5%|▌         | 46/892 [01:45<27:21,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  5%|▌         | 47/892 [01:47<25:47,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  5%|▌         | 48/892 [01:49<28:01,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  5%|▌         | 49/892 [01:51<29:02,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  6%|▌         | 50/892 [01:54<31:20,  2.23s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  6%|▌         | 51/892 [01:56<31:36,  2.26s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  6%|▌         | 52/892 [01:58<30:30,  2.18s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  6%|▌         | 53/892 [02:01<31:42,  2.27s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  6%|▌         | 54/892 [02:03<31:35,  2.26s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  6%|▌         | 55/892 [02:05<31:52,  2.28s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  6%|▋         | 56/892 [02:08<31:29,  2.26s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  6%|▋         | 57/892 [02:09<29:32,  2.12s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  7%|▋         | 58/892 [02:11<27:59,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  7%|▋         | 59/892 [02:13<27:04,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  7%|▋         | 60/892 [02:15<28:09,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  7%|▋         | 61/892 [02:17<28:42,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  7%|▋         | 62/892 [02:20<29:46,  2.15s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  7%|▋         | 63/892 [02:22<30:16,  2.19s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  7%|▋         | 64/892 [02:24<29:43,  2.15s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  7%|▋         | 65/892 [02:26<29:53,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  7%|▋         | 66/892 [02:28<30:02,  2.18s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  8%|▊         | 67/892 [02:31<29:40,  2.16s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  8%|▊         | 68/892 [02:32<28:22,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  8%|▊         | 69/892 [02:34<27:26,  2.00s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  8%|▊         | 70/892 [02:36<28:07,  2.05s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  8%|▊         | 71/892 [02:39<29:14,  2.14s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  8%|▊         | 72/892 [02:41<28:49,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  8%|▊         | 73/892 [02:43<29:40,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  8%|▊         | 74/892 [02:45<28:24,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  8%|▊         | 75/892 [02:47<27:32,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  9%|▊         | 76/892 [02:49<28:43,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  9%|▊         | 77/892 [02:52<29:33,  2.18s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  9%|▊         | 78/892 [02:54<29:26,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  9%|▉         | 79/892 [02:56<28:49,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  9%|▉         | 80/892 [02:57<26:36,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  9%|▉         | 81/892 [03:00<28:25,  2.10s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  9%|▉         | 82/892 [03:02<27:11,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  9%|▉         | 83/892 [03:03<25:09,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-  9%|▉         | 84/892 [03:05<23:34,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 10%|▉         | 85/892 [03:06<23:51,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 10%|▉         | 86/892 [03:08<24:51,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 10%|▉         | 87/892 [03:10<23:32,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 10%|▉         | 88/892 [03:13<28:53,  2.16s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 10%|▉         | 89/892 [03:14<25:06,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 10%|█         | 90/892 [03:16<25:26,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 10%|█         | 91/892 [03:18<26:47,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 10%|█         | 92/892 [03:20<24:53,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 10%|█         | 93/892 [03:22<27:16,  2.05s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 11%|█         | 94/892 [03:25<27:33,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 11%|█         | 95/892 [03:27<27:27,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 11%|█         | 96/892 [03:29<27:32,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 11%|█         | 97/892 [03:31<26:59,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 11%|█         | 98/892 [03:33<27:20,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 11%|█         | 99/892 [03:35<27:53,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 11%|█         | 100/892 [03:36<24:55,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 11%|█▏        | 101/892 [03:38<23:53,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 11%|█▏        | 102/892 [03:40<24:24,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 12%|█▏        | 103/892 [03:42<23:09,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 12%|█▏        | 104/892 [03:44<24:39,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 12%|█▏        | 105/892 [03:45<22:22,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 12%|█▏        | 106/892 [03:47<24:00,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 12%|█▏        | 107/892 [03:49<23:47,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 12%|█▏        | 108/892 [03:51<22:55,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 12%|█▏        | 109/892 [03:53<24:35,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 12%|█▏        | 110/892 [03:54<23:04,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 12%|█▏        | 111/892 [03:57<25:11,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 13%|█▎        | 112/892 [03:59<25:59,  2.00s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 13%|█▎        | 113/892 [04:00<25:08,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 13%|█▎        | 114/892 [04:02<24:41,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 13%|█▎        | 115/892 [04:05<25:53,  2.00s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 13%|█▎        | 116/892 [04:06<25:01,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 13%|█▎        | 117/892 [04:08<25:27,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 13%|█▎        | 118/892 [04:10<25:03,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 13%|█▎        | 119/892 [04:12<25:41,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 13%|█▎        | 120/892 [04:14<25:00,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 14%|█▎        | 121/892 [04:16<24:56,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 14%|█▎        | 122/892 [04:18<22:57,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 14%|█▍        | 123/892 [04:19<22:19,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 14%|█▍        | 124/892 [04:21<22:33,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 14%|█▍        | 125/892 [04:22<21:08,  1.65s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 14%|█▍        | 126/892 [04:24<20:11,  1.58s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 14%|█▍        | 127/892 [04:25<19:20,  1.52s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 14%|█▍        | 128/892 [04:27<20:21,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 14%|█▍        | 129/892 [04:28<19:46,  1.56s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 15%|█▍        | 130/892 [04:31<21:44,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 15%|█▍        | 131/892 [04:32<22:31,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 15%|█▍        | 132/892 [04:34<21:19,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 15%|█▍        | 133/892 [04:36<21:16,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 15%|█▌        | 134/892 [04:37<20:48,  1.65s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 15%|█▌        | 135/892 [04:39<22:48,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 15%|█▌        | 136/892 [04:41<22:44,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 15%|█▌        | 137/892 [04:43<24:46,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 15%|█▌        | 138/892 [04:45<23:04,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 16%|█▌        | 139/892 [04:46<21:32,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 16%|█▌        | 140/892 [04:48<20:44,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 16%|█▌        | 141/892 [04:50<22:19,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 16%|█▌        | 142/892 [04:52<24:05,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 16%|█▌        | 143/892 [04:54<24:32,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 16%|█▌        | 144/892 [04:56<23:01,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 16%|█▋        | 145/892 [05:04<45:16,  3.64s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 16%|█▋        | 146/892 [05:06<39:11,  3.15s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 16%|█▋        | 147/892 [05:08<37:11,  3.00s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 17%|█▋        | 148/892 [05:10<32:42,  2.64s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 17%|█▋        | 149/892 [05:12<27:51,  2.25s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 17%|█▋        | 150/892 [05:14<26:50,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 17%|█▋        | 151/892 [05:15<25:34,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 17%|█▋        | 152/892 [05:17<23:20,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 17%|█▋        | 153/892 [05:19<22:52,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 17%|█▋        | 154/892 [05:20<21:27,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 17%|█▋        | 155/892 [05:22<21:04,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 17%|█▋        | 156/892 [05:27<33:12,  2.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 18%|█▊        | 157/892 [05:29<33:08,  2.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 18%|█▊        | 158/892 [05:31<30:36,  2.50s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 18%|█▊        | 159/892 [05:33<27:35,  2.26s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 18%|█▊        | 160/892 [05:36<29:36,  2.43s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 18%|█▊        | 161/892 [05:38<27:05,  2.22s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 18%|█▊        | 162/892 [05:40<27:31,  2.26s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 18%|█▊        | 163/892 [05:43<28:25,  2.34s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 18%|█▊        | 164/892 [05:45<27:53,  2.30s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 18%|█▊        | 165/892 [05:47<26:57,  2.22s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 19%|█▊        | 166/892 [05:49<25:38,  2.12s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 19%|█▊        | 167/892 [05:51<24:54,  2.06s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 19%|█▉        | 168/892 [05:53<24:02,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 19%|█▉        | 169/892 [05:54<21:26,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 19%|█▉        | 170/892 [05:56<21:26,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 19%|█▉        | 171/892 [05:58<23:40,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 19%|█▉        | 172/892 [06:00<22:32,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 19%|█▉        | 173/892 [06:02<22:29,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 20%|█▉        | 174/892 [06:04<23:35,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 20%|█▉        | 175/892 [06:06<23:01,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 20%|█▉        | 176/892 [06:08<23:45,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 20%|█▉        | 177/892 [06:10<23:30,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 20%|█▉        | 178/892 [06:12<23:20,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 20%|██        | 179/892 [06:13<21:32,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 20%|██        | 180/892 [06:19<37:04,  3.12s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 20%|██        | 181/892 [06:21<30:44,  2.59s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 20%|██        | 182/892 [06:22<26:19,  2.23s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 21%|██        | 183/892 [06:23<23:32,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 21%|██        | 184/892 [06:25<23:52,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 21%|██        | 185/892 [06:27<22:29,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 21%|██        | 186/892 [06:29<22:31,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 21%|██        | 187/892 [06:30<20:43,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 21%|██        | 188/892 [06:32<19:35,  1.67s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 21%|██        | 189/892 [06:33<18:43,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 21%|██▏       | 190/892 [06:35<19:02,  1.63s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 21%|██▏       | 191/892 [06:37<19:39,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 22%|██▏       | 192/892 [06:39<22:16,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 22%|██▏       | 193/892 [06:41<22:54,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 22%|██▏       | 194/892 [06:43<21:53,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 22%|██▏       | 195/892 [06:45<21:48,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 22%|██▏       | 196/892 [06:46<20:44,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 22%|██▏       | 197/892 [06:48<19:52,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 22%|██▏       | 198/892 [06:50<22:20,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 22%|██▏       | 199/892 [06:52<20:28,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 22%|██▏       | 200/892 [06:54<21:37,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 23%|██▎       | 201/892 [06:55<20:01,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 23%|██▎       | 202/892 [06:57<19:10,  1.67s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 23%|██▎       | 203/892 [06:58<17:56,  1.56s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 23%|██▎       | 204/892 [07:00<18:07,  1.58s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 23%|██▎       | 205/892 [07:02<18:47,  1.64s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 23%|██▎       | 206/892 [07:04<20:17,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 23%|██▎       | 207/892 [07:05<19:46,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 23%|██▎       | 208/892 [07:07<18:23,  1.61s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 23%|██▎       | 209/892 [07:08<17:24,  1.53s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 24%|██▎       | 210/892 [07:10<17:33,  1.55s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 24%|██▎       | 211/892 [07:11<18:10,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 24%|██▍       | 212/892 [07:13<17:39,  1.56s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 24%|██▍       | 213/892 [07:15<19:55,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 24%|██▍       | 214/892 [07:17<20:54,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 24%|██▍       | 215/892 [07:19<21:56,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 24%|██▍       | 216/892 [07:22<23:06,  2.05s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 24%|██▍       | 217/892 [07:23<22:17,  1.98s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 24%|██▍       | 218/892 [07:25<21:47,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 25%|██▍       | 219/892 [07:27<21:19,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 25%|██▍       | 220/892 [07:29<21:09,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 25%|██▍       | 221/892 [07:30<19:11,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 25%|██▍       | 222/892 [07:32<18:57,  1.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 25%|██▌       | 223/892 [07:34<20:28,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 25%|██▌       | 224/892 [07:36<21:17,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 25%|██▌       | 225/892 [07:38<20:58,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 25%|██▌       | 226/892 [07:39<19:44,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 25%|██▌       | 227/892 [07:41<19:49,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 26%|██▌       | 228/892 [07:44<21:56,  1.98s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 26%|██▌       | 229/892 [07:45<20:42,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 26%|██▌       | 230/892 [07:47<20:59,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 26%|██▌       | 231/892 [07:49<20:09,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 26%|██▌       | 232/892 [07:51<20:08,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 26%|██▌       | 233/892 [07:52<19:41,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 26%|██▌       | 234/892 [07:54<20:10,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 26%|██▋       | 235/892 [07:56<19:20,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 26%|██▋       | 236/892 [07:58<18:36,  1.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 27%|██▋       | 237/892 [08:00<20:00,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 27%|██▋       | 238/892 [08:03<23:14,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 27%|██▋       | 239/892 [08:04<21:20,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 27%|██▋       | 240/892 [08:06<19:42,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 27%|██▋       | 241/892 [08:07<19:11,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 27%|██▋       | 242/892 [08:09<18:18,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 27%|██▋       | 243/892 [08:10<18:08,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 27%|██▋       | 244/892 [08:12<19:09,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 27%|██▋       | 245/892 [08:14<18:46,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 28%|██▊       | 246/892 [08:16<18:59,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 28%|██▊       | 247/892 [08:18<18:28,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 28%|██▊       | 248/892 [08:19<18:32,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 28%|██▊       | 249/892 [08:21<17:16,  1.61s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 28%|██▊       | 250/892 [08:23<18:29,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 28%|██▊       | 251/892 [08:24<18:36,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 28%|██▊       | 252/892 [08:26<19:02,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 28%|██▊       | 253/892 [08:28<18:23,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 28%|██▊       | 254/892 [08:29<17:21,  1.63s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 29%|██▊       | 255/892 [08:31<17:14,  1.62s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 29%|██▊       | 256/892 [08:33<17:39,  1.67s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 29%|██▉       | 257/892 [08:37<26:38,  2.52s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 29%|██▉       | 258/892 [08:39<25:35,  2.42s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 29%|██▉       | 259/892 [08:52<56:26,  5.35s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 29%|██▉       | 260/892 [08:53<45:12,  4.29s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 29%|██▉       | 261/892 [08:55<36:27,  3.47s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 29%|██▉       | 262/892 [08:56<30:03,  2.86s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 29%|██▉       | 263/892 [08:58<25:24,  2.42s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 30%|██▉       | 264/892 [09:00<24:04,  2.30s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 30%|██▉       | 265/892 [09:01<20:41,  1.98s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 30%|██▉       | 266/892 [09:04<22:35,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 30%|██▉       | 267/892 [09:16<53:36,  5.15s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 30%|███       | 268/892 [09:18<44:46,  4.31s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 30%|███       | 269/892 [09:20<38:23,  3.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 30%|███       | 270/892 [09:23<34:20,  3.31s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 30%|███       | 271/892 [09:24<28:35,  2.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 30%|███       | 272/892 [09:26<25:27,  2.46s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 31%|███       | 273/892 [09:28<22:57,  2.23s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 31%|███       | 274/892 [09:30<22:52,  2.22s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 31%|███       | 275/892 [09:31<20:47,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 31%|███       | 276/892 [09:33<19:11,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 31%|███       | 277/892 [09:35<18:51,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 31%|███       | 278/892 [09:36<17:26,  1.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 31%|███▏      | 279/892 [09:38<17:44,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 31%|███▏      | 280/892 [09:39<17:02,  1.67s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 32%|███▏      | 281/892 [09:42<19:03,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 32%|███▏      | 282/892 [09:44<18:58,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 32%|███▏      | 283/892 [09:45<18:09,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 32%|███▏      | 284/892 [09:49<25:21,  2.50s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 32%|███▏      | 285/892 [09:51<24:03,  2.38s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 32%|███▏      | 286/892 [09:53<22:36,  2.24s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 32%|███▏      | 287/892 [09:57<27:28,  2.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 32%|███▏      | 288/892 [09:59<23:28,  2.33s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 32%|███▏      | 289/892 [10:01<22:24,  2.23s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 33%|███▎      | 290/892 [10:03<22:45,  2.27s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 33%|███▎      | 291/892 [10:05<20:37,  2.06s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 33%|███▎      | 292/892 [10:06<19:07,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 33%|███▎      | 293/892 [10:08<18:25,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 33%|███▎      | 294/892 [10:10<19:21,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 33%|███▎      | 295/892 [10:12<18:30,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 33%|███▎      | 296/892 [10:13<17:41,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 33%|███▎      | 297/892 [10:15<18:01,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 33%|███▎      | 298/892 [10:17<18:29,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 34%|███▎      | 299/892 [10:19<18:38,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 34%|███▎      | 300/892 [10:21<17:31,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 34%|███▎      | 301/892 [10:22<17:49,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 34%|███▍      | 302/892 [10:24<17:57,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 34%|███▍      | 303/892 [10:26<17:16,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 34%|███▍      | 304/892 [10:28<19:13,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 34%|███▍      | 305/892 [10:30<18:31,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 34%|███▍      | 306/892 [10:32<19:41,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 34%|███▍      | 307/892 [10:35<21:28,  2.20s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 35%|███▍      | 308/892 [10:37<20:32,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 35%|███▍      | 309/892 [10:38<18:46,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 35%|███▍      | 310/892 [10:41<20:10,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 35%|███▍      | 311/892 [10:42<18:19,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 35%|███▍      | 312/892 [10:44<16:48,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 35%|███▌      | 313/892 [10:45<16:25,  1.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 35%|███▌      | 314/892 [10:48<18:15,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 35%|███▌      | 315/892 [10:50<19:06,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 35%|███▌      | 316/892 [10:52<18:46,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 36%|███▌      | 317/892 [10:54<19:03,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 36%|███▌      | 318/892 [10:57<23:10,  2.42s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 36%|███▌      | 319/892 [10:59<20:58,  2.20s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 36%|███▌      | 320/892 [11:01<21:43,  2.28s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 36%|███▌      | 321/892 [11:03<21:00,  2.21s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 36%|███▌      | 322/892 [11:06<21:05,  2.22s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 36%|███▌      | 323/892 [11:08<20:11,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 36%|███▋      | 324/892 [11:09<18:13,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 36%|███▋      | 325/892 [11:12<19:40,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 37%|███▋      | 326/892 [11:14<20:18,  2.15s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 37%|███▋      | 327/892 [11:16<20:32,  2.18s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 37%|███▋      | 328/892 [11:19<21:21,  2.27s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 37%|███▋      | 329/892 [11:20<20:00,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 37%|███▋      | 330/892 [11:22<19:01,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 37%|███▋      | 331/892 [11:24<19:08,  2.05s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 37%|███▋      | 332/892 [11:27<20:06,  2.15s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 37%|███▋      | 333/892 [11:29<19:22,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 37%|███▋      | 334/892 [11:30<18:29,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 38%|███▊      | 335/892 [11:32<16:31,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 38%|███▊      | 336/892 [11:33<16:24,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 38%|███▊      | 337/892 [11:35<15:18,  1.65s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 38%|███▊      | 338/892 [11:36<14:58,  1.62s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 38%|███▊      | 339/892 [11:38<15:44,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 38%|███▊      | 340/892 [11:40<14:58,  1.63s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 38%|███▊      | 341/892 [11:41<14:26,  1.57s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 38%|███▊      | 342/892 [11:43<15:14,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 38%|███▊      | 343/892 [11:45<16:17,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 39%|███▊      | 344/892 [11:47<16:25,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 39%|███▊      | 345/892 [11:49<16:44,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 39%|███▉      | 346/892 [11:50<15:53,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 39%|███▉      | 347/892 [11:52<16:29,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 39%|███▉      | 348/892 [11:55<17:31,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 39%|███▉      | 349/892 [11:56<17:27,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 39%|███▉      | 350/892 [11:58<15:52,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 39%|███▉      | 351/892 [12:00<16:52,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 39%|███▉      | 352/892 [12:02<16:20,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 40%|███▉      | 353/892 [12:03<15:18,  1.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 40%|███▉      | 354/892 [12:04<14:17,  1.59s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 40%|███▉      | 355/892 [12:07<15:57,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 40%|███▉      | 356/892 [12:08<15:44,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 40%|████      | 357/892 [12:10<15:57,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 40%|████      | 358/892 [12:12<16:58,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 40%|████      | 359/892 [12:14<16:21,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 40%|████      | 360/892 [12:16<15:17,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 40%|████      | 361/892 [12:18<16:10,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 41%|████      | 362/892 [12:20<17:14,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 41%|████      | 363/892 [12:22<17:57,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 41%|████      | 364/892 [12:25<19:06,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 41%|████      | 365/892 [12:27<19:17,  2.20s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 41%|████      | 366/892 [12:29<18:11,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 41%|████      | 367/892 [12:31<18:44,  2.14s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 41%|████▏     | 368/892 [12:33<18:25,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 41%|████▏     | 369/892 [12:35<17:23,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 41%|████▏     | 370/892 [12:36<15:59,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 42%|████▏     | 371/892 [12:38<16:49,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 42%|████▏     | 372/892 [12:40<16:13,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 42%|████▏     | 373/892 [12:42<15:41,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 42%|████▏     | 374/892 [12:44<15:51,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 42%|████▏     | 375/892 [12:45<15:12,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 42%|████▏     | 376/892 [12:47<16:19,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 42%|████▏     | 377/892 [12:49<15:25,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 42%|████▏     | 378/892 [12:51<16:03,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 42%|████▏     | 379/892 [12:52<14:38,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 43%|████▎     | 380/892 [12:54<13:43,  1.61s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 43%|████▎     | 381/892 [12:56<15:07,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 43%|████▎     | 382/892 [12:58<15:44,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 43%|████▎     | 383/892 [13:00<16:50,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 43%|████▎     | 384/892 [13:06<25:39,  3.03s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 43%|████▎     | 385/892 [13:08<23:11,  2.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 43%|████▎     | 386/892 [13:13<29:00,  3.44s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 43%|████▎     | 387/892 [13:15<24:54,  2.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 43%|████▎     | 388/892 [13:17<22:55,  2.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 44%|████▎     | 389/892 [13:18<19:34,  2.34s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 44%|████▎     | 390/892 [13:20<18:30,  2.21s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 44%|████▍     | 391/892 [13:22<16:52,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 44%|████▍     | 392/892 [13:23<15:34,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 44%|████▍     | 393/892 [13:25<16:15,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 44%|████▍     | 394/892 [13:27<16:01,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 44%|████▍     | 395/892 [13:29<14:30,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 44%|████▍     | 396/892 [13:30<14:32,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 45%|████▍     | 397/892 [13:32<13:41,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 45%|████▍     | 398/892 [13:34<14:34,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 45%|████▍     | 399/892 [13:36<15:08,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 45%|████▍     | 400/892 [13:37<14:29,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 45%|████▍     | 401/892 [13:40<16:30,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 45%|████▌     | 402/892 [13:42<15:39,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 45%|████▌     | 403/892 [13:43<14:31,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 45%|████▌     | 404/892 [13:45<14:05,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 45%|████▌     | 405/892 [13:47<14:57,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 46%|████▌     | 406/892 [13:48<13:40,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 46%|████▌     | 407/892 [13:50<14:48,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 46%|████▌     | 408/892 [13:52<14:32,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 46%|████▌     | 409/892 [13:54<13:52,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 46%|████▌     | 410/892 [13:55<13:54,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 46%|████▌     | 411/892 [13:58<14:47,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 46%|████▌     | 412/892 [13:59<14:55,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 46%|████▋     | 413/892 [14:01<14:13,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 46%|████▋     | 414/892 [14:03<14:39,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 47%|████▋     | 415/892 [14:05<14:14,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 47%|████▋     | 416/892 [14:07<15:08,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 47%|████▋     | 417/892 [14:09<14:49,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 47%|████▋     | 418/892 [14:10<13:28,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 47%|████▋     | 419/892 [14:12<13:00,  1.65s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 47%|████▋     | 420/892 [14:13<13:14,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 47%|████▋     | 421/892 [14:15<13:47,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 47%|████▋     | 422/892 [14:17<13:37,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 47%|████▋     | 423/892 [14:19<13:25,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 48%|████▊     | 424/892 [14:20<13:25,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 48%|████▊     | 425/892 [14:22<13:43,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 48%|████▊     | 426/892 [14:24<14:07,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 48%|████▊     | 427/892 [14:26<13:47,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 48%|████▊     | 428/892 [14:28<14:49,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 48%|████▊     | 429/892 [14:30<15:08,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 48%|████▊     | 430/892 [14:32<13:50,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 48%|████▊     | 431/892 [14:34<14:20,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 48%|████▊     | 432/892 [14:35<13:08,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 49%|████▊     | 433/892 [14:36<12:40,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 49%|████▊     | 434/892 [14:39<14:15,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 49%|████▉     | 435/892 [14:40<13:06,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 49%|████▉     | 436/892 [14:42<13:31,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 49%|████▉     | 437/892 [14:44<13:17,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 49%|████▉     | 438/892 [14:46<14:10,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 49%|████▉     | 439/892 [14:48<13:32,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 49%|████▉     | 440/892 [14:50<14:14,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 49%|████▉     | 441/892 [14:51<13:20,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 50%|████▉     | 442/892 [14:53<12:34,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 50%|████▉     | 443/892 [14:54<12:27,  1.67s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 50%|████▉     | 444/892 [14:56<12:52,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 50%|████▉     | 445/892 [14:58<13:39,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 50%|█████     | 446/892 [15:00<13:33,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 50%|█████     | 447/892 [15:02<13:36,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 50%|█████     | 448/892 [15:03<13:00,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 50%|█████     | 449/892 [15:05<12:45,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 50%|█████     | 450/892 [15:07<12:34,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 51%|█████     | 451/892 [15:08<12:05,  1.64s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 51%|█████     | 452/892 [15:10<12:12,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 51%|█████     | 453/892 [15:12<12:48,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 51%|█████     | 454/892 [15:13<12:16,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 51%|█████     | 455/892 [15:15<12:12,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 51%|█████     | 456/892 [15:17<13:06,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 51%|█████     | 457/892 [15:19<12:16,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 51%|█████▏    | 458/892 [15:21<12:51,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 51%|█████▏    | 459/892 [15:22<13:01,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 52%|█████▏    | 460/892 [15:24<12:53,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 52%|█████▏    | 461/892 [15:26<13:00,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 52%|█████▏    | 462/892 [15:27<11:56,  1.67s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 52%|█████▏    | 463/892 [15:29<11:59,  1.68s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 52%|█████▏    | 464/892 [15:31<12:55,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 52%|█████▏    | 465/892 [15:33<13:05,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 52%|█████▏    | 466/892 [15:35<13:09,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 52%|█████▏    | 467/892 [15:36<12:14,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 52%|█████▏    | 468/892 [15:38<12:06,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 53%|█████▎    | 469/892 [15:40<12:42,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 53%|█████▎    | 470/892 [15:42<12:59,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 53%|█████▎    | 471/892 [15:44<12:11,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 53%|█████▎    | 472/892 [15:45<11:50,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 53%|█████▎    | 473/892 [15:47<11:08,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 53%|█████▎    | 474/892 [15:49<11:57,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 53%|█████▎    | 475/892 [15:50<11:13,  1.61s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 53%|█████▎    | 476/892 [15:52<11:13,  1.62s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 53%|█████▎    | 477/892 [15:53<10:59,  1.59s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 54%|█████▎    | 478/892 [15:55<11:01,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 54%|█████▎    | 479/892 [15:56<10:51,  1.58s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 54%|█████▍    | 480/892 [15:58<10:21,  1.51s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 54%|█████▍    | 481/892 [15:59<10:59,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 54%|█████▍    | 482/892 [16:01<11:54,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 54%|█████▍    | 483/892 [16:03<11:32,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 54%|█████▍    | 484/892 [16:05<11:36,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 54%|█████▍    | 485/892 [16:07<12:04,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 54%|█████▍    | 486/892 [16:08<11:41,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 55%|█████▍    | 487/892 [16:10<11:34,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 55%|█████▍    | 488/892 [16:12<11:55,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 55%|█████▍    | 489/892 [16:13<11:14,  1.67s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 55%|█████▍    | 490/892 [16:15<10:55,  1.63s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 55%|█████▌    | 491/892 [16:17<11:36,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 55%|█████▌    | 492/892 [16:19<12:32,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 55%|█████▌    | 493/892 [16:21<12:17,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 55%|█████▌    | 494/892 [16:23<12:01,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 55%|█████▌    | 495/892 [16:25<12:33,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 56%|█████▌    | 496/892 [16:26<11:52,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 56%|█████▌    | 497/892 [16:28<11:12,  1.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 56%|█████▌    | 498/892 [16:29<10:47,  1.64s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 56%|█████▌    | 499/892 [16:31<10:34,  1.62s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 56%|█████▌    | 500/892 [16:32<10:10,  1.56s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 56%|█████▌    | 501/892 [16:34<10:26,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 56%|█████▋    | 502/892 [16:37<13:22,  2.06s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 56%|█████▋    | 503/892 [16:39<12:24,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 57%|█████▋    | 504/892 [16:40<12:08,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 57%|█████▋    | 505/892 [16:42<11:31,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 57%|█████▋    | 506/892 [16:44<11:29,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 57%|█████▋    | 507/892 [16:46<12:02,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 57%|█████▋    | 508/892 [16:47<11:16,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 57%|█████▋    | 509/892 [16:49<10:58,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 57%|█████▋    | 510/892 [16:51<11:20,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 57%|█████▋    | 511/892 [16:53<11:31,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 57%|█████▋    | 512/892 [16:55<11:43,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 58%|█████▊    | 513/892 [16:57<11:51,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 58%|█████▊    | 514/892 [16:58<11:01,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 58%|█████▊    | 515/892 [17:00<11:01,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 58%|█████▊    | 516/892 [17:01<10:42,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 58%|█████▊    | 517/892 [17:03<10:14,  1.64s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 58%|█████▊    | 518/892 [17:05<10:15,  1.65s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 58%|█████▊    | 519/892 [17:06<09:55,  1.60s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 58%|█████▊    | 520/892 [17:08<09:58,  1.61s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 58%|█████▊    | 521/892 [17:10<10:32,  1.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 59%|█████▊    | 522/892 [17:11<10:29,  1.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 59%|█████▊    | 523/892 [17:13<10:01,  1.63s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 59%|█████▊    | 524/892 [17:15<10:12,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 59%|█████▉    | 525/892 [17:17<10:58,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 59%|█████▉    | 526/892 [17:18<10:24,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 59%|█████▉    | 527/892 [17:20<10:07,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 59%|█████▉    | 528/892 [17:21<10:08,  1.67s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 59%|█████▉    | 529/892 [17:23<09:54,  1.64s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 59%|█████▉    | 530/892 [17:25<10:31,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 60%|█████▉    | 531/892 [17:28<12:40,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 60%|█████▉    | 532/892 [17:30<12:21,  2.06s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 60%|█████▉    | 533/892 [17:32<11:47,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 60%|█████▉    | 534/892 [17:33<11:20,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 60%|█████▉    | 535/892 [17:35<11:38,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 60%|██████    | 536/892 [17:37<10:41,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 60%|██████    | 537/892 [17:38<09:59,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 60%|██████    | 538/892 [17:40<09:46,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 60%|██████    | 539/892 [17:42<11:01,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 61%|██████    | 540/892 [17:46<14:40,  2.50s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 61%|██████    | 541/892 [17:50<15:55,  2.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 61%|██████    | 542/892 [17:52<15:00,  2.57s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 61%|██████    | 543/892 [17:54<13:46,  2.37s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 61%|██████    | 544/892 [17:56<14:13,  2.45s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 61%|██████    | 545/892 [17:58<12:58,  2.24s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 61%|██████    | 546/892 [18:00<11:58,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 61%|██████▏   | 547/892 [18:01<11:00,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 61%|██████▏   | 548/892 [18:03<11:16,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 62%|██████▏   | 549/892 [18:05<10:52,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 62%|██████▏   | 550/892 [18:07<11:06,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 62%|██████▏   | 551/892 [18:09<11:10,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 62%|██████▏   | 552/892 [18:20<26:59,  4.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 62%|██████▏   | 553/892 [18:22<22:07,  3.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 62%|██████▏   | 554/892 [18:25<19:25,  3.45s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 62%|██████▏   | 555/892 [18:28<18:43,  3.33s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 62%|██████▏   | 556/892 [18:32<19:41,  3.52s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 62%|██████▏   | 557/892 [18:34<17:39,  3.16s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 63%|██████▎   | 558/892 [18:36<15:23,  2.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 63%|██████▎   | 559/892 [18:38<13:38,  2.46s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 63%|██████▎   | 560/892 [18:39<12:16,  2.22s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 63%|██████▎   | 561/892 [18:41<11:25,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 63%|██████▎   | 562/892 [18:43<11:04,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 63%|██████▎   | 563/892 [18:45<10:37,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 63%|██████▎   | 564/892 [18:47<11:13,  2.05s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 63%|██████▎   | 565/892 [18:49<11:33,  2.12s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 63%|██████▎   | 566/892 [18:51<11:04,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 64%|██████▎   | 567/892 [18:53<10:51,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 64%|██████▎   | 568/892 [18:55<10:33,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 64%|██████▍   | 569/892 [18:56<09:34,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 64%|██████▍   | 570/892 [18:58<09:42,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 64%|██████▍   | 571/892 [19:00<09:53,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 64%|██████▍   | 572/892 [19:03<11:05,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 64%|██████▍   | 573/892 [19:05<10:51,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 64%|██████▍   | 574/892 [19:06<10:15,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 64%|██████▍   | 575/892 [19:08<10:19,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 65%|██████▍   | 576/892 [19:10<10:08,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 65%|██████▍   | 577/892 [19:12<10:38,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 65%|██████▍   | 578/892 [19:14<10:09,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 65%|██████▍   | 579/892 [19:16<10:24,  2.00s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 65%|██████▌   | 580/892 [19:18<09:59,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 65%|██████▌   | 581/892 [19:19<09:07,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 65%|██████▌   | 582/892 [19:21<09:19,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 65%|██████▌   | 583/892 [19:23<09:08,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 65%|██████▌   | 584/892 [19:25<08:45,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 66%|██████▌   | 585/892 [19:26<08:48,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 66%|██████▌   | 586/892 [19:28<08:29,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 66%|██████▌   | 587/892 [19:30<09:07,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 66%|██████▌   | 588/892 [19:32<09:19,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 66%|██████▌   | 589/892 [19:34<10:19,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 66%|██████▌   | 590/892 [19:37<11:10,  2.22s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 66%|██████▋   | 591/892 [19:39<10:08,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 66%|██████▋   | 592/892 [19:41<10:29,  2.10s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 66%|██████▋   | 593/892 [19:43<10:22,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 67%|██████▋   | 594/892 [19:45<10:11,  2.05s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 67%|██████▋   | 595/892 [19:47<10:45,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 67%|██████▋   | 596/892 [19:49<10:18,  2.09s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 67%|██████▋   | 597/892 [19:52<10:32,  2.14s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 67%|██████▋   | 598/892 [19:54<10:15,  2.09s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 67%|██████▋   | 599/892 [19:56<10:16,  2.10s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 67%|██████▋   | 600/892 [19:58<09:51,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 67%|██████▋   | 601/892 [19:59<09:33,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 67%|██████▋   | 602/892 [20:01<08:25,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 68%|██████▊   | 603/892 [20:02<08:07,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 68%|██████▊   | 604/892 [20:04<08:30,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 68%|██████▊   | 605/892 [20:06<08:52,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 68%|██████▊   | 606/892 [20:08<08:30,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 68%|██████▊   | 607/892 [20:09<08:16,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 68%|██████▊   | 608/892 [20:11<08:14,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 68%|██████▊   | 609/892 [20:13<08:04,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 68%|██████▊   | 610/892 [20:14<07:50,  1.67s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 68%|██████▊   | 611/892 [20:16<08:09,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 69%|██████▊   | 612/892 [20:18<08:20,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 69%|██████▊   | 613/892 [20:20<08:17,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 69%|██████▉   | 614/892 [20:22<08:42,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 69%|██████▉   | 615/892 [20:24<08:25,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 69%|██████▉   | 616/892 [20:25<08:06,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 69%|██████▉   | 617/892 [20:27<08:01,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 69%|██████▉   | 618/892 [20:29<08:10,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 69%|██████▉   | 619/892 [20:31<08:37,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 70%|██████▉   | 620/892 [20:33<07:55,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 70%|██████▉   | 621/892 [20:35<08:12,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 70%|██████▉   | 622/892 [20:37<08:36,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 70%|██████▉   | 623/892 [20:39<09:07,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 70%|██████▉   | 624/892 [20:41<08:27,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 70%|███████   | 625/892 [20:42<07:45,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 70%|███████   | 626/892 [20:44<08:26,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 70%|███████   | 627/892 [20:46<07:43,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 70%|███████   | 628/892 [20:48<08:23,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 71%|███████   | 629/892 [20:49<07:42,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 71%|███████   | 630/892 [20:51<07:15,  1.66s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 71%|███████   | 631/892 [20:53<08:35,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 71%|███████   | 632/892 [20:55<08:24,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 71%|███████   | 633/892 [20:57<08:33,  1.98s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 71%|███████   | 634/892 [21:02<11:39,  2.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 71%|███████   | 635/892 [21:03<09:55,  2.32s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 71%|███████▏  | 636/892 [21:05<08:49,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 71%|███████▏  | 637/892 [21:07<08:40,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 72%|███████▏  | 638/892 [21:09<08:25,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 72%|███████▏  | 639/892 [21:11<09:09,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 72%|███████▏  | 640/892 [21:13<08:09,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 72%|███████▏  | 641/892 [21:14<08:03,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 72%|███████▏  | 642/892 [21:16<08:09,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 72%|███████▏  | 643/892 [21:18<07:21,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 72%|███████▏  | 644/892 [21:19<07:05,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 72%|███████▏  | 645/892 [21:21<07:15,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 72%|███████▏  | 646/892 [21:23<07:27,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 73%|███████▎  | 647/892 [21:25<07:53,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 73%|███████▎  | 648/892 [21:27<07:28,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 73%|███████▎  | 649/892 [21:29<07:21,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 73%|███████▎  | 650/892 [21:30<07:02,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 73%|███████▎  | 651/892 [21:32<06:38,  1.65s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 73%|███████▎  | 652/892 [21:34<07:35,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 73%|███████▎  | 653/892 [21:37<08:51,  2.22s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 73%|███████▎  | 654/892 [21:39<08:39,  2.18s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 73%|███████▎  | 655/892 [21:41<08:27,  2.14s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 74%|███████▎  | 656/892 [21:44<08:36,  2.19s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 74%|███████▎  | 657/892 [21:45<08:04,  2.06s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 74%|███████▍  | 658/892 [21:47<07:57,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 74%|███████▍  | 659/892 [21:49<07:29,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 74%|███████▍  | 660/892 [21:51<07:24,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 74%|███████▍  | 661/892 [21:52<06:46,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 74%|███████▍  | 662/892 [21:54<06:19,  1.65s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 74%|███████▍  | 663/892 [21:55<06:13,  1.63s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 74%|███████▍  | 664/892 [21:57<06:02,  1.59s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 75%|███████▍  | 665/892 [21:58<05:43,  1.51s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 75%|███████▍  | 666/892 [22:00<05:32,  1.47s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 75%|███████▍  | 667/892 [22:01<05:49,  1.55s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 75%|███████▍  | 668/892 [22:03<05:38,  1.51s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 75%|███████▌  | 669/892 [22:04<05:50,  1.57s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 75%|███████▌  | 670/892 [22:07<06:28,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 75%|███████▌  | 671/892 [22:08<06:13,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 75%|███████▌  | 672/892 [22:10<06:38,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 75%|███████▌  | 673/892 [22:13<07:08,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 76%|███████▌  | 674/892 [22:15<07:20,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 76%|███████▌  | 675/892 [22:16<06:53,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 76%|███████▌  | 676/892 [22:18<06:39,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 76%|███████▌  | 677/892 [22:20<06:58,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 76%|███████▌  | 678/892 [22:22<06:48,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 76%|███████▌  | 679/892 [22:24<06:38,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 76%|███████▌  | 680/892 [22:25<06:18,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 76%|███████▋  | 681/892 [22:27<06:03,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 76%|███████▋  | 682/892 [22:29<06:24,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 77%|███████▋  | 683/892 [22:31<06:11,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 77%|███████▋  | 684/892 [22:33<06:24,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 77%|███████▋  | 685/892 [22:34<06:10,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 77%|███████▋  | 686/892 [22:36<06:02,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 77%|███████▋  | 687/892 [22:38<05:52,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 77%|███████▋  | 688/892 [22:40<06:18,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 77%|███████▋  | 689/892 [22:42<06:34,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 77%|███████▋  | 690/892 [22:44<06:18,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 77%|███████▋  | 691/892 [22:46<06:28,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 78%|███████▊  | 692/892 [22:48<06:13,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 78%|███████▊  | 693/892 [22:50<06:35,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 78%|███████▊  | 694/892 [22:52<06:43,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 78%|███████▊  | 695/892 [22:54<06:48,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 78%|███████▊  | 696/892 [22:56<06:35,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 78%|███████▊  | 697/892 [22:58<06:08,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 78%|███████▊  | 698/892 [22:59<05:55,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 78%|███████▊  | 699/892 [23:01<05:41,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 78%|███████▊  | 700/892 [23:03<05:40,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 79%|███████▊  | 701/892 [23:05<05:58,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 79%|███████▊  | 702/892 [23:07<05:55,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 79%|███████▉  | 703/892 [23:08<05:45,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 79%|███████▉  | 704/892 [23:11<06:05,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 79%|███████▉  | 705/892 [23:12<05:48,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 79%|███████▉  | 706/892 [23:14<06:02,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 79%|███████▉  | 707/892 [23:16<05:43,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 79%|███████▉  | 708/892 [23:18<06:04,  1.98s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 79%|███████▉  | 709/892 [23:20<05:51,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 80%|███████▉  | 710/892 [23:22<05:47,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 80%|███████▉  | 711/892 [23:24<06:10,  2.05s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 80%|███████▉  | 712/892 [23:27<06:39,  2.22s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 80%|███████▉  | 713/892 [23:30<07:06,  2.38s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 80%|████████  | 714/892 [23:32<06:55,  2.33s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 80%|████████  | 715/892 [23:34<06:13,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 80%|████████  | 716/892 [23:35<05:51,  2.00s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 80%|████████  | 717/892 [23:37<05:36,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 80%|████████  | 718/892 [23:39<05:57,  2.05s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 81%|████████  | 719/892 [23:42<05:58,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 81%|████████  | 720/892 [23:43<05:42,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 81%|████████  | 721/892 [23:45<05:46,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 81%|████████  | 722/892 [23:48<06:00,  2.12s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 81%|████████  | 723/892 [23:50<05:53,  2.09s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 81%|████████  | 724/892 [23:52<05:38,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 81%|████████▏ | 725/892 [23:53<05:13,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 81%|████████▏ | 726/892 [23:55<05:22,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 82%|████████▏ | 727/892 [23:58<05:46,  2.10s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 82%|████████▏ | 728/892 [23:59<05:25,  1.98s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 82%|████████▏ | 729/892 [24:02<05:37,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 82%|████████▏ | 730/892 [24:03<05:17,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 82%|████████▏ | 731/892 [24:06<05:35,  2.09s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 82%|████████▏ | 732/892 [24:08<05:34,  2.09s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 82%|████████▏ | 733/892 [24:10<05:49,  2.20s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 82%|████████▏ | 734/892 [24:12<05:19,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 82%|████████▏ | 735/892 [24:14<05:16,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 83%|████████▎ | 736/892 [24:16<05:27,  2.10s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 83%|████████▎ | 737/892 [24:19<05:38,  2.18s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 83%|████████▎ | 738/892 [24:21<05:48,  2.27s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 83%|████████▎ | 739/892 [24:23<05:49,  2.28s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 83%|████████▎ | 740/892 [24:25<05:23,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 83%|████████▎ | 741/892 [24:27<05:06,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 83%|████████▎ | 742/892 [24:29<04:49,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 83%|████████▎ | 743/892 [24:31<04:51,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 83%|████████▎ | 744/892 [24:32<04:35,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 84%|████████▎ | 745/892 [24:34<04:22,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 84%|████████▎ | 746/892 [24:36<04:21,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 84%|████████▎ | 747/892 [24:38<04:20,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 84%|████████▍ | 748/892 [24:40<04:38,  1.93s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 84%|████████▍ | 749/892 [24:41<04:20,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 84%|████████▍ | 750/892 [24:45<05:44,  2.43s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 84%|████████▍ | 751/892 [24:48<05:38,  2.40s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 84%|████████▍ | 752/892 [24:49<05:04,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 84%|████████▍ | 753/892 [24:52<05:19,  2.30s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 85%|████████▍ | 754/892 [24:54<05:13,  2.27s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 85%|████████▍ | 755/892 [24:56<05:15,  2.30s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 85%|████████▍ | 756/892 [24:59<05:11,  2.29s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 85%|████████▍ | 757/892 [25:01<04:57,  2.21s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 85%|████████▍ | 758/892 [25:03<04:58,  2.23s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 85%|████████▌ | 759/892 [25:05<05:05,  2.30s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 85%|████████▌ | 760/892 [25:07<04:33,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 85%|████████▌ | 761/892 [25:09<04:35,  2.10s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 85%|████████▌ | 762/892 [25:13<05:27,  2.52s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 86%|████████▌ | 763/892 [25:15<05:12,  2.42s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 86%|████████▌ | 764/892 [25:17<04:41,  2.20s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 86%|████████▌ | 765/892 [25:19<04:55,  2.33s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 86%|████████▌ | 766/892 [25:21<04:47,  2.28s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 86%|████████▌ | 767/892 [25:24<04:47,  2.30s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 86%|████████▌ | 768/892 [25:26<04:45,  2.30s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 86%|████████▌ | 769/892 [25:28<04:22,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 86%|████████▋ | 770/892 [25:29<04:04,  2.00s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 86%|████████▋ | 771/892 [25:31<03:58,  1.97s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 87%|████████▋ | 772/892 [25:33<03:49,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 87%|████████▋ | 773/892 [25:35<03:35,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 87%|████████▋ | 774/892 [25:36<03:28,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 87%|████████▋ | 775/892 [25:39<03:43,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 87%|████████▋ | 776/892 [25:40<03:29,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 87%|████████▋ | 777/892 [25:42<03:34,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 87%|████████▋ | 778/892 [25:44<03:23,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 87%|████████▋ | 779/892 [25:45<03:19,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 87%|████████▋ | 780/892 [25:49<04:12,  2.25s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 88%|████████▊ | 781/892 [25:51<04:04,  2.20s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 88%|████████▊ | 782/892 [25:53<04:09,  2.26s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 88%|████████▊ | 783/892 [25:55<04:01,  2.21s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 88%|████████▊ | 784/892 [25:57<03:52,  2.15s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 88%|████████▊ | 785/892 [26:00<03:51,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 88%|████████▊ | 786/892 [26:02<03:53,  2.20s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 88%|████████▊ | 787/892 [26:04<03:47,  2.17s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 88%|████████▊ | 788/892 [26:06<03:43,  2.15s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 88%|████████▊ | 789/892 [26:08<03:42,  2.16s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 89%|████████▊ | 790/892 [26:10<03:31,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 89%|████████▊ | 791/892 [26:12<03:18,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 89%|████████▉ | 792/892 [26:13<03:05,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 89%|████████▉ | 793/892 [26:15<02:54,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 89%|████████▉ | 794/892 [26:17<02:49,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 89%|████████▉ | 795/892 [26:19<02:53,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 89%|████████▉ | 796/892 [26:20<02:52,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 89%|████████▉ | 797/892 [26:23<02:59,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 89%|████████▉ | 798/892 [26:25<03:00,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 90%|████████▉ | 799/892 [26:26<02:58,  1.92s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 90%|████████▉ | 800/892 [26:29<03:04,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 90%|████████▉ | 801/892 [26:30<02:57,  1.95s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 90%|████████▉ | 802/892 [26:33<03:03,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 90%|█████████ | 803/892 [26:34<02:47,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 90%|█████████ | 804/892 [26:36<02:43,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 90%|█████████ | 805/892 [26:38<02:56,  2.03s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 90%|█████████ | 806/892 [26:41<03:00,  2.10s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 90%|█████████ | 807/892 [26:43<02:55,  2.06s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 91%|█████████ | 808/892 [26:45<02:54,  2.08s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 91%|█████████ | 809/892 [26:47<02:47,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 91%|█████████ | 810/892 [26:49<02:43,  2.00s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 91%|█████████ | 811/892 [26:51<02:43,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 91%|█████████ | 812/892 [26:53<02:39,  1.99s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 91%|█████████ | 813/892 [26:54<02:32,  1.94s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 91%|█████████▏| 814/892 [26:56<02:28,  1.91s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 91%|█████████▏| 815/892 [26:59<02:35,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 91%|█████████▏| 816/892 [27:02<03:02,  2.41s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 92%|█████████▏| 817/892 [27:04<02:57,  2.37s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 92%|█████████▏| 818/892 [27:06<02:52,  2.33s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 92%|█████████▏| 819/892 [27:08<02:35,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 92%|█████████▏| 820/892 [27:10<02:31,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 92%|█████████▏| 821/892 [27:12<02:25,  2.04s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 92%|█████████▏| 822/892 [27:14<02:27,  2.11s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 92%|█████████▏| 823/892 [27:16<02:27,  2.13s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 92%|█████████▏| 824/892 [27:20<02:44,  2.41s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 92%|█████████▏| 825/892 [27:22<02:38,  2.36s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 93%|█████████▎| 826/892 [27:23<02:22,  2.15s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 93%|█████████▎| 827/892 [27:25<02:14,  2.07s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 93%|█████████▎| 828/892 [27:27<02:09,  2.02s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 93%|█████████▎| 829/892 [27:29<01:58,  1.88s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 93%|█████████▎| 830/892 [27:31<01:54,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 93%|█████████▎| 831/892 [27:32<01:49,  1.79s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 93%|█████████▎| 832/892 [27:34<01:46,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 93%|█████████▎| 833/892 [27:36<01:47,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 93%|█████████▎| 834/892 [27:38<01:42,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 94%|█████████▎| 835/892 [27:39<01:39,  1.74s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 94%|█████████▎| 836/892 [27:41<01:35,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 94%|█████████▍| 837/892 [27:43<01:35,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 94%|█████████▍| 838/892 [27:44<01:31,  1.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 94%|█████████▍| 839/892 [27:46<01:28,  1.67s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 94%|█████████▍| 840/892 [27:48<01:27,  1.67s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 94%|█████████▍| 841/892 [27:49<01:26,  1.69s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 94%|█████████▍| 842/892 [27:51<01:25,  1.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 95%|█████████▍| 843/892 [27:53<01:23,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 95%|█████████▍| 844/892 [27:55<01:25,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 95%|█████████▍| 845/892 [27:56<01:21,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 95%|█████████▍| 846/892 [27:59<01:26,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 95%|█████████▍| 847/892 [28:00<01:23,  1.86s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 95%|█████████▌| 848/892 [28:02<01:20,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 95%|█████████▌| 849/892 [28:04<01:21,  1.89s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 95%|█████████▌| 850/892 [28:06<01:17,  1.84s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 95%|█████████▌| 851/892 [28:07<01:13,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 96%|█████████▌| 852/892 [28:09<01:09,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 96%|█████████▌| 853/892 [28:11<01:10,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 96%|█████████▌| 854/892 [28:13<01:06,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 96%|█████████▌| 855/892 [28:14<01:05,  1.76s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 96%|█████████▌| 856/892 [28:16<01:04,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 96%|█████████▌| 857/892 [28:18<01:04,  1.83s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 96%|█████████▌| 858/892 [28:20<01:01,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 96%|█████████▋| 859/892 [28:22<00:56,  1.72s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 96%|█████████▋| 860/892 [28:23<00:55,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 97%|█████████▋| 861/892 [28:25<00:57,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 97%|█████████▋| 862/892 [28:27<00:54,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 97%|█████████▋| 863/892 [28:29<00:51,  1.77s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 97%|█████████▋| 864/892 [28:31<00:50,  1.80s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 97%|█████████▋| 865/892 [28:33<00:50,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 97%|█████████▋| 866/892 [28:35<00:48,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 97%|█████████▋| 867/892 [28:36<00:45,  1.81s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 97%|█████████▋| 868/892 [28:38<00:42,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 97%|█████████▋| 869/892 [28:40<00:39,  1.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 98%|█████████▊| 870/892 [28:43<00:49,  2.25s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 98%|█████████▊| 871/892 [28:45<00:44,  2.12s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 98%|█████████▊| 872/892 [28:47<00:40,  2.01s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 98%|█████████▊| 873/892 [28:48<00:35,  1.87s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 98%|█████████▊| 874/892 [28:59<01:23,  4.64s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 98%|█████████▊| 875/892 [29:01<01:03,  3.73s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 98%|█████████▊| 876/892 [29:03<00:50,  3.16s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 98%|█████████▊| 877/892 [29:04<00:40,  2.70s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 98%|█████████▊| 878/892 [29:06<00:33,  2.39s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 99%|█████████▊| 879/892 [29:08<00:28,  2.20s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 99%|█████████▊| 880/892 [29:10<00:25,  2.12s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 99%|█████████▉| 881/892 [29:11<00:21,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 99%|█████████▉| 882/892 [29:13<00:19,  1.96s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 99%|█████████▉| 883/892 [29:15<00:17,  1.98s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 99%|█████████▉| 884/892 [29:17<00:16,  2.00s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 99%|█████████▉| 885/892 [29:19<00:13,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 99%|█████████▉| 886/892 [29:21<00:11,  1.90s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
- 99%|█████████▉| 887/892 [29:23<00:09,  1.85s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-100%|█████████▉| 888/892 [29:24<00:07,  1.78s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-100%|█████████▉| 889/892 [29:26<00:05,  1.82s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-100%|█████████▉| 890/892 [29:28<00:03,  1.75s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-100%|█████████▉| 891/892 [29:29<00:01,  1.71s/it][root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-100%|██████████| 892/892 [29:31<00:00,  1.75s/it]100%|██████████| 892/892 [29:31<00:00,  1.99s/it]
-[root] Save results to results/gemini-2.0-flash-exp_Math_Directly.json
-[root] End Generation......
-
---- Sample Generation Debug ---
-PID: Math_1
-Problem: {
-  "query": "\nWhich of the figures shown bellow cannot be cut out of the figure illustrated nearby?\n<image_1>\nA: A\nB: B\nC: C\nD: D\nE: E\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps).",
-  "gt_content": "E",
-  "pid": "Math_1",
-  "question": "Which of the figures shown bellow cannot be cut out of the figure illustrated nearby?\n<image_1>",
-  "options": [
-    "A",
-    "B",
-    "C",
-    "D",
-    "E"
-  ],
-  "answer": "E",
-  "solution": null,
-  "subject": "Math",
-  "task": "",
-  "category": "2D Transformation",
-  "source": "MathVision",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "\\boxed{C}"
-}
-Generated Response: \boxed{C}
------- End  ------
-
-
---- Sample Generation Debug ---
-PID: Math_2
-Problem: {
-  "query": "\nA square is cut into four pieces. Which shape can you not make with these four pieces?\n<image_1>\nA: A\nB: B\nC: C\nD: D\nE: E\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps).",
-  "gt_content": "D",
-  "pid": "Math_2",
-  "question": "A square is cut into four pieces. Which shape can you not make with these four pieces?\n<image_1>",
-  "options": [
-    "A",
-    "B",
-    "C",
-    "D",
-    "E"
-  ],
-  "answer": "D",
-  "solution": null,
-  "subject": "Math",
-  "task": "",
-  "category": "2D Transformation",
-  "source": "MathVision",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "\\boxed{A}"
-}
-Generated Response: \boxed{A}
------- End  ------
-
-
---- Sample Generation Debug ---
-PID: Math_3
-Problem: {
-  "query": "\nWhich part of the house is missing?\n<image_1>\nA: A\nB: B\nC: C\nD: D\nE: E\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please ensure that your output only contains the final answer without any additional content (such as intermediate reasoning steps).",
-  "gt_content": "E",
-  "pid": "Math_3",
-  "question": "Which part of the house is missing?\n<image_1>",
-  "options": [
-    "A",
-    "B",
-    "C",
-    "D",
-    "E"
-  ],
-  "answer": "E",
-  "solution": null,
-  "subject": "Math",
-  "task": "",
-  "category": "2D Transformation",
-  "source": "MathVision",
-  "type": "Multiple Choice",
-  "context": "",
-  "response": "\\boxed{D}"
-}
-Generated Response: \boxed{D}
------- End  ------
-

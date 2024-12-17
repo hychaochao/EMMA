@@ -1,0 +1,81 @@
+phoenix-srun: job 3872580 queued and waiting for resources
+phoenix-srun: job 3872580 has been allocated resources
+phoenix-srun: Job 3872580 scheduled successfully!
+Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
+Current PHX_PRIORITY is normal
+
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Physics', 'Chemistry']
+[root] Loading config
+[root] Loading local model /mnt/petrelfs/share_data/quxiaoye/models/Qwen2-VL-72B-Instruct
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/38 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/38 [00:04<02:34,  4.19s/it]Loading checkpoint shards:   5%|▌         | 2/38 [00:08<02:25,  4.04s/it]Loading checkpoint shards:   8%|▊         | 3/38 [00:12<02:27,  4.22s/it]Loading checkpoint shards:  11%|█         | 4/38 [00:17<02:30,  4.42s/it]Loading checkpoint shards:  13%|█▎        | 5/38 [00:21<02:29,  4.52s/it]Loading checkpoint shards:  16%|█▌        | 6/38 [00:26<02:25,  4.53s/it]Loading checkpoint shards:  18%|█▊        | 7/38 [00:30<02:19,  4.51s/it]Loading checkpoint shards:  21%|██        | 8/38 [00:35<02:14,  4.50s/it]Loading checkpoint shards:  24%|██▎       | 9/38 [00:39<02:09,  4.47s/it]Loading checkpoint shards:  26%|██▋       | 10/38 [00:44<02:02,  4.37s/it]Loading checkpoint shards:  29%|██▉       | 11/38 [00:48<01:59,  4.43s/it]Loading checkpoint shards:  32%|███▏      | 12/38 [00:53<01:55,  4.43s/it]Loading checkpoint shards:  34%|███▍      | 13/38 [00:57<01:49,  4.39s/it]Loading checkpoint shards:  37%|███▋      | 14/38 [01:01<01:44,  4.35s/it]Loading checkpoint shards:  39%|███▉      | 15/38 [01:05<01:40,  4.36s/it]Loading checkpoint shards:  42%|████▏     | 16/38 [01:10<01:35,  4.32s/it]Loading checkpoint shards:  45%|████▍     | 17/38 [01:14<01:30,  4.33s/it]Loading checkpoint shards:  47%|████▋     | 18/38 [01:18<01:24,  4.24s/it]Loading checkpoint shards:  50%|█████     | 19/38 [01:22<01:19,  4.21s/it]Loading checkpoint shards:  53%|█████▎    | 20/38 [01:28<01:21,  4.55s/it]Loading checkpoint shards:  55%|█████▌    | 21/38 [01:33<01:21,  4.80s/it]Loading checkpoint shards:  58%|█████▊    | 22/38 [01:38<01:17,  4.87s/it]Loading checkpoint shards:  61%|██████    | 23/38 [01:43<01:15,  5.05s/it]Loading checkpoint shards:  63%|██████▎   | 24/38 [01:48<01:09,  4.95s/it]Loading checkpoint shards:  66%|██████▌   | 25/38 [01:53<01:05,  5.03s/it]Loading checkpoint shards:  68%|██████▊   | 26/38 [01:58<00:59,  4.97s/it]Loading checkpoint shards:  71%|███████   | 27/38 [02:03<00:54,  4.91s/it]Loading checkpoint shards:  74%|███████▎  | 28/38 [02:08<00:49,  4.91s/it]Loading checkpoint shards:  76%|███████▋  | 29/38 [02:13<00:44,  4.93s/it]Loading checkpoint shards:  79%|███████▉  | 30/38 [02:17<00:38,  4.83s/it]Loading checkpoint shards:  82%|████████▏ | 31/38 [02:23<00:34,  4.90s/it]Loading checkpoint shards:  84%|████████▍ | 32/38 [02:28<00:29,  4.94s/it]Loading checkpoint shards:  87%|████████▋ | 33/38 [02:33<00:24,  4.94s/it]Loading checkpoint shards:  89%|████████▉ | 34/38 [02:37<00:19,  4.81s/it]Loading checkpoint shards:  92%|█████████▏| 35/38 [02:42<00:14,  4.73s/it]Loading checkpoint shards:  95%|█████████▍| 36/38 [02:47<00:09,  4.82s/it]Loading checkpoint shards:  97%|█████████▋| 37/38 [02:50<00:04,  4.26s/it]Loading checkpoint shards: 100%|██████████| 38/38 [02:53<00:00,  3.87s/it]Loading checkpoint shards: 100%|██████████| 38/38 [02:53<00:00,  4.55s/it]
+[root] Model loaded!
+[root] Results already exists.
+[root] Reading results/open-source/Qwen_CoT.json
+[root] Starting to generate.....
+
+--- Sample Generation Debug ---
+PID: phy_1
+Problem: {
+  "query": "\nA ray of light is incident on a spherical mirror after passing through its focus \\( F \\).\n\nWhich of the following diagrams shows the reflected ray correctly?\n\nNote: The smooth side is the reflecting part of the mirror, and the dotted side is the back.\n\n<image_1>\nA: <image_2>\nB: <image_3>\nC: <image_4>\nD: <image_5>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
+  "gt_content": "<image_2>",
+  "pid": "phy_1",
+  "question": "A ray of light is incident on a spherical mirror after passing through its focus \\( F \\).\n\nWhich of the following diagrams shows the reflected ray correctly?\n\nNote: The smooth side is the reflecting part of the mirror, and the dotted side is the back.\n\n<image_1>",
+  "options": [
+    "<image_2>",
+    "<image_3>",
+    "<image_4>",
+    "<image_5>"
+  ],
+  "answer": "A",
+  "solution": "",
+  "subject": "Physics",
+  "task": "",
+  "category": "Path Tracing",
+  "source": "khanacademy",
+  "type": "Multiple Choice",
+  "context": "",
+  "response": "To determine the correct diagram showing the reflected ray, we need to understand the behavior of light rays when they pass through the focus \\( F \\) of a spherical mirror and then reflect off the mirror.\n\n1. **Incident Ray**: A ray of light passes through the focus \\( F \\) and then hits the mirror.\n2. **Reflection**: According to the laws of reflection, the angle of incidence is equal to the angle of reflection. For a spherical mirror, any ray passing through the focus will reflect parallel to the principal axis (the line passing through the center of curvature \\( C \\) and the focus \\( F \\)).\n\nLet's analyze each diagram:\n\n- **Diagram A**: The incident ray is shown passing through the focus \\( F \\), but the reflected ray is not parallel to the principal axis. This is incorrect.\n- **Diagram B**: The incident ray is shown passing through the focus \\( F \\), and the reflected ray is parallel to the principal axis. This is correct.\n- **Diagram C**: The incident ray is shown passing through the focus \\( F \\), but the reflected ray is not parallel to the principal axis. This is incorrect.\n- **Diagram D**: The incident ray is shown passing through the focus \\( F \\), but the reflected ray is not parallel to the principal axis. This is incorrect.\n- **Diagram E**: The incident ray is shown passing through the focus \\( F \\), but the reflected ray is not parallel to the principal axis. This is incorrect.\n\nTherefore, the correct diagram is **Diagram B**.\n\nThe answer is \\(\\boxed{B}\\)."
+}
+Generated Response: To determine the correct diagram showing the reflected ray, we need to understand the behavior of light rays when they pass through the focus \( F \) of a spherical mirror and then reflect off the mirror.
+
+1. **Incident Ray**: A ray of light passes through the focus \( F \) and then hits the mirror.
+2. **Reflection**: According to the laws of reflection, the angle of incidence is equal to the angle of reflection. For a spherical mirror, any ray passing through the focus will reflect parallel to the principal axis (the line passing through the center of curvature \( C \) and the focus \( F \)).
+
+Let's analyze each diagram:
+
+- **Diagram A**: The incident ray is shown passing through the focus \( F \), but the reflected ray is not parallel to the principal axis. This is incorrect.
+- **Diagram B**: The incident ray is shown passing through the focus \( F \), and the reflected ray is parallel to the principal axis. This is correct.
+- **Diagram C**: The incident ray is shown passing through the focus \( F \), but the reflected ray is not parallel to the principal axis. This is incorrect.
+- **Diagram D**: The incident ray is shown passing through the focus \( F \), but the reflected ray is not parallel to the principal axis. This is incorrect.
+- **Diagram E**: The incident ray is shown passing through the focus \( F \), but the reflected ray is not parallel to the principal axis. This is incorrect.
+
+Therefore, the correct diagram is **Diagram B**.
+
+The answer is \(\boxed{B}\).
+------ End  ------
+
+
+--- Sample Generation Debug ---
+PID: phy_2
+Problem: {
+  "query": "\nA ray of light is incident on a spherical mirror parallel to its principal axis.\nWhich of the following diagrams shows the reflected ray correctly?\nNote: The smooth side is the reflecting part of the mirror, and the dotted side is the back.\n<image_1>\nA: <image_2>\nB: <image_3>\nC: <image_4>\nD: <image_5>\n\nAnswer with the option's letter from the given choices and put the letter in one \"\\boxed{}\". Please solve the problem step by step.",
+  "gt_content": "<image_2>",
+  "pid": "phy_2",
+  "question": "A ray of light is incident on a spherical mirror parallel to its principal axis.\nWhich of the following diagrams shows the reflected ray correctly?\nNote: The smooth side is the reflecting part of the mirror, and the dotted side is the back.\n<image_1>",
+  "options": [
+    "<image_2>",
+    "<image_3>",
+    "<image_4>",
+    "<image_5>"
+  ],
+  "answer": "A",
+  "solution": "",
+  "subject": "Physics",
+  "task": "",
+  "category": "Path Tracing",
+  "source": "khanacademy",
+  "type": "Multiple Choice",
+  "context": "",
+  "response": "To determine which diagram correctly shows the reflected ray when a ray of light is incident on a spherical mirror parallel to its principal axis, we need to understand the behavior of light rays in spherical mirrors.\n\n1. **Incident Ray**: A ray of light incident on a spherical mirror parallel to its principal axis will hit the mirror at a point equidistant from the center of curvature (C) and the focal point (F).\n\n2. **Reflection Law**: According to the law of reflection, the angle of incidence is equal to the angle of reflection. For a spherical mirror, any ray parallel to the principal axis will reflect through the focal point (F) for a concave mirror or appear to diverge from the focal point for a convex mirror.\n\nGiven that the smooth side is the reflecting part of the mirror, we can analyze each diagram:\n\n- **Diagram A**: The incident ray is shown correctly, but the reflected ray does not pass through the focal point (F). This is incorrect.\n- **Diagram B**: The incident ray is shown correctly, and the reflected ray passes through the focal point (F). This is correct for a concave mirror.\n- **Diagram C**: The incident ray is shown correctly, but the reflected ray does not pass through the focal point (F). This is incorrect.\n- **Diagram D**: The incident ray is shown correctly, but the reflected ray does not pass through the focal point (F). This is incorrect.\n- **Diagram E**: The incident ray is shown correctly, but the reflected ray does not pass through the focal point (F). This is incorrect.\n\nTherefore, the correct diagram is **Diagram B**.\n\nThe answer is \\(\\boxed{B}\\)."
+}
