@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+os.environ['CUDA_VISIBLE_DEVICES'] = "0,1,2,3"
 
 import logging
 from tqdm import tqdm
