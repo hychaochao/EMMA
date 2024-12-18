@@ -146,7 +146,7 @@ def main():
 
     for root, dirs, files in os.walk(args.results_dir):
         for file in files:
-            if file.endswith(".json"):
+            if file.endswith(".json") and not file.endswith("_result.json"):
                 gen_true_false(os.path.join(root, file), args)
 
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 {
   "average": {
-    "accuracy": 0.2306312769010043,
-    "correct": 643,
+    "accuracy": 0.27080344332855094,
+    "correct": 755,
     "total": 2788
   },
   "subject": {
@@ -11,8 +11,8 @@
       "total": 1176
     },
     "Math": {
-      "accuracy": 0.13004484304932734,
-      "correct": 116,
+      "accuracy": 0.2556053811659193,
+      "correct": 228,
       "total": 892
     },
     "Coding": {
@@ -28,13 +28,13 @@
   },
   "question_type": {
     "multiple choice": {
-      "accuracy": 0.2822177822177822,
-      "correct": 565,
+      "accuracy": 0.3091908091908092,
+      "correct": 619,
       "total": 2002
     },
     "open-ended": {
-      "accuracy": 0.09923664122137404,
-      "correct": 78,
+      "accuracy": 0.17302798982188294,
+      "correct": 136,
       "total": 786
     }
   },
@@ -83,13 +83,13 @@
         "total": 127
       },
       "Multi-hop Visual Object Counting": {
-        "accuracy": 0.0,
-        "correct": 0,
+        "accuracy": 0.7580645161290323,
+        "correct": 94,
         "total": 124
       },
       "Pattern Inference": {
-        "accuracy": 0.0,
-        "correct": 0,
+        "accuracy": 0.18,
+        "correct": 18,
         "total": 100
       }
     },
