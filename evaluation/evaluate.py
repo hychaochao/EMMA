@@ -131,7 +131,7 @@ def gen_true_false(answer_file, args):
 def main():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/close-source')
+    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/open-source')
     parser.add_argument('--response_label', type=str, default='response', help='response label for the input file')
     parser.add_argument('--rerun', action='store_true', help='rerun the answer extraction')
     parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
