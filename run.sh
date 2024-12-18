@@ -1,19 +1,22 @@
 #!/bin/bash
+export CUDA_HOME=/mnt/petrelfs/share/cuda-11.8
+export PATH=/mnt/petrelfs/share/cuda-11.8/bin:$PATH
+export LD_LIBRARY_PATH=/mnt/petrelfs/share/cuda-11.8/lib64:$LD_LIBRARY_PATH
 OMP_NUM_THREADS=8 nohup srun \
  --partition=MoE \
  --mpi=pmi2 \
- --job-name=math \
+ --job-name=physics \
  -c 32 \
- -w SH-IDCA1404-10-140-54-102 \
+ -w SH-IDCA1404-10-140-54-89 \
  --ntasks-per-node=1 \
  --kill-on-bad-exit=1 \
  --quotatype=reserved \
 python generate_response_ntimes.py \
---subject 'Math' \
+--subject 'Physics' \
 --strategy 'CoT' \
 --n_times 16 \
 --model_path '/mnt/petrelfs/share_data/quxiaoye/models/InternVL2_5-78B' \
---output_path 'results/test-time-compute/InternVL2_5_Math_16.json' 1>logs/InternVL2_5_Math_16.log 2>&1 &
+--output_path 'results/test-time-compute/InternVL2_5_Physics_16.json' 1>logs/InternVL2_5_Physics_16.log 2>&1 &
 # python generate_response.py \
 # --subject 'Physics' 'Chemistry' \
 # --strategy 'Direct' \
