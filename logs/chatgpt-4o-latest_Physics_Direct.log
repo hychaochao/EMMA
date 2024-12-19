@@ -1,11 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Physics']
-[root] Loading config
-[root] Loading chatgpt-4o-latest
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/gpt/Direct/chatgpt-4o-latest_Physics_Direct.json
-[root] Found existing results file with 156 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/156 [00:00<?, ?it/s]  3%|▎         | 5/156 [00:00<00:03, 48.73it/s] 13%|█▎        | 21/156 [00:00<00:01, 113.30it/s] 28%|██▊       | 44/156 [00:00<00:00, 163.53it/s] 49%|████▊     | 76/156 [00:00<00:00, 129.35it/s] 58%|█████▊    | 91/156 [00:01<00:01, 35.44it/s]  65%|██████▍   | 101/156 [00:02<00:01, 27.75it/s] 69%|██████▉   | 108/156 [00:03<00:02, 22.40it/s] 72%|███████▏  | 113/156 [00:03<00:01, 22.81it/s] 92%|█████████▏| 143/156 [00:03<00:00, 47.09it/s]100%|██████████| 156/156 [00:03<00:00, 45.33it/s]
-[root] Save results to results/close-source/gpt/Direct/chatgpt-4o-latest_Physics_Direct.json
-[root] End Generation......

@@ -1,11 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Physics']
-[root] Loading config
-[root] Loading gemini-2.0-flash-exp
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/gemini/Direct/gemini-2.0-flash-exp_Physics_Direct.json
-[root] Found existing results file with 156 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/156 [00:00<?, ?it/s]  6%|▋         | 10/156 [00:00<00:01, 95.45it/s] 20%|█▉        | 31/156 [00:00<00:00, 158.96it/s] 38%|███▊      | 59/156 [00:00<00:00, 213.16it/s] 52%|█████▏    | 81/156 [00:00<00:00, 78.38it/s]  62%|██████▏   | 96/156 [00:02<00:01, 31.69it/s] 68%|██████▊   | 106/156 [00:02<00:02, 23.44it/s] 72%|███████▏  | 113/156 [00:03<00:01, 24.21it/s] 93%|█████████▎| 145/156 [00:03<00:00, 47.56it/s]100%|██████████| 156/156 [00:03<00:00, 47.72it/s]
-[root] Save results to results/close-source/gemini/Direct/gemini-2.0-flash-exp_Physics_Direct.json
-[root] End Generation......

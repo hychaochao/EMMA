@@ -1,14 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Physics']
-[root] Loading config
-[root] Loading claude-3-5-sonnet-latest
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/claude/CoT/claude-3-5-sonnet-latest_Physics_CoT.json
-[root] Found existing results file with 153 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/156 [00:00<?, ?it/s]  8%|▊         | 12/156 [00:00<00:01, 111.12it/s] 15%|█▌        | 24/156 [00:00<00:01, 115.79it/s] 30%|███       | 47/156 [00:00<00:00, 166.39it/s][root] Save results to results/close-source/claude/CoT/claude-3-5-sonnet-latest_Physics_CoT.json
- 41%|████      | 64/156 [00:11<00:24,  3.82it/s]  49%|████▊     | 76/156 [00:11<00:15,  5.19it/s][root] Save results to results/close-source/claude/CoT/claude-3-5-sonnet-latest_Physics_CoT.json
- 49%|████▊     | 76/156 [00:27<00:15,  5.19it/s][root] Save results to results/close-source/claude/CoT/claude-3-5-sonnet-latest_Physics_CoT.json
- 54%|█████▍    | 85/156 [00:29<00:43,  1.65it/s] 55%|█████▌    | 86/156 [00:29<00:41,  1.69it/s] 61%|██████    | 95/156 [00:30<00:26,  2.32it/s] 65%|██████▍   | 101/156 [00:30<00:18,  2.90it/s] 68%|██████▊   | 106/156 [00:31<00:14,  3.40it/s] 71%|███████   | 110/156 [00:31<00:11,  4.06it/s] 82%|████████▏ | 128/156 [00:31<00:03,  8.95it/s]100%|██████████| 156/156 [00:31<00:00,  4.95it/s]
-[root] Save results to results/close-source/claude/CoT/claude-3-5-sonnet-latest_Physics_CoT.json
-[root] End Generation......

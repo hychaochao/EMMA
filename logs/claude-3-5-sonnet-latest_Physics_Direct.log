@@ -1,11 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Physics']
-[root] Loading config
-[root] Loading claude-3-5-sonnet-latest
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/claude/Direct/claude-3-5-sonnet-latest_Physics_Direct.json
-[root] Found existing results file with 156 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/156 [00:00<?, ?it/s]  9%|▉         | 14/156 [00:00<00:01, 132.81it/s] 21%|██        | 33/156 [00:00<00:00, 154.37it/s] 41%|████      | 64/156 [00:00<00:00, 220.65it/s] 56%|█████▌    | 87/156 [00:01<00:01, 39.64it/s]  65%|██████▌   | 102/156 [00:02<00:02, 23.66it/s] 72%|███████▏  | 112/156 [00:03<00:02, 20.78it/s] 87%|████████▋ | 135/156 [00:03<00:00, 32.62it/s]100%|██████████| 156/156 [00:03<00:00, 40.70it/s]
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Physics_Direct.json
-[root] End Generation......

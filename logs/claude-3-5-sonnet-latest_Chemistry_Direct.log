@@ -1,40 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Chemistry']
-[root] Loading config
-[root] Loading claude-3-5-sonnet-latest
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
-[root] Found existing results file with 1147 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/1176 [00:00<?, ?it/s]  2%|▏         | 22/1176 [00:00<00:05, 219.22it/s]  6%|▋         | 75/1176 [00:00<00:02, 395.27it/s] 10%|▉         | 115/1176 [00:01<00:19, 55.41it/s] 12%|█▏        | 138/1176 [00:04<00:44, 23.42it/s] 13%|█▎        | 153/1176 [00:05<00:50, 20.09it/s] 23%|██▎       | 269/1176 [00:05<00:14, 62.54it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 30%|██▉       | 352/1176 [00:07<00:16, 50.64it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 33%|███▎      | 385/1176 [00:10<00:26, 30.14it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 35%|███▍      | 408/1176 [00:12<00:30, 25.50it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 40%|███▉      | 468/1176 [00:13<00:24, 28.56it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 41%|████      | 480/1176 [00:18<00:45, 15.20it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 44%|████▍     | 516/1176 [00:19<00:37, 17.56it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 47%|████▋     | 555/1176 [00:21<00:34, 18.15it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 48%|████▊     | 563/1176 [00:23<00:43, 14.21it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 49%|████▊     | 573/1176 [00:25<00:51, 11.62it/s] 55%|█████▍    | 643/1176 [00:25<00:20, 26.14it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 58%|█████▊    | 679/1176 [00:27<00:21, 22.95it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 59%|█████▉    | 696/1176 [00:33<00:45, 10.50it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 61%|██████    | 712/1176 [00:34<00:41, 11.31it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 62%|██████▏   | 728/1176 [00:35<00:40, 11.10it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 62%|██████▎   | 735/1176 [00:38<00:57,  7.71it/s] 71%|███████▏  | 838/1176 [00:38<00:13, 25.75it/s] 78%|███████▊  | 923/1176 [00:39<00:05, 46.01it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 87%|████████▋ | 1022/1176 [00:41<00:03, 46.45it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 90%|████████▉ | 1058/1176 [00:43<00:03, 35.79it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 92%|█████████▏| 1084/1176 [00:44<00:03, 29.03it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 94%|█████████▍| 1103/1176 [00:51<00:05, 13.39it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 96%|█████████▋| 1134/1176 [00:52<00:02, 14.55it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 97%|█████████▋| 1144/1176 [00:56<00:03, 10.07it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
- 99%|█████████▉| 1169/1176 [01:00<00:00,  8.50it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
-100%|█████████▉| 1174/1176 [01:02<00:00,  7.13it/s]100%|██████████| 1176/1176 [01:02<00:00, 18.78it/s]
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Chemistry_Direct.json
-[root] End Generation......

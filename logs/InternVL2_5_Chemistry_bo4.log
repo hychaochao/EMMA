@@ -1,0 +1,94 @@
+phoenix-srun: job 3880576 queued and waiting for resources
+phoenix-srun: job 3880576 has been allocated resources
+phoenix-srun: Job 3880576 scheduled successfully!
+Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
+Current PHX_PRIORITY is normal
+
+[root] Reading results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+[root] Loading dataset mm-reasoning/EMMA-test100, subject: Chemistry
+[root] Loading config
+[root] Loading local model /mnt/petrelfs/share_data/quxiaoye/models/InternVL2_5-78B
+[transformers_modules.InternVL2_5-78B.configuration_internvl_chat] vision_select_layer: -1
+[transformers_modules.InternVL2_5-78B.configuration_internvl_chat] ps_version: v2
+[transformers_modules.InternVL2_5-78B.configuration_internvl_chat] min_dynamic_patch: 1
+[transformers_modules.InternVL2_5-78B.configuration_internvl_chat] max_dynamic_patch: 12
+/mnt/petrelfs/haoyunzhuo/anaconda3/envs/intern/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[transformers_modules.InternVL2_5-78B.modeling_internvl_chat] num_image_token: 256
+[transformers_modules.InternVL2_5-78B.modeling_internvl_chat] ps_version: v2
+Loading checkpoint shards:   0%|          | 0/33 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/33 [00:09<04:59,  9.37s/it]Loading checkpoint shards:   6%|▌         | 2/33 [00:15<03:53,  7.52s/it]Loading checkpoint shards:   9%|▉         | 3/33 [00:21<03:27,  6.91s/it]Loading checkpoint shards:  12%|█▏        | 4/33 [00:27<03:06,  6.43s/it]Loading checkpoint shards:  15%|█▌        | 5/33 [00:33<02:55,  6.27s/it]Loading checkpoint shards:  18%|█▊        | 6/33 [00:39<02:49,  6.28s/it]Loading checkpoint shards:  21%|██        | 7/33 [00:45<02:41,  6.22s/it]Loading checkpoint shards:  24%|██▍       | 8/33 [00:52<02:42,  6.50s/it]Loading checkpoint shards:  27%|██▋       | 9/33 [00:59<02:32,  6.37s/it]Loading checkpoint shards:  30%|███       | 10/33 [01:05<02:24,  6.28s/it]Loading checkpoint shards:  33%|███▎      | 11/33 [01:10<02:14,  6.13s/it]Loading checkpoint shards:  36%|███▋      | 12/33 [01:16<02:07,  6.10s/it]Loading checkpoint shards:  39%|███▉      | 13/33 [01:22<02:00,  6.02s/it]Loading checkpoint shards:  42%|████▏     | 14/33 [01:28<01:55,  6.06s/it]Loading checkpoint shards:  45%|████▌     | 15/33 [01:34<01:48,  6.04s/it]Loading checkpoint shards:  48%|████▊     | 16/33 [01:42<01:51,  6.54s/it]Loading checkpoint shards:  52%|█████▏    | 17/33 [01:48<01:42,  6.43s/it]Loading checkpoint shards:  55%|█████▍    | 18/33 [01:54<01:33,  6.27s/it]Loading checkpoint shards:  58%|█████▊    | 19/33 [02:00<01:25,  6.08s/it]Loading checkpoint shards:  61%|██████    | 20/33 [02:06<01:18,  6.06s/it]Loading checkpoint shards:  64%|██████▎   | 21/33 [02:12<01:12,  6.08s/it]Loading checkpoint shards:  67%|██████▋   | 22/33 [02:18<01:08,  6.19s/it]Loading checkpoint shards:  70%|██████▉   | 23/33 [02:25<01:02,  6.21s/it]Loading checkpoint shards:  73%|███████▎  | 24/33 [02:32<00:58,  6.55s/it]Loading checkpoint shards:  76%|███████▌  | 25/33 [02:38<00:51,  6.44s/it]Loading checkpoint shards:  79%|███████▉  | 26/33 [02:44<00:44,  6.37s/it]Loading checkpoint shards:  82%|████████▏ | 27/33 [02:51<00:37,  6.33s/it]Loading checkpoint shards:  85%|████████▍ | 28/33 [02:57<00:31,  6.30s/it]Loading checkpoint shards:  88%|████████▊ | 29/33 [03:03<00:25,  6.27s/it]Loading checkpoint shards:  91%|█████████ | 30/33 [03:09<00:18,  6.32s/it]Loading checkpoint shards:  94%|█████████▍| 31/33 [03:15<00:12,  6.20s/it]Loading checkpoint shards:  97%|█████████▋| 32/33 [03:20<00:05,  5.80s/it]Loading checkpoint shards: 100%|██████████| 33/33 [03:24<00:00,  5.15s/it]Loading checkpoint shards: 100%|██████████| 33/33 [03:24<00:00,  6.19s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/100 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  1%|          | 1/100 [02:14<3:42:41, 134.96s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 4, 4, 5, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+  2%|▏         | 2/100 [04:37<3:48:05, 139.65s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 2, 5, 2, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+  3%|▎         | 3/100 [07:43<4:19:28, 160.50s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 3, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+  4%|▍         | 4/100 [10:58<4:38:57, 174.35s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[3, 5, 3, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+  5%|▌         | 5/100 [13:18<4:16:30, 162.01s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+  6%|▌         | 6/100 [15:10<3:46:50, 144.79s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+  7%|▋         | 7/100 [17:40<3:47:14, 146.61s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+  8%|▊         | 8/100 [20:50<4:05:50, 160.33s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 0, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+  9%|▉         | 9/100 [26:06<5:17:15, 209.18s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 10%|█         | 10/100 [28:37<4:46:28, 190.99s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[1, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 11%|█         | 11/100 [31:13<4:27:23, 180.26s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 12%|█▏        | 12/100 [34:00<4:18:44, 176.41s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 13%|█▎        | 13/100 [37:11<4:21:56, 180.65s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 3, 5, 2, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 14%|█▍        | 14/100 [39:46<4:07:59, 173.02s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 15%|█▌        | 15/100 [43:30<4:26:57, 188.44s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 3, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 16%|█▌        | 16/100 [45:51<4:03:44, 174.10s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 17%|█▋        | 17/100 [49:14<4:13:03, 182.94s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 2, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 18%|█▊        | 18/100 [52:32<4:16:01, 187.33s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 19%|█▉        | 19/100 [54:40<3:48:44, 169.44s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[5, 5, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 20%|██        | 20/100 [56:42<3:26:56, 155.21s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 21%|██        | 21/100 [58:40<3:09:42, 144.09s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 22%|██▏       | 22/100 [1:00:14<2:47:50, 129.11s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 23%|██▎       | 23/100 [1:02:21<2:44:50, 128.45s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Chemistry_8.json
+ 24%|██▍       | 24/100 [1:05:01<2:54:29, 137.76s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.

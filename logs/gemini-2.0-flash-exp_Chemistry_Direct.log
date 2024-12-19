@@ -1,12 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Chemistry']
-[root] Loading config
-[root] Loading gemini-2.0-flash-exp
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/gemini/Direct/gemini-2.0-flash-exp_Chemistry_Direct.json
-[root] Found existing results file with 1175 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/1176 [00:00<?, ?it/s]  1%|▏         | 15/1176 [00:00<00:07, 146.10it/s]  6%|▌         | 72/1176 [00:00<00:02, 386.52it/s]  9%|▉         | 111/1176 [00:01<00:14, 74.78it/s] 11%|█▏        | 134/1176 [00:03<00:41, 25.39it/s] 13%|█▎        | 149/1176 [00:05<00:58, 17.61it/s] 21%|██        | 247/1176 [00:05<00:18, 49.53it/s] 31%|███       | 362/1176 [00:05<00:08, 99.20it/s] 40%|███▉      | 466/1176 [00:05<00:04, 156.23it/s] 49%|████▊     | 573/1176 [00:05<00:02, 228.96it/s][root] Save results to results/close-source/gemini/Direct/gemini-2.0-flash-exp_Chemistry_Direct.json
- 56%|█████▌    | 659/1176 [00:07<00:04, 103.94it/s] 67%|██████▋   | 790/1176 [00:07<00:02, 163.22it/s] 76%|███████▌  | 895/1176 [00:08<00:01, 221.36it/s] 88%|████████▊ | 1033/1176 [00:08<00:00, 320.60it/s] 99%|█████████▉| 1163/1176 [00:08<00:00, 426.81it/s]100%|██████████| 1176/1176 [00:08<00:00, 141.79it/s]
-[root] Save results to results/close-source/gemini/Direct/gemini-2.0-flash-exp_Chemistry_Direct.json
-[root] End Generation......

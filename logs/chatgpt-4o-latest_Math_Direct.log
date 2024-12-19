@@ -1,13 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Math']
-[root] Loading config
-[root] Loading chatgpt-4o-latest
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/gpt/Direct/chatgpt-4o-latest_Math_Direct.json
-[root] Found existing results file with 890 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/892 [00:00<?, ?it/s]  0%|          | 2/892 [00:00<00:48, 18.25it/s]  2%|▏         | 18/892 [00:00<00:09, 96.05it/s]  4%|▍         | 34/892 [00:00<00:06, 123.58it/s]  6%|▋         | 56/892 [00:00<00:05, 159.81it/s]  9%|▊         | 77/892 [00:00<00:04, 173.66it/s] 12%|█▏        | 111/892 [00:00<00:03, 223.47it/s] 18%|█▊        | 157/892 [00:00<00:02, 295.51it/s] 22%|██▏       | 200/892 [00:00<00:02, 335.63it/s] 26%|██▋       | 235/892 [00:00<00:01, 339.11it/s] 30%|███       | 270/892 [00:01<00:01, 316.56it/s] 35%|███▌      | 314/892 [00:01<00:01, 350.94it/s] 39%|███▉      | 350/892 [00:01<00:01, 331.01it/s] 43%|████▎     | 384/892 [00:01<00:01, 323.64it/s] 48%|████▊     | 427/892 [00:01<00:01, 353.24it/s] 53%|█████▎    | 474/892 [00:01<00:01, 385.54it/s][root] Save results to results/close-source/gpt/Direct/chatgpt-4o-latest_Math_Direct.json
- 58%|█████▊    | 521/892 [00:03<00:06, 55.65it/s]  62%|██████▏   | 549/892 [00:04<00:05, 63.24it/s] 66%|██████▌   | 589/892 [00:04<00:03, 85.40it/s] 71%|███████   | 632/892 [00:04<00:02, 114.97it/s][root] Save results to results/close-source/gpt/Direct/chatgpt-4o-latest_Math_Direct.json
- 75%|███████▍  | 665/892 [00:05<00:04, 56.04it/s]  78%|███████▊  | 692/892 [00:05<00:02, 68.71it/s] 80%|████████  | 717/892 [00:05<00:02, 82.82it/s] 83%|████████▎ | 742/892 [00:06<00:01, 97.76it/s] 86%|████████▌ | 766/892 [00:06<00:01, 111.76it/s] 89%|████████▊ | 791/892 [00:06<00:00, 131.78it/s] 91%|█████████▏| 814/892 [00:06<00:00, 144.64it/s] 97%|█████████▋| 869/892 [00:06<00:00, 222.60it/s]100%|██████████| 892/892 [00:06<00:00, 135.53it/s]
-[root] Save results to results/close-source/gpt/Direct/chatgpt-4o-latest_Math_Direct.json
-[root] End Generation......

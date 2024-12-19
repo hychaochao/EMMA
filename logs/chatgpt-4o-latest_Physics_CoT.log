@@ -1,13 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Physics']
-[root] Loading config
-[root] Loading chatgpt-4o-latest
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/gpt/CoT/chatgpt-4o-latest_Physics_CoT.json
-[root] Found existing results file with 154 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/156 [00:00<?, ?it/s]  4%|▍         | 7/156 [00:00<00:02, 67.41it/s] 17%|█▋        | 27/156 [00:00<00:00, 142.96it/s] 33%|███▎      | 51/156 [00:00<00:00, 186.29it/s] 49%|████▊     | 76/156 [00:00<00:00, 133.96it/s] 59%|█████▉    | 92/156 [00:02<00:02, 30.97it/s]  66%|██████▌   | 103/156 [00:02<00:02, 25.75it/s] 66%|██████▌   | 103/156 [00:16<00:02, 25.75it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Physics_CoT.json
- 70%|██████▉   | 109/156 [00:20<00:22,  2.13it/s] 71%|███████   | 110/156 [00:20<00:21,  2.17it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Physics_CoT.json
- 74%|███████▍  | 116/156 [00:28<00:25,  1.54it/s] 99%|█████████▊| 154/156 [00:28<00:00,  4.68it/s]100%|██████████| 156/156 [00:28<00:00,  5.53it/s]
-[root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Physics_CoT.json
-[root] End Generation......

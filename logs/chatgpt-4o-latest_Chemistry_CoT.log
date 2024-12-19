@@ -1,21 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Chemistry']
-[root] Loading config
-[root] Loading chatgpt-4o-latest
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
-[root] Found existing results file with 1166 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/1176 [00:00<?, ?it/s]  1%|▏         | 17/1176 [00:00<00:06, 168.38it/s]  6%|▌         | 72/1176 [00:00<00:02, 390.82it/s] 10%|▉         | 112/1176 [00:01<00:14, 72.10it/s] 11%|█▏        | 135/1176 [00:03<00:39, 26.09it/s] 13%|█▎        | 150/1176 [00:05<00:53, 19.10it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
- 14%|█▎        | 160/1176 [00:12<02:48,  6.04it/s] 20%|█▉        | 234/1176 [00:12<00:58, 16.19it/s] 27%|██▋       | 321/1176 [00:12<00:26, 32.72it/s] 35%|███▍      | 408/1176 [00:13<00:13, 55.25it/s] 45%|████▌     | 532/1176 [00:13<00:06, 99.10it/s] 52%|█████▏    | 615/1176 [00:13<00:04, 135.74it/s] 65%|██████▌   | 770/1176 [00:13<00:01, 230.28it/s] 65%|██████▌   | 770/1176 [00:28<00:01, 230.28it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
- 73%|███████▎  | 864/1176 [00:28<00:14, 20.84it/s] [root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
- 74%|███████▎  | 865/1176 [00:38<00:27, 11.23it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
- 74%|███████▎  | 865/1176 [00:50<00:27, 11.23it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
- 74%|███████▎  | 867/1176 [01:01<01:11,  4.33it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
- 74%|███████▍  | 868/1176 [01:12<01:38,  3.14it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
- 74%|███████▍  | 869/1176 [01:20<02:04,  2.46it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
-[root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
- 74%|███████▍  | 869/1176 [01:38<02:04,  2.46it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
- 74%|███████▍  | 872/1176 [01:39<03:35,  1.41it/s] 84%|████████▍ | 990/1176 [01:39<00:35,  5.27it/s] 96%|█████████▌| 1125/1176 [01:40<00:04, 11.53it/s]100%|██████████| 1176/1176 [01:40<00:00, 11.74it/s]
-[root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Chemistry_CoT.json
-[root] End Generation......

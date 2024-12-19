@@ -1,14 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Math']
-[root] Loading config
-[root] Loading gemini-2.0-flash-exp
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/gemini/CoT/gemini-2.0-flash-exp_Math_CoT.json
-[root] Found existing results file with 889 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/892 [00:00<?, ?it/s]  0%|          | 4/892 [00:00<00:24, 36.66it/s]  2%|▏         | 20/892 [00:00<00:08, 105.29it/s]  4%|▍         | 38/892 [00:00<00:06, 136.27it/s]  6%|▋         | 57/892 [00:00<00:05, 154.90it/s]  9%|▊         | 77/892 [00:00<00:04, 168.44it/s] 12%|█▏        | 109/892 [00:00<00:03, 216.33it/s] 17%|█▋        | 153/892 [00:00<00:02, 286.79it/s] 22%|██▏       | 192/892 [00:00<00:02, 313.19it/s] 26%|██▌       | 234/892 [00:00<00:01, 341.88it/s] 30%|███       | 269/892 [00:01<00:01, 321.24it/s] 35%|███▍      | 310/892 [00:01<00:01, 343.08it/s] 39%|███▊      | 345/892 [00:01<00:01, 327.03it/s] 42%|████▏     | 378/892 [00:01<00:01, 314.35it/s] 47%|████▋     | 416/892 [00:01<00:01, 328.68it/s][root] Save results to results/close-source/gemini/CoT/gemini-2.0-flash-exp_Math_CoT.json
- 50%|█████     | 450/892 [00:08<00:26, 16.86it/s]  55%|█████▌    | 492/892 [00:08<00:16, 24.91it/s][root] Save results to results/close-source/gemini/CoT/gemini-2.0-flash-exp_Math_CoT.json
- 55%|█████▌    | 492/892 [00:20<00:16, 24.91it/s][root] Save results to results/close-source/gemini/CoT/gemini-2.0-flash-exp_Math_CoT.json
- 56%|█████▌    | 498/892 [00:30<01:49,  3.59it/s] 60%|█████▉    | 531/892 [00:30<01:07,  5.37it/s] 63%|██████▎   | 561/892 [00:31<00:43,  7.59it/s] 67%|██████▋   | 595/892 [00:31<00:26, 11.20it/s] 73%|███████▎  | 647/892 [00:31<00:12, 18.97it/s] 76%|███████▋  | 682/892 [00:31<00:08, 25.98it/s] 80%|████████  | 716/892 [00:31<00:05, 34.39it/s] 84%|████████▎ | 746/892 [00:31<00:03, 43.88it/s] 87%|████████▋ | 773/892 [00:31<00:02, 53.45it/s] 89%|████████▉ | 797/892 [00:32<00:01, 64.86it/s] 92%|█████████▏| 819/892 [00:32<00:00, 77.73it/s] 97%|█████████▋| 867/892 [00:32<00:00, 121.35it/s]100%|██████████| 892/892 [00:32<00:00, 27.58it/s] 
-[root] Save results to results/close-source/gemini/CoT/gemini-2.0-flash-exp_Math_CoT.json
-[root] End Generation......

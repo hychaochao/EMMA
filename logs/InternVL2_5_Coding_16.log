@@ -1,924 +1,0 @@
-phoenix-srun: job 3878069 queued and waiting for resources
-phoenix-srun: job 3878069 has been allocated resources
-phoenix-srun: Job 3878069 scheduled successfully!
-Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
-Current PHX_PRIORITY is normal
-
-[root] Loading dataset mm-reasoning/EMMA-test100, subject: ['Coding']
-Generating test split:   0%|          | 0/100 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 100/100 [00:00<00:00, 942.80 examples/s]Generating test split: 100%|██████████| 100/100 [00:00<00:00, 919.57 examples/s]
-[root] Loading config
-[root] Loading local model /mnt/petrelfs/share_data/quxiaoye/models/InternVL2_5-78B
-[transformers_modules.InternVL2_5-78B.configuration_internvl_chat] vision_select_layer: -1
-[transformers_modules.InternVL2_5-78B.configuration_internvl_chat] ps_version: v2
-[transformers_modules.InternVL2_5-78B.configuration_internvl_chat] min_dynamic_patch: 1
-[transformers_modules.InternVL2_5-78B.configuration_internvl_chat] max_dynamic_patch: 12
-/mnt/petrelfs/haoyunzhuo/anaconda3/envs/intern/lib/python3.9/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
-  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
-[transformers_modules.InternVL2_5-78B.modeling_internvl_chat] num_image_token: 256
-[transformers_modules.InternVL2_5-78B.modeling_internvl_chat] ps_version: v2
-Loading checkpoint shards:   0%|          | 0/33 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/33 [00:05<02:50,  5.34s/it]Loading checkpoint shards:   6%|▌         | 2/33 [00:07<01:42,  3.29s/it]Loading checkpoint shards:   9%|▉         | 3/33 [00:08<01:17,  2.59s/it]Loading checkpoint shards:  12%|█▏        | 4/33 [00:10<01:05,  2.24s/it]Loading checkpoint shards:  15%|█▌        | 5/33 [00:12<00:56,  2.02s/it]Loading checkpoint shards:  18%|█▊        | 6/33 [00:13<00:50,  1.88s/it]Loading checkpoint shards:  21%|██        | 7/33 [00:15<00:47,  1.82s/it]Loading checkpoint shards:  24%|██▍       | 8/33 [00:19<01:00,  2.42s/it]Loading checkpoint shards:  27%|██▋       | 9/33 [00:21<00:52,  2.20s/it]Loading checkpoint shards:  30%|███       | 10/33 [00:22<00:47,  2.08s/it]Loading checkpoint shards:  33%|███▎      | 11/33 [00:24<00:43,  1.96s/it]Loading checkpoint shards:  36%|███▋      | 12/33 [00:26<00:39,  1.88s/it]Loading checkpoint shards:  39%|███▉      | 13/33 [00:27<00:36,  1.84s/it]Loading checkpoint shards:  42%|████▏     | 14/33 [00:29<00:34,  1.83s/it]Loading checkpoint shards:  45%|████▌     | 15/33 [00:31<00:32,  1.79s/it]Loading checkpoint shards:  48%|████▊     | 16/33 [00:34<00:36,  2.17s/it]Loading checkpoint shards:  52%|█████▏    | 17/33 [00:36<00:32,  2.00s/it]Loading checkpoint shards:  55%|█████▍    | 18/33 [00:37<00:28,  1.92s/it]Loading checkpoint shards:  58%|█████▊    | 19/33 [00:39<00:25,  1.79s/it]Loading checkpoint shards:  61%|██████    | 20/33 [00:41<00:22,  1.77s/it]Loading checkpoint shards:  64%|██████▎   | 21/33 [00:42<00:20,  1.74s/it]Loading checkpoint shards:  67%|██████▋   | 22/33 [00:44<00:19,  1.76s/it]Loading checkpoint shards:  70%|██████▉   | 23/33 [00:46<00:17,  1.75s/it]Loading checkpoint shards:  73%|███████▎  | 24/33 [00:49<00:20,  2.25s/it]Loading checkpoint shards:  76%|███████▌  | 25/33 [00:51<00:16,  2.09s/it]Loading checkpoint shards:  79%|███████▉  | 26/33 [00:53<00:13,  1.95s/it]Loading checkpoint shards:  82%|████████▏ | 27/33 [00:54<00:10,  1.81s/it]Loading checkpoint shards:  85%|████████▍ | 28/33 [00:56<00:08,  1.79s/it]Loading checkpoint shards:  88%|████████▊ | 29/33 [00:57<00:06,  1.74s/it]Loading checkpoint shards:  91%|█████████ | 30/33 [00:59<00:05,  1.72s/it]Loading checkpoint shards:  94%|█████████▍| 31/33 [01:01<00:03,  1.67s/it]Loading checkpoint shards:  97%|█████████▋| 32/33 [01:02<00:01,  1.61s/it]Loading checkpoint shards: 100%|██████████| 33/33 [01:03<00:00,  1.44s/it]Loading checkpoint shards: 100%|██████████| 33/33 [01:03<00:00,  1.93s/it]
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-[root] Model loaded!
-[root] Starting to generate.....
-  0%|          | 0/100 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-  1%|          | 1/100 [13:18<21:57:41, 798.61s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
-  2%|▏         | 2/100 [27:00<22:06:51, 812.36s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
-  3%|▎         | 3/100 [46:48<26:30:19, 983.71s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
-  4%|▍         | 4/100 [1:04:19<26:56:26, 1010.28s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
-  5%|▌         | 5/100 [1:21:40<26:57:11, 1021.38s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
-  6%|▌         | 6/100 [1:43:09<29:02:46, 1112.41s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
-  7%|▋         | 7/100 [2:06:12<31:01:33, 1201.01s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
-  8%|▊         | 8/100 [2:25:54<30:32:15, 1194.95s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
-  9%|▉         | 9/100 [2:47:41<31:05:14, 1229.83s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 10%|█         | 10/100 [3:00:13<27:03:27, 1082.30s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 11%|█         | 11/100 [3:09:28<22:46:15, 921.07s/it] Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 12%|█▏        | 12/100 [3:16:54<18:58:40, 776.37s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 13%|█▎        | 13/100 [3:32:19<19:51:02, 821.41s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 14%|█▍        | 14/100 [3:45:10<19:15:27, 806.13s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 15%|█▌        | 15/100 [3:55:55<17:53:18, 757.63s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 16%|█▌        | 16/100 [4:08:25<17:37:33, 755.40s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 17%|█▋        | 17/100 [4:27:38<20:10:17, 874.91s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 18%|█▊        | 18/100 [4:38:08<18:15:22, 801.49s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 19%|█▉        | 19/100 [4:50:20<17:33:50, 780.63s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 20%|██        | 20/100 [5:12:41<21:04:59, 948.75s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 21%|██        | 21/100 [5:25:42<19:43:01, 898.50s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 22%|██▏       | 22/100 [5:38:12<18:29:50, 853.72s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 23%|██▎       | 23/100 [5:52:08<18:08:44, 848.37s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 24%|██▍       | 24/100 [6:03:39<16:54:58, 801.29s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 25%|██▌       | 25/100 [6:20:17<17:55:22, 860.30s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 26%|██▌       | 26/100 [6:30:07<16:01:11, 779.34s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 27%|██▋       | 27/100 [6:38:23<14:04:37, 694.21s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 28%|██▊       | 28/100 [6:52:01<14:37:40, 731.40s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 29%|██▉       | 29/100 [7:06:52<15:21:56, 779.11s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 30%|███       | 30/100 [7:21:37<15:46:13, 811.05s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 31%|███       | 31/100 [7:32:02<14:28:30, 755.23s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 32%|███▏      | 32/100 [7:46:25<14:52:31, 787.53s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 33%|███▎      | 33/100 [8:00:23<14:56:19, 802.68s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 34%|███▍      | 34/100 [8:10:30<13:38:20, 743.95s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 35%|███▌      | 35/100 [8:24:19<13:53:30, 769.39s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 36%|███▌      | 36/100 [8:30:15<11:28:35, 645.56s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 37%|███▋      | 37/100 [8:41:58<11:35:43, 662.60s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 38%|███▊      | 38/100 [8:54:52<11:59:08, 695.95s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 39%|███▉      | 39/100 [9:11:38<13:22:11, 789.04s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 40%|████      | 40/100 [9:23:17<12:42:02, 762.03s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 41%|████      | 41/100 [9:35:49<12:26:31, 759.18s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 42%|████▏     | 42/100 [9:46:55<11:46:46, 731.15s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 43%|████▎     | 43/100 [10:05:20<13:21:10, 843.35s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 44%|████▍     | 44/100 [10:20:01<13:17:39, 854.63s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 45%|████▌     | 45/100 [10:29:51<11:50:30, 775.10s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 46%|████▌     | 46/100 [10:40:49<11:06:02, 740.05s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 47%|████▋     | 47/100 [10:52:06<10:37:00, 721.14s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 48%|████▊     | 48/100 [10:55:48<8:15:06, 571.28s/it] Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 49%|████▉     | 49/100 [11:08:24<8:52:49, 626.85s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 50%|█████     | 50/100 [11:12:24<7:05:41, 510.83s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 51%|█████     | 51/100 [11:20:24<6:49:35, 501.55s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 52%|█████▏    | 52/100 [11:30:08<7:01:00, 526.26s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 53%|█████▎    | 53/100 [11:35:48<6:08:28, 470.39s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 54%|█████▍    | 54/100 [11:41:20<5:28:40, 428.71s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 55%|█████▌    | 55/100 [11:52:46<6:19:35, 506.13s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 56%|█████▌    | 56/100 [11:57:29<5:22:00, 439.10s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 57%|█████▋    | 57/100 [12:02:03<4:39:06, 389.45s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 58%|█████▊    | 58/100 [12:08:12<4:28:26, 383.48s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 59%|█████▉    | 59/100 [12:13:55<4:13:44, 371.33s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 60%|██████    | 60/100 [12:15:04<3:07:06, 280.67s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 61%|██████    | 61/100 [12:22:11<3:30:55, 324.50s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 62%|██████▏   | 62/100 [12:34:29<4:44:00, 448.45s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 63%|██████▎   | 63/100 [12:45:17<5:13:31, 508.43s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 64%|██████▍   | 64/100 [12:51:20<4:38:50, 464.74s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 65%|██████▌   | 65/100 [13:00:00<4:40:50, 481.44s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 66%|██████▌   | 66/100 [13:13:11<5:25:25, 574.27s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 67%|██████▋   | 67/100 [13:26:59<5:57:41, 650.36s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 68%|██████▊   | 68/100 [13:41:12<6:19:12, 711.02s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 69%|██████▉   | 69/100 [13:48:14<5:22:34, 624.33s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 70%|███████   | 70/100 [14:02:22<5:45:49, 691.66s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 71%|███████   | 71/100 [14:12:41<5:23:42, 669.74s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 72%|███████▏  | 72/100 [14:26:19<5:33:20, 714.31s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 73%|███████▎  | 73/100 [14:33:46<4:45:18, 634.01s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 74%|███████▍  | 74/100 [14:34:52<3:20:57, 463.76s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 75%|███████▌  | 75/100 [14:37:51<2:37:34, 378.17s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 76%|███████▌  | 76/100 [14:44:36<2:34:30, 386.26s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 77%|███████▋  | 77/100 [14:51:52<2:33:49, 401.27s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 78%|███████▊  | 78/100 [15:01:13<2:44:42, 449.20s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 79%|███████▉  | 79/100 [15:10:14<2:46:46, 476.49s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 80%|████████  | 80/100 [15:20:10<2:50:52, 512.62s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 81%|████████  | 81/100 [15:31:02<2:55:30, 554.24s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 82%|████████▏ | 82/100 [15:43:31<3:03:46, 612.58s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 83%|████████▎ | 83/100 [15:51:23<2:41:37, 570.45s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 84%|████████▍ | 84/100 [15:56:48<2:12:32, 497.03s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 85%|████████▌ | 85/100 [16:06:20<2:09:49, 519.31s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 86%|████████▌ | 86/100 [16:13:02<1:53:00, 484.32s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 87%|████████▋ | 87/100 [16:19:42<1:39:27, 459.05s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 88%|████████▊ | 88/100 [16:26:34<1:28:57, 444.77s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 89%|████████▉ | 89/100 [16:36:32<1:29:58, 490.81s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 90%|█████████ | 90/100 [16:41:09<1:11:05, 426.56s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 91%|█████████ | 91/100 [16:50:41<1:10:32, 470.23s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 92%|█████████▏| 92/100 [17:03:24<1:14:25, 558.14s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 93%|█████████▎| 93/100 [17:32:20<1:46:19, 911.37s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 94%|█████████▍| 94/100 [17:42:39<1:22:22, 823.80s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 95%|█████████▌| 95/100 [17:54:53<1:06:23, 796.78s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 96%|█████████▌| 96/100 [18:13:27<59:27, 891.84s/it]  Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 97%|█████████▋| 97/100 [18:28:16<44:33, 891.04s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 98%|█████████▊| 98/100 [18:42:07<29:05, 872.98s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
- 99%|█████████▉| 99/100 [18:48:50<12:12, 732.17s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
-100%|██████████| 100/100 [18:56:29<00:00, 650.23s/it]100%|██████████| 100/100 [18:56:29<00:00, 681.90s/it]
-[root] Save results to results/test-time-compute/InternVL2_5_Coding_16.json
-[root] End Generation......

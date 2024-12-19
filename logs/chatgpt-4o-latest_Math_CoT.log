@@ -1,41 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Math']
-[root] Loading config
-[root] Loading chatgpt-4o-latest
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
-[root] Found existing results file with 862 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/892 [00:00<?, ?it/s]  0%|          | 4/892 [00:00<00:23, 37.50it/s]  2%|▏         | 20/892 [00:00<00:08, 106.85it/s]  4%|▍         | 39/892 [00:00<00:05, 143.68it/s]  7%|▋         | 60/892 [00:00<00:04, 168.90it/s]  9%|▉         | 79/892 [00:00<00:04, 173.49it/s] 13%|█▎        | 112/892 [00:00<00:03, 222.96it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 16%|█▋        | 145/892 [00:06<00:53, 13.98it/s] [root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 19%|█▉        | 173/892 [00:15<01:54,  6.27it/s] 24%|██▍       | 215/892 [00:15<01:03, 10.63it/s] 27%|██▋       | 244/892 [00:15<00:43, 14.75it/s] 30%|██▉       | 267/892 [00:15<00:32, 19.21it/s] 34%|███▍      | 306/892 [00:15<00:19, 29.81it/s] 37%|███▋      | 333/892 [00:16<00:14, 39.22it/s] 41%|████      | 364/892 [00:16<00:09, 53.45it/s] 44%|████▍     | 394/892 [00:16<00:07, 70.73it/s] 49%|████▉     | 441/892 [00:16<00:04, 107.18it/s] 55%|█████▍    | 488/892 [00:16<00:02, 148.88it/s] 59%|█████▉    | 530/892 [00:16<00:01, 187.16it/s] 64%|██████▍   | 569/892 [00:16<00:01, 172.85it/s] 67%|██████▋   | 601/892 [00:16<00:01, 193.15it/s] 73%|███████▎  | 655/892 [00:17<00:00, 253.59it/s] 78%|███████▊  | 692/892 [00:17<00:00, 253.99it/s] 81%|████████▏ | 726/892 [00:17<00:00, 241.34it/s] 85%|████████▍ | 756/892 [00:17<00:00, 218.73it/s] 88%|████████▊ | 782/892 [00:17<00:00, 216.12it/s] 90%|█████████ | 807/892 [00:17<00:00, 193.01it/s] 95%|█████████▍| 845/892 [00:17<00:00, 232.73it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 95%|█████████▍| 845/892 [00:30<00:00, 232.73it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 97%|█████████▋| 866/892 [00:31<00:03,  6.99it/s] [root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 97%|█████████▋| 867/892 [00:42<00:07,  3.40it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 97%|█████████▋| 868/892 [00:52<00:11,  2.00it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 97%|█████████▋| 869/892 [01:02<00:17,  1.31it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 97%|█████████▋| 869/892 [01:17<00:17,  1.31it/s][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 98%|█████████▊| 871/892 [01:18<00:26,  1.28s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 98%|█████████▊| 872/892 [01:29<00:35,  1.77s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 98%|█████████▊| 873/892 [01:38<00:43,  2.31s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 98%|█████████▊| 873/892 [01:50<00:43,  2.31s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 98%|█████████▊| 875/892 [02:01<01:04,  3.78s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 98%|█████████▊| 876/892 [02:10<01:09,  4.33s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
-[root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 98%|█████████▊| 876/892 [02:27<01:09,  4.33s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 99%|█████████▊| 879/892 [02:33<01:08,  5.28s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 99%|█████████▊| 880/892 [02:41<01:08,  5.71s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 99%|█████████▊| 880/892 [02:57<01:08,  5.71s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 99%|█████████▉| 882/892 [02:59<01:04,  6.49s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 99%|█████████▉| 883/892 [03:04<00:56,  6.29s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 99%|█████████▉| 883/892 [03:17<00:56,  6.29s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 99%|█████████▉| 885/892 [03:20<00:47,  6.80s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 99%|█████████▉| 886/892 [03:29<00:43,  7.31s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
- 99%|█████████▉| 886/892 [03:40<00:43,  7.31s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
-100%|█████████▉| 888/892 [03:42<00:28,  7.01s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
-100%|█████████▉| 889/892 [03:51<00:21,  7.29s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
-100%|█████████▉| 889/892 [04:07<00:21,  7.29s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
-100%|█████████▉| 891/892 [04:09<00:07,  7.98s/it][root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
-100%|██████████| 892/892 [04:17<00:00,  8.01s/it]100%|██████████| 892/892 [04:17<00:00,  3.46it/s]
-[root] Save results to results/close-source/gpt/CoT/chatgpt-4o-latest_Math_CoT.json
-[root] End Generation......
