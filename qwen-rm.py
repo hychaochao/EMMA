@@ -95,7 +95,7 @@ def main():
         except Exception as e:
             logging.error(f"Error in generating answer for {pid}")
             logging.error(e)
-            results[pid] = problem
+            results[pid] = sample
             results[pid]['error'] = str(e)
 
         if idx == 2 or (idx % args.save_every == 0 and idx > 0) or idx == len(results) - 1:
