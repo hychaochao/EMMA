@@ -5,19 +5,20 @@ export LD_LIBRARY_PATH=/mnt/petrelfs/share/cuda-11.8/lib64:$LD_LIBRARY_PATH
 OMP_NUM_THREADS=8 nohup srun \
  --partition=MoE \
  --mpi=pmi2 \
- --job-name=Coding \
+ --job-name=math \
  -c 32 \
  -w SH-IDCA1404-10-140-54-102 \
  --ntasks-per-node=1 \
  --kill-on-bad-exit=1 \
  --quotatype=reserved \
-python scoring.py \
---subject 'Coding' \
---total_num 8 \
---select_num 4 \
---rerun \
---model_path '/mnt/petrelfs/share_data/quxiaoye/models/InternVL2_5-78B' \
---output_path 'results/test-time-compute/internvl-best-of-4/InternVL2_5_Coding_8.json' 1>logs/InternVL2_5_Coding_bo4.log 2>&1 &
+python qwen-rm.py >logs/qwen_rm_gpt.log 2>&1 &
+# python scoring.py \
+# --subject 'Coding' \
+# --total_num 8 \
+# --select_num 4 \
+# --rerun \
+# --model_path '/mnt/petrelfs/share_data/quxiaoye/models/InternVL2_5-78B' \
+# --output_path 'results/test-time-compute/internvl-best-of-4/InternVL2_5_Coding_8.json' 1>logs/InternVL2_5_Coding_bo4.log 2>&1 &
 # python generate_response.py \
 # --subject 'Physics' 'Chemistry' \
 # --strategy 'Direct' \

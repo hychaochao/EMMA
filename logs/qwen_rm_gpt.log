@@ -1,0 +1,56 @@
+phoenix-srun: job 3880904 queued and waiting for resources
+phoenix-srun: job 3880904 has been allocated resources
+phoenix-srun: Job 3880904 scheduled successfully!
+Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
+Current PHX_PRIORITY is normal
+
+[root] Reading results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+[root] Loading model from /mnt/petrelfs/share_data/quxiaoye/models/Qwen2.5-Math-RM-72B...
+Loading checkpoint shards:   0%|          | 0/37 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/37 [00:01<00:44,  1.23s/it]Loading checkpoint shards:   5%|▌         | 2/37 [00:02<00:43,  1.23s/it]Loading checkpoint shards:   8%|▊         | 3/37 [00:03<00:40,  1.20s/it]Loading checkpoint shards:  11%|█         | 4/37 [00:04<00:39,  1.20s/it]Loading checkpoint shards:  14%|█▎        | 5/37 [00:06<00:38,  1.20s/it]Loading checkpoint shards:  16%|█▌        | 6/37 [00:07<00:37,  1.21s/it]Loading checkpoint shards:  19%|█▉        | 7/37 [00:08<00:38,  1.27s/it]Loading checkpoint shards:  22%|██▏       | 8/37 [00:09<00:36,  1.25s/it]Loading checkpoint shards:  24%|██▍       | 9/37 [00:11<00:35,  1.27s/it]Loading checkpoint shards:  27%|██▋       | 10/37 [00:12<00:33,  1.25s/it]Loading checkpoint shards:  30%|██▉       | 11/37 [00:13<00:32,  1.25s/it]Loading checkpoint shards:  32%|███▏      | 12/37 [00:14<00:30,  1.23s/it]Loading checkpoint shards:  35%|███▌      | 13/37 [00:16<00:29,  1.22s/it]Loading checkpoint shards:  38%|███▊      | 14/37 [00:17<00:27,  1.21s/it]Loading checkpoint shards:  41%|████      | 15/37 [00:18<00:26,  1.20s/it]Loading checkpoint shards:  43%|████▎     | 16/37 [00:19<00:25,  1.20s/it]Loading checkpoint shards:  46%|████▌     | 17/37 [00:20<00:24,  1.20s/it]Loading checkpoint shards:  49%|████▊     | 18/37 [00:22<00:23,  1.24s/it]Loading checkpoint shards:  51%|█████▏    | 19/37 [00:23<00:22,  1.23s/it]Loading checkpoint shards:  54%|█████▍    | 20/37 [00:24<00:20,  1.23s/it]Loading checkpoint shards:  57%|█████▋    | 21/37 [00:25<00:19,  1.22s/it]Loading checkpoint shards:  59%|█████▉    | 22/37 [00:26<00:18,  1.22s/it]Loading checkpoint shards:  62%|██████▏   | 23/37 [00:28<00:16,  1.20s/it]Loading checkpoint shards:  65%|██████▍   | 24/37 [00:29<00:15,  1.20s/it]Loading checkpoint shards:  68%|██████▊   | 25/37 [00:30<00:14,  1.21s/it]Loading checkpoint shards:  70%|███████   | 26/37 [00:31<00:13,  1.20s/it]Loading checkpoint shards:  73%|███████▎  | 27/37 [00:32<00:11,  1.19s/it]Loading checkpoint shards:  76%|███████▌  | 28/37 [00:34<00:10,  1.19s/it]Loading checkpoint shards:  78%|███████▊  | 29/37 [00:35<00:09,  1.19s/it]Loading checkpoint shards:  81%|████████  | 30/37 [00:36<00:08,  1.19s/it]Loading checkpoint shards:  84%|████████▍ | 31/37 [00:37<00:07,  1.22s/it]Loading checkpoint shards:  86%|████████▋ | 32/37 [00:38<00:06,  1.22s/it]Loading checkpoint shards:  89%|████████▉ | 33/37 [00:40<00:04,  1.21s/it]Loading checkpoint shards:  92%|█████████▏| 34/37 [00:41<00:03,  1.21s/it]Loading checkpoint shards:  95%|█████████▍| 35/37 [00:42<00:02,  1.20s/it]Loading checkpoint shards:  97%|█████████▋| 36/37 [00:43<00:01,  1.20s/it]Loading checkpoint shards: 100%|██████████| 37/37 [00:44<00:00,  1.06it/s]Loading checkpoint shards: 100%|██████████| 37/37 [00:44<00:00,  1.19s/it]
+Some weights of the model checkpoint at /mnt/petrelfs/share_data/quxiaoye/models/Qwen2.5-Math-RM-72B were not used when initializing Qwen2ForRewardModel: ['lm_head.weight']
+- This IS expected if you are initializing Qwen2ForRewardModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Qwen2ForRewardModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/100 [00:00<?, ?it/s][transformers_modules.Qwen2.5-Math-RM-72B.modeling_qwen2_rm] We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+  1%|          | 1/100 [00:14<23:14, 14.08s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+  2%|▏         | 2/100 [00:19<14:23,  8.81s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+  3%|▎         | 3/100 [00:25<12:26,  7.70s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+  4%|▍         | 4/100 [00:29<09:40,  6.05s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+  5%|▌         | 5/100 [00:34<09:25,  5.96s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+  6%|▌         | 6/100 [00:42<10:26,  6.66s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+  7%|▋         | 7/100 [00:52<11:59,  7.74s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+  8%|▊         | 8/100 [01:01<12:19,  8.04s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+  9%|▉         | 9/100 [01:06<10:49,  7.14s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 10%|█         | 10/100 [01:11<09:49,  6.55s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 11%|█         | 11/100 [01:19<10:11,  6.87s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 12%|█▏        | 12/100 [01:27<10:36,  7.24s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 13%|█▎        | 13/100 [01:32<09:36,  6.62s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 14%|█▍        | 14/100 [01:38<08:59,  6.27s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 15%|█▌        | 15/100 [01:42<08:12,  5.80s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 16%|█▌        | 16/100 [01:51<09:07,  6.52s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 17%|█▋        | 17/100 [02:00<10:14,  7.40s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 18%|█▊        | 18/100 [02:06<09:33,  7.00s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 19%|█▉        | 19/100 [02:13<09:15,  6.86s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 20%|██        | 20/100 [02:16<07:48,  5.86s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 21%|██        | 21/100 [02:22<07:32,  5.73s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 22%|██▏       | 22/100 [02:29<08:01,  6.18s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 23%|██▎       | 23/100 [02:37<08:36,  6.71s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 24%|██▍       | 24/100 [02:42<08:02,  6.35s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 25%|██▌       | 25/100 [02:49<08:04,  6.46s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 26%|██▌       | 26/100 [02:55<07:42,  6.25s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 27%|██▋       | 27/100 [03:01<07:28,  6.15s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 28%|██▊       | 28/100 [03:08<07:39,  6.38s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 29%|██▉       | 29/100 [03:17<08:36,  7.28s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 30%|███       | 30/100 [03:23<08:01,  6.88s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 31%|███       | 31/100 [03:30<07:52,  6.85s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 32%|███▏      | 32/100 [03:43<09:52,  8.72s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 33%|███▎      | 33/100 [03:51<09:32,  8.55s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 34%|███▍      | 34/100 [03:57<08:39,  7.87s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 35%|███▌      | 35/100 [04:05<08:25,  7.77s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 36%|███▌      | 36/100 [04:11<07:54,  7.41s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 37%|███▋      | 37/100 [04:17<07:10,  6.83s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 38%|███▊      | 38/100 [04:22<06:39,  6.45s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 39%|███▉      | 39/100 [04:30<06:46,  6.66s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 40%|████      | 40/100 [04:36<06:31,  6.53s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json
+ 41%|████      | 41/100 [04:45<07:14,  7.37s/it][root] Save results to results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json

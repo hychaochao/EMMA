@@ -1,7 +1,7 @@
 import argparse
 import json
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = "4,5,6,7"
+os.environ['CUDA_VISIBLE_DEVICES'] = "0,1,2,3"
 import logging
 from tqdm import tqdm
 from transformers import AutoModel, AutoTokenizer
@@ -10,7 +10,7 @@ from transformers import AutoModel, AutoTokenizer
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--output_path', type=str, default='results/test-time-compute/qwen-rm-scoring/InternVL2_5_Math_16.json')
+    parser.add_argument('--output_path', type=str, default='results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json')
     parser.add_argument('--save_every', type=int, default=1, help='save every n problems')
     parser.add_argument('--rerun', action='store_true', help='rerun the answer generation')
     # Remote model
@@ -30,6 +30,19 @@ def main():
         logging.error("{args.output_path} does not exist.}")
 
 
+    full_pids = list(results.keys())
+    skip_pids = []
+    if not args.rerun and results:
+        for pid, data in results.items():
+            if 'score_list' in data and data['score_list'] is not None:
+                skip_pids.append(pid)
+
+        if len(skip_pids) > 0:
+            logging.info(
+                f"Found existing results file with {len(skip_pids)} problems with valid responses. Skipping these problems...")
+
+    test_pids = [pid for pid in full_pids if pid not in skip_pids]
+
     # Load Model
     # If we were given a custom path, load that model, otherwise use a remote service model
     if args.model_path:
@@ -46,18 +59,7 @@ def main():
 
     logging.info(f"Model loaded!")
 
-    full_pids = list(results.keys())
-    skip_pids = []
-    if not args.rerun and results:
-        for pid, data in results.items():
-            if 'score_list' in data and data['score_list'] is not None:
-                skip_pids.append(pid)
 
-        if len(skip_pids) > 0:
-            logging.info(
-                f"Found existing results file with {len(skip_pids)} problems with valid responses. Skipping these problems...")
-
-    test_pids = [pid for pid in full_pids if pid not in skip_pids]
     logging.info(f"Starting to generate.....")
     for idx, pid in enumerate(tqdm(test_pids)):
 
