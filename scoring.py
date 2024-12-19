@@ -120,7 +120,7 @@ def main():
                 score_list = extract_score_list(response)
                 logging.info(f"Scoring list:{score_list}")
                 max_score = max(score_list)
-                max_indices = [i for i, score in enumerate(score_list) if score == max_score]
+                max_indices = [i for i, score in enumerate(score_list) if score == max_score and i < args.total_num]
 
                 # if there are many max scores, choose one randomly
                 max_index = random.choice(max_indices)

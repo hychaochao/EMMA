@@ -38,3 +38,28 @@ Special tokens have been added in the vocabulary, make sure the associated word 
 [root] Scoring list:[1, 2, 5, 2, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0]
 [root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Chemistry_8.json
   6%|▌         | 6/100 [30:12<8:27:11, 323.74s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Chemistry_8.json
+  7%|▋         | 7/100 [36:30<8:49:30, 341.62s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 3, 3, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Chemistry_8.json
+  8%|▊         | 8/100 [41:17<8:16:42, 323.94s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[1, 5, 1, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Chemistry_8.json
+  9%|▉         | 9/100 [45:40<7:42:44, 305.11s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Chemistry_8.json
+ 10%|█         | 10/100 [45:56<5:23:51, 215.90s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Chemistry_8.json
+ 11%|█         | 11/100 [46:48<4:05:39, 165.61s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Chemistry_8.json
+ 12%|█▏        | 12/100 [47:58<3:20:06, 136.44s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Chemistry_8.json
+ 13%|█▎        | 13/100 [53:00<4:30:49, 186.77s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 2, 4, 5, 5, 5, 4, 5, 5, 5, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Chemistry_8.json
+ 14%|█▍        | 14/100 [58:13<5:22:06, 224.73s/it]Token indices sequence length is longer than the specified maximum sequence length for this model (16564 > 16384). Running this sequence through the model will result in indexing errors
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.

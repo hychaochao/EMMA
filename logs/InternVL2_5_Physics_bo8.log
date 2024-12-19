@@ -39,3 +39,21 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Scoring list:[0, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0]
 [root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Physics_8.json
   6%|▌         | 6/100 [31:32<8:08:36, 311.88s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[5, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Physics_8.json
+  7%|▋         | 7/100 [35:11<7:16:02, 281.32s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Physics_8.json
+  8%|▊         | 8/100 [38:41<6:36:48, 258.79s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 4, 2, 2, 2, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Physics_8.json
+  9%|▉         | 9/100 [44:16<7:08:29, 282.52s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 3, 3, 3, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Physics_8.json
+ 10%|█         | 10/100 [48:43<6:56:27, 277.64s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Physics_8.json
+ 11%|█         | 11/100 [54:15<7:16:50, 294.51s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[5, 5, 5, 5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Physics_8.json
+ 12%|█▏        | 12/100 [59:02<7:08:15, 291.99s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
