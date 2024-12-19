@@ -315,3 +315,11 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Scoring list:[0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 [root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Coding_8.json
  98%|█████████▊| 98/100 [3:00:58<01:54, 57.22s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Coding_8.json
+ 99%|█████████▉| 99/100 [3:02:47<01:12, 72.85s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Coding_8.json
+100%|██████████| 100/100 [3:03:36<00:00, 65.70s/it]100%|██████████| 100/100 [3:03:36<00:00, 110.16s/it]
+[root] Save results to results/test-time-compute/internvl-best-of-4/InternVL2_5_Coding_8.json
+[root] End Generation......
