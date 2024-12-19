@@ -1,7 +1,6 @@
 import argparse
 import json
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = "0,1,2,3"
 import logging
 from tqdm import tqdm
 
@@ -122,19 +121,13 @@ def main():
             response = model.get_response(sample)
             results[pid] = problem
             results[pid]['response'] = response
-            if idx < 3:  # test the first 3 samples
-                print("\n--- Sample Generation Debug ---")
-                print(f"PID: {pid}")
-                print(f"Problem: {json.dumps(problem, indent=2)}")
-                print(f"Generated Response: {response}")
-                print("------ End  ------\n")
         except Exception as e:
             logging.error(f"Error in generating answer for {pid}")
             logging.error(e)
             results[pid] = problem
             results[pid]['error'] = str(e)
 
-        if (idx % args.save_every == 0 and idx > 0) or idx == len(dataset) - 1:
+        if idx == 2 or (idx % args.save_every == 0 and idx > 0) or idx == len(dataset) - 1:
             try:
                 with open(args.output_path, 'w') as f:
                     f.write(json.dumps(results, indent=2))

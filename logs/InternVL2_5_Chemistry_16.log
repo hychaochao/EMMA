@@ -1,11 +1,11 @@
-phoenix-srun: job 3876678 queued and waiting for resources
-phoenix-srun: job 3876678 has been allocated resources
-phoenix-srun: Job 3876678 scheduled successfully!
+phoenix-srun: job 3878873 queued and waiting for resources
+phoenix-srun: job 3878873 has been allocated resources
+phoenix-srun: Job 3878873 scheduled successfully!
 Current QUOTA_TYPE is [reserved], which means the job has occupied quota in RESERVED_TOTAL under your partition.
 Current PHX_PRIORITY is normal
 
 [root] Loading dataset mm-reasoning/EMMA-test100, subject: ['Chemistry']
-Generating test split:   0%|          | 0/100 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 100/100 [00:00<00:00, 2128.20 examples/s]
+Generating test split:   0%|          | 0/100 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 100/100 [00:00<00:00, 1929.05 examples/s]
 [root] Loading config
 [root] Loading local model /mnt/petrelfs/share_data/quxiaoye/models/InternVL2_5-78B
 [transformers_modules.InternVL2_5-78B.configuration_internvl_chat] vision_select_layer: -1
@@ -16,35 +16,23 @@ Current PHX_PRIORITY is normal
   warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
 [transformers_modules.InternVL2_5-78B.modeling_internvl_chat] num_image_token: 256
 [transformers_modules.InternVL2_5-78B.modeling_internvl_chat] ps_version: v2
-Loading checkpoint shards:   0%|          | 0/33 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/33 [00:04<02:36,  4.90s/it]Loading checkpoint shards:   6%|▌         | 2/33 [00:06<01:33,  3.03s/it]Loading checkpoint shards:   9%|▉         | 3/33 [00:08<01:11,  2.39s/it]Loading checkpoint shards:  12%|█▏        | 4/33 [00:09<00:59,  2.04s/it]Loading checkpoint shards:  15%|█▌        | 5/33 [00:11<00:53,  1.90s/it]Loading checkpoint shards:  18%|█▊        | 6/33 [00:13<00:50,  1.85s/it]Loading checkpoint shards:  21%|██        | 7/33 [00:14<00:45,  1.75s/it]Loading checkpoint shards:  24%|██▍       | 8/33 [00:17<00:55,  2.22s/it]Loading checkpoint shards:  27%|██▋       | 9/33 [00:19<00:49,  2.04s/it]Loading checkpoint shards:  30%|███       | 10/33 [00:21<00:43,  1.91s/it]Loading checkpoint shards:  33%|███▎      | 11/33 [00:22<00:39,  1.79s/it]Loading checkpoint shards:  36%|███▋      | 12/33 [00:24<00:36,  1.73s/it]Loading checkpoint shards:  39%|███▉      | 13/33 [00:25<00:33,  1.66s/it]Loading checkpoint shards:  42%|████▏     | 14/33 [00:27<00:31,  1.68s/it]Loading checkpoint shards:  45%|████▌     | 15/33 [00:29<00:29,  1.64s/it]Loading checkpoint shards:  48%|████▊     | 16/33 [00:32<00:35,  2.07s/it]Loading checkpoint shards:  52%|█████▏    | 17/33 [00:33<00:30,  1.93s/it]Loading checkpoint shards:  55%|█████▍    | 18/33 [00:35<00:27,  1.86s/it]Loading checkpoint shards:  58%|█████▊    | 19/33 [00:36<00:24,  1.75s/it]Loading checkpoint shards:  61%|██████    | 20/33 [00:38<00:21,  1.67s/it]Loading checkpoint shards:  64%|██████▎   | 21/33 [00:39<00:19,  1.62s/it]Loading checkpoint shards:  67%|██████▋   | 22/33 [00:41<00:17,  1.61s/it]Loading checkpoint shards:  70%|██████▉   | 23/33 [00:43<00:15,  1.57s/it]Loading checkpoint shards:  73%|███████▎  | 24/33 [00:46<00:18,  2.00s/it]Loading checkpoint shards:  76%|███████▌  | 25/33 [00:47<00:14,  1.87s/it]Loading checkpoint shards:  79%|███████▉  | 26/33 [00:49<00:12,  1.78s/it]Loading checkpoint shards:  82%|████████▏ | 27/33 [00:50<00:10,  1.69s/it]Loading checkpoint shards:  85%|████████▍ | 28/33 [00:52<00:08,  1.68s/it]Loading checkpoint shards:  88%|████████▊ | 29/33 [00:53<00:06,  1.65s/it]Loading checkpoint shards:  91%|█████████ | 30/33 [00:55<00:04,  1.66s/it]Loading checkpoint shards:  94%|█████████▍| 31/33 [00:57<00:03,  1.62s/it]Loading checkpoint shards:  97%|█████████▋| 32/33 [00:58<00:01,  1.52s/it]Loading checkpoint shards: 100%|██████████| 33/33 [00:59<00:00,  1.34s/it]Loading checkpoint shards: 100%|██████████| 33/33 [00:59<00:00,  1.80s/it]
+Loading checkpoint shards:   0%|          | 0/33 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/33 [00:05<02:48,  5.25s/it]Loading checkpoint shards:   6%|▌         | 2/33 [00:06<01:37,  3.14s/it]Loading checkpoint shards:   9%|▉         | 3/33 [00:08<01:13,  2.44s/it]Loading checkpoint shards:  12%|█▏        | 4/33 [00:10<01:00,  2.09s/it]Loading checkpoint shards:  15%|█▌        | 5/33 [00:11<00:53,  1.89s/it]Loading checkpoint shards:  18%|█▊        | 6/33 [00:13<00:48,  1.80s/it]Loading checkpoint shards:  21%|██        | 7/33 [00:14<00:44,  1.72s/it]Loading checkpoint shards:  24%|██▍       | 8/33 [00:17<00:52,  2.11s/it]Loading checkpoint shards:  27%|██▋       | 9/33 [00:19<00:46,  1.93s/it]Loading checkpoint shards:  30%|███       | 10/33 [00:20<00:42,  1.84s/it]Loading checkpoint shards:  33%|███▎      | 11/33 [00:22<00:38,  1.75s/it]Loading checkpoint shards:  36%|███▋      | 12/33 [00:24<00:35,  1.70s/it]Loading checkpoint shards:  39%|███▉      | 13/33 [00:25<00:33,  1.65s/it]Loading checkpoint shards:  42%|████▏     | 14/33 [00:27<00:31,  1.65s/it]Loading checkpoint shards:  45%|████▌     | 15/33 [00:28<00:29,  1.62s/it]Loading checkpoint shards:  48%|████▊     | 16/33 [00:31<00:34,  2.05s/it]Loading checkpoint shards:  52%|█████▏    | 17/33 [00:33<00:30,  1.90s/it]Loading checkpoint shards:  55%|█████▍    | 18/33 [00:35<00:27,  1.82s/it]Loading checkpoint shards:  58%|█████▊    | 19/33 [00:36<00:24,  1.74s/it]Loading checkpoint shards:  61%|██████    | 20/33 [00:38<00:21,  1.68s/it]Loading checkpoint shards:  64%|██████▎   | 21/33 [00:39<00:19,  1.64s/it]Loading checkpoint shards:  67%|██████▋   | 22/33 [00:41<00:18,  1.64s/it]Loading checkpoint shards:  70%|██████▉   | 23/33 [00:42<00:16,  1.61s/it]Loading checkpoint shards:  73%|███████▎  | 24/33 [00:45<00:18,  2.04s/it]Loading checkpoint shards:  76%|███████▌  | 25/33 [00:47<00:15,  1.89s/it]Loading checkpoint shards:  79%|███████▉  | 26/33 [00:49<00:12,  1.81s/it]Loading checkpoint shards:  82%|████████▏ | 27/33 [00:50<00:10,  1.74s/it]Loading checkpoint shards:  85%|████████▍ | 28/33 [00:52<00:08,  1.69s/it]Loading checkpoint shards:  88%|████████▊ | 29/33 [00:53<00:06,  1.66s/it]Loading checkpoint shards:  91%|█████████ | 30/33 [00:55<00:04,  1.65s/it]Loading checkpoint shards:  94%|█████████▍| 31/33 [00:56<00:03,  1.63s/it]Loading checkpoint shards:  97%|█████████▋| 32/33 [00:58<00:01,  1.54s/it]Loading checkpoint shards: 100%|██████████| 33/33 [00:59<00:00,  1.36s/it]Loading checkpoint shards: 100%|██████████| 33/33 [00:59<00:00,  1.80s/it]
 Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
 [root] Model loaded!
+[root] Results already exists.
+[root] Reading results/test-time-compute/InternVL2_5_Chemistry_16.json
+[root] Found existing results file with 39 problems with valid responses. Skipping these problems...
 [root] Starting to generate.....
-  0%|          | 0/100 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  0%|          | 0/100 [00:00<?, ?it/s] 33%|███▎      | 33/100 [00:00<00:00, 211.69it/s]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 33%|███▎      | 33/100 [00:17<00:00, 211.69it/s]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-  1%|          | 1/100 [16:07<26:36:03, 967.31s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 40%|████      | 40/100 [09:16<18:29, 18.49s/it] Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -53,15 +41,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
-  2%|▏         | 2/100 [33:36<27:38:49, 1015.61s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 41%|████      | 41/100 [18:30<42:02, 42.76s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -70,15 +50,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
-  3%|▎         | 3/100 [54:13<30:05:23, 1116.74s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 42%|████▏     | 42/100 [22:45<53:46, 55.63s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -87,15 +59,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
-  4%|▍         | 4/100 [1:13:43<30:20:22, 1137.74s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 43%|████▎     | 43/100 [35:53<1:48:29, 114.19s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -104,15 +68,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
-  5%|▌         | 5/100 [1:34:04<30:49:04, 1167.83s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 44%|████▍     | 44/100 [40:22<2:01:19, 129.99s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -121,15 +77,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
-  6%|▌         | 6/100 [1:54:36<31:03:35, 1189.53s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 45%|████▌     | 45/100 [43:24<2:05:19, 136.72s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -138,15 +86,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
-  7%|▋         | 7/100 [2:14:01<30:31:07, 1181.37s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 46%|████▌     | 46/100 [50:01<2:39:09, 176.84s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -155,15 +95,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
-  8%|▊         | 8/100 [2:37:48<32:11:22, 1259.59s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 47%|████▋     | 47/100 [59:48<3:41:33, 250.82s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -172,15 +104,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
-  9%|▉         | 9/100 [2:56:02<30:32:05, 1207.97s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 48%|████▊     | 48/100 [1:10:01<4:41:47, 325.15s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -189,15 +113,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 10%|█         | 10/100 [3:17:11<30:40:12, 1226.81s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 49%|████▉     | 49/100 [1:19:38<5:24:55, 382.27s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -206,15 +122,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 11%|█         | 11/100 [3:39:43<31:16:34, 1265.11s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 50%|█████     | 50/100 [1:29:14<5:58:06, 429.73s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -223,15 +131,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 12%|█▏        | 12/100 [3:59:35<30:22:54, 1242.89s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 51%|█████     | 51/100 [1:36:54<5:57:09, 437.33s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -240,15 +140,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 13%|█▎        | 13/100 [4:19:51<29:50:27, 1234.80s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 52%|█████▏    | 52/100 [1:45:46<6:10:25, 463.03s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -257,15 +149,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 14%|█▍        | 14/100 [4:38:25<28:37:33, 1198.29s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 53%|█████▎    | 53/100 [1:52:50<5:54:10, 452.13s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -274,15 +158,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 15%|█▌        | 15/100 [5:04:27<30:52:55, 1307.95s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 54%|█████▍    | 54/100 [2:00:42<5:50:56, 457.76s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -291,15 +167,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 16%|█▌        | 16/100 [5:21:59<28:43:10, 1230.84s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 55%|█████▌    | 55/100 [2:06:24<5:18:20, 424.46s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -308,15 +176,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 17%|█▋        | 17/100 [5:40:25<27:30:37, 1193.22s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 56%|█████▌    | 56/100 [2:14:40<5:26:34, 445.34s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -325,15 +185,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 18%|█▊        | 18/100 [6:00:59<27:27:39, 1205.61s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 57%|█████▋    | 57/100 [2:23:22<5:35:14, 467.78s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -342,15 +194,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 19%|█▉        | 19/100 [6:18:30<26:04:35, 1158.96s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 58%|█████▊    | 58/100 [2:34:58<6:14:49, 535.46s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -359,15 +203,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 20%|██        | 20/100 [6:40:40<26:53:50, 1210.38s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 59%|█████▉    | 59/100 [2:43:12<5:57:31, 523.20s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -376,15 +212,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 21%|██        | 21/100 [6:58:01<25:26:34, 1159.43s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 60%|██████    | 60/100 [2:49:00<5:13:48, 470.72s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -393,15 +221,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 22%|██▏       | 22/100 [7:14:46<24:07:15, 1113.27s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 61%|██████    | 61/100 [2:57:47<5:16:59, 487.68s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -410,15 +230,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 23%|██▎       | 23/100 [7:32:31<23:30:05, 1098.77s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 62%|██████▏   | 62/100 [3:08:32<5:38:42, 534.79s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -427,15 +239,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 24%|██▍       | 24/100 [7:48:23<22:15:50, 1054.62s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 63%|██████▎   | 63/100 [3:16:57<5:24:16, 525.85s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -444,15 +248,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 25%|██▌       | 25/100 [8:05:50<21:55:27, 1052.36s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 64%|██████▍   | 64/100 [3:24:48<5:05:37, 509.38s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -461,15 +257,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 26%|██▌       | 26/100 [8:21:52<21:04:35, 1025.34s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 65%|██████▌   | 65/100 [3:31:06<4:34:10, 470.02s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -478,15 +266,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 27%|██▋       | 27/100 [8:38:09<20:29:45, 1010.77s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 66%|██████▌   | 66/100 [3:41:04<4:48:04, 508.37s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -495,15 +275,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 28%|██▊       | 28/100 [8:57:49<21:13:53, 1061.57s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 67%|██████▋   | 67/100 [3:48:35<4:30:07, 491.14s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -512,15 +284,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 29%|██▉       | 29/100 [9:15:03<20:46:30, 1053.38s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 68%|██████▊   | 68/100 [3:56:15<4:16:54, 481.70s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -529,15 +293,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 30%|███       | 30/100 [9:31:26<20:04:23, 1032.33s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 69%|██████▉   | 69/100 [4:03:36<4:02:37, 469.58s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -546,15 +302,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 31%|███       | 31/100 [9:48:35<19:45:54, 1031.23s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 70%|███████   | 70/100 [4:11:08<3:52:08, 464.28s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -563,15 +311,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 32%|███▏      | 32/100 [10:04:02<18:53:10, 999.86s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 71%|███████   | 71/100 [4:21:24<4:06:22, 509.74s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -580,15 +320,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 33%|███▎      | 33/100 [10:25:10<20:06:24, 1080.36s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 72%|███████▏  | 72/100 [4:28:50<3:49:03, 490.84s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -597,15 +329,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 34%|███▍      | 34/100 [10:45:09<20:27:31, 1115.93s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 73%|███████▎  | 73/100 [4:34:23<3:19:34, 443.48s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -614,15 +338,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 35%|███▌      | 35/100 [11:01:31<19:25:30, 1075.85s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 74%|███████▍  | 74/100 [4:42:50<3:20:24, 462.46s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -631,15 +347,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 36%|███▌      | 36/100 [11:19:17<19:04:23, 1072.87s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 75%|███████▌  | 75/100 [4:51:10<3:17:21, 473.66s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -648,15 +356,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 37%|███▋      | 37/100 [11:35:51<18:21:41, 1049.23s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 76%|███████▌  | 76/100 [4:56:11<2:48:45, 421.91s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -665,15 +365,7 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 38%|███▊      | 38/100 [11:51:50<17:36:07, 1022.06s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 77%|███████▋  | 77/100 [5:06:34<3:04:49, 482.16s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
@@ -682,16 +374,204 @@ Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 [root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
- 39%|███▉      | 39/100 [12:06:16<16:31:33, 975.31s/it] Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+ 78%|███████▊  | 78/100 [5:13:57<2:52:29, 470.43s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
-phoenix-srun: Force Terminated job 3876678
-slurmstepd: error: *** STEP 3876678.0 ON SH-IDCA1404-10-140-54-102 CANCELLED AT 2024-12-18T14:05:33 ***
-phoenix-srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
-phoenix-srun: Easily find out why your job was killed by following the link below:
-	https://docs.phoenix.sensetime.com/FAQ/SlurmFAQ/Find-out-why-my-job-was-killed/
-phoenix-srun: error: SH-IDCA1404-10-140-54-102: task 0: Terminated
-phoenix-srun: launch/slurm: _step_signal: Terminating StepId=3876678.0
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 79%|███████▉  | 79/100 [5:21:12<2:40:57, 459.89s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 80%|████████  | 80/100 [5:29:32<2:37:16, 471.82s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 81%|████████  | 81/100 [5:36:23<2:23:40, 453.71s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 82%|████████▏ | 82/100 [5:43:18<2:12:38, 442.15s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 83%|████████▎ | 83/100 [5:50:52<2:06:13, 445.51s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 84%|████████▍ | 84/100 [5:58:38<2:00:26, 451.68s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 85%|████████▌ | 85/100 [6:07:12<1:57:37, 470.52s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 86%|████████▌ | 86/100 [6:14:19<1:46:41, 457.22s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 87%|████████▋ | 87/100 [6:22:34<1:41:33, 468.71s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 88%|████████▊ | 88/100 [6:30:20<1:33:35, 467.95s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 89%|████████▉ | 89/100 [6:37:36<1:24:00, 458.25s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 90%|█████████ | 90/100 [6:43:45<1:11:55, 431.57s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 91%|█████████ | 91/100 [6:52:43<1:09:31, 463.54s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 92%|█████████▏| 92/100 [7:03:11<1:08:21, 512.72s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 93%|█████████▎| 93/100 [7:11:39<59:39, 511.42s/it]  Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 94%|█████████▍| 94/100 [7:21:35<53:39, 536.64s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 95%|█████████▌| 95/100 [7:29:55<43:48, 525.61s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 96%|█████████▌| 96/100 [7:35:21<31:03, 465.93s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 97%|█████████▋| 97/100 [7:44:57<24:56, 498.98s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 98%|█████████▊| 98/100 [7:51:57<15:50, 475.18s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+ 99%|█████████▉| 99/100 [8:00:14<08:01, 481.86s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+100%|██████████| 100/100 [8:08:29<00:00, 485.81s/it]100%|██████████| 100/100 [8:08:29<00:00, 293.10s/it]
+[root] Save results to results/test-time-compute/InternVL2_5_Chemistry_16.json
+[root] End Generation......
