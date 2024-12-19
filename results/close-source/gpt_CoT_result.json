@@ -1,7 +1,7 @@
 {
   "average": {
-    "accuracy": 0.2779770444763271,
-    "correct": 775,
+    "accuracy": 0.32711621233859395,
+    "correct": 912,
     "total": 2788
   },
   "subject": {
@@ -16,8 +16,8 @@
       "total": 564
     },
     "Chemistry": {
-      "accuracy": 0.22023809523809523,
-      "correct": 259,
+      "accuracy": 0.336734693877551,
+      "correct": 396,
       "total": 1176
     },
     "Physics": {
@@ -28,14 +28,14 @@
   },
   "question_type": {
     "multiple choice": {
-      "accuracy": 0.36961583236321305,
-      "correct": 635,
-      "total": 1718
+      "accuracy": 0.3856143856143856,
+      "correct": 772,
+      "total": 2002
     },
     "open-ended": {
-      "accuracy": 0.1308411214953271,
+      "accuracy": 0.178117048346056,
       "correct": 140,
-      "total": 1070
+      "total": 786
     }
   },
   "category": {
@@ -125,8 +125,8 @@
         "total": 105
       },
       "Structure Recognition": {
-        "accuracy": 0.2616033755274262,
-        "correct": 124,
+        "accuracy": 0.4240506329113924,
+        "correct": 201,
         "total": 474
       },
       "Graph Reasoning": {
@@ -135,8 +135,8 @@
         "total": 9
       },
       "Reaction Simulation": {
-        "accuracy": 0.06060606060606061,
-        "correct": 8,
+        "accuracy": 0.5151515151515151,
+        "correct": 68,
         "total": 132
       },
       "Knowledge-based counting": {
