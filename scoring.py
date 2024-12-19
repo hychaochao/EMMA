@@ -3,24 +3,24 @@ import json
 import os
 import logging
 from tqdm import tqdm
-
-from datasets import load_dataset, concatenate_datasets
-
-from data_utils import load_yaml, verify_response, build_query
+from datasets import load_dataset
+from scoring_utils import *
 
 
 def main():
     parser = argparse.ArgumentParser()
-    # parser.add_argument('--dataset_name', type=str, default='mm-reasoning/EMMA')
-    # parser.add_argument('--subject', nargs='+', type=str, required=True)
-    # parser.add_argument('--split', type=str, default='test')
-    # parser.add_argument('--strategy', type=str, default='CoT', choices=['CoT', 'Direct'])
-    parser.add_argument('--config_path', type=str, default="configs/gpt.yaml")
-    parser.add_argument('--output_path', type=str, default='results/test-gemini.json')
-    parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
+    parser.add_argument('--dataset_name', type=str, default='mm-reasoning/EMMA-test100')
+    parser.add_argument('--subject', type=str, default='Math')
+    parser.add_argument('--split', type=str, default='test')
+    parser.add_argument('--config_path', type=str, default="configs/scoring.yaml")
+    parser.add_argument('--output_path', type=str, default='results/test-time-compute/best-of-4/InternVL2_5_Math_16.json')
+    parser.add_argument('--save_every', type=int, default=1, help='save every n problems')
     parser.add_argument('--rerun', action='store_true', help='rerun the answer generation')
+    parser.add_argument('--total_num', type=int, default=16, help='pass@n')
+    parser.add_argument('--select_num', type=int, default=4, help='pass@n')
+    parser.add_argument('--seed', type=int, default=42, help='random seed')
     # Remote model
-    parser.add_argument('--model', type=str, default="gemini-2.0-flash-exp", help='llm engine',
+    parser.add_argument('--model', type=str, default="chatgpt-4o-latest", help='llm engine',
                         choices=['chatgpt-4o-latest', 'claude-3-5-sonnet-latest', 'gemini-2.0-flash-exp'])
     parser.add_argument('--api_key', type=str, default='')
     # Local model
@@ -30,6 +30,15 @@ def main():
 
     args = parser.parse_args()
 
+    if os.path.exists(args.output_path):
+        logging.info(f"Reading {args.output_path}")
+        with open(args.output_path, 'r') as f:
+            results = json.load(f)
+    else:
+        logging.error("{args.output_path} does not exist.}")
+
+    logging.info(f"Loading dataset {args.dataset_name}, subject: {args.subject}")
+    dataset = load_dataset(args.dataset_name, args.subject, split=args.split)
 
     # Load Config
     logging.info(f"Loading config")
@@ -50,8 +59,6 @@ def main():
         if 'internvl' in args.model_path.lower():
             from models import internvl
             model = internvl.Internvl_Model(args.model_path, temperature=args.temperature, max_tokens=args.max_tokens)
-
-
 
     else:
         logging.info(f"Loading {args.model}")
@@ -79,47 +86,53 @@ def main():
 
     logging.info(f"Model loaded!")
 
-    if os.path.exists(args.output_path):
-        logging.info("Results already exists.")
-        logging.info(f"Reading {args.output_path}")
-        with open(args.output_path, 'r') as f:
-            results = json.load(f)
-    else:
-        results = {}
-
     skip_pids = []
-    if not args.rerun:
-        if results:
-            for pid, data in results.items():
-                if 'response' in data and verify_response(data['response']):
-                    skip_pids.append(pid)
+    if not args.rerun and results:
+        for pid, data in results.items():
+            if 'scoring_response' in data and verify_response(data['scoring_response']):
+                skip_pids.append(pid)
 
         if len(skip_pids) > 0:
             logging.info(
                 f"Found existing results file with {len(skip_pids)} problems with valid responses. Skipping these problems...")
 
     logging.info(f"Starting to generate.....")
-    for idx, sample in tqdm(enumerate(dataset), total=len(dataset)):
-        pid = sample['pid']
+    for idx, entry in enumerate(tqdm(dataset)):
+        pid = entry['pid']
         if skip_pids and pid in skip_pids:
             continue
 
-        sample = build_query(sample, config, args.strategy)
+        sample = results[pid].copy()
+        for i in range(1, 6):
+            sample[f'image_{i}'] = entry[f'image_{i}']
+
+        sample = build_scoring_query(sample, config, args.total_num, args.select_num, args.seed)
         problem: dict = sample.copy()
         for i in range(1, 6):
-            problem.pop('image_' + str(i))
+            problem.pop(f'image_{i}')
 
         try:
             response = model.get_response(sample)
             results[pid] = problem
-            results[pid]['response'] = response
+            if response:
+                results[pid]['scoring_response'] = response
+                score_list = extract_score_list(response)
+                logging.info(f"Scoring list:{score_list}")
+                max_score = max(score_list)
+                max_indices = [i for i, score in enumerate(score_list) if score == max_score]
+
+                # if there are many max scores, choose one randomly
+                max_index = random.choice(max_indices)
+                results[pid]['best_response'] = problem[f'response_{max_index}']
+                results[pid]['score_list'] = score_list
+
         except Exception as e:
             logging.error(f"Error in generating answer for {pid}")
             logging.error(e)
             results[pid] = problem
             results[pid]['error'] = str(e)
 
-        if idx == 2 or (idx % args.save_every == 0 and idx > 0) or idx == len(dataset) - 1:
+        if idx == 2 or (idx % args.save_every == 0 and idx > 0) or idx == len(results) - 1:
             try:
                 with open(args.output_path, 'w') as f:
                     f.write(json.dumps(results, indent=2))

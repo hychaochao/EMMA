@@ -15,7 +15,7 @@ def encode_image_to_base64(image):
 
 
 def create_message(sample):
-    query = sample['query']
+    query = sample['scoring_query']
     all_contents = []
     matches = re.findall(r"<(image_\d+)>", query)
     split_text = re.split(r"<image_\d+>", query)

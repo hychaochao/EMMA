@@ -96,11 +96,10 @@ def main():
         results = {}
 
     skip_pids = []
-    if not args.rerun:
-        if results:
-            for pid, data in results.items():
-                if 'response' in data and verify_response(data['response']):
-                    skip_pids.append(pid)
+    if not args.rerun and results:
+        for pid, data in results.items():
+            if 'response' in data and verify_response(data['response']):
+                skip_pids.append(pid)
 
         if len(skip_pids) > 0:
             logging.info(
