@@ -13,7 +13,7 @@ def main():
     parser.add_argument('--subject', type=str, default='Math')
     parser.add_argument('--split', type=str, default='test')
     parser.add_argument('--config_path', type=str, default="configs/scoring.yaml")
-    parser.add_argument('--output_path', type=str, default='results/test-time-compute/best-of-4/InternVL2_5_Math_16.json')
+    parser.add_argument('--output_path', type=str, default='results/test-time-compute/gpt-best-of-4/InternVL2_5_Math_16.json')
     parser.add_argument('--save_every', type=int, default=1, help='save every n problems')
     parser.add_argument('--rerun', action='store_true', help='rerun the answer generation')
     parser.add_argument('--total_num', type=int, default=16, help='pass@n')
