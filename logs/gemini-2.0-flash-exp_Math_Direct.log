@@ -1,11 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Math']
-[root] Loading config
-[root] Loading gemini-2.0-flash-exp
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/gemini/Direct/gemini-2.0-flash-exp_Math_Direct.json
-[root] Found existing results file with 892 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/892 [00:00<?, ?it/s]  0%|          | 4/892 [00:00<00:23, 38.59it/s]  2%|▏         | 20/892 [00:00<00:08, 108.67it/s]  4%|▍         | 38/892 [00:00<00:06, 140.12it/s]  7%|▋         | 59/892 [00:00<00:04, 166.98it/s]  9%|▊         | 78/892 [00:00<00:04, 173.78it/s] 13%|█▎        | 112/892 [00:00<00:03, 226.08it/s] 18%|█▊        | 162/892 [00:00<00:02, 310.74it/s] 24%|██▍       | 213/892 [00:00<00:01, 367.47it/s] 28%|██▊       | 250/892 [00:00<00:01, 351.18it/s] 32%|███▏      | 286/892 [00:01<00:01, 338.10it/s] 36%|███▌      | 322/892 [00:01<00:01, 339.72it/s] 40%|████      | 357/892 [00:01<00:01, 332.59it/s] 44%|████▍     | 391/892 [00:01<00:01, 319.47it/s] 49%|████▉     | 440/892 [00:01<00:01, 362.96it/s] 55%|█████▌    | 492/892 [00:01<00:01, 399.93it/s] 60%|█████▉    | 533/892 [00:01<00:00, 397.21it/s] 64%|██████▍   | 573/892 [00:02<00:01, 232.79it/s] 68%|██████▊   | 611/892 [00:02<00:01, 260.12it/s] 74%|███████▍  | 664/892 [00:02<00:00, 318.18it/s] 79%|███████▉  | 704/892 [00:02<00:00, 298.29it/s] 83%|████████▎ | 740/892 [00:02<00:00, 269.42it/s] 86%|████████▋ | 771/892 [00:02<00:00, 245.71it/s] 90%|████████▉ | 799/892 [00:02<00:00, 234.46it/s] 93%|█████████▎| 828/892 [00:02<00:00, 245.00it/s]100%|██████████| 892/892 [00:03<00:00, 290.06it/s]
-[root] Save results to results/close-source/gemini/Direct/gemini-2.0-flash-exp_Math_Direct.json
-[root] End Generation......

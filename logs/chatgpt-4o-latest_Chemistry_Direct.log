@@ -1,16 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Chemistry']
-[root] Loading config
-[root] Loading chatgpt-4o-latest
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/gpt/Direct/chatgpt-4o-latest_Chemistry_Direct.json
-[root] Found existing results file with 1171 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/1176 [00:00<?, ?it/s]  2%|▏         | 19/1176 [00:00<00:06, 188.18it/s]  7%|▋         | 77/1176 [00:00<00:02, 414.25it/s] 10%|█         | 119/1176 [00:01<00:21, 48.55it/s] 12%|█▏        | 143/1176 [00:05<00:53, 19.19it/s] 13%|█▎        | 158/1176 [00:05<00:48, 20.98it/s] 25%|██▍       | 293/1176 [00:05<00:12, 70.86it/s] 35%|███▍      | 407/1176 [00:05<00:06, 125.25it/s][root] Save results to results/close-source/gpt/Direct/chatgpt-4o-latest_Chemistry_Direct.json
- 41%|████      | 480/1176 [00:09<00:14, 48.69it/s] [root] Save results to results/close-source/gpt/Direct/chatgpt-4o-latest_Chemistry_Direct.json
-[root] Save results to results/close-source/gpt/Direct/chatgpt-4o-latest_Chemistry_Direct.json
-[root] Save results to results/close-source/gpt/Direct/chatgpt-4o-latest_Chemistry_Direct.json
- 41%|████      | 480/1176 [00:20<00:14, 48.69it/s][root] Save results to results/close-source/gpt/Direct/chatgpt-4o-latest_Chemistry_Direct.json
- 45%|████▍     | 526/1176 [00:21<00:45, 14.18it/s] 52%|█████▏    | 615/1176 [00:21<00:25, 22.25it/s] 65%|██████▌   | 769/1176 [00:21<00:09, 41.97it/s] 74%|███████▍  | 876/1176 [00:21<00:04, 60.71it/s] 86%|████████▌ | 1006/1176 [00:21<00:01, 92.14it/s] 98%|█████████▊| 1150/1176 [00:21<00:00, 139.24it/s]100%|██████████| 1176/1176 [00:21<00:00, 53.63it/s] 
-[root] Save results to results/close-source/gpt/Direct/chatgpt-4o-latest_Chemistry_Direct.json
-[root] End Generation......

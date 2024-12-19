@@ -1,29 +1,0 @@
-[root] Loading dataset mm-reasoning/EMMA, subject: ['Math']
-[root] Loading config
-[root] Loading claude-3-5-sonnet-latest
-[root] Model loaded!
-[root] Results already exists.
-[root] Reading results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
-[root] Found existing results file with 874 problems with valid responses. Skipping these problems...
-[root] Starting to generate.....
-  0%|          | 0/892 [00:00<?, ?it/s]  1%|          | 8/892 [00:00<00:12, 72.30it/s]  3%|▎         | 24/892 [00:00<00:07, 120.45it/s]  5%|▍         | 42/892 [00:00<00:05, 146.42it/s]  7%|▋         | 60/892 [00:00<00:05, 159.24it/s]  9%|▊         | 78/892 [00:00<00:04, 164.48it/s] 12%|█▏        | 107/892 [00:00<00:03, 205.41it/s] 17%|█▋        | 150/892 [00:00<00:02, 276.70it/s] 21%|██        | 184/892 [00:00<00:02, 294.54it/s] 25%|██▌       | 226/892 [00:00<00:02, 332.73it/s] 29%|██▉       | 260/892 [00:01<00:01, 319.63it/s] 33%|███▎      | 293/892 [00:01<00:01, 312.01it/s] 36%|███▋      | 325/892 [00:01<00:01, 307.83it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 40%|███▉      | 356/892 [00:04<00:17, 31.17it/s]  43%|████▎     | 381/892 [00:04<00:12, 39.79it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 46%|████▋     | 414/892 [00:06<00:17, 26.79it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 48%|████▊     | 431/892 [00:13<00:46,  9.82it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 50%|████▉     | 443/892 [00:15<00:52,  8.55it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 53%|█████▎    | 470/892 [00:18<00:47,  8.87it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 54%|█████▎    | 479/892 [00:20<00:51,  7.98it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 58%|█████▊    | 515/892 [00:22<00:35, 10.50it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 58%|█████▊    | 520/892 [00:24<00:46,  8.05it/s] 60%|██████    | 539/892 [00:24<00:31, 11.31it/s] 61%|██████    | 546/892 [00:24<00:27, 12.73it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 62%|██████▏   | 553/892 [00:27<00:42,  8.04it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 65%|██████▍   | 579/892 [00:30<00:38,  8.07it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 65%|██████▌   | 583/892 [00:33<00:56,  5.43it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 66%|██████▌   | 587/892 [00:37<01:27,  3.50it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 67%|██████▋   | 598/892 [00:41<01:28,  3.33it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 67%|██████▋   | 602/892 [00:44<01:45,  2.76it/s] 73%|███████▎  | 653/892 [00:44<00:24,  9.70it/s] 76%|███████▌  | 677/892 [00:44<00:15, 14.11it/s] 78%|███████▊  | 699/892 [00:44<00:09, 19.59it/s] 81%|████████  | 719/892 [00:44<00:06, 26.17it/s] 83%|████████▎ | 739/892 [00:44<00:04, 34.26it/s] 85%|████████▍ | 758/892 [00:44<00:03, 44.24it/s] 87%|████████▋ | 776/892 [00:44<00:02, 55.00it/s] 89%|████████▉ | 794/892 [00:45<00:01, 67.98it/s] 91%|█████████ | 812/892 [00:45<00:01, 75.92it/s] 96%|█████████▌| 854/892 [00:45<00:00, 126.42it/s][root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
- 99%|█████████▉| 882/892 [00:47<00:00, 28.94it/s] [root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
-100%|██████████| 892/892 [00:49<00:00, 17.88it/s]
-[root] Save results to results/close-source/claude/Direct/claude-3-5-sonnet-latest_Math_Direct.json
-[root] End Generation......
