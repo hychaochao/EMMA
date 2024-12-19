@@ -31,7 +31,7 @@ def build_scoring_query(sample, config, total_num, select_num, seed):
     res_dict = {}
 
     # random select n responses from all responses
-    assert select_num < total_num, f"select_num must be less than total_num"
+    assert select_num <= total_num, f"select_num must be less than total_num"
     numbers = list(range(total_num))
     random.seed(seed)
     select_nums = random.sample(numbers, select_num)

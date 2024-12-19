@@ -21,3 +21,59 @@ Special tokens have been added in the vocabulary, make sure the associated word 
 [root] Model loaded!
 [root] Starting to generate.....
   0%|          | 0/100 [00:00<?, ?it/s]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 1, 3, 3, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  1%|          | 1/100 [06:34<10:51:01, 394.56s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[1, 5, 4, 3, 5, 0, 0, 0, 0, 0, 0, 1, 0, 5, 0, 1]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+  2%|▏         | 2/100 [10:07<7:49:55, 287.70s/it] Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 3]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+  3%|▎         | 3/100 [14:15<7:15:51, 269.60s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 5, 0, 2]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+  4%|▍         | 4/100 [18:58<7:19:29, 274.68s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 0, 2, 5, 0, 5, 2, 5, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+  5%|▌         | 5/100 [22:00<6:22:02, 241.29s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 2, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 2, 0, 1]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+  6%|▌         | 6/100 [25:57<6:15:59, 239.99s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+  7%|▋         | 7/100 [26:11<4:17:25, 166.08s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 4]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+  8%|▊         | 8/100 [29:08<4:19:48, 169.44s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[5, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 4, 0, 5, 0, 5]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+  9%|▉         | 9/100 [32:38<4:36:24, 182.25s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[3, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 5]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+ 10%|█         | 10/100 [36:38<5:00:18, 200.21s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[1, 1, 1, 5, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 5]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+ 11%|█         | 11/100 [40:20<5:06:45, 206.81s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+ 12%|█▏        | 12/100 [41:02<3:49:31, 156.49s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 5]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+ 13%|█▎        | 13/100 [43:33<3:44:44, 155.00s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+ 14%|█▍        | 14/100 [43:45<2:40:13, 111.79s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[3, 3, 3, 5, 4, 0, 0, 0, 0, 0, 0, 4, 0, 5, 0, 3]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+ 15%|█▌        | 15/100 [46:58<3:13:11, 136.37s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+ 16%|█▌        | 16/100 [47:14<2:19:48, 99.86s/it] Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[0, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+ 17%|█▋        | 17/100 [50:52<3:07:20, 135.43s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[1, 5, 5, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 5, 0, 5]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+ 18%|█▊        | 18/100 [55:05<3:53:27, 170.83s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[root] Scoring list:[3, 3, 5, 3, 3, 3, 5, 5, 5, 3, 3, 5, 3, 0, 0, 0]
+[root] Save results to results/test-time-compute/internvl-best-of-8/InternVL2_5_Math_16.json
+ 19%|█▉        | 19/100 [59:33<4:30:11, 200.15s/it]Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
