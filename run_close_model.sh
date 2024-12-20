@@ -39,7 +39,6 @@ echo "-----------------------------------------------"
 # Run the script
 python generate_response.py  \
   --dataset_name $DATASET_NAME \
-  --rerun \
   --subject $SUBJECT \
   --split $SPLIT \
   --strategy $STRATEGY \
