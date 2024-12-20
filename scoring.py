@@ -45,6 +45,40 @@ def main():
     logging.info(f"Loading config")
     config = load_yaml(args.config_path)
 
+    skip_pids = []
+    if not args.rerun and results:
+        for pid, data in results.items():
+            if 'scoring_response' in data and verify_response(data['scoring_response']):
+                if 'best_response' in data:
+                    skip_pids.append(pid)
+                else:
+                    score_list = extract_score_list(data['scoring_response'])
+                    logging.info(f"Scoring list:{score_list}")
+                    max_score = max(score_list)
+                    max_indices = [i for i, score in enumerate(score_list) if score == max_score and i < args.total_num]
+
+                    # if there are many max scores, choose one randomly
+                    max_index = random.choice(max_indices)
+                    results[pid]['best_response'] = results[pid][f'response_{max_index}']
+                    results[pid]['score_list'] = score_list
+                    skip_pids.append(pid)
+                    try:
+                        with open(args.output_path, 'w') as f:
+                            f.write(json.dumps(results, indent=2))
+                        logging.info(f"Save results to {args.output_path}")
+                    except Exception as e:
+                        logging.info(f"Error in saving {args.output_path}")
+                        logging.info(e)
+
+        if len(skip_pids) > 0 and len(skip_pids) < len(results.keys()):
+            logging.info(
+                f"Found existing results file with {len(skip_pids)} problems with valid responses. Skipping these problems...")
+        elif len(skip_pids) == len(results.keys()):
+            logging.info("End Generation......")
+            exit()
+        
+
+
     # Load Model
     # If we were given a custom path, load that model, otherwise use a remote service model
     if args.model_path:
@@ -87,15 +121,7 @@ def main():
 
     logging.info(f"Model loaded!")
 
-    skip_pids = []
-    if not args.rerun and results:
-        for pid, data in results.items():
-            if 'scoring_response' in data and verify_response(data['scoring_response']):
-                skip_pids.append(pid)
 
-        if len(skip_pids) > 0:
-            logging.info(
-                f"Found existing results file with {len(skip_pids)} problems with valid responses. Skipping these problems...")
 
     logging.info(f"Starting to generate.....")
     for idx, entry in enumerate(tqdm(dataset)):
