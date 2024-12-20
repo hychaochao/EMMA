@@ -68,11 +68,18 @@ def main():
         chat_list = []
         try:
             for i in range(16):
-                chat = [
-                    {"role": "system", "content": "You are a math expert"},
-                    {"role": "user", "content": sample['query']},
-                    {"role": "assistant", "content": sample[f'response_{i}']}
-                ]
+                if sample[f'response_{i}']:
+                    chat = [
+                        {"role": "system", "content": "You are a math expert"},
+                        {"role": "user", "content": sample['query']},
+                        {"role": "assistant", "content": sample[f'response_{i}']}
+                    ]
+                else:
+                    chat = [
+                        {"role": "system", "content": "You are a math expert"},
+                        {"role": "user", "content": sample['query']},
+                        {"role": "assistant", "content": "no reponse"}
+                    ]
                 chat_list.append(chat)
             
             score_list = []
