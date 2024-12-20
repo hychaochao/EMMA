@@ -6,7 +6,7 @@ STRATEGY="CoT" # CoT or Direct
 
 # Remote proprietary model selection
 MODEL="gemini-2.0-flash-thinking-exp-1219" # Remote model name
-API_KEY="AIzaSyDlmb73omTgAGvw_a9lGxK5pC56fuLtJoQ"
+API_KEY=""
 
 # Default additional parameters
 MAX_TOKENS=8192
