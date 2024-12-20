@@ -4,14 +4,25 @@
 [root] Model loaded!
 [root] Results already exists.
 [root] Reading results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
-[root] Found existing results file with 99 problems with valid responses. Skipping these problems...
 [root] Starting to generate.....
-  0%|          | 0/100 [00:00<?, ?it/s][root] Attempt 1 failed: 'NoneType' object has no attribute 'content'
+  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:31<52:18, 31.71s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+  2%|▏         | 2/100 [01:01<50:05, 30.67s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+  3%|▎         | 3/100 [01:27<46:05, 28.51s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+  4%|▍         | 4/100 [01:57<46:38, 29.15s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+  5%|▌         | 5/100 [02:09<36:14, 22.89s/it][root] Attempt 1 failed: 'NoneType' object has no attribute 'content'
 [root] Attempt 2 failed: 'NoneType' object has no attribute 'content'
 [root] Attempt 3 failed: 'NoneType' object has no attribute 'content'
 [root] Attempt 4 failed: 'NoneType' object has no attribute 'content'
-[root] Attempt 5 failed: 'NoneType' object has no attribute 'content'
-[root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
-  6%|▌         | 6/100 [01:18<20:31, 13.10s/it] 29%|██▉       | 29/100 [01:18<02:23,  2.03s/it] 63%|██████▎   | 63/100 [01:18<00:26,  1.37it/s] 92%|█████████▏| 92/100 [01:19<00:03,  2.42it/s]100%|██████████| 100/100 [01:19<00:00,  1.27it/s]
-[root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
-[root] End Generation......
+/Users/geniusgu/anaconda3/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+-2.0-flash-thinking-exp-1219_Math_Direct.json
+  7%|▋         | 7/100 [05:08<1:23:53, 54.12s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+  8%|▊         | 8/100 [05:20<1:02:26, 40.72s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+  9%|▉         | 9/100 [05:50<56:37, 37.34s/it]  [root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+ 10%|█         | 10/100 [05:54<40:19, 26.88s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+ 11%|█         | 11/100 [06:24<41:29, 27.97s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+ 12%|█▏        | 12/100 [06:41<36:00, 24.55s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+ 13%|█▎        | 13/100 [06:45<26:21, 18.18s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+ 14%|█▍        | 14/100 [06:49<19:59, 13.95s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+ 15%|█▌        | 15/100 [06:51<14:34, 10.29s/it]/Users/geniusgu/anaconda3/lib/python3.11/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

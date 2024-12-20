@@ -2,14 +2,14 @@
 
 # Subjects and strategy
 SUBJECT="Math" # You can use multiple subjects separated by spaces
-STRATEGY="Direct" # CoT or Direct
+STRATEGY="CoT" # CoT or Direct
 
 # Remote proprietary model selection
 MODEL="gemini-2.0-flash-thinking-exp-1219" # Remote model name
-API_KEY=""
+API_KEY="AIzaSyDlmb73omTgAGvw_a9lGxK5pC56fuLtJoQ"
 
 # Default additional parameters
-MAX_TOKENS=2048
+MAX_TOKENS=8192
 TEMPERATURE=0
 SAVE_EVERY=1
 DATASET_NAME="mm-reasoning/EMMA-test100"
@@ -39,6 +39,7 @@ echo "-----------------------------------------------"
 # Run the script
 python generate_response.py  \
   --dataset_name $DATASET_NAME \
+  --rerun \
   --subject $SUBJECT \
   --split $SPLIT \
   --strategy $STRATEGY \
