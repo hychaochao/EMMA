@@ -91,6 +91,10 @@ class GPT_Model:
                         sleep_time = float(error_message.split('Please try again in ')[1].split('s.')[0])
                         logging.error(f"Rate limit exceeded, retrying in {sleep_time * 2}s...")
                         time.sleep(sleep_time * 2)
+                    elif 'RESOURCE_EXHAUSTED' in error_message:
+                        sleep_time = 30
+                        logging.error(f"Gemini rate limit, retrying in {sleep_time}s...")
+                        time.sleep(sleep_time)
                     else:
                         print("Unknown error, skipping this request.")
                         break
