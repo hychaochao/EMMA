@@ -95,7 +95,7 @@ def gen_score(input_file, output_file):
 def main():
     parser = argparse.ArgumentParser()
     # output
-    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/test-time-compute/gpt-best-of-4')
+    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/test-time-compute/gpt-best-of-8')
     args = parser.parse_args()
     for root, dirs, files in os.walk(args.results_dir):
         for file in files:

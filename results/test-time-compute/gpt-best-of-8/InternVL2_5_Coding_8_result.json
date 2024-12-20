@@ -1,0 +1,97 @@
+{
+  "average": {
+    "accuracy": 0.21,
+    "correct": 21,
+    "total": 100
+  },
+  "subject": {
+    "Coding": {
+      "accuracy": 0.21,
+      "correct": 21,
+      "total": 100
+    }
+  },
+  "question_type": {
+    "multiple choice": {
+      "accuracy": 0.21,
+      "correct": 21,
+      "total": 100
+    }
+  },
+  "category": {
+    "Coding": {
+      "Advanced Chart Type": {
+        "accuracy": 0.24,
+        "correct": 12,
+        "total": 50
+      },
+      "Legend": {
+        "accuracy": 0.13043478260869565,
+        "correct": 3,
+        "total": 23
+      },
+      "Alignment, Orientation, & Position": {
+        "accuracy": 0.15625,
+        "correct": 5,
+        "total": 32
+      },
+      "Gridline": {
+        "accuracy": 0.2,
+        "correct": 2,
+        "total": 10
+      },
+      "Marker, Line, & Cap": {
+        "accuracy": 0.2222222222222222,
+        "correct": 2,
+        "total": 9
+      },
+      "Color & Texture": {
+        "accuracy": 0.2608695652173913,
+        "correct": 6,
+        "total": 23
+      },
+      "Data Reasoning": {
+        "accuracy": 0.1,
+        "correct": 2,
+        "total": 20
+      },
+      "Polar": {
+        "accuracy": 0.2857142857142857,
+        "correct": 2,
+        "total": 7
+      },
+      "Axis & Scale": {
+        "accuracy": 0.25,
+        "correct": 4,
+        "total": 16
+      },
+      "3D": {
+        "accuracy": 0.10526315789473684,
+        "correct": 2,
+        "total": 19
+      }
+    }
+  },
+  "task": {
+    "Coding_Code Choose Vis": {
+      "accuracy": 0.2,
+      "correct": 5,
+      "total": 25
+    },
+    "Coding_Vis Choose Code": {
+      "accuracy": 0.28,
+      "correct": 7,
+      "total": 25
+    },
+    "Coding_Modify Without Image": {
+      "accuracy": 0.24,
+      "correct": 6,
+      "total": 25
+    },
+    "Coding_Modify With Image": {
+      "accuracy": 0.12,
+      "correct": 3,
+      "total": 25
+    }
+  }
+}
