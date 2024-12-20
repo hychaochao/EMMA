@@ -2,7 +2,7 @@ import json
 import random
 import os
 
-def select_n_responses_with_score(input_path, output_path, n):
+def select_n_responses_with_score(input_path, output_path, total_n, select_n):
 
     with open(input_path, 'r') as f:
         data = json.load(f)
@@ -11,12 +11,14 @@ def select_n_responses_with_score(input_path, output_path, n):
     new_data = {}
     for pid, sample in data.items():
         random.seed(seed)
-        nums = random.sample(range(16), n)
+        nums = random.sample(range(total_n), select_n)
         new_data[pid] = sample.copy()
-        for i in range(16):
-            new_data[pid].pop(f'response_{i}')
         new_data[pid]['score_list'] = []
-        for i in range(n):
+        for i in range(16):
+            if f'response_{i}' in sample:
+                new_data[pid].pop(f'response_{i}')
+        new_data[pid]['score_list'] = []
+        for i in range(select_n):
             new_data[pid][f'response_{i}'] = sample[f'response_{nums[i]}']
             new_data[pid]['score_list'].append(sample['score_list'][nums[i]])
 
@@ -53,11 +55,12 @@ def select_n_responses(input_path, output_path, total_n, select_n):
         f.write(json.dumps(new_data, indent=2))
 
 if __name__ == '__main__':
-    for root, dirs, files in os.walk('raw_results'):
-        for file in files:
-            if 'Math' in file:
-                select_n_responses(os.path.join(root, file), 'pass@1/'+file, 16, 1)
-            else:
-                select_n_responses(os.path.join(root, file), 'pass@1/'+file, 8, 1)
+    # for root, dirs, files in os.walk('raw_results'):
+    #     for file in files:
+    #         if 'Math' in file:
+    #             select_n_responses(os.path.join(root, file), 'pass@1/'+file, 16, 1)
+    #         else:
+    #             select_n_responses(os.path.join(root, file), 'pass@1/'+file, 8, 1)
+    select_n_responses_with_score('qwen-rm-scoring/chatgpt-4o-latest_Math_16_raw.json', 'qwen-rm-scoring/scored_results/chatgpt-4o-latest_Math_16.json', 16, 16)
 
 
