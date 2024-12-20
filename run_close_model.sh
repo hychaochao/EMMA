@@ -10,7 +10,7 @@ API_KEY="<>"
 
 # Default additional parameters
 MAX_TOKENS=2048
-TEMPERATURE=0
+TEMPERATURE=0.7
 SAVE_EVERY=1
 DATASET_NAME="mm-reasoning/EMMA"
 SPLIT="test"

@@ -1,0 +1,112 @@
+[root] Loading dataset mm-reasoning/EMMA-test100, subject: ['Physics']
+[root] Loading config
+[root] Loading chatgpt-4o-latest
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/100 [00:00<?, ?it/s][root] Attempt 1 failed: Connection error.
+[root] Attempt 2 failed: Connection error.
+[root] Attempt 3 failed: Connection error.
+[root] Attempt 4 failed: Connection error.
+[root] Attempt 5 failed: Connection error.
+  1%|          | 1/100 [00:57<1:34:09, 57.07s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+  2%|▏         | 2/100 [01:52<1:31:42, 56.14s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+  3%|▎         | 3/100 [02:38<1:23:16, 51.51s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+  4%|▍         | 4/100 [03:49<1:34:31, 59.08s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+  5%|▌         | 5/100 [06:05<2:17:28, 86.83s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+  6%|▌         | 6/100 [08:16<2:39:46, 101.99s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+  7%|▋         | 7/100 [10:01<2:39:22, 102.82s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+  8%|▊         | 8/100 [12:08<2:49:44, 110.70s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+  9%|▉         | 9/100 [14:53<3:13:32, 127.61s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 10%|█         | 10/100 [17:09<3:15:04, 130.05s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 11%|█         | 11/100 [18:29<2:50:31, 114.96s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 12%|█▏        | 12/100 [19:32<2:25:04, 98.92s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 13%|█▎        | 13/100 [21:00<2:18:41, 95.65s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 14%|█▍        | 14/100 [22:30<2:14:43, 94.00s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 15%|█▌        | 15/100 [24:57<2:35:59, 110.11s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 16%|█▌        | 16/100 [26:34<2:28:21, 105.97s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 17%|█▋        | 17/100 [29:33<2:57:14, 128.13s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 18%|█▊        | 18/100 [31:23<2:47:25, 122.51s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 19%|█▉        | 19/100 [33:40<2:51:11, 126.81s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 20%|██        | 20/100 [36:29<3:06:03, 139.54s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 21%|██        | 21/100 [38:44<3:02:02, 138.27s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 22%|██▏       | 22/100 [40:15<2:41:24, 124.16s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 23%|██▎       | 23/100 [42:15<2:37:43, 122.90s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 24%|██▍       | 24/100 [44:38<2:43:19, 128.94s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 25%|██▌       | 25/100 [47:33<2:58:30, 142.80s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 26%|██▌       | 26/100 [48:59<2:34:54, 125.60s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 27%|██▋       | 27/100 [51:36<2:44:27, 135.18s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 28%|██▊       | 28/100 [53:59<2:44:48, 137.34s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 29%|██▉       | 29/100 [55:31<2:26:29, 123.79s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 30%|███       | 30/100 [56:53<2:09:40, 111.15s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 31%|███       | 31/100 [58:59<2:12:56, 115.60s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 32%|███▏      | 32/100 [1:00:04<1:53:48, 100.42s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 33%|███▎      | 33/100 [1:01:18<1:43:18, 92.52s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 34%|███▍      | 34/100 [1:02:26<1:33:50, 85.31s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 35%|███▌      | 35/100 [1:03:34<1:26:35, 79.94s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 36%|███▌      | 36/100 [1:05:02<1:27:57, 82.45s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 37%|███▋      | 37/100 [1:06:15<1:23:38, 79.65s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 38%|███▊      | 38/100 [1:06:59<1:11:16, 68.98s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 39%|███▉      | 39/100 [1:08:14<1:11:51, 70.67s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 40%|████      | 40/100 [1:09:52<1:18:50, 78.84s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 41%|████      | 41/100 [1:46:22<11:40:27, 712.33s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 42%|████▏     | 42/100 [1:48:25<8:37:29, 535.33s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 43%|████▎     | 43/100 [1:50:37<6:33:47, 414.53s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 44%|████▍     | 44/100 [1:52:40<5:05:20, 327.15s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 45%|████▌     | 45/100 [1:54:43<4:03:43, 265.89s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 46%|████▌     | 46/100 [1:55:57<3:07:15, 208.06s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 47%|████▋     | 47/100 [1:57:15<2:29:30, 169.25s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 48%|████▊     | 48/100 [1:59:13<2:13:12, 153.69s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 49%|████▉     | 49/100 [2:02:05<2:15:30, 159.43s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 50%|█████     | 50/100 [2:04:12<2:04:37, 149.54s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 51%|█████     | 51/100 [2:07:22<2:12:09, 161.83s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 52%|█████▏    | 52/100 [2:09:12<1:56:49, 146.03s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 53%|█████▎    | 53/100 [2:10:11<1:34:02, 120.06s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 54%|█████▍    | 54/100 [2:12:49<1:40:39, 131.29s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 55%|█████▌    | 55/100 [2:14:14<1:28:08, 117.52s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 56%|█████▌    | 56/100 [2:15:47<1:20:44, 110.10s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 57%|█████▋    | 57/100 [2:16:37<1:06:06, 92.25s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 58%|█████▊    | 58/100 [2:18:34<1:09:39, 99.52s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 59%|█████▉    | 59/100 [2:20:08<1:06:49, 97.79s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 60%|██████    | 60/100 [2:23:01<1:20:18, 120.46s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 61%|██████    | 61/100 [2:24:46<1:15:12, 115.71s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 62%|██████▏   | 62/100 [2:25:54<1:04:21, 101.62s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 63%|██████▎   | 63/100 [2:28:31<1:12:52, 118.17s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 64%|██████▍   | 64/100 [2:29:39<1:01:49, 103.03s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 65%|██████▌   | 65/100 [2:31:38<1:02:51, 107.77s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 66%|██████▌   | 66/100 [2:33:55<1:06:07, 116.69s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 67%|██████▋   | 67/100 [2:36:16<1:08:12, 124.01s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 68%|██████▊   | 68/100 [2:37:12<55:10, 103.44s/it]  [root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 69%|██████▉   | 69/100 [2:38:35<50:19, 97.42s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 70%|███████   | 70/100 [2:40:31<51:26, 102.88s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 71%|███████   | 71/100 [2:43:29<1:00:38, 125.45s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 72%|███████▏  | 72/100 [2:46:05<1:02:52, 134.75s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 73%|███████▎  | 73/100 [2:48:20<1:00:35, 134.64s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 74%|███████▍  | 74/100 [2:49:15<48:03, 110.89s/it]  [root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 75%|███████▌  | 75/100 [2:51:00<45:27, 109.11s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 76%|███████▌  | 76/100 [2:54:31<55:54, 139.78s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 77%|███████▋  | 77/100 [2:56:04<48:09, 125.65s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 78%|███████▊  | 78/100 [2:58:37<49:06, 133.92s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 79%|███████▉  | 79/100 [2:59:54<40:53, 116.81s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 80%|████████  | 80/100 [3:01:54<39:16, 117.84s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 81%|████████  | 81/100 [3:03:15<33:47, 106.72s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 82%|████████▏ | 82/100 [3:05:06<32:23, 107.99s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 83%|████████▎ | 83/100 [3:06:53<30:29, 107.60s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 84%|████████▍ | 84/100 [3:08:52<29:35, 110.95s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 85%|████████▌ | 85/100 [3:10:54<28:37, 114.47s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 86%|████████▌ | 86/100 [3:12:23<24:56, 106.92s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 87%|████████▋ | 87/100 [3:13:47<21:39, 99.99s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 88%|████████▊ | 88/100 [3:15:03<18:33, 92.83s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 89%|████████▉ | 89/100 [3:16:39<17:10, 93.71s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 90%|█████████ | 90/100 [3:18:38<16:51, 101.20s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 91%|█████████ | 91/100 [3:21:11<17:31, 116.85s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 92%|█████████▏| 92/100 [3:22:46<14:41, 110.19s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 93%|█████████▎| 93/100 [3:23:57<11:29, 98.48s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 94%|█████████▍| 94/100 [3:25:05<08:55, 89.24s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 95%|█████████▌| 95/100 [3:27:04<08:10, 98.11s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 96%|█████████▌| 96/100 [3:29:46<07:49, 117.38s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 97%|█████████▋| 97/100 [3:31:49<05:57, 119.21s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 98%|█████████▊| 98/100 [3:33:58<04:04, 122.00s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+ 99%|█████████▉| 99/100 [3:36:18<02:07, 127.47s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+100%|██████████| 100/100 [3:37:24<00:00, 108.93s/it]100%|██████████| 100/100 [3:37:24<00:00, 130.44s/it]
+[root] Save results to results/test-time-compute/chatgpt-4o-latest_Physics_8.json
+[root] End Generation......

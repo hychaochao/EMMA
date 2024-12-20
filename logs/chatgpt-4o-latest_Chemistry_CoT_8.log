@@ -1,0 +1,112 @@
+[root] Loading dataset mm-reasoning/EMMA-test100, subject: ['Chemistry']
+[root] Loading config
+[root] Loading chatgpt-4o-latest
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/100 [00:00<?, ?it/s][root] Attempt 1 failed: Connection error.
+[root] Attempt 2 failed: Connection error.
+[root] Attempt 3 failed: Connection error.
+[root] Attempt 4 failed: Connection error.
+[root] Attempt 5 failed: Connection error.
+  1%|          | 1/100 [01:09<1:54:19, 69.28s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+  2%|▏         | 2/100 [02:11<1:45:56, 64.86s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+  3%|▎         | 3/100 [03:05<1:37:28, 60.29s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+  4%|▍         | 4/100 [03:58<1:31:48, 57.38s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+  5%|▌         | 5/100 [05:02<1:34:40, 59.79s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+  6%|▌         | 6/100 [05:55<1:29:59, 57.44s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+  7%|▋         | 7/100 [07:05<1:35:16, 61.46s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+  8%|▊         | 8/100 [08:02<1:31:51, 59.91s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+  9%|▉         | 9/100 [09:04<1:32:06, 60.74s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 10%|█         | 10/100 [10:09<1:33:13, 62.15s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 11%|█         | 11/100 [11:28<1:39:39, 67.18s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 12%|█▏        | 12/100 [12:18<1:31:03, 62.08s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 13%|█▎        | 13/100 [13:54<1:44:37, 72.16s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 14%|█▍        | 14/100 [14:59<1:40:19, 69.99s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 15%|█▌        | 15/100 [15:51<1:31:40, 64.71s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 16%|█▌        | 16/100 [16:57<1:30:50, 64.89s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 17%|█▋        | 17/100 [18:00<1:29:07, 64.42s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 18%|█▊        | 18/100 [18:59<1:25:59, 62.92s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 19%|█▉        | 19/100 [20:09<1:27:51, 65.08s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 20%|██        | 20/100 [21:19<1:28:45, 66.56s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 21%|██        | 21/100 [22:34<1:30:54, 69.04s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 22%|██▏       | 22/100 [23:36<1:26:54, 66.85s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 23%|██▎       | 23/100 [25:35<1:45:50, 82.48s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 24%|██▍       | 24/100 [26:35<1:36:01, 75.80s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 25%|██▌       | 25/100 [27:52<1:35:01, 76.02s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 26%|██▌       | 26/100 [29:02<1:31:27, 74.16s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 27%|██▋       | 27/100 [29:56<1:23:12, 68.40s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 28%|██▊       | 28/100 [30:59<1:19:50, 66.54s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 29%|██▉       | 29/100 [32:18<1:23:07, 70.25s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 30%|███       | 30/100 [33:28<1:21:57, 70.25s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 31%|███       | 31/100 [34:43<1:22:27, 71.70s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 32%|███▏      | 32/100 [35:56<1:21:33, 71.97s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 33%|███▎      | 33/100 [38:53<1:55:48, 103.70s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 34%|███▍      | 34/100 [40:12<1:45:52, 96.25s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 35%|███▌      | 35/100 [41:12<1:32:27, 85.35s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 36%|███▌      | 36/100 [42:44<1:33:01, 87.21s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 37%|███▋      | 37/100 [43:56<1:26:55, 82.78s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 38%|███▊      | 38/100 [45:11<1:23:14, 80.56s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 39%|███▉      | 39/100 [46:26<1:20:11, 78.88s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 40%|████      | 40/100 [47:19<1:10:51, 70.86s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 41%|████      | 41/100 [49:42<1:30:57, 92.50s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 42%|████▏     | 42/100 [50:24<1:14:48, 77.39s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 43%|████▎     | 43/100 [52:38<1:29:49, 94.55s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 44%|████▍     | 44/100 [54:12<1:27:53, 94.16s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 45%|████▌     | 45/100 [54:58<1:13:06, 79.75s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 46%|████▌     | 46/100 [56:00<1:07:04, 74.53s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 47%|████▋     | 47/100 [58:34<1:26:56, 98.43s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 48%|████▊     | 48/100 [1:00:39<1:32:09, 106.33s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 49%|████▉     | 49/100 [1:02:52<1:37:07, 114.26s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 50%|█████     | 50/100 [1:04:28<1:30:40, 108.80s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 51%|█████     | 51/100 [1:05:37<1:19:13, 97.01s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 52%|█████▏    | 52/100 [1:06:27<1:06:13, 82.79s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 53%|█████▎    | 53/100 [1:07:45<1:03:39, 81.26s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 54%|█████▍    | 54/100 [1:10:05<1:15:53, 98.98s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 55%|█████▌    | 55/100 [1:10:59<1:04:13, 85.64s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 56%|█████▌    | 56/100 [1:46:44<8:35:42, 703.23s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 57%|█████▋    | 57/100 [1:47:40<6:04:54, 509.18s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 58%|█████▊    | 58/100 [1:49:56<4:37:59, 397.12s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 59%|█████▉    | 59/100 [1:50:45<3:20:01, 292.72s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 60%|██████    | 60/100 [1:51:42<2:28:04, 222.10s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 61%|██████    | 61/100 [1:52:44<1:53:04, 173.97s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 62%|██████▏   | 62/100 [1:55:08<1:44:25, 164.89s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 63%|██████▎   | 63/100 [1:56:19<1:24:25, 136.90s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 64%|██████▍   | 64/100 [1:56:59<1:04:41, 107.83s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 65%|██████▌   | 65/100 [1:58:01<54:52, 94.07s/it]   [root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 66%|██████▌   | 66/100 [1:59:26<51:48, 91.43s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 67%|██████▋   | 67/100 [2:00:20<43:59, 79.97s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 68%|██████▊   | 68/100 [2:01:32<41:23, 77.60s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 69%|██████▉   | 69/100 [2:02:34<37:44, 73.04s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 70%|███████   | 70/100 [2:03:46<36:24, 72.81s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 71%|███████   | 71/100 [2:04:48<33:32, 69.39s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 72%|███████▏  | 72/100 [2:05:41<30:09, 64.62s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 73%|███████▎  | 73/100 [2:07:04<31:32, 70.08s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 74%|███████▍  | 74/100 [2:08:05<29:11, 67.37s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 75%|███████▌  | 75/100 [2:09:27<29:50, 71.63s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 76%|███████▌  | 76/100 [2:10:15<25:53, 64.74s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 77%|███████▋  | 77/100 [2:12:21<31:46, 82.90s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 78%|███████▊  | 78/100 [2:13:39<29:52, 81.46s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 79%|███████▉  | 79/100 [2:14:34<25:42, 73.46s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 80%|████████  | 80/100 [2:16:06<26:24, 79.21s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 81%|████████  | 81/100 [2:17:29<25:25, 80.28s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 82%|████████▏ | 82/100 [2:19:06<25:34, 85.23s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 83%|████████▎ | 83/100 [2:20:04<21:53, 77.26s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 84%|████████▍ | 84/100 [2:21:41<22:07, 83.00s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 85%|████████▌ | 85/100 [2:22:49<19:39, 78.64s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 86%|████████▌ | 86/100 [2:23:51<17:10, 73.63s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 87%|████████▋ | 87/100 [2:24:39<14:17, 65.99s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 88%|████████▊ | 88/100 [2:25:57<13:52, 69.39s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 89%|████████▉ | 89/100 [2:26:35<10:59, 59.93s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 90%|█████████ | 90/100 [2:27:17<09:06, 54.64s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 91%|█████████ | 91/100 [2:28:23<08:43, 58.16s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 92%|█████████▏| 92/100 [2:31:07<11:58, 89.85s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 93%|█████████▎| 93/100 [2:32:39<10:33, 90.51s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 94%|█████████▍| 94/100 [2:35:04<10:41, 106.87s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 95%|█████████▌| 95/100 [2:36:23<08:12, 98.49s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 96%|█████████▌| 96/100 [2:37:26<05:51, 87.81s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 97%|█████████▋| 97/100 [2:39:50<05:14, 104.71s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 98%|█████████▊| 98/100 [2:41:19<03:20, 100.12s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+ 99%|█████████▉| 99/100 [2:42:27<01:30, 90.27s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+100%|██████████| 100/100 [2:43:13<00:00, 77.21s/it]100%|██████████| 100/100 [2:43:13<00:00, 97.94s/it]
+[root] Save results to results/test-time-compute/chatgpt-4o-latest_Chemistry_8.json
+[root] End Generation......

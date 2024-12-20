@@ -1,0 +1,208 @@
+[root] Reading /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+[root] Loading dataset mm-reasoning/EMMA-test100, subject: Physics
+[root] Loading config
+[root] Loading chatgpt-4o-latest
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/100 [00:00<?, ?it/s][root] Scoring list:[5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  1%|          | 1/100 [00:11<19:14, 11.66s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+  2%|▏         | 2/100 [00:21<16:54, 10.35s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+  3%|▎         | 3/100 [00:29<15:18,  9.47s/it][root] Scoring list:[2, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+  4%|▍         | 4/100 [00:39<15:47,  9.87s/it][root] Scoring list:[0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+  5%|▌         | 5/100 [00:49<15:21,  9.70s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+  6%|▌         | 6/100 [01:03<17:25, 11.12s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+  7%|▋         | 7/100 [01:11<16:00, 10.33s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+  8%|▊         | 8/100 [01:25<17:26, 11.37s/it][root] Scoring list:[1, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+  9%|▉         | 9/100 [01:39<18:39, 12.30s/it][root] Scoring list:[0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 10%|█         | 10/100 [01:51<18:19, 12.22s/it][root] Scoring list:[0, 2, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 11%|█         | 11/100 [02:04<18:12, 12.28s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 12%|█▏        | 12/100 [02:14<17:00, 11.59s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 13%|█▎        | 13/100 [02:25<16:39, 11.49s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 14%|█▍        | 14/100 [02:37<16:37, 11.60s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 15%|█▌        | 15/100 [02:44<14:38, 10.34s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 16%|█▌        | 16/100 [02:54<14:14, 10.17s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 17%|█▋        | 17/100 [03:03<13:22,  9.66s/it][root] Scoring list:[0, 5, 5, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 18%|█▊        | 18/100 [03:11<12:45,  9.33s/it][root] Scoring list:[3, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 19%|█▉        | 19/100 [03:24<14:01, 10.38s/it][root] Scoring list:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 20%|██        | 20/100 [03:36<14:22, 10.78s/it][root] Scoring list:[0, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 21%|██        | 21/100 [03:47<14:20, 10.90s/it][root] Scoring list:[5, 3, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 22%|██▏       | 22/100 [03:57<13:42, 10.55s/it][root] Scoring list:[4, 4, 4, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 23%|██▎       | 23/100 [04:12<15:19, 11.94s/it][root] Scoring list:[2, 5, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 24%|██▍       | 24/100 [04:21<13:58, 11.03s/it][root] Scoring list:[2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 25%|██▌       | 25/100 [04:29<12:37, 10.10s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 26%|██▌       | 26/100 [04:38<12:05,  9.80s/it][root] Scoring list:[3, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 27%|██▋       | 27/100 [04:49<12:27, 10.24s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 28%|██▊       | 28/100 [05:02<13:07, 10.94s/it][root] Scoring list:[2, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 29%|██▉       | 29/100 [05:10<12:02, 10.17s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 30%|███       | 30/100 [05:21<12:08, 10.41s/it][root] Scoring list:[2, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 31%|███       | 31/100 [05:30<11:33, 10.06s/it][root] Scoring list:[2, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 32%|███▏      | 32/100 [05:41<11:41, 10.32s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 33%|███▎      | 33/100 [05:50<10:52,  9.74s/it][root] Scoring list:[5, 5, 3, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 34%|███▍      | 34/100 [06:00<10:56,  9.95s/it][root] Scoring list:[0, 2, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 35%|███▌      | 35/100 [06:08<10:11,  9.42s/it][root] Scoring list:[5, 1, 1, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 36%|███▌      | 36/100 [06:18<10:06,  9.47s/it][root] Scoring list:[0, 1, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 37%|███▋      | 37/100 [06:24<08:53,  8.47s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 38%|███▊      | 38/100 [06:37<10:01,  9.71s/it][root] Scoring list:[2, 2, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 39%|███▉      | 39/100 [06:44<09:18,  9.16s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 40%|████      | 40/100 [06:59<10:40, 10.68s/it][root] Scoring list:[0, 2, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 41%|████      | 41/100 [07:08<10:08, 10.31s/it][root] Scoring list:[0, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 42%|████▏     | 42/100 [07:24<11:30, 11.90s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 43%|████▎     | 43/100 [07:37<11:39, 12.26s/it][root] Scoring list:[2, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 44%|████▍     | 44/100 [07:48<11:14, 12.04s/it][root] Scoring list:[5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 45%|████▌     | 45/100 [07:57<10:02, 10.95s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 46%|████▌     | 46/100 [08:18<12:33, 13.96s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 47%|████▋     | 47/100 [08:28<11:16, 12.77s/it][root] Scoring list:[0, 2, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 48%|████▊     | 48/100 [08:39<10:48, 12.46s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 49%|████▉     | 49/100 [08:51<10:25, 12.26s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 50%|█████     | 50/100 [08:59<09:00, 10.82s/it][root] Scoring list:[5, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 51%|█████     | 51/100 [09:13<09:43, 11.90s/it][root] Scoring list:[5, 2, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 52%|█████▏    | 52/100 [09:22<08:42, 10.89s/it][root] Scoring list:[4, 4, 5, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 53%|█████▎    | 53/100 [09:31<08:12, 10.49s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 54%|█████▍    | 54/100 [09:46<08:57, 11.69s/it][root] Scoring list:[2, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 55%|█████▌    | 55/100 [09:56<08:27, 11.27s/it][root] Scoring list:[1, 1, 1, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 56%|█████▌    | 56/100 [10:08<08:24, 11.46s/it][root] Scoring list:[2, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 57%|█████▋    | 57/100 [10:16<07:26, 10.38s/it][root] Scoring list:[5, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 58%|█████▊    | 58/100 [10:24<06:49,  9.76s/it][root] Scoring list:[5, 5, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 59%|█████▉    | 59/100 [10:31<06:03,  8.87s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 60%|██████    | 60/100 [10:39<05:49,  8.74s/it][root] Scoring list:[3, 5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 61%|██████    | 61/100 [10:46<05:18,  8.18s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 62%|██████▏   | 62/100 [10:54<05:03,  7.99s/it][root] Scoring list:[2, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 63%|██████▎   | 63/100 [11:02<04:58,  8.06s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 64%|██████▍   | 64/100 [11:14<05:39,  9.42s/it][root] Scoring list:[2, 5, 4, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 65%|██████▌   | 65/100 [11:31<06:45, 11.58s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 66%|██████▌   | 66/100 [11:42<06:30, 11.48s/it][root] Scoring list:[1, 1, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 67%|██████▋   | 67/100 [11:58<06:56, 12.61s/it][root] Scoring list:[5, 5, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 68%|██████▊   | 68/100 [12:05<05:50, 10.95s/it][root] Scoring list:[0, 2, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 69%|██████▉   | 69/100 [12:14<05:23, 10.45s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 70%|███████   | 70/100 [12:24<05:14, 10.47s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 71%|███████   | 71/100 [12:41<05:57, 12.32s/it][root] Scoring list:[2, 5, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 72%|███████▏  | 72/100 [12:51<05:21, 11.48s/it][root] Scoring list:[5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 73%|███████▎  | 73/100 [13:05<05:31, 12.28s/it][root] Scoring list:[1, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 74%|███████▍  | 74/100 [13:13<04:50, 11.17s/it][root] Scoring list:[0, 3, 5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 75%|███████▌  | 75/100 [13:23<04:26, 10.65s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 76%|███████▌  | 76/100 [13:32<04:08, 10.33s/it][root] Scoring list:[2, 5, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 77%|███████▋  | 77/100 [13:40<03:42,  9.66s/it][root] Scoring list:[0, 3, 2, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 78%|███████▊  | 78/100 [13:48<03:18,  9.01s/it][root] Scoring list:[2, 5, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 79%|███████▉  | 79/100 [13:58<03:13,  9.19s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 80%|████████  | 80/100 [14:16<04:00, 12.05s/it][root] Scoring list:[3, 5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 81%|████████  | 81/100 [14:26<03:33, 11.23s/it][root] Scoring list:[1, 2, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 82%|████████▏ | 82/100 [14:35<03:13, 10.75s/it][root] Scoring list:[0, 3, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 83%|████████▎ | 83/100 [14:47<03:08, 11.12s/it][root] Scoring list:[0, 3, 5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 84%|████████▍ | 84/100 [15:00<03:06, 11.63s/it][root] Scoring list:[0, 1, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 85%|████████▌ | 85/100 [15:11<02:50, 11.39s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 86%|████████▌ | 86/100 [15:25<02:48, 12.06s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 87%|████████▋ | 87/100 [15:35<02:29, 11.47s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 88%|████████▊ | 88/100 [15:46<02:19, 11.59s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 89%|████████▉ | 89/100 [16:03<02:23, 13.05s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 90%|█████████ | 90/100 [16:17<02:12, 13.20s/it][root] Scoring list:[3, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 91%|█████████ | 91/100 [16:29<01:58, 13.13s/it][root] Scoring list:[2, 5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 92%|█████████▏| 92/100 [16:38<01:33, 11.68s/it][root] Scoring list:[3, 5, 3, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 93%|█████████▎| 93/100 [16:46<01:15, 10.73s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 94%|█████████▍| 94/100 [17:00<01:09, 11.60s/it][root] Scoring list:[2, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 95%|█████████▌| 95/100 [17:11<00:56, 11.34s/it][root] Scoring list:[5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 96%|█████████▌| 96/100 [17:26<00:49, 12.43s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 97%|█████████▋| 97/100 [17:46<00:44, 14.85s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 98%|█████████▊| 98/100 [18:04<00:31, 15.89s/it][root] Scoring list:[0, 3, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+ 99%|█████████▉| 99/100 [18:19<00:15, 15.52s/it][root] Scoring list:[5, 4, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+100%|██████████| 100/100 [18:32<00:00, 14.79s/it]100%|██████████| 100/100 [18:32<00:00, 11.13s/it]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Physics_8.json
+[root] End Generation......

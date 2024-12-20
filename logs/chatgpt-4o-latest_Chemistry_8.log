@@ -1,0 +1,208 @@
+[root] Reading /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+[root] Loading dataset mm-reasoning/EMMA-test100, subject: Chemistry
+[root] Loading config
+[root] Loading chatgpt-4o-latest
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/100 [00:00<?, ?it/s][root] Scoring list:[5, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  1%|          | 1/100 [00:17<29:39, 17.98s/it][root] Scoring list:[5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+  2%|▏         | 2/100 [00:28<22:10, 13.57s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+  3%|▎         | 3/100 [00:47<25:57, 16.06s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+  4%|▍         | 4/100 [01:00<24:04, 15.04s/it][root] Scoring list:[3, 5, 3, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+  5%|▌         | 5/100 [01:15<23:39, 14.94s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+  6%|▌         | 6/100 [01:28<22:26, 14.32s/it][root] Scoring list:[3, 5, 3, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+  7%|▋         | 7/100 [01:40<21:03, 13.58s/it][root] Scoring list:[3, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+  8%|▊         | 8/100 [01:52<20:02, 13.07s/it][root] Scoring list:[5, 2, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+  9%|▉         | 9/100 [02:03<18:43, 12.34s/it][root] Scoring list:[5, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 10%|█         | 10/100 [02:15<18:05, 12.06s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 11%|█         | 11/100 [02:30<19:16, 12.99s/it][root] Scoring list:[1, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 12%|█▏        | 12/100 [02:38<16:49, 11.47s/it][root] Scoring list:[5, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 13%|█▎        | 13/100 [02:49<16:27, 11.35s/it][root] Scoring list:[2, 5, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 14%|█▍        | 14/100 [02:57<15:06, 10.54s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 15%|█▌        | 15/100 [03:05<13:38,  9.63s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 16%|█▌        | 16/100 [03:15<13:32,  9.68s/it][root] Scoring list:[3, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 17%|█▋        | 17/100 [03:25<13:40,  9.89s/it][root] Scoring list:[2, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 18%|█▊        | 18/100 [03:32<12:12,  8.94s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 19%|█▉        | 19/100 [03:39<11:31,  8.54s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 20%|██        | 20/100 [03:50<12:21,  9.26s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 21%|██        | 21/100 [03:59<11:52,  9.02s/it][root] Scoring list:[5, 2, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 22%|██▏       | 22/100 [04:11<13:01, 10.01s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 23%|██▎       | 23/100 [04:24<13:55, 10.85s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 24%|██▍       | 24/100 [04:32<12:45, 10.07s/it][root] Scoring list:[3, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 25%|██▌       | 25/100 [04:40<11:35,  9.27s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 26%|██▌       | 26/100 [04:49<11:30,  9.33s/it][root] Scoring list:[2, 5, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 27%|██▋       | 27/100 [04:56<10:19,  8.49s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 28%|██▊       | 28/100 [05:04<10:04,  8.40s/it][root] Scoring list:[5, 1, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 29%|██▉       | 29/100 [05:16<11:13,  9.48s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 30%|███       | 30/100 [05:24<10:46,  9.23s/it][root] Scoring list:[2, 5, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 31%|███       | 31/100 [05:32<10:11,  8.86s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 32%|███▏      | 32/100 [05:41<09:56,  8.77s/it][root] Scoring list:[5, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 33%|███▎      | 33/100 [06:05<14:58, 13.41s/it][root] Scoring list:[5, 2, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 34%|███▍      | 34/100 [06:14<13:05, 11.90s/it][root] Scoring list:[2, 5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 35%|███▌      | 35/100 [06:21<11:21, 10.49s/it][root] Scoring list:[2, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 36%|███▌      | 36/100 [06:28<10:10,  9.54s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 37%|███▋      | 37/100 [06:36<09:27,  9.01s/it][root] Scoring list:[5, 2, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 38%|███▊      | 38/100 [06:44<09:04,  8.78s/it][root] Scoring list:[5, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 39%|███▉      | 39/100 [06:52<08:44,  8.59s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 40%|████      | 40/100 [07:00<08:23,  8.39s/it][root] Scoring list:[5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 41%|████      | 41/100 [07:10<08:42,  8.85s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 42%|████▏     | 42/100 [07:28<11:11, 11.58s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 43%|████▎     | 43/100 [07:43<11:58, 12.61s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 44%|████▍     | 44/100 [07:54<11:15, 12.07s/it][root] Scoring list:[5, 1, 1, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 45%|████▌     | 45/100 [08:08<11:34, 12.62s/it][root] Scoring list:[2, 5, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 46%|████▌     | 46/100 [08:24<12:20, 13.72s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 47%|████▋     | 47/100 [08:47<14:36, 16.55s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 48%|████▊     | 48/100 [09:00<13:25, 15.49s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 49%|████▉     | 49/100 [09:33<17:28, 20.57s/it][root] Scoring list:[3, 5, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 50%|█████     | 50/100 [09:49<16:03, 19.27s/it][root] Scoring list:[5, 2, 5, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 51%|█████     | 51/100 [09:58<13:13, 16.20s/it][root] Scoring list:[5, 2, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 52%|█████▏    | 52/100 [10:13<12:35, 15.74s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 53%|█████▎    | 53/100 [10:22<10:43, 13.70s/it][root] Scoring list:[5, 2, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 54%|█████▍    | 54/100 [10:38<11:03, 14.43s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 55%|█████▌    | 55/100 [10:44<09:06, 12.14s/it][root] Scoring list:[0, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 56%|█████▌    | 56/100 [10:51<07:41, 10.49s/it][root] Scoring list:[2, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 57%|█████▋    | 57/100 [10:58<06:46,  9.44s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 58%|█████▊    | 58/100 [11:13<07:50, 11.21s/it][root] Scoring list:[2, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 59%|█████▉    | 59/100 [11:22<07:04, 10.36s/it][root] Scoring list:[2, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 60%|██████    | 60/100 [11:35<07:32, 11.31s/it][root] Scoring list:[3, 5, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 61%|██████    | 61/100 [11:43<06:34, 10.13s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 62%|██████▏   | 62/100 [11:59<07:31, 11.89s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 63%|██████▎   | 63/100 [12:06<06:31, 10.59s/it][root] Scoring list:[3, 5, 3, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 64%|██████▍   | 64/100 [12:28<08:19, 13.86s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 65%|██████▌   | 65/100 [12:35<06:52, 11.78s/it][root] Scoring list:[2, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 66%|██████▌   | 66/100 [12:44<06:10, 10.89s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 67%|██████▋   | 67/100 [12:52<05:32, 10.07s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 68%|██████▊   | 68/100 [13:00<05:08,  9.63s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 69%|██████▉   | 69/100 [13:13<05:28, 10.59s/it][root] Scoring list:[1, 1, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 70%|███████   | 70/100 [13:27<05:49, 11.67s/it][root] Scoring list:[1, 2, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 71%|███████   | 71/100 [13:35<05:05, 10.52s/it][root] Scoring list:[1, 1, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 72%|███████▏  | 72/100 [13:41<04:18,  9.25s/it][root] Scoring list:[1, 1, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 73%|███████▎  | 73/100 [13:52<04:21,  9.67s/it][root] Scoring list:[2, 5, 5, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 74%|███████▍  | 74/100 [14:00<03:59,  9.23s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 75%|███████▌  | 75/100 [14:11<04:02,  9.71s/it][root] Scoring list:[2, 2, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 76%|███████▌  | 76/100 [14:34<05:25, 13.56s/it][root] Scoring list:[2, 2, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 77%|███████▋  | 77/100 [14:52<05:43, 14.95s/it][root] Scoring list:[5, 2, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 78%|███████▊  | 78/100 [15:04<05:09, 14.08s/it][root] Scoring list:[3, 2, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 79%|███████▉  | 79/100 [15:14<04:30, 12.89s/it][root] Scoring list:[2, 2, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 80%|████████  | 80/100 [15:27<04:19, 12.96s/it][root] Scoring list:[2, 1, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 81%|████████  | 81/100 [15:38<03:53, 12.27s/it][root] Scoring list:[0, 2, 1, 2, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 82%|████████▏ | 82/100 [15:49<03:37, 12.06s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 83%|████████▎ | 83/100 [15:56<02:57, 10.42s/it][root] Scoring list:[1, 1, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 84%|████████▍ | 84/100 [16:09<02:57, 11.08s/it][root] Scoring list:[3, 3, 5, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 85%|████████▌ | 85/100 [16:25<03:09, 12.65s/it][root] Scoring list:[1, 2, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 86%|████████▌ | 86/100 [16:38<02:58, 12.76s/it][root] Scoring list:[2, 1, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 87%|████████▋ | 87/100 [16:47<02:30, 11.60s/it][root] Scoring list:[2, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 88%|████████▊ | 88/100 [16:57<02:15, 11.27s/it][root] Scoring list:[1, 2, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 89%|████████▉ | 89/100 [17:05<01:52, 10.27s/it][root] Scoring list:[1, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 90%|█████████ | 90/100 [17:23<02:05, 12.56s/it][root] Scoring list:[5, 2, 5, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 91%|█████████ | 91/100 [17:39<02:02, 13.62s/it][root] Scoring list:[5, 5, 2, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 92%|█████████▏| 92/100 [17:48<01:36, 12.05s/it][root] Scoring list:[0, 2, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 93%|█████████▎| 93/100 [17:53<01:10, 10.03s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 94%|█████████▍| 94/100 [18:02<00:59,  9.87s/it][root] Scoring list:[2, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 95%|█████████▌| 95/100 [18:14<00:52, 10.49s/it][root] Scoring list:[0, 1, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 96%|█████████▌| 96/100 [18:21<00:37,  9.38s/it][root] Scoring list:[5, 5, 5, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 97%|█████████▋| 97/100 [18:51<00:46, 15.56s/it][root] Scoring list:[2, 5, 2, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 98%|█████████▊| 98/100 [18:58<00:26, 13.07s/it][root] Scoring list:[1, 2, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+ 99%|█████████▉| 99/100 [19:03<00:10, 10.61s/it][root] Scoring list:[2, 5, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+100%|██████████| 100/100 [19:11<00:00,  9.80s/it]100%|██████████| 100/100 [19:11<00:00, 11.52s/it]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Chemistry_8.json
+[root] End Generation......

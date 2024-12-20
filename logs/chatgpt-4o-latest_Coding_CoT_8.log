@@ -1,0 +1,112 @@
+[root] Loading dataset mm-reasoning/EMMA-test100, subject: ['Coding']
+[root] Loading config
+[root] Loading chatgpt-4o-latest
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/100 [00:00<?, ?it/s][root] Attempt 1 failed: Connection error.
+[root] Attempt 2 failed: Connection error.
+[root] Attempt 3 failed: Connection error.
+[root] Attempt 4 failed: Connection error.
+[root] Attempt 5 failed: Connection error.
+  1%|          | 1/100 [02:01<3:19:47, 121.08s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+  2%|▏         | 2/100 [03:44<3:00:22, 110.43s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+  3%|▎         | 3/100 [06:04<3:20:38, 124.11s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+  4%|▍         | 4/100 [07:42<3:02:05, 113.81s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+  5%|▌         | 5/100 [09:18<2:49:46, 107.22s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+  6%|▌         | 6/100 [11:11<2:51:10, 109.26s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+  7%|▋         | 7/100 [13:27<3:02:59, 118.05s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+  8%|▊         | 8/100 [15:03<2:50:10, 110.98s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+  9%|▉         | 9/100 [16:51<2:47:01, 110.12s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 10%|█         | 10/100 [18:39<2:44:12, 109.48s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 11%|█         | 11/100 [20:17<2:37:12, 105.98s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 12%|█▏        | 12/100 [22:15<2:40:45, 109.61s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 13%|█▎        | 13/100 [24:20<2:45:49, 114.36s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 14%|█▍        | 14/100 [26:43<2:56:22, 123.05s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 15%|█▌        | 15/100 [29:21<3:08:56, 133.37s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 16%|█▌        | 16/100 [31:20<3:00:51, 129.18s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 17%|█▋        | 17/100 [33:39<3:02:50, 132.17s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 18%|█▊        | 18/100 [35:14<2:45:10, 120.86s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 19%|█▉        | 19/100 [37:41<2:53:45, 128.71s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 20%|██        | 20/100 [39:38<2:46:54, 125.19s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 21%|██        | 21/100 [41:19<2:35:19, 117.97s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 22%|██▏       | 22/100 [43:24<2:36:00, 120.01s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 23%|██▎       | 23/100 [45:31<2:36:58, 122.31s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 24%|██▍       | 24/100 [47:20<2:29:41, 118.17s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 25%|██▌       | 25/100 [49:08<2:23:48, 115.05s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 26%|██▌       | 26/100 [51:49<2:39:08, 129.04s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 27%|██▋       | 27/100 [53:22<2:23:49, 118.21s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 28%|██▊       | 28/100 [55:18<2:21:06, 117.59s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 29%|██▉       | 29/100 [57:03<2:14:37, 113.77s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 30%|███       | 30/100 [58:10<1:56:22, 99.75s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 31%|███       | 31/100 [59:34<1:49:09, 94.93s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 32%|███▏      | 32/100 [1:00:54<1:42:21, 90.32s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 33%|███▎      | 33/100 [1:03:16<1:58:21, 105.99s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 34%|███▍      | 34/100 [1:04:47<1:51:30, 101.37s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 35%|███▌      | 35/100 [1:06:16<1:45:51, 97.71s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 36%|███▌      | 36/100 [1:08:04<1:47:39, 100.94s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 37%|███▋      | 37/100 [1:09:10<1:35:01, 90.49s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 38%|███▊      | 38/100 [1:10:20<1:26:53, 84.10s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 39%|███▉      | 39/100 [1:46:29<12:01:35, 709.77s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 40%|████      | 40/100 [1:47:59<8:43:50, 523.84s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 41%|████      | 41/100 [1:50:18<6:41:35, 408.39s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 42%|████▏     | 42/100 [1:51:57<5:05:02, 315.56s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 43%|████▎     | 43/100 [1:54:22<4:11:05, 264.30s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 44%|████▍     | 44/100 [1:55:41<3:14:41, 208.60s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 45%|████▌     | 45/100 [1:57:51<2:49:42, 185.13s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 46%|████▌     | 46/100 [1:59:41<2:26:16, 162.52s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 47%|████▋     | 47/100 [2:01:28<2:08:50, 145.85s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 48%|████▊     | 48/100 [2:02:42<1:47:54, 124.52s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 49%|████▉     | 49/100 [2:04:05<1:35:05, 111.87s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 50%|█████     | 50/100 [2:05:41<1:29:17, 107.14s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 51%|█████     | 51/100 [2:06:59<1:20:24, 98.45s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 52%|█████▏    | 52/100 [2:08:34<1:18:01, 97.53s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 53%|█████▎    | 53/100 [2:09:50<1:11:12, 90.91s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 54%|█████▍    | 54/100 [2:11:23<1:10:15, 91.64s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 55%|█████▌    | 55/100 [2:12:45<1:06:34, 88.77s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 56%|█████▌    | 56/100 [2:13:58<1:01:39, 84.08s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 57%|█████▋    | 57/100 [2:15:23<1:00:27, 84.36s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 58%|█████▊    | 58/100 [2:16:48<59:03, 84.38s/it]  [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 59%|█████▉    | 59/100 [2:20:17<1:23:12, 121.78s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 60%|██████    | 60/100 [2:22:07<1:18:51, 118.30s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 61%|██████    | 61/100 [2:24:14<1:18:35, 120.91s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 62%|██████▏   | 62/100 [2:25:42<1:10:15, 110.93s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 63%|██████▎   | 63/100 [2:27:01<1:02:36, 101.52s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 64%|██████▍   | 64/100 [2:29:09<1:05:35, 109.31s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 65%|██████▌   | 65/100 [2:30:46<1:01:35, 105.58s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 66%|██████▌   | 66/100 [2:32:14<56:55, 100.47s/it]  [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 67%|██████▋   | 67/100 [2:33:45<53:43, 97.67s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 68%|██████▊   | 68/100 [2:35:43<55:15, 103.59s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 69%|██████▉   | 69/100 [2:36:49<47:39, 92.25s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 70%|███████   | 70/100 [2:38:28<47:16, 94.54s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 71%|███████   | 71/100 [2:39:44<42:53, 88.75s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 72%|███████▏  | 72/100 [2:42:17<50:29, 108.21s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 73%|███████▎  | 73/100 [2:43:32<44:10, 98.17s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 74%|███████▍  | 74/100 [2:44:36<38:05, 87.92s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 75%|███████▌  | 75/100 [2:45:37<33:12, 79.71s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 76%|███████▌  | 76/100 [2:48:14<41:12, 103.04s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 77%|███████▋  | 77/100 [2:50:08<40:43, 106.22s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 78%|███████▊  | 78/100 [2:52:02<39:52, 108.73s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 79%|███████▉  | 79/100 [2:54:14<40:27, 115.59s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 80%|████████  | 80/100 [2:55:52<36:46, 110.32s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 81%|████████  | 81/100 [2:57:07<31:36, 99.83s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 82%|████████▏ | 82/100 [2:58:53<30:30, 101.70s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 83%|████████▎ | 83/100 [3:00:15<27:09, 95.83s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 84%|████████▍ | 84/100 [3:02:41<29:33, 110.82s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 85%|████████▌ | 85/100 [3:04:36<28:00, 112.03s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 86%|████████▌ | 86/100 [3:06:23<25:46, 110.49s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 87%|████████▋ | 87/100 [3:08:06<23:28, 108.34s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 88%|████████▊ | 88/100 [3:09:18<19:28, 97.37s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 89%|████████▉ | 89/100 [3:10:35<16:44, 91.36s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 90%|█████████ | 90/100 [3:12:22<15:57, 95.80s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 91%|█████████ | 91/100 [3:14:22<15:28, 103.18s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 92%|█████████▏| 92/100 [3:16:00<13:32, 101.61s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 93%|█████████▎| 93/100 [3:17:28<11:21, 97.41s/it] [root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 94%|█████████▍| 94/100 [3:18:53<09:22, 93.81s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 95%|█████████▌| 95/100 [3:20:09<07:21, 88.39s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 96%|█████████▌| 96/100 [3:21:51<06:10, 92.55s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 97%|█████████▋| 97/100 [3:23:16<04:30, 90.26s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 98%|█████████▊| 98/100 [3:24:54<03:05, 92.62s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+ 99%|█████████▉| 99/100 [3:26:18<01:30, 90.18s/it][root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+100%|██████████| 100/100 [3:28:00<00:00, 93.60s/it]100%|██████████| 100/100 [3:28:00<00:00, 124.81s/it]
+[root] Save results to results/test-time-compute/chatgpt-4o-latest_Coding_8.json
+[root] End Generation......
