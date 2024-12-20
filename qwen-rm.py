@@ -10,7 +10,7 @@ from transformers import AutoModel, AutoTokenizer
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--output_path', type=str, default='results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16.json')
+    parser.add_argument('--output_path', type=str, default='results/test-time-compute/qwen-rm-scoring/chatgpt-4o-latest_Math_16_raw.json')
     parser.add_argument('--save_every', type=int, default=1, help='save every n problems')
     parser.add_argument('--rerun', action='store_true', help='rerun the answer generation')
     # Remote model
