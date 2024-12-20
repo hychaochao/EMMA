@@ -51,4 +51,57 @@
  46%|████▌     | 46/100 [09:04<16:20, 18.15s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
  47%|████▋     | 47/100 [09:26<17:09, 19.43s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
  48%|████▊     | 48/100 [09:41<15:31, 17.91s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
- 49%|████▉     | 49/100 [09:54<14:05, 16.58s/it]
+ 49%|████▉     | 49/100 [09:54<14:05, 16.58s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 50%|█████     | 50/100 [10:22<16:34, 19.88s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 51%|█████     | 51/100 [10:50<18:13, 22.31s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 52%|█████▏    | 52/100 [11:05<16:07, 20.16s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 53%|█████▎    | 53/100 [11:20<14:37, 18.67s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 54%|█████▍    | 54/100 [11:47<16:15, 21.20s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 55%|█████▌    | 55/100 [12:04<14:54, 19.88s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 56%|█████▌    | 56/100 [12:19<13:33, 18.48s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 57%|█████▋    | 57/100 [12:32<12:01, 16.78s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 58%|█████▊    | 58/100 [12:48<11:37, 16.61s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 59%|█████▉    | 59/100 [13:06<11:34, 16.94s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 60%|██████    | 60/100 [13:34<13:27, 20.20s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 61%|██████    | 61/100 [13:47<11:44, 18.06s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 62%|██████▏   | 62/100 [14:00<10:33, 16.68s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 63%|██████▎   | 63/100 [14:13<09:31, 15.43s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 64%|██████▍   | 64/100 [14:23<08:23, 13.99s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 65%|██████▌   | 65/100 [14:34<07:29, 12.84s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 66%|██████▌   | 66/100 [14:48<07:37, 13.44s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 67%|██████▋   | 67/100 [15:02<07:22, 13.42s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 68%|██████▊   | 68/100 [15:10<06:16, 11.77s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 69%|██████▉   | 69/100 [15:20<05:52, 11.36s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 70%|███████   | 70/100 [15:24<04:33,  9.12s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 71%|███████   | 71/100 [15:52<07:07, 14.75s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 72%|███████▏  | 72/100 [15:59<05:45, 12.34s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 73%|███████▎  | 73/100 [16:02<04:22,  9.74s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 74%|███████▍  | 74/100 [16:11<04:09,  9.58s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 75%|███████▌  | 75/100 [16:16<03:22,  8.08s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 76%|███████▌  | 76/100 [16:19<02:34,  6.43s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 77%|███████▋  | 77/100 [16:23<02:10,  5.67s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 78%|███████▊  | 78/100 [16:28<02:05,  5.70s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 79%|███████▉  | 79/100 [16:36<02:11,  6.28s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 80%|████████  | 80/100 [16:40<01:50,  5.51s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 81%|████████  | 81/100 [16:44<01:39,  5.25s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 82%|████████▏ | 82/100 [16:48<01:26,  4.81s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 83%|████████▎ | 83/100 [16:51<01:11,  4.20s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 84%|████████▍ | 84/100 [17:29<03:49, 14.34s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 85%|████████▌ | 85/100 [17:34<02:53, 11.53s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 86%|████████▌ | 86/100 [17:38<02:10,  9.34s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 87%|████████▋ | 87/100 [17:41<01:37,  7.48s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 88%|████████▊ | 88/100 [17:45<01:16,  6.40s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 89%|████████▉ | 89/100 [17:51<01:09,  6.30s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 90%|█████████ | 90/100 [18:21<02:12, 13.22s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 91%|█████████ | 91/100 [18:23<01:29,  9.95s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 92%|█████████▏| 92/100 [18:38<01:33, 11.64s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 93%|█████████▎| 93/100 [18:43<01:07,  9.63s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 94%|█████████▍| 94/100 [18:48<00:48,  8.03s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 95%|█████████▌| 95/100 [19:02<00:49,  9.90s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 96%|█████████▌| 96/100 [19:05<00:31,  7.77s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 97%|█████████▋| 97/100 [19:22<00:31, 10.65s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 98%|█████████▊| 98/100 [19:26<00:17,  8.70s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+ 99%|█████████▉| 99/100 [19:40<00:10, 10.30s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+100%|██████████| 100/100 [19:49<00:00,  9.91s/it]100%|██████████| 100/100 [19:49<00:00, 11.90s/it]
+[root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Chemistry_CoT.json
+[root] End Generation......
