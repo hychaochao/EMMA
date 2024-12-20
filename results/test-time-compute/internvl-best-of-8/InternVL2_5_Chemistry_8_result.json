@@ -1,0 +1,56 @@
+{
+  "average": {
+    "accuracy": 0.27,
+    "correct": 27,
+    "total": 100
+  },
+  "subject": {
+    "Chemistry": {
+      "accuracy": 0.27,
+      "correct": 27,
+      "total": 100
+    }
+  },
+  "question_type": {
+    "multiple choice": {
+      "accuracy": 0.33766233766233766,
+      "correct": 26,
+      "total": 77
+    },
+    "open-ended": {
+      "accuracy": 0.043478260869565216,
+      "correct": 1,
+      "total": 23
+    }
+  },
+  "category": {
+    "Chemistry": {
+      "Reaction Simulation Pro": {
+        "accuracy": 0.3333333333333333,
+        "correct": 7,
+        "total": 21
+      },
+      "Structure Recognition": {
+        "accuracy": 0.4,
+        "correct": 10,
+        "total": 25
+      },
+      "Graph Reasoning": {
+        "accuracy": 0.2222222222222222,
+        "correct": 2,
+        "total": 9
+      },
+      "Reaction Simulation": {
+        "accuracy": 0.30434782608695654,
+        "correct": 7,
+        "total": 23
+      },
+      "Knowledge-based counting": {
+        "accuracy": 0.045454545454545456,
+        "correct": 1,
+        "total": 22
+      }
+    }
+  },
+  "task": {}
+}

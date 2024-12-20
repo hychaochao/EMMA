@@ -102,8 +102,9 @@ def gen_true_false(answer_file, args):
     for i, pid in enumerate(tqdm(test_pids)):
         problem = results[pid]
         flag = False
-        if not problem[label]:
-            results[pid]['true_false'] = flag
+        if label not in problem or not problem[label]:
+            results[pid]['extraction'] = None
+            results[pid]['true_false'] = False
             continue
 
         if args.gpt_eval:
@@ -127,11 +128,15 @@ def gen_true_false(answer_file, args):
                 f.write(json.dumps(results, indent=2))
             logging.info(f"Saved results to {answer_file}")
 
+    with open(answer_file, "w") as f:
+        f.write(json.dumps(results, indent=2))
+    logging.info(f"Saved results to {answer_file}")
+
 
 def main():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/test-time-compute/internvl-best-of-4')
+    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/test-time-compute/internvl-best-of-8')
     parser.add_argument('--response_label', type=str, default='best_response', help='response label for the input file')
     parser.add_argument('--rerun', action='store_true', help='rerun the answer extraction')
     parser.add_argument('--save_every', type=int, default=20, help='save every n problems')

@@ -56,8 +56,8 @@ if __name__ == '__main__':
     for root, dirs, files in os.walk('raw_results'):
         for file in files:
             if 'Math' in file:
-                select_n_responses(os.path.join(root, file), 'Majority_Voting_8/'+file, 16, 8)
+                select_n_responses(os.path.join(root, file), 'pass@1/'+file, 16, 1)
             else:
-                select_n_responses(os.path.join(root, file), 'Majority_Voting_8/'+file, 8, 8)
+                select_n_responses(os.path.join(root, file), 'pass@1/'+file, 8, 1)
 
 
