@@ -3,8 +3,101 @@ import json
 import logging
 import os
 from tqdm import tqdm
-from utils import *
 import re
+from latex2sympy2 import latex2sympy
+import re
+from sympy import simplify
+from collections import Counter
+import random
+
+
+def verify_extraction(extraction):
+    extraction = extraction.strip()
+    if extraction == "" or extraction == None:
+        return False
+    return True
+
+
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+
+
+def extract_full_boxed_content(s):
+    """
+    Extract the full content inside \boxed{}, handling nested braces {{}} properly.
+    """
+    results = []
+
+    i = 0
+    while i < len(s):
+        if s[i:i + 7] == r'\boxed{':
+            brace_stack = []
+            start = i + 7
+            i = start
+
+            while i < len(s):
+                if s[i] == '{':
+                    brace_stack.append(i)
+                elif s[i] == '}':
+                    if brace_stack:
+                        brace_stack.pop()
+                    else:
+                        results.append(s[start:i])
+                        break
+                i += 1
+        i += 1
+
+    return results
+
+
+def is_equal(md_ans, gt_ans):
+
+    md_ans = md_ans.lower()
+    gt_ans = gt_ans.lower()
+
+    if md_ans.strip() == gt_ans.strip():
+        return True
+
+    # For Math
+    try:
+        # Parse LaTeX expressions into sympy and compare numerical values
+        md_sympy = latex2sympy(md_ans)
+        gt_sympy = latex2sympy(gt_ans)
+
+        # Compare evaluated results, rounded to 2 decimal places
+        if round(float(md_sympy.evalf()), 2) == round(float(gt_sympy.evalf()), 2):
+            return True
+
+        # Additionally, compare simplified symbolic expressions
+        if simplify(md_sympy - gt_sympy) == 0:
+            return True
+    except Exception:
+        pass  # Ignore parsing errors or evaluation failures
+
+    return False
+
+
+score_demo_prompt = """Please read the following example. Then determine whether the response is correct and type it 
+at the end of the prompt. It is worth noting that the final answer in the response is usually in \\boxed{}, 
+You only need to compare the final answer in the response with the answer, without considering the logical 
+correctness of the response itself.
+
+Response: The correct answer is:\n\nA
+
+Answer: A
+
+Correct_or_not: Correct
+
+Response: The correct option is:\n\n\\[\n\\boxed{E}\n\\]
+
+Answer: C
+
+Correct_or_not: Incorrect
+"""
 
 
 def fast_extract_answer(response) :
@@ -50,34 +143,9 @@ def fast_extract_answer(response) :
     return response
 
 
-def create_test_prompt(score_prompt, problem):
-    score_prompt = score_prompt.strip()
-    response = problem['response']
-    answer = problem['answer']
-    full_prompt = f'{score_prompt}\n' + f'Response: {response}\n' + f'Answer: {answer}\n' + 'Correct_or_not:'
-    return full_prompt
-
-
-def call_gpt(client, model, user_prompt):
-    try:
-        response = client.chat.completions.create(
-            model=model,
-            messages=[
-                {"role": "user", "content": user_prompt}
-            ]
-        )
-        return response.choices[0].message.content.strip()
-    except Exception as e:
-        print(f"Error during GPT call: {e}")
-        return None
-
-
 def gen_true_false(answer_file, args):
     logging.info(f"Reading {answer_file}.....")
-    label = args.response_label
-    if args.gpt_eval:
-        from openai import OpenAI
-        client = OpenAI(api_key=args.api_key)
+    label_list = args.response_label
     with open(answer_file, "r") as f:
         results = json.load(f)
     full_pids = list(results.keys())
@@ -101,25 +169,26 @@ def gen_true_false(answer_file, args):
 
     for i, pid in enumerate(tqdm(test_pids)):
         problem = results[pid]
+        results[pid]['extraction_list'] = []
         flag = False
-        if label not in problem or not problem[label]:
-            results[pid]['extraction'] = None
-            results[pid]['true_false'] = False
-            continue
-
-        if args.gpt_eval:
-            user_prompt = create_test_prompt(score_demo_prompt, problem)
-            flag_cache = call_gpt(client, args.model, user_prompt)
-            results[pid]['gpt_eval'] = flag_cache
-            if flag_cache.lower() == 'correct':
-                flag = True
+        for label in label_list:
+            if problem[label] is None:
+                continue
             else:
-                flag = False
-        else:
-            model_answer = fast_extract_answer(problem[label])
-            results[pid]['extraction'] = model_answer
-            if is_equal(model_answer, results[pid]['answer']) or is_equal(model_answer, results[pid]['gt_content']):
-                flag = True
+                model_answer = fast_extract_answer(problem[label])
+                results[pid]['extraction_list'].append(model_answer)
+
+        counter = Counter(results[pid]['extraction_list'])
+
+        max_count = max(counter.values())
+
+        most_common_answers = [answer for answer, count in counter.items() if count == max_count]
+
+        # 如果有多个相同次数的答案，随机选择一个
+        random.seed(42)
+        results[pid]['extraction'] = random.choice(most_common_answers)
+        if is_equal(results[pid]['extraction'], results[pid]['answer']) or is_equal(results[pid]['extraction'], results[pid]['gt_content']):
+            flag = True
 
         results[pid]['true_false'] = flag
 
@@ -128,22 +197,15 @@ def gen_true_false(answer_file, args):
                 f.write(json.dumps(results, indent=2))
             logging.info(f"Saved results to {answer_file}")
 
-    with open(answer_file, "w") as f:
-        f.write(json.dumps(results, indent=2))
-    logging.info(f"Saved results to {answer_file}")
-
 
 def main():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/test-time-compute/internvl-best-of-8')
-    parser.add_argument('--response_label', type=str, default='best_response', help='response label for the input file')
+    parser.add_argument('--results_dir', type=str, default='/Users/chao/Desktop/Ashanghai/MultiBench/opensource/github/EMMA/results/test-time-compute/')
+    parser.add_argument('--response_label', nargs='+', type=str, required=True)
     parser.add_argument('--rerun', action='store_true', help='rerun the answer extraction')
     parser.add_argument('--save_every', type=int, default=20, help='save every n problems')
 
-    parser.add_argument('--gpt_eval', action='store_true', help='use gpt to evaluate')
-    parser.add_argument('--api_key', type=str, default="")
-    parser.add_argument('--model', type=str, default="chatgpt-4o-latest")
 
     args = parser.parse_args()
 
