@@ -1,0 +1,208 @@
+[root] Reading /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+[root] Loading dataset mm-reasoning/EMMA-test100, subject: Math
+[root] Loading config
+[root] Loading chatgpt-4o-latest
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/100 [00:00<?, ?it/s][root] Scoring list:[0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+  1%|          | 1/100 [00:08<14:23,  8.72s/it][root] Scoring list:[1, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+  2%|▏         | 2/100 [00:17<14:03,  8.61s/it][root] Scoring list:[3, 0, 0, 5, 3, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+  3%|▎         | 3/100 [00:25<13:51,  8.57s/it][root] Scoring list:[5, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+  4%|▍         | 4/100 [00:33<13:21,  8.35s/it][root] Scoring list:[5, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+  5%|▌         | 5/100 [00:40<12:25,  7.85s/it][root] Scoring list:[2, 0, 0, 5, 3, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+  6%|▌         | 6/100 [00:48<12:29,  7.97s/it][root] Scoring list:[1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+  7%|▋         | 7/100 [00:55<11:50,  7.64s/it][root] Scoring list:[2, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+  8%|▊         | 8/100 [01:02<11:10,  7.29s/it][root] Scoring list:[5, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+  9%|▉         | 9/100 [01:10<11:20,  7.47s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 10%|█         | 10/100 [01:19<11:50,  7.90s/it][root] Scoring list:[0, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 11%|█         | 11/100 [01:27<11:46,  7.94s/it][root] Scoring list:[2, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 12%|█▏        | 12/100 [01:42<14:59, 10.22s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 13%|█▎        | 13/100 [01:57<16:47, 11.58s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 14%|█▍        | 14/100 [02:18<20:31, 14.31s/it][root] Scoring list:[5, 0, 0, 2, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 15%|█▌        | 15/100 [02:26<17:56, 12.67s/it][root] Scoring list:[1, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 16%|█▌        | 16/100 [02:35<15:54, 11.37s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 17%|█▋        | 17/100 [02:50<17:20, 12.53s/it][root] Scoring list:[1, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 18%|█▊        | 18/100 [02:57<15:00, 10.98s/it][root] Scoring list:[2, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 19%|█▉        | 19/100 [03:06<14:05, 10.44s/it][root] Scoring list:[1, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 20%|██        | 20/100 [03:16<13:40, 10.26s/it][root] Scoring list:[1, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 21%|██        | 21/100 [03:25<12:51,  9.76s/it][root] Scoring list:[2, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 22%|██▏       | 22/100 [03:34<12:14,  9.42s/it][root] Scoring list:[5, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 23%|██▎       | 23/100 [03:40<10:58,  8.55s/it][root] Scoring list:[2, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 24%|██▍       | 24/100 [03:49<10:59,  8.68s/it][root] Scoring list:[1, 0, 0, 2, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 25%|██▌       | 25/100 [03:57<10:26,  8.35s/it][root] Scoring list:[5, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 26%|██▌       | 26/100 [04:11<12:28, 10.12s/it][root] Scoring list:[1, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 27%|██▋       | 27/100 [04:20<11:58,  9.84s/it][root] Scoring list:[1, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 28%|██▊       | 28/100 [04:32<12:23, 10.33s/it][root] Scoring list:[1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 29%|██▉       | 29/100 [04:42<12:23, 10.47s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 30%|███       | 30/100 [04:54<12:46, 10.96s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 31%|███       | 31/100 [05:03<11:46, 10.24s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 32%|███▏      | 32/100 [05:11<11:00,  9.71s/it][root] Scoring list:[2, 0, 0, 2, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 33%|███▎      | 33/100 [05:34<14:59, 13.43s/it][root] Scoring list:[2, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 34%|███▍      | 34/100 [05:42<13:06, 11.92s/it][root] Scoring list:[5, 0, 0, 2, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 35%|███▌      | 35/100 [05:49<11:26, 10.56s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 36%|███▌      | 36/100 [06:05<12:56, 12.14s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 37%|███▋      | 37/100 [06:14<11:37, 11.07s/it][root] Scoring list:[1, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 38%|███▊      | 38/100 [06:24<11:03, 10.70s/it][root] Scoring list:[2, 0, 0, 2, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 39%|███▉      | 39/100 [06:31<09:48,  9.65s/it][root] Scoring list:[2, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 40%|████      | 40/100 [06:40<09:27,  9.46s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 41%|████      | 41/100 [06:48<08:50,  8.99s/it][root] Scoring list:[1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 42%|████▏     | 42/100 [06:54<07:54,  8.18s/it][root] Scoring list:[2, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 43%|████▎     | 43/100 [07:01<07:30,  7.91s/it][root] Scoring list:[0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 44%|████▍     | 44/100 [07:09<07:16,  7.80s/it][root] Scoring list:[2, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 45%|████▌     | 45/100 [07:18<07:26,  8.11s/it][root] Scoring list:[1, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 46%|████▌     | 46/100 [07:29<08:15,  9.17s/it][root] Scoring list:[5, 0, 0, 2, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 47%|████▋     | 47/100 [07:43<09:13, 10.45s/it][root] Scoring list:[0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 48%|████▊     | 48/100 [07:52<08:46, 10.13s/it][root] Scoring list:[5, 0, 0, 3, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 49%|████▉     | 49/100 [08:03<08:44, 10.29s/it][root] Scoring list:[5, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 50%|█████     | 50/100 [08:13<08:26, 10.13s/it][root] Scoring list:[1, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 51%|█████     | 51/100 [08:22<08:07,  9.95s/it][root] Scoring list:[1, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 52%|█████▏    | 52/100 [08:30<07:21,  9.20s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 53%|█████▎    | 53/100 [08:41<07:43,  9.86s/it][root] Scoring list:[5, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 54%|█████▍    | 54/100 [08:51<07:37,  9.95s/it][root] Scoring list:[5, 0, 0, 2, 5, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 55%|█████▌    | 55/100 [09:00<07:17,  9.72s/it][root] Scoring list:[5, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 56%|█████▌    | 56/100 [09:09<06:53,  9.41s/it][root] Scoring list:[1, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 57%|█████▋    | 57/100 [09:15<06:07,  8.55s/it][root] Scoring list:[1, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 58%|█████▊    | 58/100 [09:26<06:19,  9.03s/it][root] Scoring list:[2, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 59%|█████▉    | 59/100 [09:36<06:30,  9.52s/it][root] Scoring list:[2, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 60%|██████    | 60/100 [09:45<06:10,  9.27s/it][root] Scoring list:[5, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 61%|██████    | 61/100 [09:52<05:38,  8.67s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 62%|██████▏   | 62/100 [10:02<05:45,  9.10s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 63%|██████▎   | 63/100 [10:20<07:06, 11.54s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 64%|██████▍   | 64/100 [10:32<07:04, 11.80s/it][root] Scoring list:[3, 0, 0, 5, 3, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 65%|██████▌   | 65/100 [10:40<06:16, 10.75s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 66%|██████▌   | 66/100 [10:51<06:02, 10.66s/it][root] Scoring list:[1, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 67%|██████▋   | 67/100 [10:59<05:25,  9.86s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 68%|██████▊   | 68/100 [11:08<05:09,  9.67s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 69%|██████▉   | 69/100 [11:18<05:04,  9.84s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 70%|███████   | 70/100 [11:30<05:15, 10.52s/it][root] Scoring list:[2, 0, 0, 4, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 71%|███████   | 71/100 [11:44<05:33, 11.50s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 72%|███████▏  | 72/100 [11:52<04:52, 10.46s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 73%|███████▎  | 73/100 [12:02<04:37, 10.27s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 74%|███████▍  | 74/100 [12:09<04:03,  9.35s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 75%|███████▌  | 75/100 [12:21<04:13, 10.13s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 76%|███████▌  | 76/100 [12:30<03:51,  9.63s/it][root] Scoring list:[2, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 77%|███████▋  | 77/100 [12:38<03:33,  9.27s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 78%|███████▊  | 78/100 [12:47<03:22,  9.20s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 79%|███████▉  | 79/100 [12:58<03:27,  9.87s/it][root] Scoring list:[5, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 80%|████████  | 80/100 [13:12<03:36, 10.83s/it][root] Scoring list:[2, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 81%|████████  | 81/100 [13:20<03:12, 10.13s/it][root] Scoring list:[0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 82%|████████▏ | 82/100 [13:27<02:43,  9.08s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 83%|████████▎ | 83/100 [13:35<02:30,  8.86s/it][root] Scoring list:[1, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 84%|████████▍ | 84/100 [13:45<02:28,  9.26s/it][root] Scoring list:[1, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 85%|████████▌ | 85/100 [13:53<02:11,  8.78s/it][root] Scoring list:[5, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 86%|████████▌ | 86/100 [14:01<01:59,  8.50s/it][root] Scoring list:[2, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 87%|████████▋ | 87/100 [14:11<01:57,  9.05s/it][root] Scoring list:[5, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 88%|████████▊ | 88/100 [14:20<01:47,  8.95s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 89%|████████▉ | 89/100 [14:26<01:29,  8.13s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 90%|█████████ | 90/100 [14:34<01:20,  8.00s/it][root] Scoring list:[5, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 91%|█████████ | 91/100 [14:41<01:10,  7.79s/it][root] Scoring list:[1, 0, 0, 1, 5, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 92%|█████████▏| 92/100 [14:52<01:09,  8.66s/it][root] Scoring list:[3, 0, 0, 5, 5, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 93%|█████████▎| 93/100 [15:05<01:11, 10.19s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 94%|█████████▍| 94/100 [15:18<01:05, 10.93s/it][root] Scoring list:[2, 0, 0, 2, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 95%|█████████▌| 95/100 [15:28<00:53, 10.76s/it][root] Scoring list:[2, 0, 0, 5, 3, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 96%|█████████▌| 96/100 [15:40<00:43, 10.88s/it][root] Scoring list:[1, 0, 0, 5, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 97%|█████████▋| 97/100 [15:47<00:29,  9.85s/it][root] Scoring list:[2, 0, 0, 2, 5, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 98%|█████████▊| 98/100 [15:58<00:20, 10.12s/it][root] Scoring list:[2, 0, 0, 5, 2, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+ 99%|█████████▉| 99/100 [16:08<00:10, 10.20s/it][root] Scoring list:[5, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+100%|██████████| 100/100 [16:18<00:00, 10.09s/it]100%|██████████| 100/100 [16:18<00:00,  9.79s/it]
+[root] Save results to /Users/geniusgu/Code/Githubs/EMMA/results/test-time-compute/gpt-best-of-4/chatgpt-4o-latest_Math_16.json
+[root] End Generation......
