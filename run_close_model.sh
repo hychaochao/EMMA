@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Subjects and strategy
-SUBJECT="Math" # You can use multiple subjects separated by spaces
+SUBJECT="Physics" # You can use multiple subjects separated by spaces
 STRATEGY="CoT" # CoT or Direct
 
 # Remote proprietary model selection
