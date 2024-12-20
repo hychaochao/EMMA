@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Subjects and strategy
-SUBJECT="Physics" # You can use multiple subjects separated by spaces
+SUBJECT="Math" # You can use multiple subjects separated by spaces
 STRATEGY="Direct" # CoT or Direct
 
 # Remote proprietary model selection
@@ -16,7 +16,7 @@ SAVE_EVERY=1
 DATASET_NAME="mm-reasoning/EMMA-test100"
 SPLIT="test"
 CONFIG_PATH="configs/scoring.yaml"
-TOTAL_NUM=8
+TOTAL_NUM=16
 SELECT_NUM=4
 SEED=42
 RERUN=""
