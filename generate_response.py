@@ -21,7 +21,7 @@ def main():
     parser.add_argument('--rerun', action='store_true', help='rerun the answer generation')
     # Remote model
     parser.add_argument('--model', type=str, default="gemini-2.0-flash-exp", help='llm engine',
-                        choices=['chatgpt-4o-latest', 'claude-3-5-sonnet-latest', 'gemini-2.0-flash-exp'])
+                        choices=['chatgpt-4o-latest', 'claude-3-5-sonnet-latest', 'gemini-2.0-flash-exp','gemini-2.0-flash-thinking-exp-1219'])
     parser.add_argument('--api_key', type=str, default='')
     # Local model
     parser.add_argument('--model_path', type=str, default='')

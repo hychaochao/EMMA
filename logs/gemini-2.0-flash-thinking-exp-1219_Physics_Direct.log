@@ -1,0 +1,25 @@
+[root] Loading dataset mm-reasoning/EMMA-test100, subject: ['Physics']
+[root] Loading config
+[root] Loading gemini-2.0-flash-thinking-exp-1219
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:15<24:52, 15.08s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  2%|▏         | 2/100 [00:17<12:55,  7.92s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  3%|▎         | 3/100 [00:41<24:06, 14.91s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  4%|▍         | 4/100 [00:43<16:07, 10.07s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  5%|▌         | 5/100 [01:14<27:53, 17.62s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  6%|▌         | 6/100 [01:46<35:09, 22.44s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  7%|▋         | 7/100 [02:17<38:47, 25.03s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  8%|▊         | 8/100 [02:28<31:55, 20.82s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  9%|▉         | 9/100 [03:01<37:19, 24.61s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 10%|█         | 10/100 [03:35<40:55, 27.28s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 11%|█         | 11/100 [03:48<34:02, 22.95s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 12%|█▏        | 12/100 [03:58<28:11, 19.22s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 13%|█▎        | 13/100 [04:07<23:18, 16.08s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 14%|█▍        | 14/100 [04:38<29:16, 20.43s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 15%|█▌        | 15/100 [04:43<22:21, 15.78s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 16%|█▌        | 16/100 [04:56<21:10, 15.12s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 17%|█▋        | 17/100 [05:08<19:25, 14.04s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 18%|█▊        | 18/100 [05:38<26:00, 19.03s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 19%|█▉        | 19/100 [05:59<26:21, 19.52s/it][root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 20%|██        | 20/100 [06:30<30:28, 22.86s/it]

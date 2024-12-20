@@ -1,0 +1,475 @@
+[root] Loading dataset mm-reasoning/EMMA, subject: ['Physics']
+[root] Loading config
+[root] Loading  gemini-2.0-flash-thinking-exp-1219
+[root] Model loaded!
+[root] Starting to generate.....
+  0%|          | 0/156 [00:00<?, ?it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+  1%|          | 1/156 [00:01<04:45,  1.84s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  1%|▏         | 2/156 [00:02<03:10,  1.24s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  2%|▏         | 3/156 [00:03<02:23,  1.06it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  3%|▎         | 4/156 [00:04<02:19,  1.09it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  3%|▎         | 5/156 [00:04<01:50,  1.37it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  4%|▍         | 6/156 [00:05<02:15,  1.11it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  4%|▍         | 7/156 [00:06<02:00,  1.23it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  5%|▌         | 8/156 [00:06<01:48,  1.37it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  6%|▌         | 9/156 [00:07<01:42,  1.43it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  6%|▋         | 10/156 [00:08<01:47,  1.36it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  7%|▋         | 11/156 [00:09<01:42,  1.41it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  8%|▊         | 12/156 [00:09<01:39,  1.44it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  8%|▊         | 13/156 [00:10<01:44,  1.37it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+  9%|▉         | 14/156 [00:11<01:55,  1.23it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 10%|▉         | 15/156 [00:12<01:47,  1.31it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 10%|█         | 16/156 [00:12<01:39,  1.41it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 11%|█         | 17/156 [00:13<01:32,  1.51it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 12%|█▏        | 18/156 [00:14<01:37,  1.41it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 12%|█▏        | 19/156 [00:15<01:44,  1.31it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 13%|█▎        | 20/156 [00:16<02:10,  1.05it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 13%|█▎        | 21/156 [00:17<02:00,  1.12it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 14%|█▍        | 22/156 [00:18<02:06,  1.06it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 15%|█▍        | 23/156 [00:18<01:57,  1.13it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 15%|█▌        | 24/156 [00:19<01:36,  1.37it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 16%|█▌        | 25/156 [00:20<01:35,  1.37it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 17%|█▋        | 26/156 [00:20<01:24,  1.55it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 17%|█▋        | 27/156 [00:21<01:21,  1.59it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 18%|█▊        | 28/156 [00:21<01:16,  1.67it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 19%|█▊        | 29/156 [00:22<01:31,  1.38it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 19%|█▉        | 30/156 [00:23<01:28,  1.42it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 20%|█▉        | 31/156 [00:23<01:20,  1.56it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 21%|██        | 32/156 [00:24<01:22,  1.50it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 21%|██        | 33/156 [00:26<01:55,  1.07it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 22%|██▏       | 34/156 [00:26<01:36,  1.27it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 22%|██▏       | 35/156 [00:26<01:18,  1.54it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 23%|██▎       | 36/156 [00:28<01:43,  1.16it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 24%|██▎       | 37/156 [00:28<01:31,  1.30it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 24%|██▍       | 38/156 [00:29<01:22,  1.43it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 25%|██▌       | 39/156 [00:29<01:08,  1.70it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 26%|██▌       | 40/156 [00:30<01:01,  1.90it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 26%|██▋       | 41/156 [00:30<01:00,  1.89it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 27%|██▋       | 42/156 [00:30<00:53,  2.13it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 28%|██▊       | 43/156 [00:31<00:48,  2.34it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 28%|██▊       | 44/156 [00:32<01:05,  1.70it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 29%|██▉       | 45/156 [00:33<01:14,  1.50it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 29%|██▉       | 46/156 [00:33<01:01,  1.77it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 30%|███       | 47/156 [00:33<01:01,  1.78it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 31%|███       | 48/156 [00:34<01:02,  1.73it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 31%|███▏      | 49/156 [00:35<01:02,  1.71it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 32%|███▏      | 50/156 [00:36<01:25,  1.24it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 33%|███▎      | 51/156 [00:36<01:12,  1.44it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 33%|███▎      | 52/156 [00:37<01:16,  1.35it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 34%|███▍      | 53/156 [00:38<01:21,  1.26it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 35%|███▍      | 54/156 [00:39<01:14,  1.38it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 35%|███▌      | 55/156 [00:39<01:05,  1.54it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 36%|███▌      | 56/156 [00:40<01:07,  1.48it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 37%|███▋      | 57/156 [00:41<01:08,  1.45it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 37%|███▋      | 58/156 [00:42<01:23,  1.18it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 38%|███▊      | 59/156 [00:42<01:12,  1.34it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 38%|███▊      | 60/156 [00:43<01:14,  1.28it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 39%|███▉      | 61/156 [00:44<01:02,  1.53it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 40%|███▉      | 62/156 [00:44<00:57,  1.63it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 40%|████      | 63/156 [00:45<01:02,  1.49it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 41%|████      | 64/156 [00:45<00:53,  1.74it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 42%|████▏     | 65/156 [00:46<00:46,  1.96it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 42%|████▏     | 66/156 [00:46<00:41,  2.16it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 43%|████▎     | 67/156 [00:47<00:42,  2.07it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 44%|████▎     | 68/156 [00:47<00:43,  2.01it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 44%|████▍     | 69/156 [00:48<00:47,  1.83it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 45%|████▍     | 70/156 [00:48<00:45,  1.89it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 46%|████▌     | 71/156 [00:49<00:39,  2.13it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 46%|████▌     | 72/156 [00:49<00:40,  2.08it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 47%|████▋     | 73/156 [00:50<00:52,  1.59it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 47%|████▋     | 74/156 [00:51<00:52,  1.57it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 48%|████▊     | 75/156 [00:51<00:55,  1.45it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 49%|████▊     | 76/156 [00:53<01:26,  1.08s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 49%|████▉     | 77/156 [00:55<01:29,  1.13s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 50%|█████     | 78/156 [00:56<01:40,  1.29s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 51%|█████     | 79/156 [00:57<01:28,  1.15s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 51%|█████▏    | 80/156 [00:59<01:49,  1.44s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 52%|█████▏    | 81/156 [01:02<02:20,  1.87s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 53%|█████▎    | 82/156 [01:04<02:15,  1.83s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 53%|█████▎    | 83/156 [01:05<01:54,  1.57s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 54%|█████▍    | 84/156 [01:06<01:33,  1.30s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 54%|█████▍    | 85/156 [01:08<02:03,  1.75s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 55%|█████▌    | 86/156 [01:10<01:59,  1.71s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 56%|█████▌    | 87/156 [01:12<02:00,  1.74s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 56%|█████▋    | 88/156 [01:13<01:44,  1.54s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 57%|█████▋    | 89/156 [01:14<01:32,  1.38s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 58%|█████▊    | 90/156 [01:16<01:39,  1.51s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 58%|█████▊    | 91/156 [01:17<01:30,  1.39s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 59%|█████▉    | 92/156 [01:19<01:44,  1.64s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 60%|█████▉    | 93/156 [01:20<01:33,  1.49s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 60%|██████    | 94/156 [01:22<01:37,  1.57s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 61%|██████    | 95/156 [01:23<01:22,  1.36s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 62%|██████▏   | 96/156 [01:24<01:15,  1.25s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 62%|██████▏   | 97/156 [01:25<01:08,  1.15s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 63%|██████▎   | 98/156 [01:26<01:13,  1.26s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 63%|██████▎   | 99/156 [01:28<01:13,  1.30s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 64%|██████▍   | 100/156 [01:28<01:02,  1.12s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 65%|██████▍   | 101/156 [01:29<00:54,  1.01it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 65%|██████▌   | 102/156 [01:31<01:04,  1.19s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 66%|██████▌   | 103/156 [01:34<01:36,  1.82s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 67%|██████▋   | 104/156 [01:35<01:29,  1.72s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 67%|██████▋   | 105/156 [01:37<01:30,  1.78s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 68%|██████▊   | 106/156 [01:39<01:31,  1.83s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 69%|██████▊   | 107/156 [01:40<01:14,  1.52s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 69%|██████▉   | 108/156 [01:41<01:03,  1.32s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 70%|██████▉   | 109/156 [01:42<00:59,  1.27s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 71%|███████   | 110/156 [01:44<01:00,  1.31s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 71%|███████   | 111/156 [01:44<00:49,  1.09s/it][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 72%|███████▏  | 112/156 [01:45<00:41,  1.06it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 72%|███████▏  | 113/156 [01:45<00:35,  1.22it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 73%|███████▎  | 114/156 [01:46<00:31,  1.34it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 74%|███████▎  | 115/156 [01:46<00:27,  1.48it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 74%|███████▍  | 116/156 [01:47<00:25,  1.56it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 75%|███████▌  | 117/156 [01:47<00:21,  1.79it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 76%|███████▌  | 118/156 [01:48<00:21,  1.78it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 76%|███████▋  | 119/156 [01:48<00:18,  2.01it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 77%|███████▋  | 120/156 [01:49<00:18,  1.98it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 78%|███████▊  | 121/156 [01:49<00:17,  2.02it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 78%|███████▊  | 122/156 [01:49<00:15,  2.21it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 79%|███████▉  | 123/156 [01:50<00:16,  1.97it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 79%|███████▉  | 124/156 [01:51<00:16,  1.99it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 80%|████████  | 125/156 [01:51<00:16,  1.82it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 81%|████████  | 126/156 [01:52<00:15,  1.89it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 81%|████████▏ | 127/156 [01:52<00:16,  1.75it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 82%|████████▏ | 128/156 [01:53<00:16,  1.68it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 83%|████████▎ | 129/156 [01:53<00:14,  1.90it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 83%|████████▎ | 130/156 [01:54<00:12,  2.01it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 84%|████████▍ | 131/156 [01:55<00:13,  1.81it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 85%|████████▍ | 132/156 [01:55<00:12,  1.85it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 85%|████████▌ | 133/156 [01:56<00:13,  1.76it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 86%|████████▌ | 134/156 [01:56<00:11,  2.00it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 87%|████████▋ | 135/156 [01:56<00:09,  2.19it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 87%|████████▋ | 136/156 [01:57<00:08,  2.38it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 88%|████████▊ | 137/156 [01:57<00:07,  2.52it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 88%|████████▊ | 138/156 [01:58<00:07,  2.30it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 89%|████████▉ | 139/156 [01:58<00:06,  2.45it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 90%|████████▉ | 140/156 [01:58<00:06,  2.60it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 90%|█████████ | 141/156 [01:59<00:05,  2.71it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 91%|█████████ | 142/156 [01:59<00:05,  2.79it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 92%|█████████▏| 143/156 [01:59<00:04,  2.80it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 92%|█████████▏| 144/156 [02:00<00:04,  2.89it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 93%|█████████▎| 145/156 [02:00<00:05,  2.03it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 94%|█████████▎| 146/156 [02:01<00:04,  2.28it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 94%|█████████▍| 147/156 [02:01<00:04,  2.17it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 95%|█████████▍| 148/156 [02:02<00:03,  2.35it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 96%|█████████▌| 149/156 [02:02<00:02,  2.55it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 96%|█████████▌| 150/156 [02:02<00:02,  2.49it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 97%|█████████▋| 151/156 [02:03<00:01,  2.66it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 97%|█████████▋| 152/156 [02:03<00:01,  2.77it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 98%|█████████▊| 153/156 [02:03<00:01,  2.47it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 99%|█████████▊| 154/156 [02:04<00:00,  2.26it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+ 99%|█████████▉| 155/156 [02:05<00:00,  2.14it/s][root] Attempt 1 failed: Error code: 400 - [{'error': {'code': 400, 'message': '* GenerateContentRequest.model: unexpected model name format\n', 'status': 'INVALID_ARGUMENT'}}]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+100%|██████████| 156/156 [02:05<00:00,  2.03it/s]100%|██████████| 156/156 [02:05<00:00,  1.24it/s]
+[root] Save results to results/ gemini-2.0-flash-thinking-exp-1219_Physics_Direct.json
+[root] End Generation......
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.
+Unknown error, skipping this request.

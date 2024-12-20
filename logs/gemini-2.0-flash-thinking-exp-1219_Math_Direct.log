@@ -1,0 +1,17 @@
+[root] Loading dataset mm-reasoning/EMMA-test100, subject: ['Math']
+[root] Loading config
+[root] Loading gemini-2.0-flash-thinking-exp-1219
+[root] Model loaded!
+[root] Results already exists.
+[root] Reading results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+[root] Found existing results file with 99 problems with valid responses. Skipping these problems...
+[root] Starting to generate.....
+  0%|          | 0/100 [00:00<?, ?it/s][root] Attempt 1 failed: 'NoneType' object has no attribute 'content'
+[root] Attempt 2 failed: 'NoneType' object has no attribute 'content'
+[root] Attempt 3 failed: 'NoneType' object has no attribute 'content'
+[root] Attempt 4 failed: 'NoneType' object has no attribute 'content'
+[root] Attempt 5 failed: 'NoneType' object has no attribute 'content'
+[root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+  6%|▌         | 6/100 [01:18<20:31, 13.10s/it] 29%|██▉       | 29/100 [01:18<02:23,  2.03s/it] 63%|██████▎   | 63/100 [01:18<00:26,  1.37it/s] 92%|█████████▏| 92/100 [01:19<00:03,  2.42it/s]100%|██████████| 100/100 [01:19<00:00,  1.27it/s]
+[root] Save results to results/gemini-2.0-flash-thinking-exp-1219_Math_Direct.json
+[root] End Generation......

@@ -5,14 +5,14 @@ SUBJECT="Math" # You can use multiple subjects separated by spaces
 STRATEGY="Direct" # CoT or Direct
 
 # Remote proprietary model selection
-MODEL="gemini-2.0-flash-exp" # Remote model name
-API_KEY="<>"
+MODEL="gemini-2.0-flash-thinking-exp-1219" # Remote model name
+API_KEY=""
 
 # Default additional parameters
 MAX_TOKENS=2048
-TEMPERATURE=0.7
+TEMPERATURE=0
 SAVE_EVERY=1
-DATASET_NAME="mm-reasoning/EMMA"
+DATASET_NAME="mm-reasoning/EMMA-test100"
 SPLIT="test"
 CONFIG_PATH="configs/gpt.yaml"
 
@@ -20,7 +20,7 @@ CONFIG_PATH="configs/gpt.yaml"
 SUBJECT_FORMATTED=$(echo $SUBJECT | tr ' ' '_')
 
 # Construct output and log file paths
-OUTPUT_FILE="results/close-source/gemini/${STRATEGY}/${MODEL}_${SUBJECT_FORMATTED}_${STRATEGY}.json"
+OUTPUT_FILE="results/${MODEL}_${SUBJECT_FORMATTED}_${STRATEGY}.json"
 LOG_FILE="logs/${MODEL}_${SUBJECT_FORMATTED}_${STRATEGY}.log"
 
 # Print constructed file paths for debugging
